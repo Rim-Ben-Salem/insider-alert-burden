@@ -9,5 +9,5 @@ version: "1.0.0"
 date-released: "2026-11-11"
 license: MIT
 doi: "10.5281/zenodo.XXXXXXX"
-repository-code: "https://github.com/GITHUB-USER/fair-irs"
+repository-code: "github.com/Rim-Ben-Salem/insider-alert-burden"
 keywords: [insider threat, alert burden, fairness, adversarial evaluation, CERT]
