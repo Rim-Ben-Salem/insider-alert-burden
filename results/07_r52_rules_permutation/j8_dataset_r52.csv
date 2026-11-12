@@ -1,0 +1,2 @@
+release,users,insiders,insiders_train,insiders_test,days,user_days,malicious_user_days,base_rate,roles,functional_units,departments,split_day,web_logs
+r5.2,2000,99,34,76,517,692645,1309,0.001889856997451797,48,7,24,2010-09-17,True

@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\caption{Benefit of History-Dependent Mechanisms: Insiders Detected / Alerts on the Most-Flagged Benign Employee ($\max F_i$). Cooldown: 30 Days After Clearance, Override $0.999$; Parity: Outcome-Aware Deficit Apportionment ($b=1\%$; One Run, the First Seed of Each Detector; Detection Averaged Over Seeds in Table~\SREF{tab:s-ni-margins})\label{tab:benefit}}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Det. & Global & Cooldown & Parity & Parity + cooldown \\
+\midrule
+\multicolumn{5}{l}{\emph{r4.2}} \\
+IF & 9 / 191 & 25 / 47 & 7 / 161 & 25 / 30 \\
+AE & 33 / 65 & 35 / 20 & 33 / 70 & 33 / 12 \\
+LR & 42 / 168 & 43 / 34 & 44 / 148 & 43 / 34 \\
+GBM & 49 / 110 & 49 / 28 & 49 / 55 & 46 / 26 \\
+LSTM & 36 / 58 & 43 / 21 & 32 / 49 & 41 / 21 \\
+\multicolumn{5}{l}{\emph{r5.2}} \\
+IF & 5 / 130 & 51 / 52 & 8 / 142 & 50 / 42 \\
+AE & 61 / 92 & 68 / 19 & 56 / 90 & 61 / 19 \\
+LR & 35 / 158 & 54 / 53 & 38 / 151 & 58 / 52 \\
+GBM & 75 / 77 & 75 / 14 & 71 / 65 & 70 / 13 \\
+LSTM & 47 / 128 & 69 / 65 & 46 / 124 & 64 / 65 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,9 @@
+{
+  "title": "FAIR-IRS: code, notebooks and results for \"Who Gets Suspected, and Who Gets Away? Burden and Evasion in History-Dependent Insider-Risk Alerting\"",
+  "upload_type": "software",
+  "description": "Code, Colab notebooks, result files and extended results for a study of false-alert burden and insider evasion in history-dependent insider-risk alerting (cooldowns, similarity scheduling, parity rules with memory, private burden reports), evaluated on the synthetic CERT Insider Threat Test Dataset (r4.2, r5.2, r6.2). The CERT data are not redistributed.",
+  "creators": [{"name": "Ben Salem, Rim", "affiliation": "Université Laval"}],
+  "license": "MIT",
+  "keywords": ["insider threat", "alert burden", "algorithmic fairness", "adversarial evaluation", "CERT insider threat dataset"],
+  "version": "1.0.0"
+}

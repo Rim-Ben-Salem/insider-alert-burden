@@ -1,0 +1,61 @@
+detector,policy,attack,draw,insiders,none_P,none_G,attacked_P,attacked_G,excess_loss,excess_lo,excess_hi,delta_FAR,release
+GBM,B11c + cooldown 30 days,knows allocation,0,51,46,49,48,48,-3.0,-8.0,1.0,5.924607891268346e-05,r4.2
+GBM,B11c + cooldown 30 days,knows allocation,1,51,46,49,43,48,2.0,-3.0,7.024999999999992,7.37785566413355e-05,r4.2
+GBM,B11c + cooldown 30 days,knows allocation,2,51,46,49,43,48,2.0,-3.0,8.0,3.5209706659008674e-05,r4.2
+GBM,B11c + cooldown 30 days,observes colleagues,0,51,46,49,41,47,3.0,-3.0,9.024999999999991,3.465909117921634e-05,r4.2
+GBM,B11c + cooldown 30 days,observes colleagues,1,51,46,49,41,47,3.0,-3.0,10.0,3.465909117921634e-05,r4.2
+GBM,B11c + cooldown 30 days,observes colleagues,2,51,46,49,41,47,3.0,-3.0,9.0,3.465909117921634e-05,r4.2
+GBM,B11c + cooldown 30 days,reads reports,0,51,46,49,47,48,-2.0,-8.0,3.0,4.2147102433567896e-05,r4.2
+GBM,B11c + cooldown 30 days,reads reports,1,51,46,49,47,49,-1.0,-4.0,2.0,3.901289557357943e-05,r4.2
+GBM,B11c + cooldown 30 days,reads reports,2,51,46,49,42,49,4.0,-1.0,10.0,3.309189774061e-05,r4.2
+GBM,B11c + cooldown 30 days,estimates deficit,0,51,46,49,38,46,5.0,-1.0,11.0,0.00011234740662366231,r4.2
+GBM,B11c + cooldown 30 days,estimates deficit,1,51,46,49,33,42,6.0,-0.0,12.0,6.31547684410514e-05,r4.2
+GBM,B11c + cooldown 30 days,estimates deficit,2,51,46,49,40,44,1.0,-4.0,6.0,2.6377895766316328e-05,r4.2
+GBM,B11c + cooldown 30 days,random,0,51,46,49,47,49,-1.0,-6.0,4.0,3.5209706659008674e-05,r4.2
+GBM,B11c + cooldown 30 days,random,1,51,46,49,45,48,0.0,-5.0,5.0,0.0001477756033549625,r4.2
+GBM,B11c + cooldown 30 days,random,2,51,46,49,45,49,1.0,-5.0,7.000000000000001,0.00010445219384914821,r4.2
+GBM,B4c + cooldown 30 days,knows allocation,0,51,46,49,43,45,-1.0,-6.0,4.0,0.0020493580118651315,r4.2
+GBM,B4c + cooldown 30 days,knows allocation,1,51,46,49,47,44,-6.0,-12.0,-0.0,0.0020269889652092506,r4.2
+GBM,B4c + cooldown 30 days,knows allocation,2,51,46,49,43,44,-2.0,-6.0,2.0,0.001974922785113511,r4.2
+GBM,B4c + cooldown 30 days,observes colleagues,0,51,46,49,49,47,-5.0,-10.0,-0.0,0.00201679951425839,r4.2
+GBM,B4c + cooldown 30 days,observes colleagues,1,51,46,49,48,47,-4.0,-9.0,-0.0,0.00201679951425839,r4.2
+GBM,B4c + cooldown 30 days,observes colleagues,2,51,46,49,49,47,-5.0,-10.0,-0.0,0.00201679951425839,r4.2
+GBM,B4c + cooldown 30 days,reads reports,0,51,46,49,48,48,-3.0,-7.000000000000001,1.0,0.002007631770148505,r4.2
+GBM,B4c + cooldown 30 days,reads reports,1,51,46,49,48,49,-2.0,-5.0,-0.0,0.002019273240092676,r4.2
+GBM,B4c + cooldown 30 days,reads reports,2,51,46,49,47,49,-1.0,-5.0,2.0,0.002019273240092676,r4.2
+GBM,B4c + cooldown 30 days,estimates deficit,0,51,46,49,46,47,-2.0,-7.000000000000001,3.0,0.0020212758082752474,r4.2
+GBM,B4c + cooldown 30 days,estimates deficit,1,51,46,49,45,45,-3.0,-7.000000000000001,-0.0,0.0020329790218066024,r4.2
+GBM,B4c + cooldown 30 days,estimates deficit,2,51,46,49,45,45,-3.0,-7.000000000000001,1.0,0.002020305395977553,r4.2
+GBM,B4c + cooldown 30 days,random,0,51,46,49,47,49,-1.0,-6.0,4.0,0.002008612631490099,r4.2
+GBM,B4c + cooldown 30 days,random,1,51,46,49,49,48,-4.0,-8.0,-1.0,0.0020212758082752474,r4.2
+GBM,B4c + cooldown 30 days,random,2,51,46,49,49,49,-3.0,-8.0,2.0,0.002007631770148505,r4.2
+LSTM,B11c + cooldown 30 days,knows allocation,0,51,41,36,37,31,-1.0,-8.0,6.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,knows allocation,1,51,41,36,39,35,1.0,-4.0,6.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,knows allocation,2,51,41,36,38,33,0.0,-6.0,6.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,observes colleagues,0,51,41,36,40,31,-4.0,-10.0,2.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,observes colleagues,1,51,41,36,40,32,-3.0,-9.0,3.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,observes colleagues,2,51,41,36,40,31,-4.0,-10.0,2.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,reads reports,0,51,41,36,43,35,-3.0,-8.0,2.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,reads reports,1,51,41,36,41,34,-2.0,-9.0,4.0,4.401213332376128e-05,r4.2
+LSTM,B11c + cooldown 30 days,reads reports,2,51,41,36,42,33,-4.0,-9.0,-0.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,estimates deficit,0,51,41,36,42,34,-3.0,-9.0,3.0,4.401213332376128e-05,r4.2
+LSTM,B11c + cooldown 30 days,estimates deficit,1,51,41,36,36,32,1.0,-5.0,8.0,6.804331636616791e-05,r4.2
+LSTM,B11c + cooldown 30 days,estimates deficit,2,51,41,36,40,35,0.0,-6.0,6.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,random,0,51,41,36,43,35,-3.0,-8.0,2.0,0.0001175546359867257,r4.2
+LSTM,B11c + cooldown 30 days,random,1,51,41,36,40,31,-4.0,-10.0,2.0,0.00011325462051390081,r4.2
+LSTM,B11c + cooldown 30 days,random,2,51,41,36,39,36,2.0,-2.0,6.0,3.466925912957823e-05,r4.2
+LSTM,B4c + cooldown 30 days,knows allocation,0,51,44,36,42,34,0.0,-5.0,5.0,0.0019703432316303462,r4.2
+LSTM,B4c + cooldown 30 days,knows allocation,1,51,44,36,40,31,-1.0,-6.0,4.0,0.0019561120116032994,r4.2
+LSTM,B4c + cooldown 30 days,knows allocation,2,51,44,36,40,33,1.0,-4.0,6.0,0.0019458857243600438,r4.2
+LSTM,B4c + cooldown 30 days,observes colleagues,0,51,44,36,39,33,2.0,-3.0,7.000000000000001,0.001918324296024924,r4.2
+LSTM,B4c + cooldown 30 days,observes colleagues,1,51,44,36,39,34,3.0,-1.0,7.000000000000001,0.001918324296024924,r4.2
+LSTM,B4c + cooldown 30 days,observes colleagues,2,51,44,36,39,33,2.0,-3.0,7.000000000000001,0.001918324296024924,r4.2
+LSTM,B4c + cooldown 30 days,reads reports,0,51,44,36,44,33,-3.0,-8.0,2.0,0.001954941249846978,r4.2
+LSTM,B4c + cooldown 30 days,reads reports,1,51,44,36,44,36,0.0,-4.0,4.0,0.0020013312357373986,r4.2
+LSTM,B4c + cooldown 30 days,reads reports,2,51,44,36,42,33,-1.0,-7.000000000000001,5.0,0.0019458857243600438,r4.2
+LSTM,B4c + cooldown 30 days,estimates deficit,0,51,44,36,42,35,1.0,-3.0,5.0,0.0019821524704663075,r4.2
+LSTM,B4c + cooldown 30 days,estimates deficit,1,51,44,36,39,30,-1.0,-7.000000000000001,5.0,0.00193565943711679,r4.2
+LSTM,B4c + cooldown 30 days,estimates deficit,2,51,44,36,40,35,3.0,-3.0,9.0,0.001991001901035048,r4.2
+LSTM,B4c + cooldown 30 days,random,0,51,44,36,42,35,1.0,-4.0,6.0,0.00197734049597181,r4.2
+LSTM,B4c + cooldown 30 days,random,1,51,44,36,41,31,-2.0,-9.0,5.0,0.0019458857243600438,r4.2
+LSTM,B4c + cooldown 30 days,random,2,51,44,36,42,36,2.0,-2.0,6.0,0.00193565943711679,r4.2

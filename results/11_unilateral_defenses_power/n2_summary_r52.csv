@@ -1,0 +1,73 @@
+release,detector,policy,attack,seeds,insiders,excess,lo,hi,per_seed_min,per_seed_max,positive_insiders,negative_insiders
+r5.2,AE,B4 label-free,oracle: maximizes excess loss,3,76,26.0,13.333333333333334,40.0,14.0,39.0,43.0,0.0
+r5.2,AE,B4 label-free,oracle: evades the parity rule if possible,3,76,26.0,13.0,39.666666666666664,14.0,39.0,43.0,0.0
+r5.2,AE,B4 label-free,knows allocation: largest cut,3,76,7.0,0.0,14.666666666666666,4.0,13.0,20.0,6.0
+r5.2,AE,B4 label-free,hindsight deficit,3,76,3.266666666666667,-2.3333333333333335,8.86833333333331,2.7755575615628914e-16,6.800000000000001,16.0,11.0
+r5.2,AE,B4 label-free,"online deficit, q=0.9",3,76,0.4666666666666665,-4.535000000000001,5.666666666666667,-1.6000000000000003,3.5999999999999996,15.0,12.0
+r5.2,AE,B4 label-free,random,3,76,-0.3718195002055105,-3.9048073920107007,3.235266675301856,-1.1735788004184877,1.2206248934009354,20.0,31.0
+r5.2,AE,B4c outcome-aware,oracle: maximizes excess loss,3,76,27.666666666666668,16.0,40.0,18.0,39.0,45.0,0.0
+r5.2,AE,B4c outcome-aware,oracle: evades the parity rule if possible,3,76,27.666666666666668,16.325000000000003,40.0,18.0,39.0,45.0,0.0
+r5.2,AE,B4c outcome-aware,knows allocation: largest cut,3,76,7.0,-0.3333333333333333,16.0,1.0,15.0,19.0,3.0
+r5.2,AE,B4c outcome-aware,hindsight deficit,3,76,3.8000000000000003,-2.935,10.6,-1.4,8.8,21.0,9.0
+r5.2,AE,B4c outcome-aware,"online deficit, q=0.9",3,76,1.1333333333333333,-2.3333333333333335,5.0,0.39999999999999997,2.2,16.0,15.0
+r5.2,AE,B4c outcome-aware,random,3,76,0.15881991837921086,-3.0673391011647886,3.448567987945199,-1.0072199973310298,0.9209941261891958,24.0,29.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",oracle: maximizes excess loss,3,76,25.666666666666668,14.0,39.0,15.0,38.0,42.0,0.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",oracle: evades the parity rule if possible,3,76,25.666666666666668,14.0,39.0,15.0,38.0,42.0,0.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",knows allocation: largest cut,3,76,4.333333333333333,-1.3333333333333333,11.0,1.0,9.0,15.0,7.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",hindsight deficit,3,76,2.066666666666667,-4.466666666666666,8.2,-3.2,6.6000000000000005,16.0,12.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay","online deficit, q=0.9",3,76,0.8000000000000002,-3.2016666666666667,5.666666666666667,-1.6,3.6000000000000005,17.0,12.0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",random,3,76,-0.3308297959292945,-3.771445822201419,3.1562284022406346,-1.2521665688638928,1.4134584736644147,21.0,31.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),oracle: maximizes excess loss,3,76,30.0,18.0,42.666666666666664,18.0,39.0,45.0,0.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),oracle: evades the parity rule if possible,3,76,30.0,18.0,43.0,18.0,39.0,45.0,0.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),knows allocation: largest cut,3,76,4.0,-2.0,12.341666666666546,-1.0,9.0,13.0,7.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),hindsight deficit,3,76,-0.4666666666666665,-4.199999999999999,4.201666666666642,-1.7999999999999998,1.4000000000000004,14.0,20.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),"online deficit, q=0.9",3,76,0.4666666666666668,-3.599999999999999,4.533333333333333,-1.2,2.4000000000000004,15.0,12.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),random,3,76,-0.06834903400749377,-3.861541249738777,4.195525703882464,-2.589235030038017,1.8826578824293787,25.0,23.0
+r5.2,GBM,B4 label-free,oracle: maximizes excess loss,3,76,8.666666666666666,4.0,14.0,7.0,10.0,14.0,0.0
+r5.2,GBM,B4 label-free,oracle: evades the parity rule if possible,3,76,8.666666666666666,4.0,14.0,7.0,10.0,14.0,0.0
+r5.2,GBM,B4 label-free,knows allocation: largest cut,3,76,3.0,-1.3333333333333333,7.666666666666667,1.0,5.0,8.0,4.0
+r5.2,GBM,B4 label-free,hindsight deficit,3,76,0.8666666666666667,-3.0000000000000004,5.266666666666667,-0.8000000000000002,3.4000000000000004,8.0,5.0
+r5.2,GBM,B4 label-free,"online deficit, q=0.9",3,76,-1.7333333333333332,-6.266666666666667,2.3333333333333335,-3.8,-0.6000000000000001,5.0,6.0
+r5.2,GBM,B4 label-free,random,3,76,0.24217957889554334,-2.6177636058095484,3.176600006139821,-0.9140671868882708,1.275654035940075,9.0,11.0
+r5.2,GBM,B4c outcome-aware,oracle: maximizes excess loss,3,76,9.0,4.0,15.0,7.0,11.0,14.0,0.0
+r5.2,GBM,B4c outcome-aware,oracle: evades the parity rule if possible,3,76,9.0,4.0,15.0,7.0,11.0,14.0,0.0
+r5.2,GBM,B4c outcome-aware,knows allocation: largest cut,3,76,3.0,-1.0,7.333333333333333,1.0,5.0,6.0,1.0
+r5.2,GBM,B4c outcome-aware,hindsight deficit,3,76,2.3333333333333335,-1.0000000000000002,6.3999999999999995,1.6,3.4,5.0,3.0
+r5.2,GBM,B4c outcome-aware,"online deficit, q=0.9",3,76,-1.5333333333333332,-5.533333333333334,2.2,-2.0,-1.0,3.0,4.0
+r5.2,GBM,B4c outcome-aware,random,3,76,0.8119106568762238,-1.3529858472631766,3.084409932383297,0.2572899847731,1.5805507031305726,9.0,11.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",oracle: maximizes excess loss,3,76,9.333333333333334,4.666666666666667,15.0,7.0,11.0,17.0,0.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",oracle: evades the parity rule if possible,3,76,9.333333333333334,4.333333333333333,15.0,7.0,11.0,17.0,0.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation: largest cut,3,76,3.0,-1.0,7.333333333333333,1.0,4.0,8.0,2.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",hindsight deficit,3,76,2.8666666666666667,-0.4000000000000001,6.599999999999999,2.2,3.6,6.0,3.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay","online deficit, q=0.9",3,76,-1.2,-4.666666666666667,1.7333333333333332,-3.0,0.2,4.0,6.0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",random,3,76,1.0183697777660032,-1.1419588875990756,3.4751761780182022,0.20395331932323454,1.5362666592241938,11.0,10.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),oracle: maximizes excess loss,3,76,8.666666666666666,4.0,14.333333333333334,7.0,12.0,16.0,0.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),oracle: evades the parity rule if possible,3,76,8.666666666666666,3.6666666666666665,14.333333333333334,7.0,12.0,16.0,0.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),knows allocation: largest cut,3,76,1.3333333333333333,-2.0,5.0,0.0,2.0,6.0,3.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),hindsight deficit,3,76,-0.13333333333333328,-2.6,2.134999999999976,-0.7999999999999999,0.20000000000000007,5.0,5.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),"online deficit, q=0.9",3,76,1.3333333333333333,-1.5333333333333332,4.7349999999999755,0.0,3.2,4.0,2.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),random,3,76,0.5412116547506632,-1.8113039632770105,3.090982343690407,-0.2228639309245778,1.0051345132011398,12.0,9.0
+r5.2,LSTM,B4 label-free,oracle: maximizes excess loss,1,76,17.0,10.0,24.0,17.0,17.0,17.0,0.0
+r5.2,LSTM,B4 label-free,oracle: evades the parity rule if possible,1,76,17.0,10.0,24.0,17.0,17.0,17.0,0.0
+r5.2,LSTM,B4 label-free,knows allocation: largest cut,1,76,1.0,-5.0,8.0,1.0,1.0,6.0,5.0
+r5.2,LSTM,B4 label-free,hindsight deficit,1,76,8.0,3.3999999999999995,13.200000000000001,8.0,8.0,11.0,2.0
+r5.2,LSTM,B4 label-free,"online deficit, q=0.9",1,76,3.0,-0.8000000000000003,7.6,3.0,3.0,6.0,2.0
+r5.2,LSTM,B4 label-free,random,1,76,1.739534973398095,-0.9838669667694778,5.188969499516827,1.739534973398095,1.739534973398095,14.0,14.0
+r5.2,LSTM,B4c outcome-aware,oracle: maximizes excess loss,1,76,21.0,13.0,30.0,21.0,21.0,19.0,0.0
+r5.2,LSTM,B4c outcome-aware,oracle: evades the parity rule if possible,1,76,21.0,13.0,30.0,21.0,21.0,19.0,0.0
+r5.2,LSTM,B4c outcome-aware,knows allocation: largest cut,1,76,0.0,-6.0,6.0,0.0,0.0,4.0,4.0
+r5.2,LSTM,B4c outcome-aware,hindsight deficit,1,76,5.4,0.19999999999999973,11.2,5.4,5.4,10.0,2.0
+r5.2,LSTM,B4c outcome-aware,"online deficit, q=0.9",1,76,3.4,-0.6000000000000001,8.2,3.4,3.4,6.0,2.0
+r5.2,LSTM,B4c outcome-aware,random,1,76,3.091099304716213,0.007992955810062709,6.938752624798019,3.091099304716213,3.091099304716213,14.0,13.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",oracle: maximizes excess loss,1,76,16.0,9.0,24.0,16.0,16.0,15.0,0.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",oracle: evades the parity rule if possible,1,76,16.0,9.0,24.0,16.0,16.0,15.0,0.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation: largest cut,1,76,0.0,-6.0,6.0,0.0,0.0,5.0,5.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",hindsight deficit,1,76,3.8,-1.6653345369377348e-16,8.0,3.8,3.8,7.0,1.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay","online deficit, q=0.9",1,76,2.2,-1.6,6.4,2.2,2.2,4.0,2.0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",random,1,76,2.1183362589434553,-0.5531945707078371,5.388450608861401,2.1183362589434553,2.1183362589434553,11.0,13.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),oracle: maximizes excess loss,1,76,28.0,18.0,38.0,28.0,28.0,26.0,1.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),oracle: evades the parity rule if possible,1,76,28.0,18.97500000000001,38.0,28.0,28.0,26.0,1.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),knows allocation: largest cut,1,76,6.0,-2.0,14.0,6.0,6.0,9.0,4.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),hindsight deficit,1,76,3.9999999999999996,-2.0049999999999986,10.4,3.9999999999999996,3.9999999999999996,13.0,8.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),"online deficit, q=0.9",1,76,3.2,-1.8,8.2,3.2,3.2,14.0,6.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),random,1,76,0.766502348840291,-4.3874486092206,5.718777782036598,0.766502348840291,0.766502348840291,21.0,13.0

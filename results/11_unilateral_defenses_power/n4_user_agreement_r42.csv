@@ -1,0 +1,13 @@
+release,detector,seed,policy,agree_parity,agree_global
+r4.2,IF-user,0,B4 label-free,1.0,1.0
+r4.2,IF-user,0,B4c outcome-aware,1.0,1.0
+r4.2,IF-user,0,"B4c outcome-aware, 7-day verdict delay",1.0,1.0
+r4.2,IF-user,0,B11c deficit apportionment (outcome-aware),1.0,1.0
+r4.2,AE-user,0,B4 label-free,1.0,1.0
+r4.2,AE-user,0,B4c outcome-aware,1.0,1.0
+r4.2,AE-user,0,"B4c outcome-aware, 7-day verdict delay",1.0,1.0
+r4.2,AE-user,0,B11c deficit apportionment (outcome-aware),1.0,1.0
+r4.2,GBM-user,0,B4 label-free,0.9997955349954635,0.9997316396815458
+r4.2,GBM-user,0,B4c outcome-aware,0.9997699768698963,0.9997316396815458
+r4.2,GBM-user,0,"B4c outcome-aware, 7-day verdict delay",0.9997955349954635,0.9997316396815458
+r4.2,GBM-user,0,B11c deficit apportionment (outcome-aware),0.9996933024931951,0.9997316396815458

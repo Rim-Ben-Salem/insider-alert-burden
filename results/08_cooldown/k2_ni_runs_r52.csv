@@ -1,0 +1,67 @@
+detector,budget,delta,policy,run,insiders,detected_ref,detected,lost,gained
+IF,0.01,0.002,B0 + cooldown 7 days,seed 0,76,5,21,1,17
+IF,0.01,0.002,B0 + cooldown 7 days,seed 1,76,10,23,1,14
+IF,0.01,0.002,B0 + cooldown 7 days,seed 2,76,7,18,1,12
+IF,0.01,0.002,B0 + cooldown 30 days,seed 0,76,5,51,1,47
+IF,0.01,0.002,B0 + cooldown 30 days,seed 1,76,10,51,2,43
+IF,0.01,0.002,B0 + cooldown 30 days,seed 2,76,7,50,1,44
+IF,0.01,0.002,B11c + cooldown 30 days,seed 0,76,5,50,1,46
+IF,0.01,0.002,B11c + cooldown 30 days,seed 1,76,10,48,3,41
+IF,0.01,0.002,B11c + cooldown 30 days,seed 2,76,7,47,3,43
+IF,0.02,0.004,B0 + cooldown 7 days,seed 0,76,13,54,2,43
+IF,0.02,0.004,B0 + cooldown 7 days,seed 1,76,16,52,2,38
+IF,0.02,0.004,B0 + cooldown 7 days,seed 2,76,10,53,1,44
+IF,0.02,0.004,B0 + cooldown 30 days,seed 0,76,13,53,4,44
+IF,0.02,0.004,B0 + cooldown 30 days,seed 1,76,16,53,6,43
+IF,0.02,0.004,B0 + cooldown 30 days,seed 2,76,10,55,2,47
+IF,0.02,0.004,B11c + cooldown 30 days,seed 0,76,13,50,5,42
+IF,0.02,0.004,B11c + cooldown 30 days,seed 1,76,16,56,4,44
+IF,0.02,0.004,B11c + cooldown 30 days,seed 2,76,10,55,3,48
+AE,0.01,0.002,B0 + cooldown 7 days,seed 0,76,61,65,0,4
+AE,0.01,0.002,B0 + cooldown 7 days,seed 1,76,50,59,1,10
+AE,0.01,0.002,B0 + cooldown 7 days,seed 2,76,41,58,1,18
+AE,0.01,0.002,B0 + cooldown 30 days,seed 0,76,61,68,3,10
+AE,0.01,0.002,B0 + cooldown 30 days,seed 1,76,50,70,3,23
+AE,0.01,0.002,B0 + cooldown 30 days,seed 2,76,41,63,8,30
+AE,0.01,0.002,B11c + cooldown 30 days,seed 0,76,61,61,8,8
+AE,0.01,0.002,B11c + cooldown 30 days,seed 1,76,50,66,6,22
+AE,0.01,0.002,B11c + cooldown 30 days,seed 2,76,41,57,9,25
+AE,0.02,0.004,B0 + cooldown 7 days,seed 0,76,65,69,1,5
+AE,0.02,0.004,B0 + cooldown 7 days,seed 1,76,61,72,1,12
+AE,0.02,0.004,B0 + cooldown 7 days,seed 2,76,60,66,5,11
+AE,0.02,0.004,B0 + cooldown 30 days,seed 0,76,65,67,6,8
+AE,0.02,0.004,B0 + cooldown 30 days,seed 1,76,61,65,7,11
+AE,0.02,0.004,B0 + cooldown 30 days,seed 2,76,60,56,15,11
+AE,0.02,0.004,B11c + cooldown 30 days,seed 0,76,65,67,6,8
+AE,0.02,0.004,B11c + cooldown 30 days,seed 1,76,61,60,12,11
+AE,0.02,0.004,B11c + cooldown 30 days,seed 2,76,60,57,15,12
+GBM,0.01,0.002,B0 + cooldown 7 days,seed 0,76,75,75,1,1
+GBM,0.01,0.002,B0 + cooldown 7 days,seed 1,76,73,69,5,1
+GBM,0.01,0.002,B0 + cooldown 7 days,seed 2,76,75,74,1,0
+GBM,0.01,0.002,B0 + cooldown 30 days,seed 0,76,75,75,1,1
+GBM,0.01,0.002,B0 + cooldown 30 days,seed 1,76,73,64,10,1
+GBM,0.01,0.002,B0 + cooldown 30 days,seed 2,76,75,73,3,1
+GBM,0.01,0.002,B11c + cooldown 30 days,seed 0,76,75,70,5,0
+GBM,0.01,0.002,B11c + cooldown 30 days,seed 1,76,73,60,13,0
+GBM,0.01,0.002,B11c + cooldown 30 days,seed 2,76,75,70,5,0
+GBM,0.02,0.004,B0 + cooldown 7 days,seed 0,76,76,75,1,0
+GBM,0.02,0.004,B0 + cooldown 7 days,seed 1,76,74,70,6,2
+GBM,0.02,0.004,B0 + cooldown 7 days,seed 2,76,76,75,1,0
+GBM,0.02,0.004,B0 + cooldown 30 days,seed 0,76,76,71,5,0
+GBM,0.02,0.004,B0 + cooldown 30 days,seed 1,76,74,56,18,0
+GBM,0.02,0.004,B0 + cooldown 30 days,seed 2,76,76,70,6,0
+GBM,0.02,0.004,B11c + cooldown 30 days,seed 0,76,76,70,6,0
+GBM,0.02,0.004,B11c + cooldown 30 days,seed 1,76,74,57,18,1
+GBM,0.02,0.004,B11c + cooldown 30 days,seed 2,76,76,69,7,0
+LR,0.01,0.002,B0 + cooldown 7 days,main,76,35,53,1,19
+LR,0.01,0.002,B0 + cooldown 30 days,main,76,35,54,11,30
+LR,0.01,0.002,B11c + cooldown 30 days,main,76,35,58,9,32
+LR,0.02,0.004,B0 + cooldown 7 days,main,76,51,67,5,21
+LR,0.02,0.004,B0 + cooldown 30 days,main,76,51,58,16,23
+LR,0.02,0.004,B11c + cooldown 30 days,main,76,51,54,17,20
+LSTM,0.01,0.002,B0 + cooldown 7 days,seed 0,76,47,56,0,9
+LSTM,0.01,0.002,B0 + cooldown 30 days,seed 0,76,47,69,0,22
+LSTM,0.01,0.002,B11c + cooldown 30 days,seed 0,76,47,64,4,21
+LSTM,0.02,0.004,B0 + cooldown 7 days,seed 0,76,56,70,0,14
+LSTM,0.02,0.004,B0 + cooldown 30 days,seed 0,76,56,67,7,18
+LSTM,0.02,0.004,B11c + cooldown 30 days,seed 0,76,56,69,4,17

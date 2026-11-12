@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\caption{Timing Attacks Against Outcome-Aware Deficit Apportionment, One Insider at a Time Against the Others' Behavior: Excess Loss Over the Global Policy on the Same Relocated Attack, Summed Over Insiders and Averaged Over Seeds (5, 3, 3, 1, 5, 3 Seeds), the Mean Over the Six Settings and the Number of Settings Whose 95\% Interval, Resampling Seeds and Insiders, Excludes Zero ($^\ast$). $^\ddagger$Primary Attacker, Which Acts on Its Last Possible Day When Its Signal Never Triggers ($b=1\%$)\label{tab:timing}}
+\centering
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{GBM} & \multicolumn{2}{c}{LSTM} & \multicolumn{2}{c}{AE} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Attacker & r4.2 & r5.2 & r4.2 & r5.2 & r4.2 & r5.2 & Mean & Sig. \\
+\midrule
+Random (control) & -1.5 & 0.5 & -3.8 & 0.8 & 0.2 & -0.1 & -0.6 & 0 \\
+Online: reports and colleagues$^\ddagger$ & -2.4 & 1.3 & -3.3 & 3.2 & -1.4 & 0.5 & -0.3 & 0 \\
+\quad keeps timing if no trigger & -0.0 & 0.0 & 0.2 & 1.6 & 1.2 & 0.9 & 0.6 & 0 \\
+Hindsight: same signals & -0.3 & -0.1 & -2.9 & 4.0 & 3.1 & -0.5 & 0.6 & 0 \\
+Knows the allocation & 0.2 & 1.3 & -6.7 & 6.0 & 4.8 & 4.0 & 1.6 & 0 \\
+Oracle: knows every score & 13.6$^\ast$ & 8.7$^\ast$ & 12.3$^\ast$ & 28.0$^\ast$ & 31.2$^\ast$ & 30.0$^\ast$ & 20.6 & 6 \\
+\bottomrule
+\end{tabular}}
+\end{table}

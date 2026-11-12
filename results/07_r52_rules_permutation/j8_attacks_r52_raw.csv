@@ -1,0 +1,121 @@
+detector,policy,attack,draw,insiders,none_P,none_G,attacked_P,attacked_G,excess_loss,excess_lo,excess_hi,delta_FAR,release
+GBM,"B4 exact rule, label-free",knows allocation,0,76,72,75,64,73,6.0,-0.0,12.0,0.003244622761186599,r5.2
+GBM,"B4 exact rule, label-free",knows allocation,1,76,72,75,63,74,8.0,2.0,14.0,0.0033294288318376775,r5.2
+GBM,"B4 exact rule, label-free",knows allocation,2,76,72,75,62,74,9.0,3.0,15.0,0.0033056318515410623,r5.2
+GBM,"B4 exact rule, label-free",observes colleagues,0,76,72,75,65,74,6.0,-0.0,12.0,0.0034276500322499874,r5.2
+GBM,"B4 exact rule, label-free",observes colleagues,1,76,72,75,65,74,6.0,-0.0,12.0,0.0034276500322499874,r5.2
+GBM,"B4 exact rule, label-free",observes colleagues,2,76,72,75,65,74,6.0,-0.0,12.0,0.0034276500322499874,r5.2
+GBM,"B4 exact rule, label-free",reads reports,0,76,72,75,68,71,0.0,-5.0,5.0,0.003519163667781682,r5.2
+GBM,"B4 exact rule, label-free",reads reports,1,76,72,75,67,72,2.0,-2.0,6.0,0.003534415940370298,r5.2
+GBM,"B4 exact rule, label-free",reads reports,2,76,72,75,69,71,-1.0,-5.0,3.0,0.0034886591226044508,r5.2
+GBM,"B4 exact rule, label-free",estimates deficit,0,76,72,75,65,72,4.0,-1.0,9.024999999999991,0.0033056318515410623,r5.2
+GBM,"B4 exact rule, label-free",estimates deficit,1,76,72,75,63,72,6.0,-0.0,12.0,0.0034734068500158347,r5.2
+GBM,"B4 exact rule, label-free",estimates deficit,2,76,72,75,60,70,7.0,-0.0,14.0,0.0033361363967182936,r5.2
+GBM,"B4 exact rule, label-free",random,0,76,72,75,69,75,3.0,-2.0,8.0,0.004175011389092157,r5.2
+GBM,"B4 exact rule, label-free",random,1,76,72,75,72,75,0.0,-4.0,4.0,0.004114002298737695,r5.2
+GBM,"B4 exact rule, label-free",random,2,76,72,75,71,75,1.0,-0.0,3.0,0.004220768206858004,r5.2
+GBM,B4c exact rule,knows allocation,0,76,71,75,63,70,3.0,-1.0,8.0,0.001983253152910627,r5.2
+GBM,B4c exact rule,knows allocation,1,76,71,75,65,71,2.0,-0.0,5.0,0.0019884415280078368,r5.2
+GBM,B4c exact rule,knows allocation,2,76,71,75,65,69,0.0,-5.0,5.0,0.0019881244171598977,r5.2
+GBM,B4c exact rule,observes colleagues,0,76,71,75,66,75,5.0,1.0,10.0,0.0019874901954640197,r5.2
+GBM,B4c exact rule,observes colleagues,1,76,71,75,67,75,4.0,1.0,8.0,0.0019874901954640197,r5.2
+GBM,B4c exact rule,observes colleagues,2,76,71,75,66,75,5.0,1.0,10.0,0.0019874901954640197,r5.2
+GBM,B4c exact rule,reads reports,0,76,71,75,69,72,-1.0,-3.0,-0.0,0.0019832993604700574,r5.2
+GBM,B4c exact rule,reads reports,1,76,71,75,68,73,1.0,-0.0,3.0,0.0019794978442127607,r5.2
+GBM,B4c exact rule,reads reports,2,76,71,75,69,72,-1.0,-5.0,3.0,0.0019832993604700574,r5.2
+GBM,B4c exact rule,estimates deficit,0,76,71,75,65,69,0.0,-4.0,4.0,0.001983345568029488,r5.2
+GBM,B4c exact rule,estimates deficit,1,76,71,75,65,70,1.0,-3.0,5.0,0.0019874901954640197,r5.2
+GBM,B4c exact rule,estimates deficit,2,76,71,75,66,72,2.0,-2.0,6.0,0.0019795440517721913,r5.2
+GBM,B4c exact rule,random,0,76,71,75,72,75,-1.0,-5.0,2.0,0.0019834379831483485,r5.2
+GBM,B4c exact rule,random,1,76,71,75,71,75,0.0,-4.0,4.0,0.001981531345229868,r5.2
+GBM,B4c exact rule,random,2,76,71,75,70,75,1.0,-0.0,3.0,0.001979470120191071,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,0,76,71,75,68,73,1.0,-2.0,4.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,1,76,71,75,68,74,2.0,-0.0,5.0,0.0005129465280305483,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,2,76,71,75,68,73,1.0,-2.0,5.0,0.0005129465280305483,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,0,76,71,75,60,67,3.0,-4.0,11.0,0.00020585622358044314,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,1,76,71,75,60,67,3.0,-4.0,11.0,0.00020585622358044314,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,2,76,71,75,60,67,3.0,-4.0,11.0,0.00020585622358044314,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,0,76,71,75,65,74,5.0,-0.0,10.0,0.00027924628491554637,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,1,76,71,75,67,73,2.0,-2.0,6.0,0.0003583184891697098,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,2,76,71,75,69,74,1.0,-4.0,6.0,0.0003583184891697098,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,0,76,71,75,62,70,4.0,-2.0,10.0,0.0003583184891697098,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,1,76,71,75,61,69,4.0,-1.0,9.0,0.00025457015906730357,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,2,76,71,75,65,74,5.0,1.0,10.0,0.00039538401884946575,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,0,76,71,75,70,75,1.0,-3.0,5.0,0.0005964698825132505,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,1,76,71,75,68,75,3.0,-0.0,7.0,0.0005964698825132505,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,2,76,71,75,72,75,-1.0,-3.0,-0.0,0.0005964698825132505,r5.2
+GBM,"B4c, verdicts after 7 days",knows allocation,0,76,72,75,58,67,6.0,-0.0,12.0,0.001983114530232335,r5.2
+GBM,"B4c, verdicts after 7 days",knows allocation,1,76,72,75,59,69,7.0,1.0,13.0,0.001979313013975039,r5.2
+GBM,"B4c, verdicts after 7 days",knows allocation,2,76,72,75,57,70,10.0,3.0,18.0,0.001979313013975039,r5.2
+GBM,"B4c, verdicts after 7 days",observes colleagues,0,76,72,75,69,74,2.0,-2.0,6.0,0.00197945163665333,r5.2
+GBM,"B4c, verdicts after 7 days",observes colleagues,1,76,72,75,69,74,2.0,-2.0,6.0,0.00197945163665333,r5.2
+GBM,"B4c, verdicts after 7 days",observes colleagues,2,76,72,75,69,74,2.0,-2.0,6.0,0.00197945163665333,r5.2
+GBM,"B4c, verdicts after 7 days",reads reports,0,76,72,75,68,74,3.0,-0.0,7.0,0.001980656836289559,r5.2
+GBM,"B4c, verdicts after 7 days",reads reports,1,76,72,75,64,73,6.0,2.0,11.0,0.00197945163665333,r5.2
+GBM,"B4c, verdicts after 7 days",reads reports,2,76,72,75,67,74,4.0,1.0,8.0,0.00197945163665333,r5.2
+GBM,"B4c, verdicts after 7 days",estimates deficit,0,76,72,75,64,74,7.0,1.0,13.0,0.0019808247789192017,r5.2
+GBM,"B4c, verdicts after 7 days",estimates deficit,1,76,72,75,66,74,5.0,-0.0,10.0,0.0019955919980302363,r5.2
+GBM,"B4c, verdicts after 7 days",estimates deficit,2,76,72,75,64,73,6.0,1.0,12.0,0.00198033972544162,r5.2
+GBM,"B4c, verdicts after 7 days",random,0,76,72,75,68,75,4.0,-1.0,9.0,0.001981531345229868,r5.2
+GBM,"B4c, verdicts after 7 days",random,1,76,72,75,72,75,0.0,-4.0,4.0,0.001979470120191071,r5.2
+GBM,"B4c, verdicts after 7 days",random,2,76,72,75,70,75,2.0,-0.0,5.0,0.001981531345229868,r5.2
+LSTM,"B4 exact rule, label-free",knows allocation,0,76,48,47,40,47,8.0,2.0,15.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",knows allocation,1,76,48,47,39,43,5.0,-1.0,12.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",knows allocation,2,76,48,47,40,44,5.0,-2.0,12.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",observes colleagues,0,76,48,47,41,47,7.0,2.0,13.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",observes colleagues,1,76,48,47,41,47,7.0,2.0,13.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",observes colleagues,2,76,48,47,41,47,7.0,2.0,13.0,0.0018245805900421515,r5.2
+LSTM,"B4 exact rule, label-free",reads reports,0,76,48,47,41,43,3.0,-2.0,9.0,0.001921827786191186,r5.2
+LSTM,"B4 exact rule, label-free",reads reports,1,76,48,47,42,45,4.0,-0.0,9.0,0.0019286154946692897,r5.2
+LSTM,"B4 exact rule, label-free",reads reports,2,76,48,47,42,45,4.0,-1.0,9.0,0.0021229136498549708,r5.2
+LSTM,"B4 exact rule, label-free",estimates deficit,0,76,48,47,41,50,10.0,4.0,17.0,0.001672118324452885,r5.2
+LSTM,"B4 exact rule, label-free",estimates deficit,1,76,48,47,36,49,14.0,6.0,22.0,0.0019286154946692897,r5.2
+LSTM,"B4 exact rule, label-free",estimates deficit,2,76,48,47,41,48,8.0,3.0,14.0,0.001720741922527403,r5.2
+LSTM,"B4 exact rule, label-free",random,0,76,48,47,44,48,5.0,1.0,10.0,0.001672118324452885,r5.2
+LSTM,"B4 exact rule, label-free",random,1,76,48,47,48,47,0.0,-5.0,5.0,0.003135930080933661,r5.2
+LSTM,"B4 exact rule, label-free",random,2,76,48,47,46,47,2.0,-0.0,5.0,0.0019286154946692897,r5.2
+LSTM,B4c exact rule,knows allocation,0,76,49,47,38,45,9.0,2.0,16.0,0.0019758538701775165,r5.2
+LSTM,B4c exact rule,knows allocation,1,76,49,47,38,44,8.0,2.0,15.0,0.0019758538701775165,r5.2
+LSTM,B4c exact rule,knows allocation,2,76,49,47,43,44,3.0,-3.0,10.0,0.0019375646332820077,r5.2
+LSTM,B4c exact rule,observes colleagues,0,76,49,47,40,45,7.0,3.0,12.0,0.0017844076856999725,r5.2
+LSTM,B4c exact rule,observes colleagues,1,76,49,47,40,45,7.0,3.0,12.0,0.0017844076856999725,r5.2
+LSTM,B4c exact rule,observes colleagues,2,76,49,47,40,45,7.0,2.0,12.0,0.0017844076856999725,r5.2
+LSTM,B4c exact rule,reads reports,0,76,49,47,42,45,5.0,1.0,10.0,0.0018025929392768616,r5.2
+LSTM,B4c exact rule,reads reports,1,76,49,47,41,44,5.0,-0.0,10.0,0.0017844076856999725,r5.2
+LSTM,B4c exact rule,reads reports,2,76,49,47,44,44,2.0,-2.0,6.0,0.0017844076856999725,r5.2
+LSTM,B4c exact rule,estimates deficit,0,76,49,47,37,47,12.0,6.0,19.0,0.0019375646332820077,r5.2
+LSTM,B4c exact rule,estimates deficit,1,76,49,47,36,47,13.0,6.0,20.0,0.0018226969225954813,r5.2
+LSTM,B4c exact rule,estimates deficit,2,76,49,47,43,46,5.0,1.0,10.0,0.0018255488933036183,r5.2
+LSTM,B4c exact rule,random,0,76,49,47,46,48,4.0,1.0,8.0,0.0019375646332820077,r5.2
+LSTM,B4c exact rule,random,1,76,49,47,46,47,3.0,-2.0,8.0,0.0018255488933036183,r5.2
+LSTM,B4c exact rule,random,2,76,49,47,45,47,4.0,-0.0,9.0,0.0018255488933036183,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,0,76,46,47,41,48,6.0,-1.0,13.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,1,76,46,47,40,50,9.0,2.0,17.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,2,76,46,47,39,50,10.0,3.0,18.0,0.000790938209037988,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,0,76,46,47,37,45,7.0,-0.0,14.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,1,76,46,47,37,45,7.0,-0.0,14.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,2,76,46,47,37,45,7.0,-0.0,14.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,0,76,46,47,41,42,0.0,-6.0,6.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,1,76,46,47,45,47,1.0,-5.0,7.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,2,76,46,47,40,46,5.0,-1.0,11.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,0,76,46,47,39,43,3.0,-3.0,9.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,1,76,46,47,38,46,7.0,-1.0,16.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,2,76,46,47,39,43,3.0,-3.0,10.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,0,76,46,47,47,48,0.0,-6.0,6.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,1,76,46,47,44,47,2.0,-4.0,8.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,2,76,46,47,46,47,0.0,-6.0,6.0,0.00035953643344948695,r5.2
+LSTM,"B4c, verdicts after 7 days",knows allocation,0,76,48,47,39,44,6.0,-1.0,13.0,0.0019758538701775165,r5.2
+LSTM,"B4c, verdicts after 7 days",knows allocation,1,76,48,47,40,44,5.0,-1.0,11.0,0.0019758538701775165,r5.2
+LSTM,"B4c, verdicts after 7 days",knows allocation,2,76,48,47,43,44,2.0,-3.0,8.0,0.0019758538701775165,r5.2
+LSTM,"B4c, verdicts after 7 days",observes colleagues,0,76,48,47,41,45,5.0,-0.0,10.0,0.0020141431070730253,r5.2
+LSTM,"B4c, verdicts after 7 days",observes colleagues,1,76,48,47,41,45,5.0,-0.0,10.0,0.0020141431070730253,r5.2
+LSTM,"B4c, verdicts after 7 days",observes colleagues,2,76,48,47,41,45,5.0,-0.0,10.0,0.0020141431070730253,r5.2
+LSTM,"B4c, verdicts after 7 days",reads reports,0,76,48,47,43,46,4.0,-0.0,9.0,0.0019286154946692897,r5.2
+LSTM,"B4c, verdicts after 7 days",reads reports,1,76,48,47,44,44,1.0,-4.0,6.0,0.0020141431070730253,r5.2
+LSTM,"B4c, verdicts after 7 days",reads reports,2,76,48,47,45,46,2.0,-2.0,6.0,0.0018255488933036183,r5.2
+LSTM,"B4c, verdicts after 7 days",estimates deficit,0,76,48,47,37,47,11.0,4.0,19.0,0.0019758538701775165,r5.2
+LSTM,"B4c, verdicts after 7 days",estimates deficit,1,76,48,47,38,47,10.0,3.0,17.0,0.0019758538701775165,r5.2
+LSTM,"B4c, verdicts after 7 days",estimates deficit,2,76,48,47,42,46,5.0,-0.0,11.0,0.0019375646332820077,r5.2
+LSTM,"B4c, verdicts after 7 days",random,0,76,48,47,46,48,3.0,-0.0,7.0,0.0018121198336998184,r5.2
+LSTM,"B4c, verdicts after 7 days",random,1,76,48,47,47,47,1.0,-4.0,6.0,0.0018255488933036183,r5.2
+LSTM,"B4c, verdicts after 7 days",random,2,76,48,47,48,47,0.0,-5.0,5.0,0.0018255488933036183,r5.2

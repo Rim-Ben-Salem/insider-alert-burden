@@ -1,0 +1,57 @@
+rel,det,mech,gain,exposure,sig
+r4.2,GBM,Cooldown,0.0,1.0,False
+r4.2,GBM,"Cooldown, no override",-8.0,18.0,False
+r4.2,GBM,Scheduler,1.0,1.0,False
+r4.2,GBM,Parity + cooldown,-3.0,2.0,False
+r4.2,AE,Cooldown,2.0,4.0,False
+r4.2,AE,"Cooldown, no override",-5.0,4.0,False
+r4.2,AE,Scheduler,3.0,1.0,False
+r4.2,AE,Parity + cooldown,0.0,7.0,False
+r4.2,IF,Cooldown,16.0,3.0,False
+r4.2,IF,"Cooldown, no override",17.0,4.0,False
+r4.2,IF,Scheduler,6.0,2.0,False
+r4.2,IF,Parity + cooldown,16.0,5.0,False
+r4.2,LR,Cooldown,1.0,5.0,False
+r4.2,LR,"Cooldown, no override",-10.0,12.0,False
+r4.2,LR,Scheduler,1.0,0.0,False
+r4.2,LR,Parity + cooldown,1.0,4.0,False
+r5.2,GBM,Cooldown,0.0,6.0,False
+r5.2,GBM,"Cooldown, no override",-14.0,16.0,False
+r5.2,GBM,Scheduler,0.0,1.0,False
+r5.2,GBM,Parity + cooldown,-5.0,3.0,False
+r5.2,AE,Cooldown,7.0,11.0,False
+r5.2,AE,"Cooldown, no override",-3.0,15.0,False
+r5.2,AE,Scheduler,3.0,0.0,False
+r5.2,AE,Parity + cooldown,0.0,7.0,False
+r5.2,IF,Cooldown,46.0,10.0,False
+r5.2,IF,"Cooldown, no override",46.0,9.0,False
+r5.2,IF,Scheduler,20.0,1.0,False
+r5.2,IF,Parity + cooldown,45.0,11.0,False
+r5.2,LR,Cooldown,19.0,10.0,False
+r5.2,LR,"Cooldown, no override",16.0,11.0,False
+r5.2,LR,Scheduler,16.0,1.0,False
+r5.2,LR,Parity + cooldown,23.0,14.0,False
+r4.2,GBM,"Parity, label-free",1.0,4.8,True
+r4.2,LSTM,"Parity, label-free",-4.0,0.8,False
+r4.2,AE,"Parity, label-free",0.0,5.0,True
+r4.2,GBM,"Parity, outcome-aware",0.0,0.6000000000000001,False
+r4.2,LSTM,"Parity, outcome-aware",-2.0,1.4,False
+r4.2,AE,"Parity, outcome-aware",0.0,2.4000000000000004,False
+r4.2,GBM,"Parity, outcome-aware, late verdicts",0.0,2.8000000000000003,False
+r4.2,LSTM,"Parity, outcome-aware, late verdicts",-4.0,-0.7999999999999999,False
+r4.2,AE,"Parity, outcome-aware, late verdicts",-1.0,2.0,False
+r4.2,GBM,Deficit apportionment,0.0,6.399999999999999,True
+r4.2,LSTM,Deficit apportionment,-4.0,-1.0,False
+r4.2,AE,Deficit apportionment,0.0,5.4,False
+r5.2,GBM,"Parity, label-free",-3.0,5.8,True
+r5.2,LSTM,"Parity, label-free",1.0,9.2,True
+r5.2,AE,"Parity, label-free",-3.0,7.200000000000001,True
+r5.2,GBM,"Parity, outcome-aware",-4.0,2.2,False
+r5.2,LSTM,"Parity, outcome-aware",2.0,9.2,True
+r5.2,AE,"Parity, outcome-aware",-3.0,1.1999999999999995,False
+r5.2,GBM,"Parity, outcome-aware, late verdicts",-3.0,7.2,True
+r5.2,LSTM,"Parity, outcome-aware, late verdicts",1.0,9.2,True
+r5.2,AE,"Parity, outcome-aware, late verdicts",-3.0,1.7999999999999998,False
+r5.2,GBM,Deficit apportionment,-4.0,5.2,False
+r5.2,LSTM,Deficit apportionment,-1.0,4.6,False
+r5.2,AE,Deficit apportionment,-5.0,0.8,False

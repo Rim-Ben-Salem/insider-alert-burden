@@ -1,0 +1,61 @@
+release,detector,seed,variant,knowledge,n_probe,gap,farmers,detected_no_farming,evaded,gained,probes_alerted,insiders_detected_variant,max_F_variant,alerted_employees_variant
+r5.2,IF-user,0,"cooldown 30 d, override 0.999",own,3,0,73,50,10,0,51,51,24,727
+r5.2,IF-user,0,"cooldown 30 d, override 0.999",generic,3,0,73,50,10,0,58,51,24,727
+r5.2,IF-user,0,no override,own,3,0,73,49,9,0,47,50,9,735
+r5.2,IF-user,0,no override,generic,3,0,73,49,11,0,53,50,9,735
+r5.2,IF-user,0,verdicts 7 days late,own,3,0,73,51,2,0,57,53,177,422
+r5.2,IF-user,0,verdicts 7 days late,generic,3,0,73,51,1,0,45,53,177,422
+r5.2,IF-user,0,verdicts 14 days late,own,3,0,73,46,1,0,53,48,168,364
+r5.2,IF-user,0,verdicts 14 days late,generic,3,0,73,46,1,0,30,48,168,364
+r5.2,IF-user,0,no backfill,own,3,0,73,36,2,0,27,38,24,319
+r5.2,IF-user,0,no backfill,generic,3,0,73,36,2,0,19,38,24,319
+r5.2,IF-user,0,defense: re-check 10% of suppressed alerts,own,3,0,73,51,9,7,55,52,39,574
+r5.2,IF-user,0,defense: re-check 10% of suppressed alerts,generic,3,0,73,51,10,4,68,52,39,574
+r5.2,IF-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),own,3,0,73,57,7,0,56,59,129,569
+r5.2,IF-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),generic,3,0,73,57,11,1,58,59,129,569
+r5.2,IF-user,0,defense: 3-day cooldown after clearing a score >= 0.99,own,3,0,73,56,10,0,50,58,45,650
+r5.2,IF-user,0,defense: 3-day cooldown after clearing a score >= 0.99,generic,3,0,73,56,12,1,59,58,45,650
+r5.2,IF-user,0,global (no cooldown),own,3,0,73,42,0,0,40,44,162,319
+r5.2,IF-user,0,global (no cooldown),generic,3,0,73,42,0,0,23,44,162,319
+r5.2,IF-user,0,insider-level verdicts,own,3,0,73,52,9,0,51,54,24,709
+r5.2,IF-user,0,insider-level verdicts,generic,3,0,73,52,9,0,58,54,24,709
+r5.2,AE-user,0,"cooldown 30 d, override 0.999",own,3,0,73,63,8,0,44,65,122,704
+r5.2,AE-user,0,"cooldown 30 d, override 0.999",generic,3,0,73,63,12,0,49,65,122,704
+r5.2,AE-user,0,no override,own,3,0,73,55,10,0,44,57,9,774
+r5.2,AE-user,0,no override,generic,3,0,73,55,13,0,46,57,9,774
+r5.2,AE-user,0,verdicts 7 days late,own,3,0,73,61,1,0,35,62,136,397
+r5.2,AE-user,0,verdicts 7 days late,generic,3,0,73,61,1,1,18,62,136,397
+r5.2,AE-user,0,verdicts 14 days late,own,3,0,73,51,0,0,24,52,138,352
+r5.2,AE-user,0,verdicts 14 days late,generic,3,0,73,51,0,0,13,52,138,352
+r5.2,AE-user,0,no backfill,own,3,0,73,41,1,0,12,42,122,325
+r5.2,AE-user,0,no backfill,generic,3,0,73,41,1,0,7,42,122,325
+r5.2,AE-user,0,defense: re-check 10% of suppressed alerts,own,3,0,73,60,7,0,42,62,123,542
+r5.2,AE-user,0,defense: re-check 10% of suppressed alerts,generic,3,0,73,60,11,0,52,62,123,542
+r5.2,AE-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),own,3,0,73,64,3,0,40,65,138,494
+r5.2,AE-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),generic,3,0,73,64,6,0,35,65,138,494
+r5.2,AE-user,0,defense: 3-day cooldown after clearing a score >= 0.99,own,3,0,73,61,8,1,46,62,124,578
+r5.2,AE-user,0,defense: 3-day cooldown after clearing a score >= 0.99,generic,3,0,73,61,13,2,46,62,124,578
+r5.2,AE-user,0,global (no cooldown),own,3,0,73,45,0,0,20,46,133,325
+r5.2,AE-user,0,global (no cooldown),generic,3,0,73,45,0,0,10,46,133,325
+r5.2,AE-user,0,insider-level verdicts,own,3,0,73,63,7,0,43,66,122,694
+r5.2,AE-user,0,insider-level verdicts,generic,3,0,73,63,12,0,49,66,122,694
+r5.2,GBM-user,0,"cooldown 30 d, override 0.999",own,3,0,73,73,0,0,146,76,25,570
+r5.2,GBM-user,0,"cooldown 30 d, override 0.999",generic,3,0,73,73,0,0,140,76,25,570
+r5.2,GBM-user,0,no override,own,3,0,73,55,10,0,53,57,9,586
+r5.2,GBM-user,0,no override,generic,3,0,73,55,10,0,53,57,9,586
+r5.2,GBM-user,0,verdicts 7 days late,own,3,0,73,73,0,0,184,76,131,366
+r5.2,GBM-user,0,verdicts 7 days late,generic,3,0,73,73,0,0,184,76,131,366
+r5.2,GBM-user,0,verdicts 14 days late,own,3,0,73,73,0,0,179,76,124,276
+r5.2,GBM-user,0,verdicts 14 days late,generic,3,0,73,73,0,0,180,76,124,276
+r5.2,GBM-user,0,no backfill,own,3,0,73,73,0,0,143,76,24,225
+r5.2,GBM-user,0,no backfill,generic,3,0,73,73,0,0,138,76,24,225
+r5.2,GBM-user,0,defense: re-check 10% of suppressed alerts,own,3,0,73,73,1,0,151,76,32,508
+r5.2,GBM-user,0,defense: re-check 10% of suppressed alerts,generic,3,0,73,73,0,0,148,76,32,508
+r5.2,GBM-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),own,3,0,73,73,0,0,176,76,77,474
+r5.2,GBM-user,0,defense: farming-signature monitor (score >= 0.99 within 7 days of a clearance),generic,3,0,73,73,0,0,178,76,77,474
+r5.2,GBM-user,0,defense: 3-day cooldown after clearing a score >= 0.99,own,3,0,73,73,0,0,150,76,44,515
+r5.2,GBM-user,0,defense: 3-day cooldown after clearing a score >= 0.99,generic,3,0,73,73,0,0,142,76,44,515
+r5.2,GBM-user,0,global (no cooldown),own,3,0,73,73,0,0,178,76,99,225
+r5.2,GBM-user,0,global (no cooldown),generic,3,0,73,73,0,0,173,76,99,225
+r5.2,GBM-user,0,insider-level verdicts,own,3,0,73,73,0,0,145,76,25,559
+r5.2,GBM-user,0,insider-level verdicts,generic,3,0,73,73,0,0,138,76,25,559

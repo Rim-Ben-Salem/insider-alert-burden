@@ -1,0 +1,25 @@
+\begin{table}[!t]
+\caption{Discount Farming Against the Cooldown, With Probes Rescored, Capped at the Role's 99th Percentile and Always Cleared: Share of Insiders Detected Without Farming Who Evade With It (\%, Best of Four Configurations per Run, Pooled Over IF, AE, LR and GBM and Their Seeds), Insiders Detected Without Farming (Summed Over the Eight Settings, Seed Means) and Mean $\max F_i$ ($b=1\%$; Farmers: the 45 of 51 r4.2 and 73 of 76 r5.2 Insiders With a Benign Test Day Before Their First Malicious Day)\label{tab:farm}}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+ & \multicolumn{3}{c}{Evade (\%)} & & \\
+\cmidrule(lr){2-4}
+Variant & r4.2 & r5.2 & All & Detected & $\max F_i$ \\
+\midrule
+Cooldown (30 d, override $0.999$) & 10 & 15 & 12.6 & 393 & 36 \\
+\quad without override & 31 & 22 & 26.1 & 344 & 9 \\
+\quad verdicts $7$ days late & 7 & 11 & 9.0 & 395 & 40 \\
+\quad verdicts $14$ days late & 6 & 10 & 8.3 & 369 & 46 \\
+\quad no override, verdicts $7$ days late & 23 & 20 & 20.9 & 382 & 30 \\
+\quad probes during the episode confirmed & 8 & 14 & 11.5 & 405 & 36 \\
+\quad suppressed alerts not replaced & 6 & 11 & 8.2 & 279 & 36 \\
+\quad re-check $10\%$ of suppressed alerts & 13 & 15 & 14.2 & 383 & 47 \\
+\quad escalate $s\ge0.99$ within $7$ d of a clearance & 9 & 12 & 10.3 & 372 & 115 \\
+\quad $3$-d cooldown after clearing $s\ge0.99$ & 10 & 14 & 11.7 & 401 & 57 \\
+Global policy & 1 & 0 & 0.5 & 294 & 126 \\
+\bottomrule
+\end{tabular}}
+\end{table}

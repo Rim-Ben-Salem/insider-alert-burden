@@ -1,0 +1,1460 @@
+\begin{table*}[!t]
+\caption{Timing Attacks With Behavioral Relocation and Rescoring, All Attackers (r4.2, $b=1\%$, $\delta=0.002$). Detected Under the Parity Rule P and the Global Policy G Without and With the Attack (Mean Over Draws); Excess Loss With the Mean of Per-Draw Paired Bootstrap Intervals and the Range Over Draws\label{tab:e-l1-r42}}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllccccccc}
+\toprule
+Det. & Parity rule & Attacker & P & G & P, attacked & G, attacked & Excess & 95\% & Range \\
+\midrule
+GBM & B4 label-free & knows allocation & 50 & 49 & 37.2 & 44.8 & 8.6 & [2.8, 14.8] & 5.0--11.0 \\
+GBM & B4 label-free & observes colleagues & 50 & 49 & 44.0 & 46.2 & 3.2 & [-1.8, 8.4] & 3.0--4.0 \\
+GBM & B4 label-free & reads reports & 50 & 49 & 46.6 & 47.4 & 1.8 & [-1.8, 5.8] & 1.0--5.0 \\
+GBM & B4 label-free & estimates deficit & 50 & 49 & 44.4 & 48.2 & 4.8 & [-0.4, 10.2] & 3.0--8.0 \\
+GBM & B4 label-free & random & 50 & 49 & 47.8 & 48.8 & 2.0 & [-2.0, 6.1] & 0.0--5.0 \\
+GBM & B4c outcome-aware & knows allocation & 49 & 49 & 44.2 & 46.6 & 2.4 & [-2.0, 6.8] & 1.0--4.0 \\
+GBM & B4c outcome-aware & observes colleagues & 49 & 49 & 45.8 & 47.0 & 1.2 & [-3.8, 6.4] & 1.0--2.0 \\
+GBM & B4c outcome-aware & reads reports & 49 & 49 & 47.6 & 48.6 & 1.0 & [-2.4, 4.4] & -2.0--4.0 \\
+GBM & B4c outcome-aware & estimates deficit & 49 & 49 & 44.0 & 44.6 & 0.6 & [-3.2, 4.2] & -1.0--2.0 \\
+GBM & B4c outcome-aware & random & 49 & 49 & 47.5 & 48.8 & 1.3 & [-2.4, 5.2] & 0.0--4.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & knows allocation & 49 & 49 & 33.6 & 41.6 & 8.0 & [1.8, 14.4] & 6.0--10.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & observes colleagues & 49 & 49 & 45.0 & 47.2 & 2.2 & [-1.8, 6.4] & 2.0--3.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & reads reports & 49 & 49 & 45.6 & 48.0 & 2.4 & [-2.0, 7.2] & 1.0--4.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & estimates deficit & 49 & 49 & 43.8 & 46.6 & 2.8 & [-2.2, 7.6] & -1.0--5.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & random & 49 & 49 & 47.8 & 48.8 & 1.0 & [-2.0, 4.5] & -2.0--4.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & knows allocation & 49 & 49 & 42.8 & 47.4 & 4.6 & [-1.4, 10.8] & 2.0--7.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & observes colleagues & 49 & 49 & 43.8 & 47.0 & 3.2 & [-2.6, 9.2] & 3.0--4.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & reads reports & 49 & 49 & 45.8 & 48.6 & 2.8 & [-2.0, 8.0] & 0.0--6.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & estimates deficit & 49 & 49 & 37.8 & 44.2 & 6.4 & [0.0, 12.8] & 4.0--8.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & random & 49 & 49 & 46.9 & 48.8 & 1.9 & [-3.1, 7.1] & 0.0--4.0 \\
+LSTM & B4 label-free & knows allocation & 32 & 36 & 32.0 & 36.0 & 0.0 & [-4.8, 4.6] & -2.0--2.0 \\
+LSTM & B4 label-free & observes colleagues & 32 & 36 & 30.0 & 35.0 & 1.0 & [-3.0, 5.0] & 1.0--1.0 \\
+LSTM & B4 label-free & reads reports & 32 & 36 & 32.0 & 34.2 & -1.8 & [-5.6, 1.6] & -5.0--0.0 \\
+LSTM & B4 label-free & estimates deficit & 32 & 36 & 29.8 & 34.6 & 0.8 & [-4.2, 5.6] & -1.0--4.0 \\
+LSTM & B4 label-free & random & 32 & 36 & 33.5 & 35.3 & -2.2 & [-6.7, 1.9] & -5.0--2.0 \\
+LSTM & B4c outcome-aware & knows allocation & 34 & 36 & 32.2 & 33.6 & -0.6 & [-5.8, 4.8] & -2.0--1.0 \\
+LSTM & B4c outcome-aware & observes colleagues & 34 & 36 & 30.0 & 36.4 & 4.4 & [-2.2, 11.0] & 4.0--5.0 \\
+LSTM & B4c outcome-aware & reads reports & 34 & 36 & 33.8 & 36.6 & 0.8 & [-3.0, 4.6] & -1.0--3.0 \\
+LSTM & B4c outcome-aware & estimates deficit & 34 & 36 & 31.4 & 34.8 & 1.4 & [-2.4, 5.4] & 0.0--4.0 \\
+LSTM & B4c outcome-aware & random & 34 & 36 & 33.7 & 35.3 & -0.4 & [-5.1, 4.2] & -4.0--3.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & knows allocation & 32 & 36 & 31.8 & 37.2 & 1.4 & [-4.2, 6.6] & 0.0--3.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & observes colleagues & 32 & 36 & 33.0 & 35.0 & -2.0 & [-6.0, 2.0] & -2.0---2.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & reads reports & 32 & 36 & 33.0 & 37.2 & 0.2 & [-3.4, 3.8] & -1.0--1.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & estimates deficit & 32 & 36 & 30.2 & 33.4 & -0.8 & [-4.8, 3.0] & -1.0--0.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & random & 32 & 36 & 34.6 & 35.3 & -3.3 & [-8.2, 1.1] & -7.0---1.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & knows allocation & 32 & 36 & 31.6 & 34.2 & -1.4 & [-8.0, 5.0] & -4.0--0.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & observes colleagues & 32 & 36 & 28.0 & 35.2 & 3.2 & [-3.0, 9.6] & 3.0--4.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & reads reports & 32 & 36 & 34.0 & 36.4 & -1.6 & [-7.2, 4.4] & -5.0--1.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & estimates deficit & 32 & 36 & 31.2 & 34.2 & -1.0 & [-7.8, 5.8] & -3.0--2.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & random & 32 & 36 & 33.1 & 35.3 & -1.8 & [-7.9, 4.1] & -6.0--2.0 \\
+AE & B4 label-free & knows allocation & 33 & 33 & 34.6 & 38.4 & 3.8 & [-1.6, 9.6] & 2.0--5.0 \\
+AE & B4 label-free & observes colleagues & 33 & 33 & 31.0 & 29.0 & -2.0 & [-7.0, 3.0] & -2.0---2.0 \\
+AE & B4 label-free & reads reports & 33 & 33 & 35.4 & 35.0 & -0.4 & [-5.2, 4.6] & -3.0--2.0 \\
+AE & B4 label-free & estimates deficit & 33 & 33 & 28.2 & 33.2 & 5.0 & [0.0, 10.4] & 3.0--7.0 \\
+AE & B4 label-free & random & 33 & 33 & 36.9 & 36.5 & -0.4 & [-5.6, 4.8] & -4.0--2.0 \\
+AE & B4c outcome-aware & knows allocation & 33 & 33 & 32.8 & 35.6 & 2.8 & [-2.6, 8.6] & 0.0--5.0 \\
+AE & B4c outcome-aware & observes colleagues & 33 & 33 & 34.0 & 34.0 & 0.0 & [-5.0, 5.0] & 0.0--0.0 \\
+AE & B4c outcome-aware & reads reports & 33 & 33 & 35.4 & 36.0 & 0.6 & [-3.6, 5.0] & 0.0--1.0 \\
+AE & B4c outcome-aware & estimates deficit & 33 & 33 & 35.8 & 38.2 & 2.4 & [-2.2, 7.2] & 0.0--5.0 \\
+AE & B4c outcome-aware & random & 33 & 33 & 37.9 & 36.5 & -1.4 & [-5.7, 2.7] & -5.0--2.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & knows allocation & 32 & 33 & 28.6 & 32.6 & 3.0 & [-2.6, 8.6] & 1.0--5.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & observes colleagues & 32 & 33 & 36.0 & 40.0 & 3.0 & [-2.0, 8.0] & 3.0--3.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & reads reports & 32 & 33 & 35.2 & 35.2 & -1.0 & [-5.6, 3.8] & -3.0--1.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & estimates deficit & 32 & 33 & 36.2 & 39.2 & 2.0 & [-3.0, 7.2] & -2.0--7.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & random & 32 & 33 & 37.0 & 36.5 & -1.5 & [-6.4, 3.3] & -5.0--1.0 \\
+AE & B11c deficit apportionment (outcome-aware) & knows allocation & 33 & 33 & 29.0 & 36.8 & 7.8 & [0.8, 15.0] & 4.0--11.0 \\
+AE & B11c deficit apportionment (outcome-aware) & observes colleagues & 33 & 33 & 36.0 & 36.0 & 0.0 & [-5.0, 5.0] & 0.0--0.0 \\
+AE & B11c deficit apportionment (outcome-aware) & reads reports & 33 & 33 & 37.6 & 36.8 & -0.8 & [-6.6, 5.0] & -2.0--1.0 \\
+AE & B11c deficit apportionment (outcome-aware) & estimates deficit & 33 & 33 & 29.2 & 34.6 & 5.4 & [-1.4, 12.2] & 3.0--8.0 \\
+AE & B11c deficit apportionment (outcome-aware) & random & 33 & 33 & 37.2 & 36.5 & -0.7 & [-6.1, 4.6] & -5.0--2.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Timing Attacks With Behavioral Relocation and Rescoring, All Attackers (r5.2, $b=1\%$, $\delta=0.002$). Detected Under the Parity Rule P and the Global Policy G Without and With the Attack (Mean Over Draws); Excess Loss With the Mean of Per-Draw Paired Bootstrap Intervals and the Range Over Draws\label{tab:e-l1-r52}}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllccccccc}
+\toprule
+Det. & Parity rule & Attacker & P & G & P, attacked & G, attacked & Excess & 95\% & Range \\
+\midrule
+GBM & B4 label-free & knows allocation & 72 & 75 & 62.2 & 73.4 & 8.2 & [2.0, 15.0] & 7.0--9.0 \\
+GBM & B4 label-free & observes colleagues & 72 & 75 & 63.0 & 75.0 & 9.0 & [2.6, 16.0] & 9.0--9.0 \\
+GBM & B4 label-free & reads reports & 72 & 75 & 66.4 & 71.4 & 2.0 & [-2.6, 6.6] & 1.0--3.0 \\
+GBM & B4 label-free & estimates deficit & 72 & 75 & 61.0 & 69.8 & 5.8 & [0.4, 12.2] & 4.0--9.0 \\
+GBM & B4 label-free & random & 72 & 75 & 70.9 & 74.7 & 0.8 & [-3.1, 4.6] & -1.0--3.0 \\
+GBM & B4c outcome-aware & knows allocation & 71 & 75 & 63.6 & 70.4 & 2.8 & [-2.4, 8.2] & 0.0--5.0 \\
+GBM & B4c outcome-aware & observes colleagues & 71 & 75 & 63.8 & 75.0 & 7.2 & [2.0, 13.2] & 7.0--8.0 \\
+GBM & B4c outcome-aware & reads reports & 71 & 75 & 67.8 & 71.4 & -0.4 & [-4.4, 3.0] & -1.0--1.0 \\
+GBM & B4c outcome-aware & estimates deficit & 71 & 75 & 63.8 & 70.0 & 2.2 & [-2.4, 7.4] & 1.0--4.0 \\
+GBM & B4c outcome-aware & random & 71 & 75 & 70.2 & 74.7 & 0.5 & [-2.3, 3.4] & -1.0--4.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & knows allocation & 72 & 75 & 55.0 & 66.0 & 8.0 & [2.0, 14.6] & 6.0--10.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & observes colleagues & 72 & 75 & 66.0 & 74.0 & 5.0 & [-1.0, 11.0] & 5.0--5.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & reads reports & 72 & 75 & 65.8 & 72.0 & 3.2 & [-1.2, 8.2] & 1.0--6.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & estimates deficit & 72 & 75 & 63.2 & 73.4 & 7.2 & [2.4, 12.6] & 6.0--8.0 \\
+GBM & B4c outcome-aware, 7-day verdict delay & random & 72 & 75 & 69.8 & 74.7 & 1.9 & [-1.3, 5.6] & 0.0--4.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & knows allocation & 71 & 75 & 68.8 & 74.0 & 1.2 & [-3.0, 5.6] & 0.0--2.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & observes colleagues & 71 & 75 & 56.0 & 67.0 & 7.0 & [-1.0, 15.8] & 7.0--7.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & reads reports & 71 & 75 & 66.6 & 72.0 & 1.4 & [-3.8, 7.0] & 0.0--4.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & estimates deficit & 71 & 75 & 60.4 & 69.6 & 5.2 & [-0.4, 11.6] & 4.0--7.0 \\
+GBM & B11c deficit apportionment (outcome-aware) & random & 71 & 75 & 69.7 & 74.7 & 1.0 & [-3.0, 5.1] & -1.0--4.0 \\
+LSTM & B4 label-free & knows allocation & 48 & 47 & 37.8 & 42.4 & 5.6 & [-1.2, 12.8] & 4.0--7.0 \\
+LSTM & B4 label-free & observes colleagues & 48 & 47 & 35.0 & 44.0 & 10.0 & [5.0, 16.0] & 10.0--10.0 \\
+LSTM & B4 label-free & reads reports & 48 & 47 & 38.8 & 40.4 & 2.6 & [-1.2, 7.0] & 1.0--5.0 \\
+LSTM & B4 label-free & estimates deficit & 48 & 47 & 37.0 & 45.2 & 9.2 & [3.2, 15.2] & 7.0--13.0 \\
+LSTM & B4 label-free & random & 48 & 47 & 43.2 & 43.9 & 1.7 & [-2.7, 6.2] & -2.0--4.0 \\
+LSTM & B4c outcome-aware & knows allocation & 49 & 47 & 37.2 & 42.6 & 7.4 & [0.8, 14.2] & 6.0--9.0 \\
+LSTM & B4c outcome-aware & observes colleagues & 49 & 47 & 37.0 & 44.0 & 9.0 & [3.6, 16.0] & 9.0--9.0 \\
+LSTM & B4c outcome-aware & reads reports & 49 & 47 & 38.4 & 39.8 & 3.4 & [-1.2, 8.4] & 2.0--5.0 \\
+LSTM & B4c outcome-aware & estimates deficit & 49 & 47 & 37.0 & 44.2 & 9.2 & [3.6, 15.8] & 4.0--14.0 \\
+LSTM & B4c outcome-aware & random & 49 & 47 & 42.2 & 43.9 & 3.7 & [-1.2, 8.9] & 0.0--8.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & knows allocation & 48 & 47 & 39.4 & 43.0 & 4.6 & [-1.2, 10.6] & 3.0--6.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & observes colleagues & 48 & 47 & 39.0 & 45.0 & 7.0 & [2.4, 12.0] & 7.0--7.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & reads reports & 48 & 47 & 39.8 & 41.4 & 2.6 & [-1.8, 7.2] & 2.0--4.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & estimates deficit & 48 & 47 & 34.8 & 43.0 & 9.2 & [2.8, 16.4] & 5.0--13.0 \\
+LSTM & B4c outcome-aware, 7-day verdict delay & random & 48 & 47 & 42.5 & 43.9 & 2.4 & [-2.0, 7.2] & 0.0--6.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & knows allocation & 46 & 47 & 37.0 & 46.6 & 8.6 & [1.0, 16.6] & 6.0--11.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & observes colleagues & 46 & 47 & 31.0 & 40.0 & 8.0 & [0.2, 16.0] & 8.0--8.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & reads reports & 46 & 47 & 39.4 & 41.0 & 0.6 & [-6.0, 7.2] & -2.0--4.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & estimates deficit & 46 & 47 & 36.4 & 42.0 & 4.6 & [-3.2, 12.2] & 3.0--6.0 \\
+LSTM & B11c deficit apportionment (outcome-aware) & random & 46 & 47 & 41.3 & 43.9 & 1.6 & [-6.0, 9.3] & -4.0--7.0 \\
+AE & B4 label-free & knows allocation & 58 & 61 & 54.0 & 61.8 & 4.8 & [-1.6, 11.6] & 3.0--8.0 \\
+AE & B4 label-free & observes colleagues & 58 & 61 & 56.0 & 61.0 & 2.0 & [-5.0, 9.0] & 2.0--2.0 \\
+AE & B4 label-free & reads reports & 58 & 61 & 57.4 & 61.4 & 1.0 & [-5.0, 7.4] & -1.0--2.0 \\
+AE & B4 label-free & estimates deficit & 58 & 61 & 47.8 & 58.0 & 7.2 & [0.4, 14.4] & 3.0--10.0 \\
+AE & B4 label-free & random & 58 & 61 & 58.8 & 61.0 & -0.8 & [-6.3, 4.7] & -4.0--2.0 \\
+AE & B4c outcome-aware & knows allocation & 58 & 61 & 59.6 & 61.2 & -1.4 & [-6.2, 3.4] & -3.0--0.0 \\
+AE & B4c outcome-aware & observes colleagues & 58 & 61 & 56.0 & 60.0 & 1.0 & [-4.0, 6.0] & 1.0--1.0 \\
+AE & B4c outcome-aware & reads reports & 58 & 61 & 58.8 & 62.6 & 0.8 & [-4.8, 6.6] & -1.0--3.0 \\
+AE & B4c outcome-aware & estimates deficit & 58 & 61 & 54.0 & 58.2 & 1.2 & [-5.2, 7.8] & -1.0--4.0 \\
+AE & B4c outcome-aware & random & 58 & 61 & 58.3 & 61.0 & -0.3 & [-5.5, 4.7] & -4.0--4.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & knows allocation & 58 & 61 & 57.4 & 60.6 & 0.2 & [-6.0, 6.4] & -4.0--5.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & observes colleagues & 58 & 61 & 50.0 & 59.0 & 6.0 & [0.0, 12.0] & 6.0--6.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & reads reports & 58 & 61 & 58.6 & 62.6 & 1.0 & [-5.0, 7.0] & -1.0--3.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & estimates deficit & 58 & 61 & 51.8 & 56.6 & 1.8 & [-4.6, 8.4] & 0.0--5.0 \\
+AE & B4c outcome-aware, 7-day verdict delay & random & 58 & 61 & 58.9 & 61.0 & -0.9 & [-6.4, 4.6] & -5.0--3.0 \\
+AE & B11c deficit apportionment (outcome-aware) & knows allocation & 56 & 61 & 57.4 & 60.8 & -1.6 & [-6.4, 3.0] & -3.0---1.0 \\
+AE & B11c deficit apportionment (outcome-aware) & observes colleagues & 56 & 61 & 55.0 & 61.0 & 1.0 & [-4.0, 6.0] & 1.0--1.0 \\
+AE & B11c deficit apportionment (outcome-aware) & reads reports & 56 & 61 & 60.2 & 62.8 & -2.4 & [-7.8, 2.8] & -4.0---1.0 \\
+AE & B11c deficit apportionment (outcome-aware) & estimates deficit & 56 & 61 & 55.4 & 61.2 & 0.8 & [-5.2, 6.6] & -2.0--5.0 \\
+AE & B11c deficit apportionment (outcome-aware) & random & 56 & 61 & 58.8 & 61.0 & -2.8 & [-8.4, 2.6] & -8.0--2.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{longtable}{lllllccccccc}
+\caption{Realistic Discount Farming, All Settings (r4.2; Probes Capped at the Role's Benign 99th Percentile and Rescored; Mean of Three Draws When $p<1$). Det.: Detected Without Farming; Probed: Farmers With an Alerted Probe; Attack Det.: Attack Days Alerted; Exposed: a Probe Confirmed; Caught: Either\label{tab:e-l3-r42}}\\
+\toprule
+Det. & Knowl. & $n$ & $p$ & Policy & Det. & Probed & Attack det. & Exposed & Caught & Evaded & Gained \\
+\midrule
+\endfirsthead
+\toprule
+Det. & Knowl. & $n$ & $p$ & Policy & Det. & Probed & Attack det. & Exposed & Caught & Evaded & Gained \\
+\midrule
+\endhead
+GBM & own & 1 & 1.0 & B0 global & 43 & 20.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + scheduling & 44 & 21.0 & 44.0 & 0.0 & 44.0 & 0.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + cooldown 30 days & 43 & 21.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 35 & 12.0 & 27.0 & 0.0 & 27.0 & 9.0 & 1.0 \\
+GBM & own & 1 & 1.0 & B11c + cooldown 30 days & 40 & 19.0 & 40.0 & 0.0 & 40.0 & 0.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 global & 43 & 28.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 + scheduling & 44 & 29.0 & 44.0 & 0.0 & 44.0 & 1.0 & 1.0 \\
+GBM & own & 3 & 1.0 & B0 + cooldown 30 days & 43 & 29.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 35 & 20.0 & 22.0 & 0.0 & 22.0 & 14.0 & 1.0 \\
+GBM & own & 3 & 1.0 & B11c + cooldown 30 days & 40 & 29.0 & 39.0 & 0.0 & 39.0 & 1.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 global & 43 & 29.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 + scheduling & 44 & 29.0 & 45.0 & 0.0 & 45.0 & 0.0 & 1.0 \\
+GBM & own & 5 & 1.0 & B0 + cooldown 30 days & 43 & 30.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 35 & 23.0 & 23.0 & 0.0 & 23.0 & 13.0 & 1.0 \\
+GBM & own & 5 & 1.0 & B11c + cooldown 30 days & 40 & 32.0 & 40.0 & 0.0 & 40.0 & 0.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 global & 43 & 21.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + scheduling & 44 & 23.0 & 43.0 & 0.0 & 43.0 & 1.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + cooldown 30 days & 43 & 18.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 35 & 16.0 & 23.0 & 0.0 & 23.0 & 12.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B11c + cooldown 30 days & 40 & 18.0 & 39.0 & 0.0 & 39.0 & 1.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 global & 43 & 32.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + scheduling & 44 & 33.0 & 43.0 & 0.0 & 43.0 & 1.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + cooldown 30 days & 43 & 38.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 35 & 26.0 & 17.0 & 0.0 & 17.0 & 18.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B11c + cooldown 30 days & 40 & 33.0 & 40.0 & 0.0 & 40.0 & 0.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 global & 43 & 34.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + scheduling & 44 & 35.0 & 43.0 & 0.0 & 43.0 & 1.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + cooldown 30 days & 43 & 40.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 35 & 30.0 & 17.0 & 0.0 & 17.0 & 18.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B11c + cooldown 30 days & 40 & 35.0 & 40.0 & 0.0 & 40.0 & 0.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 global & 43 & 20.0 & 43.0 & 0.0 & 43.0 & 0.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + scheduling & 44 & 22.0 & 44.0 & 0.0 & 44.0 & 0.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + cooldown 30 days & 43 & 23.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 35 & 20.0 & 20.0 & 0.0 & 20.0 & 15.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B11c + cooldown 30 days & 40 & 23.0 & 39.0 & 0.0 & 39.0 & 1.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 global & 43 & 26.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 + scheduling & 44 & 29.0 & 44.0 & 0.0 & 44.0 & 0.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 + cooldown 30 days & 43 & 32.0 & 43.0 & 0.0 & 43.0 & 1.0 & 1.0 \\
+GBM & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 35 & 25.0 & 17.0 & 0.0 & 17.0 & 18.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B11c + cooldown 30 days & 40 & 28.0 & 40.0 & 0.0 & 40.0 & 2.0 & 2.0 \\
+GBM & generic & 5 & 1.0 & B0 global & 43 & 29.0 & 42.0 & 0.0 & 42.0 & 1.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 + scheduling & 44 & 33.0 & 44.0 & 0.0 & 44.0 & 0.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 + cooldown 30 days & 43 & 33.0 & 43.0 & 0.0 & 43.0 & 1.0 & 1.0 \\
+GBM & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 35 & 29.0 & 17.0 & 0.0 & 17.0 & 18.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B11c + cooldown 30 days & 40 & 31.0 & 41.0 & 0.0 & 41.0 & 0.0 & 1.0 \\
+GBM & own & 3 & 0.5 & B0 global & 43 & 28.0 & 43.0 & 22.0 & 43.7 & 0.0 & 0.7 \\
+GBM & own & 3 & 0.5 & B0 + scheduling & 44 & 29.0 & 43.7 & 21.0 & 44.3 & 0.7 & 1.0 \\
+GBM & own & 3 & 0.5 & B0 + cooldown 30 days & 43 & 30.0 & 43.3 & 20.0 & 43.3 & 0.0 & 0.3 \\
+GBM & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 35 & 19.7 & 24.7 & 10.0 & 30.0 & 6.7 & 1.7 \\
+GBM & own & 3 & 0.5 & B11c + cooldown 30 days & 40 & 30.0 & 41.0 & 20.0 & 41.3 & 0.3 & 1.7 \\
+GBM & own & 3 & 0.8 & B0 global & 43 & 28.0 & 43.0 & 12.7 & 43.3 & 0.0 & 0.3 \\
+GBM & own & 3 & 0.8 & B0 + scheduling & 44 & 29.0 & 43.7 & 11.0 & 43.7 & 1.0 & 0.7 \\
+GBM & own & 3 & 0.8 & B0 + cooldown 30 days & 43 & 29.7 & 43.3 & 9.3 & 43.3 & 0.0 & 0.3 \\
+GBM & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 35 & 20.0 & 23.3 & 4.3 & 25.0 & 11.7 & 1.7 \\
+GBM & own & 3 & 0.8 & B11c + cooldown 30 days & 40 & 30.7 & 40.3 & 9.0 & 41.0 & 0.7 & 1.7 \\
+GBM & scenario & 3 & 0.5 & B0 global & 43 & 32.0 & 42.0 & 22.7 & 43.0 & 1.0 & 1.0 \\
+GBM & scenario & 3 & 0.5 & B0 + scheduling & 44 & 33.0 & 43.3 & 23.0 & 43.7 & 0.7 & 0.3 \\
+GBM & scenario & 3 & 0.5 & B0 + cooldown 30 days & 43 & 36.7 & 42.7 & 23.3 & 43.7 & 0.7 & 1.3 \\
+GBM & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 35 & 25.7 & 23.3 & 12.3 & 28.0 & 9.7 & 2.7 \\
+GBM & scenario & 3 & 0.5 & B11c + cooldown 30 days & 40 & 33.7 & 40.7 & 19.7 & 41.0 & 1.0 & 2.0 \\
+GBM & scenario & 3 & 0.8 & B0 global & 43 & 32.0 & 42.0 & 12.0 & 42.3 & 1.0 & 0.3 \\
+GBM & scenario & 3 & 0.8 & B0 + scheduling & 44 & 33.0 & 43.0 & 8.7 & 44.3 & 0.0 & 0.3 \\
+GBM & scenario & 3 & 0.8 & B0 + cooldown 30 days & 43 & 37.7 & 42.7 & 10.0 & 43.3 & 1.0 & 1.3 \\
+GBM & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 35 & 25.7 & 18.0 & 6.7 & 23.0 & 13.0 & 1.0 \\
+GBM & scenario & 3 & 0.8 & B11c + cooldown 30 days & 40 & 33.7 & 40.0 & 7.3 & 40.3 & 0.3 & 0.7 \\
+GBM & generic & 3 & 0.5 & B0 global & 43 & 26.0 & 42.0 & 15.3 & 42.3 & 1.0 & 0.3 \\
+GBM & generic & 3 & 0.5 & B0 + scheduling & 44 & 29.0 & 44.0 & 19.7 & 44.0 & 0.0 & 0.0 \\
+GBM & generic & 3 & 0.5 & B0 + cooldown 30 days & 43 & 31.7 & 43.3 & 19.7 & 43.3 & 0.7 & 1.0 \\
+GBM & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 35 & 25.0 & 24.7 & 12.7 & 29.3 & 7.7 & 2.0 \\
+GBM & generic & 3 & 0.5 & B11c + cooldown 30 days & 40 & 29.3 & 40.3 & 19.3 & 40.7 & 1.3 & 2.0 \\
+GBM & generic & 3 & 0.8 & B0 global & 43 & 26.0 & 42.0 & 9.0 & 42.0 & 1.0 & 0.0 \\
+GBM & generic & 3 & 0.8 & B0 + scheduling & 44 & 29.0 & 44.0 & 7.3 & 44.0 & 0.0 & 0.0 \\
+GBM & generic & 3 & 0.8 & B0 + cooldown 30 days & 43 & 32.0 & 43.0 & 10.0 & 43.0 & 1.0 & 1.0 \\
+GBM & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 35 & 24.3 & 20.0 & 7.7 & 24.7 & 11.7 & 1.3 \\
+GBM & generic & 3 & 0.8 & B11c + cooldown 30 days & 40 & 30.0 & 40.7 & 8.7 & 40.7 & 0.7 & 1.3 \\
+AE & own & 1 & 1.0 & B0 global & 32 & 4.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & own & 1 & 1.0 & B0 + scheduling & 35 & 3.0 & 34.0 & 0.0 & 34.0 & 1.0 & 0.0 \\
+AE & own & 1 & 1.0 & B0 + cooldown 30 days & 32 & 9.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 24 & 7.0 & 20.0 & 0.0 & 20.0 & 4.0 & 0.0 \\
+AE & own & 1 & 1.0 & B11c + cooldown 30 days & 31 & 7.0 & 29.0 & 0.0 & 29.0 & 2.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 global & 32 & 9.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 + scheduling & 35 & 10.0 & 35.0 & 0.0 & 35.0 & 1.0 & 1.0 \\
+AE & own & 3 & 1.0 & B0 + cooldown 30 days & 32 & 19.0 & 28.0 & 0.0 & 28.0 & 4.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 24 & 17.0 & 20.0 & 0.0 & 20.0 & 4.0 & 0.0 \\
+AE & own & 3 & 1.0 & B11c + cooldown 30 days & 31 & 17.0 & 26.0 & 0.0 & 26.0 & 5.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 global & 32 & 11.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 + scheduling & 35 & 14.0 & 35.0 & 0.0 & 35.0 & 1.0 & 1.0 \\
+AE & own & 5 & 1.0 & B0 + cooldown 30 days & 32 & 24.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 24 & 18.0 & 20.0 & 0.0 & 20.0 & 4.0 & 0.0 \\
+AE & own & 5 & 1.0 & B11c + cooldown 30 days & 31 & 21.0 & 27.0 & 0.0 & 27.0 & 5.0 & 1.0 \\
+AE & scenario & 1 & 1.0 & B0 global & 32 & 3.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B0 + scheduling & 35 & 3.0 & 35.0 & 0.0 & 35.0 & 0.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B0 + cooldown 30 days & 32 & 8.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 24 & 6.0 & 22.0 & 0.0 & 22.0 & 2.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B11c + cooldown 30 days & 31 & 6.0 & 29.0 & 0.0 & 29.0 & 2.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 global & 32 & 14.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 + scheduling & 35 & 14.0 & 34.0 & 0.0 & 34.0 & 1.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 + cooldown 30 days & 32 & 16.0 & 28.0 & 0.0 & 28.0 & 4.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 24 & 15.0 & 22.0 & 0.0 & 22.0 & 2.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B11c + cooldown 30 days & 31 & 15.0 & 27.0 & 0.0 & 27.0 & 7.0 & 3.0 \\
+AE & scenario & 5 & 1.0 & B0 global & 32 & 16.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + scheduling & 35 & 18.0 & 34.0 & 0.0 & 34.0 & 1.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + cooldown 30 days & 32 & 24.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 24 & 21.0 & 22.0 & 0.0 & 22.0 & 2.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B11c + cooldown 30 days & 31 & 22.0 & 27.0 & 0.0 & 27.0 & 5.0 & 1.0 \\
+AE & generic & 1 & 1.0 & B0 global & 32 & 3.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B0 + scheduling & 35 & 2.0 & 35.0 & 0.0 & 35.0 & 0.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B0 + cooldown 30 days & 32 & 7.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 24 & 6.0 & 22.0 & 0.0 & 22.0 & 2.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B11c + cooldown 30 days & 31 & 5.0 & 29.0 & 0.0 & 29.0 & 2.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 global & 32 & 7.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + scheduling & 35 & 9.0 & 35.0 & 0.0 & 35.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + cooldown 30 days & 32 & 15.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 24 & 14.0 & 23.0 & 0.0 & 23.0 & 2.0 & 1.0 \\
+AE & generic & 3 & 1.0 & B11c + cooldown 30 days & 31 & 13.0 & 29.0 & 0.0 & 29.0 & 2.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 global & 32 & 10.0 & 32.0 & 0.0 & 32.0 & 0.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + scheduling & 35 & 12.0 & 35.0 & 0.0 & 35.0 & 0.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + cooldown 30 days & 32 & 26.0 & 29.0 & 0.0 & 29.0 & 3.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 24 & 23.0 & 22.0 & 0.0 & 22.0 & 2.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B11c + cooldown 30 days & 31 & 19.0 & 27.0 & 0.0 & 27.0 & 5.0 & 1.0 \\
+AE & own & 3 & 0.5 & B0 global & 32 & 9.0 & 32.0 & 4.3 & 32.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.5 & B0 + scheduling & 35 & 10.0 & 36.0 & 5.0 & 36.0 & 0.0 & 1.0 \\
+AE & own & 3 & 0.5 & B0 + cooldown 30 days & 32 & 19.3 & 28.3 & 9.7 & 33.0 & 2.3 & 3.3 \\
+AE & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 24 & 16.0 & 22.7 & 6.0 & 25.3 & 3.3 & 4.7 \\
+AE & own & 3 & 0.5 & B11c + cooldown 30 days & 31 & 17.7 & 28.7 & 9.0 & 33.0 & 3.0 & 5.0 \\
+AE & own & 3 & 0.8 & B0 global & 32 & 9.0 & 32.0 & 2.7 & 32.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.8 & B0 + scheduling & 35 & 10.0 & 35.0 & 3.3 & 35.3 & 0.7 & 1.0 \\
+AE & own & 3 & 0.8 & B0 + cooldown 30 days & 32 & 19.0 & 27.7 & 2.0 & 29.3 & 3.7 & 1.0 \\
+AE & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 24 & 16.3 & 20.3 & 2.0 & 22.0 & 3.7 & 1.7 \\
+AE & own & 3 & 0.8 & B11c + cooldown 30 days & 31 & 17.3 & 27.3 & 2.0 & 27.7 & 4.3 & 1.0 \\
+AE & scenario & 3 & 0.5 & B0 global & 32 & 14.0 & 32.0 & 6.7 & 33.3 & 0.0 & 1.3 \\
+AE & scenario & 3 & 0.5 & B0 + scheduling & 35 & 14.0 & 34.7 & 6.7 & 36.3 & 0.0 & 1.3 \\
+AE & scenario & 3 & 0.5 & B0 + cooldown 30 days & 32 & 15.0 & 31.3 & 7.0 & 33.0 & 2.0 & 3.0 \\
+AE & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 24 & 15.0 & 24.3 & 4.7 & 26.0 & 2.0 & 4.0 \\
+AE & scenario & 3 & 0.5 & B11c + cooldown 30 days & 31 & 16.3 & 27.3 & 7.0 & 30.0 & 4.0 & 3.0 \\
+AE & scenario & 3 & 0.8 & B0 global & 32 & 14.0 & 32.0 & 4.0 & 33.7 & 0.0 & 1.7 \\
+AE & scenario & 3 & 0.8 & B0 + scheduling & 35 & 14.0 & 34.3 & 2.7 & 35.0 & 0.7 & 0.7 \\
+AE & scenario & 3 & 0.8 & B0 + cooldown 30 days & 32 & 16.0 & 28.0 & 1.7 & 28.3 & 3.7 & 0.0 \\
+AE & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 24 & 15.0 & 22.7 & 1.7 & 23.7 & 2.0 & 1.7 \\
+AE & scenario & 3 & 0.8 & B11c + cooldown 30 days & 31 & 15.3 & 27.0 & 2.0 & 27.7 & 6.0 & 2.7 \\
+AE & generic & 3 & 0.5 & B0 global & 32 & 7.0 & 32.0 & 3.0 & 32.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 0.5 & B0 + scheduling & 35 & 9.0 & 35.3 & 4.0 & 36.3 & 0.0 & 1.3 \\
+AE & generic & 3 & 0.5 & B0 + cooldown 30 days & 32 & 16.7 & 31.3 & 10.7 & 34.0 & 2.0 & 4.0 \\
+AE & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 24 & 15.0 & 27.3 & 7.7 & 29.0 & 1.3 & 6.3 \\
+AE & generic & 3 & 0.5 & B11c + cooldown 30 days & 31 & 11.7 & 29.3 & 6.0 & 31.3 & 2.3 & 2.7 \\
+AE & generic & 3 & 0.8 & B0 global & 32 & 7.0 & 32.0 & 2.7 & 32.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 0.8 & B0 + scheduling & 35 & 9.0 & 35.0 & 2.0 & 35.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 0.8 & B0 + cooldown 30 days & 32 & 15.0 & 29.7 & 2.0 & 30.3 & 2.3 & 0.7 \\
+AE & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 24 & 14.3 & 23.0 & 2.0 & 25.0 & 1.7 & 2.7 \\
+AE & generic & 3 & 0.8 & B11c + cooldown 30 days & 31 & 12.0 & 28.0 & 2.0 & 29.0 & 4.0 & 2.0 \\
+LR & own & 1 & 1.0 & B0 global & 39 & 5.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + scheduling & 39 & 8.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + cooldown 30 days & 39 & 11.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 28 & 12.0 & 19.0 & 0.0 & 19.0 & 9.0 & 0.0 \\
+LR & own & 1 & 1.0 & B11c + cooldown 30 days & 39 & 9.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & own & 3 & 1.0 & B0 global & 39 & 14.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & own & 3 & 1.0 & B0 + scheduling & 39 & 22.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & own & 3 & 1.0 & B0 + cooldown 30 days & 39 & 21.0 & 38.0 & 0.0 & 38.0 & 2.0 & 1.0 \\
+LR & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 28 & 20.0 & 18.0 & 0.0 & 18.0 & 10.0 & 0.0 \\
+LR & own & 3 & 1.0 & B11c + cooldown 30 days & 39 & 20.0 & 38.0 & 0.0 & 38.0 & 2.0 & 1.0 \\
+LR & own & 5 & 1.0 & B0 global & 39 & 18.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & own & 5 & 1.0 & B0 + scheduling & 39 & 27.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & own & 5 & 1.0 & B0 + cooldown 30 days & 39 & 22.0 & 38.0 & 0.0 & 38.0 & 2.0 & 1.0 \\
+LR & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 28 & 22.0 & 18.0 & 0.0 & 18.0 & 10.0 & 0.0 \\
+LR & own & 5 & 1.0 & B11c + cooldown 30 days & 39 & 24.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 global & 39 & 7.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + scheduling & 39 & 17.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + cooldown 30 days & 39 & 11.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 28 & 10.0 & 20.0 & 0.0 & 20.0 & 8.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B11c + cooldown 30 days & 39 & 8.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 global & 39 & 21.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + scheduling & 39 & 28.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + cooldown 30 days & 39 & 24.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 28 & 21.0 & 18.0 & 0.0 & 18.0 & 10.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B11c + cooldown 30 days & 39 & 23.0 & 36.0 & 0.0 & 36.0 & 3.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 global & 39 & 22.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + scheduling & 39 & 29.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + cooldown 30 days & 39 & 26.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 28 & 23.0 & 18.0 & 0.0 & 18.0 & 10.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B11c + cooldown 30 days & 39 & 26.0 & 36.0 & 0.0 & 36.0 & 3.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B0 global & 39 & 25.0 & 39.0 & 0.0 & 39.0 & 0.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B0 + scheduling & 39 & 26.0 & 40.0 & 0.0 & 40.0 & 0.0 & 1.0 \\
+LR & generic & 1 & 1.0 & B0 + cooldown 30 days & 39 & 19.0 & 34.0 & 0.0 & 34.0 & 5.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 28 & 16.0 & 16.0 & 0.0 & 16.0 & 12.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B11c + cooldown 30 days & 39 & 17.0 & 37.0 & 0.0 & 37.0 & 2.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 global & 39 & 38.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 + scheduling & 39 & 39.0 & 40.0 & 0.0 & 40.0 & 0.0 & 1.0 \\
+LR & generic & 3 & 1.0 & B0 + cooldown 30 days & 39 & 33.0 & 35.0 & 0.0 & 35.0 & 4.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 28 & 24.0 & 16.0 & 0.0 & 16.0 & 12.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B11c + cooldown 30 days & 39 & 31.0 & 36.0 & 0.0 & 36.0 & 3.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B0 global & 39 & 38.0 & 38.0 & 0.0 & 38.0 & 1.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B0 + scheduling & 39 & 41.0 & 40.0 & 0.0 & 40.0 & 0.0 & 1.0 \\
+LR & generic & 5 & 1.0 & B0 + cooldown 30 days & 39 & 35.0 & 34.0 & 0.0 & 34.0 & 5.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 28 & 27.0 & 16.0 & 0.0 & 16.0 & 12.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B11c + cooldown 30 days & 39 & 36.0 & 35.0 & 0.0 & 35.0 & 4.0 & 0.0 \\
+LR & own & 3 & 0.5 & B0 global & 39 & 14.0 & 38.0 & 9.0 & 39.0 & 1.0 & 1.0 \\
+LR & own & 3 & 0.5 & B0 + scheduling & 39 & 22.0 & 39.0 & 11.7 & 41.0 & 0.0 & 2.0 \\
+LR & own & 3 & 0.5 & B0 + cooldown 30 days & 39 & 22.0 & 38.3 & 13.3 & 38.7 & 1.3 & 1.0 \\
+LR & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 28 & 20.3 & 21.7 & 8.0 & 25.0 & 5.7 & 2.7 \\
+LR & own & 3 & 0.5 & B11c + cooldown 30 days & 39 & 22.3 & 38.0 & 8.3 & 38.3 & 1.0 & 0.3 \\
+LR & own & 3 & 0.8 & B0 global & 39 & 14.0 & 38.0 & 4.3 & 38.0 & 1.0 & 0.0 \\
+LR & own & 3 & 0.8 & B0 + scheduling & 39 & 22.0 & 39.0 & 4.7 & 39.0 & 0.0 & 0.0 \\
+LR & own & 3 & 0.8 & B0 + cooldown 30 days & 39 & 21.0 & 38.3 & 2.3 & 38.3 & 1.7 & 1.0 \\
+LR & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 28 & 20.0 & 19.0 & 3.3 & 21.0 & 8.0 & 1.0 \\
+LR & own & 3 & 0.8 & B11c + cooldown 30 days & 39 & 21.3 & 37.3 & 2.7 & 37.3 & 2.0 & 0.3 \\
+LR & scenario & 3 & 0.5 & B0 global & 39 & 21.0 & 38.0 & 13.7 & 39.3 & 0.7 & 1.0 \\
+LR & scenario & 3 & 0.5 & B0 + scheduling & 39 & 28.0 & 39.0 & 15.0 & 40.0 & 0.0 & 1.0 \\
+LR & scenario & 3 & 0.5 & B0 + cooldown 30 days & 39 & 24.7 & 38.3 & 12.3 & 38.7 & 1.0 & 0.7 \\
+LR & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 28 & 21.0 & 22.0 & 8.7 & 25.0 & 5.7 & 2.7 \\
+LR & scenario & 3 & 0.5 & B11c + cooldown 30 days & 39 & 22.7 & 36.0 & 12.3 & 36.7 & 2.7 & 0.3 \\
+LR & scenario & 3 & 0.8 & B0 global & 39 & 21.0 & 38.0 & 6.7 & 38.3 & 1.0 & 0.3 \\
+LR & scenario & 3 & 0.8 & B0 + scheduling & 39 & 28.0 & 39.0 & 4.7 & 39.3 & 0.0 & 0.3 \\
+LR & scenario & 3 & 0.8 & B0 + cooldown 30 days & 39 & 24.3 & 37.7 & 5.7 & 37.7 & 1.7 & 0.3 \\
+LR & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 28 & 21.0 & 20.3 & 5.7 & 22.7 & 7.3 & 2.0 \\
+LR & scenario & 3 & 0.8 & B11c + cooldown 30 days & 39 & 22.7 & 37.3 & 4.7 & 37.7 & 2.3 & 1.0 \\
+LR & generic & 3 & 0.5 & B0 global & 39 & 38.0 & 38.0 & 27.0 & 41.0 & 1.0 & 3.0 \\
+LR & generic & 3 & 0.5 & B0 + scheduling & 39 & 38.7 & 40.0 & 24.7 & 42.7 & 0.0 & 3.7 \\
+LR & generic & 3 & 0.5 & B0 + cooldown 30 days & 39 & 33.3 & 35.7 & 20.3 & 38.0 & 2.0 & 1.0 \\
+LR & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 28 & 25.7 & 19.3 & 14.3 & 27.7 & 5.0 & 4.7 \\
+LR & generic & 3 & 0.5 & B11c + cooldown 30 days & 39 & 30.7 & 36.7 & 15.7 & 39.0 & 1.7 & 1.7 \\
+LR & generic & 3 & 0.8 & B0 global & 39 & 38.0 & 38.0 & 15.0 & 39.3 & 1.0 & 1.3 \\
+LR & generic & 3 & 0.8 & B0 + scheduling & 39 & 38.7 & 40.0 & 11.0 & 41.0 & 0.0 & 2.0 \\
+LR & generic & 3 & 0.8 & B0 + cooldown 30 days & 39 & 33.0 & 35.0 & 9.3 & 36.7 & 2.7 & 0.3 \\
+LR & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 28 & 25.3 & 15.0 & 4.0 & 18.3 & 10.7 & 1.0 \\
+LR & generic & 3 & 0.8 & B11c + cooldown 30 days & 39 & 31.7 & 36.0 & 7.7 & 37.7 & 2.7 & 1.3 \\
+IF & own & 1 & 1.0 & B0 global & 8 & 5.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + scheduling & 14 & 6.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + cooldown 30 days & 21 & 4.0 & 21.0 & 0.0 & 21.0 & 0.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 21 & 5.0 & 20.0 & 0.0 & 20.0 & 1.0 & 0.0 \\
+IF & own & 1 & 1.0 & B11c + cooldown 30 days & 22 & 5.0 & 22.0 & 0.0 & 22.0 & 1.0 & 1.0 \\
+IF & own & 3 & 1.0 & B0 global & 8 & 10.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + scheduling & 14 & 14.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + cooldown 30 days & 21 & 14.0 & 21.0 & 0.0 & 21.0 & 0.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 21 & 16.0 & 19.0 & 0.0 & 19.0 & 2.0 & 0.0 \\
+IF & own & 3 & 1.0 & B11c + cooldown 30 days & 22 & 13.0 & 20.0 & 0.0 & 20.0 & 2.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 global & 8 & 13.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + scheduling & 14 & 17.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + cooldown 30 days & 21 & 19.0 & 21.0 & 0.0 & 21.0 & 0.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 21 & 20.0 & 19.0 & 0.0 & 19.0 & 2.0 & 0.0 \\
+IF & own & 5 & 1.0 & B11c + cooldown 30 days & 22 & 17.0 & 20.0 & 0.0 & 20.0 & 2.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 global & 8 & 5.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + scheduling & 14 & 8.0 & 13.0 & 0.0 & 13.0 & 1.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + cooldown 30 days & 21 & 8.0 & 20.0 & 0.0 & 20.0 & 1.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 21 & 6.0 & 20.0 & 0.0 & 20.0 & 1.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B11c + cooldown 30 days & 22 & 7.0 & 20.0 & 0.0 & 20.0 & 2.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 global & 8 & 11.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + scheduling & 14 & 17.0 & 12.0 & 0.0 & 12.0 & 2.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + cooldown 30 days & 21 & 18.0 & 19.0 & 0.0 & 19.0 & 2.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 21 & 17.0 & 19.0 & 0.0 & 19.0 & 2.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B11c + cooldown 30 days & 22 & 14.0 & 21.0 & 0.0 & 21.0 & 1.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 global & 8 & 14.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + scheduling & 14 & 20.0 & 12.0 & 0.0 & 12.0 & 2.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + cooldown 30 days & 21 & 22.0 & 19.0 & 0.0 & 19.0 & 2.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 21 & 21.0 & 20.0 & 0.0 & 20.0 & 1.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B11c + cooldown 30 days & 22 & 19.0 & 20.0 & 0.0 & 20.0 & 2.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 global & 8 & 5.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + scheduling & 14 & 8.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + cooldown 30 days & 21 & 13.0 & 18.0 & 0.0 & 18.0 & 3.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 21 & 9.0 & 18.0 & 0.0 & 18.0 & 3.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B11c + cooldown 30 days & 22 & 7.0 & 20.0 & 0.0 & 20.0 & 2.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 global & 8 & 9.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + scheduling & 14 & 18.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + cooldown 30 days & 21 & 21.0 & 18.0 & 0.0 & 18.0 & 3.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 21 & 21.0 & 17.0 & 0.0 & 17.0 & 4.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B11c + cooldown 30 days & 22 & 15.0 & 17.0 & 0.0 & 17.0 & 5.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 global & 8 & 12.0 & 8.0 & 0.0 & 8.0 & 0.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 + scheduling & 14 & 24.0 & 14.0 & 0.0 & 14.0 & 0.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 + cooldown 30 days & 21 & 25.0 & 18.0 & 0.0 & 18.0 & 3.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 21 & 23.0 & 17.0 & 0.0 & 17.0 & 4.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B11c + cooldown 30 days & 22 & 19.0 & 19.0 & 0.0 & 19.0 & 3.0 & 0.0 \\
+IF & own & 3 & 0.5 & B0 global & 8 & 10.0 & 8.0 & 7.0 & 11.7 & 0.0 & 3.7 \\
+IF & own & 3 & 0.5 & B0 + scheduling & 14 & 14.0 & 14.0 & 6.7 & 18.0 & 0.0 & 4.0 \\
+IF & own & 3 & 0.5 & B0 + cooldown 30 days & 21 & 14.0 & 23.3 & 6.3 & 26.3 & 0.0 & 5.3 \\
+IF & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 21 & 15.7 & 22.7 & 10.0 & 27.7 & 0.0 & 6.7 \\
+IF & own & 3 & 0.5 & B11c + cooldown 30 days & 22 & 13.7 & 21.3 & 5.7 & 24.3 & 2.3 & 4.7 \\
+IF & own & 3 & 0.8 & B0 global & 8 & 10.0 & 8.0 & 3.3 & 9.3 & 0.0 & 1.3 \\
+IF & own & 3 & 0.8 & B0 + scheduling & 14 & 14.0 & 14.0 & 4.3 & 17.0 & 0.0 & 3.0 \\
+IF & own & 3 & 0.8 & B0 + cooldown 30 days & 21 & 14.0 & 21.7 & 2.3 & 23.3 & 0.0 & 2.3 \\
+IF & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 21 & 16.0 & 19.7 & 3.3 & 22.0 & 1.0 & 2.0 \\
+IF & own & 3 & 0.8 & B11c + cooldown 30 days & 22 & 13.3 & 21.0 & 3.0 & 22.3 & 2.0 & 2.3 \\
+IF & scenario & 3 & 0.5 & B0 global & 8 & 11.0 & 8.0 & 6.3 & 12.3 & 0.0 & 4.3 \\
+IF & scenario & 3 & 0.5 & B0 + scheduling & 14 & 17.0 & 12.3 & 9.7 & 18.3 & 0.7 & 5.0 \\
+IF & scenario & 3 & 0.5 & B0 + cooldown 30 days & 21 & 19.3 & 21.7 & 11.3 & 26.7 & 1.7 & 7.3 \\
+IF & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 21 & 17.3 & 21.3 & 10.0 & 26.7 & 0.7 & 6.3 \\
+IF & scenario & 3 & 0.5 & B11c + cooldown 30 days & 22 & 14.3 & 22.0 & 9.0 & 28.0 & 1.3 & 7.3 \\
+IF & scenario & 3 & 0.8 & B0 global & 8 & 11.0 & 8.0 & 4.0 & 10.3 & 0.0 & 2.3 \\
+IF & scenario & 3 & 0.8 & B0 + scheduling & 14 & 17.0 & 12.3 & 6.0 & 16.0 & 1.0 & 3.0 \\
+IF & scenario & 3 & 0.8 & B0 + cooldown 30 days & 21 & 18.0 & 19.7 & 3.7 & 22.0 & 2.0 & 3.0 \\
+IF & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 21 & 17.0 & 20.0 & 4.3 & 22.0 & 1.7 & 2.7 \\
+IF & scenario & 3 & 0.8 & B11c + cooldown 30 days & 22 & 15.0 & 21.7 & 3.7 & 25.0 & 1.0 & 4.0 \\
+IF & generic & 3 & 0.5 & B0 global & 8 & 9.0 & 8.0 & 4.7 & 10.3 & 0.0 & 2.3 \\
+IF & generic & 3 & 0.5 & B0 + scheduling & 14 & 18.7 & 13.3 & 10.3 & 19.7 & 0.7 & 6.3 \\
+IF & generic & 3 & 0.5 & B0 + cooldown 30 days & 21 & 21.7 & 21.3 & 13.0 & 27.0 & 1.7 & 7.7 \\
+IF & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 21 & 21.3 & 18.3 & 9.0 & 23.7 & 2.7 & 5.3 \\
+IF & generic & 3 & 0.5 & B11c + cooldown 30 days & 22 & 17.3 & 20.7 & 9.0 & 27.0 & 2.3 & 7.3 \\
+IF & generic & 3 & 0.8 & B0 global & 8 & 9.0 & 8.0 & 2.7 & 9.0 & 0.0 & 1.0 \\
+IF & generic & 3 & 0.8 & B0 + scheduling & 14 & 18.3 & 13.7 & 5.0 & 16.3 & 0.3 & 2.7 \\
+IF & generic & 3 & 0.8 & B0 + cooldown 30 days & 21 & 22.0 & 19.0 & 4.7 & 21.3 & 2.0 & 2.3 \\
+IF & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 21 & 21.0 & 17.3 & 5.0 & 21.0 & 3.7 & 3.7 \\
+IF & generic & 3 & 0.8 & B11c + cooldown 30 days & 22 & 15.3 & 18.0 & 2.3 & 20.3 & 4.0 & 2.3 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lllllccccccc}
+\caption{Realistic Discount Farming, All Settings (r5.2; Probes Capped at the Role's Benign 99th Percentile and Rescored; Mean of Three Draws When $p<1$). Det.: Detected Without Farming; Probed: Farmers With an Alerted Probe; Attack Det.: Attack Days Alerted; Exposed: a Probe Confirmed; Caught: Either\label{tab:e-l3-r52}}\\
+\toprule
+Det. & Knowl. & $n$ & $p$ & Policy & Det. & Probed & Attack det. & Exposed & Caught & Evaded & Gained \\
+\midrule
+\endfirsthead
+\toprule
+Det. & Knowl. & $n$ & $p$ & Policy & Det. & Probed & Attack det. & Exposed & Caught & Evaded & Gained \\
+\midrule
+\endhead
+GBM & own & 1 & 1.0 & B0 global & 72 & 51.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + scheduling & 72 & 55.0 & 71.0 & 0.0 & 71.0 & 1.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + cooldown 30 days & 72 & 53.0 & 67.0 & 0.0 & 67.0 & 5.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 58 & 40.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & own & 1 & 1.0 & B11c + cooldown 30 days & 67 & 48.0 & 65.0 & 0.0 & 65.0 & 2.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 global & 72 & 61.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 + scheduling & 72 & 63.0 & 71.0 & 0.0 & 71.0 & 1.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 + cooldown 30 days & 72 & 67.0 & 67.0 & 0.0 & 67.0 & 5.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 58 & 48.0 & 44.0 & 0.0 & 44.0 & 14.0 & 0.0 \\
+GBM & own & 3 & 1.0 & B11c + cooldown 30 days & 67 & 64.0 & 65.0 & 0.0 & 65.0 & 3.0 & 1.0 \\
+GBM & own & 5 & 1.0 & B0 global & 72 & 63.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 + scheduling & 72 & 66.0 & 71.0 & 0.0 & 71.0 & 1.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 + cooldown 30 days & 72 & 69.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 58 & 54.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & own & 5 & 1.0 & B11c + cooldown 30 days & 67 & 65.0 & 65.0 & 0.0 & 65.0 & 3.0 & 1.0 \\
+GBM & scenario & 1 & 1.0 & B0 global & 72 & 56.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + scheduling & 72 & 58.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + cooldown 30 days & 72 & 54.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 58 & 39.0 & 42.0 & 0.0 & 42.0 & 16.0 & 0.0 \\
+GBM & scenario & 1 & 1.0 & B11c + cooldown 30 days & 67 & 51.0 & 64.0 & 0.0 & 64.0 & 3.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 global & 72 & 64.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + scheduling & 72 & 66.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + cooldown 30 days & 72 & 66.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 58 & 49.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & scenario & 3 & 1.0 & B11c + cooldown 30 days & 67 & 63.0 & 64.0 & 0.0 & 64.0 & 3.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 global & 72 & 66.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + scheduling & 72 & 68.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + cooldown 30 days & 72 & 67.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 58 & 54.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & scenario & 5 & 1.0 & B11c + cooldown 30 days & 67 & 66.0 & 64.0 & 0.0 & 64.0 & 3.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 global & 72 & 63.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + scheduling & 72 & 64.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + cooldown 30 days & 72 & 57.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 58 & 38.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & generic & 1 & 1.0 & B11c + cooldown 30 days & 67 & 57.0 & 64.0 & 0.0 & 64.0 & 3.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 global & 72 & 71.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 + scheduling & 72 & 71.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 + cooldown 30 days & 72 & 69.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 58 & 49.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & generic & 3 & 1.0 & B11c + cooldown 30 days & 67 & 67.0 & 64.0 & 0.0 & 64.0 & 3.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 global & 72 & 71.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 + scheduling & 72 & 71.0 & 72.0 & 0.0 & 72.0 & 0.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 + cooldown 30 days & 72 & 69.0 & 66.0 & 0.0 & 66.0 & 6.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 58 & 54.0 & 43.0 & 0.0 & 43.0 & 15.0 & 0.0 \\
+GBM & generic & 5 & 1.0 & B11c + cooldown 30 days & 67 & 69.0 & 65.0 & 0.0 & 65.0 & 3.0 & 1.0 \\
+GBM & own & 3 & 0.5 & B0 global & 72 & 61.0 & 72.0 & 47.3 & 73.0 & 0.0 & 1.0 \\
+GBM & own & 3 & 0.5 & B0 + scheduling & 72 & 63.0 & 71.0 & 51.3 & 71.7 & 0.3 & 0.0 \\
+GBM & own & 3 & 0.5 & B0 + cooldown 30 days & 72 & 67.0 & 68.0 & 45.0 & 69.3 & 3.3 & 0.7 \\
+GBM & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 58 & 49.0 & 49.0 & 24.3 & 56.0 & 8.0 & 6.0 \\
+GBM & own & 3 & 0.5 & B11c + cooldown 30 days & 67 & 65.3 & 67.3 & 49.0 & 69.7 & 1.0 & 3.7 \\
+GBM & own & 3 & 0.8 & B0 global & 72 & 61.0 & 72.0 & 22.7 & 72.0 & 0.0 & 0.0 \\
+GBM & own & 3 & 0.8 & B0 + scheduling & 72 & 63.0 & 71.0 & 25.3 & 71.3 & 1.0 & 0.3 \\
+GBM & own & 3 & 0.8 & B0 + cooldown 30 days & 72 & 67.0 & 67.0 & 19.0 & 67.3 & 4.7 & 0.0 \\
+GBM & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 58 & 48.0 & 45.3 & 9.0 & 48.0 & 12.7 & 2.7 \\
+GBM & own & 3 & 0.8 & B11c + cooldown 30 days & 67 & 64.0 & 64.7 & 23.7 & 65.3 & 2.0 & 0.3 \\
+GBM & scenario & 3 & 0.5 & B0 global & 72 & 64.0 & 72.0 & 49.3 & 73.0 & 0.0 & 1.0 \\
+GBM & scenario & 3 & 0.5 & B0 + scheduling & 72 & 66.0 & 72.0 & 51.0 & 73.0 & 0.0 & 1.0 \\
+GBM & scenario & 3 & 0.5 & B0 + cooldown 30 days & 72 & 65.7 & 67.3 & 44.3 & 70.0 & 2.7 & 0.7 \\
+GBM & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 58 & 50.0 & 46.3 & 22.3 & 55.3 & 8.0 & 5.3 \\
+GBM & scenario & 3 & 0.5 & B11c + cooldown 30 days & 67 & 64.7 & 66.0 & 42.7 & 67.3 & 1.7 & 2.0 \\
+GBM & scenario & 3 & 0.8 & B0 global & 72 & 64.0 & 72.0 & 27.7 & 73.0 & 0.0 & 1.0 \\
+GBM & scenario & 3 & 0.8 & B0 + scheduling & 72 & 66.0 & 72.0 & 27.7 & 72.3 & 0.0 & 0.3 \\
+GBM & scenario & 3 & 0.8 & B0 + cooldown 30 days & 72 & 66.0 & 66.0 & 24.7 & 66.3 & 5.7 & 0.0 \\
+GBM & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 58 & 49.3 & 43.3 & 8.3 & 46.3 & 14.0 & 2.3 \\
+GBM & scenario & 3 & 0.8 & B11c + cooldown 30 days & 67 & 63.7 & 64.0 & 20.3 & 64.3 & 2.7 & 0.0 \\
+GBM & generic & 3 & 0.5 & B0 global & 72 & 71.0 & 72.0 & 61.3 & 73.0 & 0.0 & 1.0 \\
+GBM & generic & 3 & 0.5 & B0 + scheduling & 72 & 71.0 & 72.0 & 55.0 & 72.7 & 0.0 & 0.7 \\
+GBM & generic & 3 & 0.5 & B0 + cooldown 30 days & 72 & 69.0 & 67.0 & 54.0 & 71.3 & 1.3 & 0.7 \\
+GBM & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 58 & 50.0 & 46.0 & 22.7 & 55.3 & 8.0 & 5.3 \\
+GBM & generic & 3 & 0.5 & B11c + cooldown 30 days & 67 & 68.3 & 66.0 & 50.0 & 71.0 & 0.0 & 4.0 \\
+GBM & generic & 3 & 0.8 & B0 global & 72 & 71.0 & 72.0 & 31.0 & 72.3 & 0.0 & 0.3 \\
+GBM & generic & 3 & 0.8 & B0 + scheduling & 72 & 71.0 & 72.0 & 31.0 & 72.3 & 0.0 & 0.3 \\
+GBM & generic & 3 & 0.8 & B0 + cooldown 30 days & 72 & 68.7 & 66.0 & 29.7 & 68.0 & 4.0 & 0.0 \\
+GBM & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 58 & 49.3 & 43.3 & 8.3 & 46.3 & 14.0 & 2.3 \\
+GBM & generic & 3 & 0.8 & B11c + cooldown 30 days & 67 & 67.0 & 64.3 & 25.0 & 67.0 & 1.3 & 1.3 \\
+AE & own & 1 & 1.0 & B0 global & 59 & 13.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & own & 1 & 1.0 & B0 + scheduling & 62 & 18.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & own & 1 & 1.0 & B0 + cooldown 30 days & 66 & 35.0 & 58.0 & 0.0 & 58.0 & 9.0 & 1.0 \\
+AE & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 56 & 34.0 & 47.0 & 0.0 & 47.0 & 11.0 & 2.0 \\
+AE & own & 1 & 1.0 & B11c + cooldown 30 days & 60 & 30.0 & 56.0 & 0.0 & 56.0 & 6.0 & 2.0 \\
+AE & own & 3 & 1.0 & B0 global & 59 & 19.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 + scheduling & 62 & 28.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 + cooldown 30 days & 66 & 44.0 & 57.0 & 0.0 & 57.0 & 9.0 & 0.0 \\
+AE & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 56 & 46.0 & 46.0 & 0.0 & 46.0 & 10.0 & 0.0 \\
+AE & own & 3 & 1.0 & B11c + cooldown 30 days & 60 & 42.0 & 55.0 & 0.0 & 55.0 & 6.0 & 1.0 \\
+AE & own & 5 & 1.0 & B0 global & 59 & 25.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 + scheduling & 62 & 30.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 + cooldown 30 days & 66 & 49.0 & 56.0 & 0.0 & 56.0 & 10.0 & 0.0 \\
+AE & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 56 & 49.0 & 46.0 & 0.0 & 46.0 & 10.0 & 0.0 \\
+AE & own & 5 & 1.0 & B11c + cooldown 30 days & 60 & 44.0 & 57.0 & 0.0 & 57.0 & 5.0 & 2.0 \\
+AE & scenario & 1 & 1.0 & B0 global & 59 & 19.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B0 + scheduling & 62 & 22.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & scenario & 1 & 1.0 & B0 + cooldown 30 days & 66 & 39.0 & 59.0 & 0.0 & 59.0 & 8.0 & 1.0 \\
+AE & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 56 & 36.0 & 46.0 & 0.0 & 46.0 & 11.0 & 1.0 \\
+AE & scenario & 1 & 1.0 & B11c + cooldown 30 days & 60 & 30.0 & 58.0 & 0.0 & 58.0 & 5.0 & 3.0 \\
+AE & scenario & 3 & 1.0 & B0 global & 59 & 27.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 + scheduling & 62 & 31.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B0 + cooldown 30 days & 66 & 44.0 & 59.0 & 0.0 & 59.0 & 8.0 & 1.0 \\
+AE & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 56 & 45.0 & 46.0 & 0.0 & 46.0 & 10.0 & 0.0 \\
+AE & scenario & 3 & 1.0 & B11c + cooldown 30 days & 60 & 40.0 & 58.0 & 0.0 & 58.0 & 4.0 & 2.0 \\
+AE & scenario & 5 & 1.0 & B0 global & 59 & 30.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + scheduling & 62 & 37.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + cooldown 30 days & 66 & 50.0 & 56.0 & 0.0 & 56.0 & 10.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 56 & 49.0 & 45.0 & 0.0 & 45.0 & 11.0 & 0.0 \\
+AE & scenario & 5 & 1.0 & B11c + cooldown 30 days & 60 & 42.0 & 58.0 & 0.0 & 58.0 & 4.0 & 2.0 \\
+AE & generic & 1 & 1.0 & B0 global & 59 & 10.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B0 + scheduling & 62 & 30.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & generic & 1 & 1.0 & B0 + cooldown 30 days & 66 & 46.0 & 56.0 & 0.0 & 56.0 & 11.0 & 1.0 \\
+AE & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 56 & 44.0 & 42.0 & 0.0 & 42.0 & 15.0 & 1.0 \\
+AE & generic & 1 & 1.0 & B11c + cooldown 30 days & 60 & 38.0 & 54.0 & 0.0 & 54.0 & 7.0 & 1.0 \\
+AE & generic & 3 & 1.0 & B0 global & 59 & 30.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + scheduling & 62 & 49.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + cooldown 30 days & 66 & 54.0 & 55.0 & 0.0 & 55.0 & 11.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 56 & 52.0 & 43.0 & 0.0 & 43.0 & 13.0 & 0.0 \\
+AE & generic & 3 & 1.0 & B11c + cooldown 30 days & 60 & 45.0 & 55.0 & 0.0 & 55.0 & 6.0 & 1.0 \\
+AE & generic & 5 & 1.0 & B0 global & 59 & 37.0 & 59.0 & 0.0 & 59.0 & 0.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + scheduling & 62 & 54.0 & 62.0 & 0.0 & 62.0 & 0.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + cooldown 30 days & 66 & 56.0 & 55.0 & 0.0 & 55.0 & 11.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 56 & 55.0 & 43.0 & 0.0 & 43.0 & 13.0 & 0.0 \\
+AE & generic & 5 & 1.0 & B11c + cooldown 30 days & 60 & 48.0 & 56.0 & 0.0 & 56.0 & 6.0 & 2.0 \\
+AE & own & 3 & 0.5 & B0 global & 59 & 19.0 & 59.0 & 13.7 & 59.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.5 & B0 + scheduling & 62 & 28.0 & 62.0 & 17.0 & 62.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.5 & B0 + cooldown 30 days & 66 & 45.7 & 59.0 & 24.0 & 62.0 & 4.3 & 0.3 \\
+AE & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 56 & 45.0 & 51.3 & 23.7 & 56.0 & 5.7 & 5.7 \\
+AE & own & 3 & 0.5 & B11c + cooldown 30 days & 60 & 42.3 & 58.7 & 21.7 & 61.7 & 1.3 & 3.0 \\
+AE & own & 3 & 0.8 & B0 global & 59 & 19.0 & 59.0 & 6.3 & 59.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.8 & B0 + scheduling & 62 & 28.0 & 62.0 & 7.7 & 62.0 & 0.0 & 0.0 \\
+AE & own & 3 & 0.8 & B0 + cooldown 30 days & 66 & 44.3 & 57.7 & 8.3 & 59.7 & 6.3 & 0.0 \\
+AE & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 56 & 46.0 & 47.3 & 9.3 & 50.0 & 7.3 & 1.3 \\
+AE & own & 3 & 0.8 & B11c + cooldown 30 days & 60 & 41.0 & 56.3 & 9.3 & 57.7 & 4.7 & 2.3 \\
+AE & scenario & 3 & 0.5 & B0 global & 59 & 27.0 & 59.0 & 20.0 & 59.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 0.5 & B0 + scheduling & 62 & 31.3 & 62.0 & 17.7 & 62.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 0.5 & B0 + cooldown 30 days & 66 & 45.3 & 60.7 & 20.3 & 63.0 & 4.0 & 1.0 \\
+AE & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 56 & 45.3 & 49.3 & 19.7 & 53.3 & 5.0 & 2.3 \\
+AE & scenario & 3 & 0.5 & B11c + cooldown 30 days & 60 & 41.0 & 58.7 & 19.7 & 61.3 & 2.3 & 3.7 \\
+AE & scenario & 3 & 0.8 & B0 global & 59 & 27.0 & 59.0 & 10.0 & 59.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 0.8 & B0 + scheduling & 62 & 31.3 & 62.0 & 8.3 & 62.0 & 0.0 & 0.0 \\
+AE & scenario & 3 & 0.8 & B0 + cooldown 30 days & 66 & 44.3 & 60.0 & 9.0 & 61.0 & 6.0 & 1.0 \\
+AE & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 56 & 45.0 & 46.3 & 13.0 & 51.3 & 7.3 & 2.7 \\
+AE & scenario & 3 & 0.8 & B11c + cooldown 30 days & 60 & 41.7 & 57.0 & 4.3 & 57.7 & 4.3 & 2.0 \\
+AE & generic & 3 & 0.5 & B0 global & 59 & 30.0 & 59.0 & 17.7 & 59.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 0.5 & B0 + scheduling & 62 & 48.3 & 62.0 & 26.0 & 63.0 & 0.0 & 1.0 \\
+AE & generic & 3 & 0.5 & B0 + cooldown 30 days & 66 & 53.7 & 58.3 & 25.7 & 62.7 & 4.7 & 1.3 \\
+AE & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 56 & 52.7 & 47.3 & 29.0 & 55.7 & 6.3 & 6.0 \\
+AE & generic & 3 & 0.5 & B11c + cooldown 30 days & 60 & 46.0 & 58.3 & 21.7 & 61.7 & 3.7 & 5.3 \\
+AE & generic & 3 & 0.8 & B0 global & 59 & 30.0 & 59.0 & 6.7 & 59.0 & 0.0 & 0.0 \\
+AE & generic & 3 & 0.8 & B0 + scheduling & 62 & 49.0 & 62.0 & 12.3 & 62.3 & 0.0 & 0.3 \\
+AE & generic & 3 & 0.8 & B0 + cooldown 30 days & 66 & 54.0 & 55.0 & 11.0 & 58.0 & 8.7 & 0.7 \\
+AE & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 56 & 52.0 & 43.3 & 12.0 & 47.7 & 11.0 & 2.7 \\
+AE & generic & 3 & 0.8 & B11c + cooldown 30 days & 60 & 45.7 & 55.0 & 7.7 & 55.7 & 5.7 & 1.3 \\
+LR & own & 1 & 1.0 & B0 global & 33 & 12.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + scheduling & 48 & 17.0 & 48.0 & 0.0 & 48.0 & 0.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + cooldown 30 days & 53 & 37.0 & 45.0 & 0.0 & 45.0 & 8.0 & 0.0 \\
+LR & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 50 & 33.0 & 41.0 & 0.0 & 41.0 & 9.0 & 0.0 \\
+LR & own & 1 & 1.0 & B11c + cooldown 30 days & 56 & 33.0 & 46.0 & 0.0 & 46.0 & 11.0 & 1.0 \\
+LR & own & 3 & 1.0 & B0 global & 33 & 14.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & own & 3 & 1.0 & B0 + scheduling & 48 & 20.0 & 48.0 & 0.0 & 48.0 & 0.0 & 0.0 \\
+LR & own & 3 & 1.0 & B0 + cooldown 30 days & 53 & 42.0 & 47.0 & 0.0 & 47.0 & 8.0 & 2.0 \\
+LR & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 50 & 44.0 & 43.0 & 0.0 & 43.0 & 9.0 & 2.0 \\
+LR & own & 3 & 1.0 & B11c + cooldown 30 days & 56 & 47.0 & 47.0 & 0.0 & 47.0 & 10.0 & 1.0 \\
+LR & own & 5 & 1.0 & B0 global & 33 & 19.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & own & 5 & 1.0 & B0 + scheduling & 48 & 23.0 & 47.0 & 0.0 & 47.0 & 1.0 & 0.0 \\
+LR & own & 5 & 1.0 & B0 + cooldown 30 days & 53 & 47.0 & 45.0 & 0.0 & 45.0 & 10.0 & 2.0 \\
+LR & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 50 & 45.0 & 42.0 & 0.0 & 42.0 & 10.0 & 2.0 \\
+LR & own & 5 & 1.0 & B11c + cooldown 30 days & 56 & 49.0 & 45.0 & 0.0 & 45.0 & 13.0 & 2.0 \\
+LR & scenario & 1 & 1.0 & B0 global & 33 & 10.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + scheduling & 48 & 18.0 & 48.0 & 0.0 & 48.0 & 0.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + cooldown 30 days & 53 & 42.0 & 44.0 & 0.0 & 44.0 & 9.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 50 & 36.0 & 40.0 & 0.0 & 40.0 & 10.0 & 0.0 \\
+LR & scenario & 1 & 1.0 & B11c + cooldown 30 days & 56 & 35.0 & 49.0 & 0.0 & 49.0 & 8.0 & 1.0 \\
+LR & scenario & 3 & 1.0 & B0 global & 33 & 12.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + scheduling & 48 & 26.0 & 47.0 & 0.0 & 47.0 & 1.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + cooldown 30 days & 53 & 48.0 & 44.0 & 0.0 & 44.0 & 9.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 50 & 46.0 & 40.0 & 0.0 & 40.0 & 10.0 & 0.0 \\
+LR & scenario & 3 & 1.0 & B11c + cooldown 30 days & 56 & 47.0 & 46.0 & 0.0 & 46.0 & 11.0 & 1.0 \\
+LR & scenario & 5 & 1.0 & B0 global & 33 & 16.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + scheduling & 48 & 30.0 & 47.0 & 0.0 & 47.0 & 1.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + cooldown 30 days & 53 & 51.0 & 43.0 & 0.0 & 43.0 & 10.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 50 & 47.0 & 39.0 & 0.0 & 39.0 & 11.0 & 0.0 \\
+LR & scenario & 5 & 1.0 & B11c + cooldown 30 days & 56 & 50.0 & 48.0 & 0.0 & 48.0 & 11.0 & 3.0 \\
+LR & generic & 1 & 1.0 & B0 global & 33 & 20.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B0 + scheduling & 48 & 25.0 & 48.0 & 0.0 & 48.0 & 0.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B0 + cooldown 30 days & 53 & 47.0 & 44.0 & 0.0 & 44.0 & 10.0 & 1.0 \\
+LR & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 50 & 39.0 & 40.0 & 0.0 & 40.0 & 10.0 & 0.0 \\
+LR & generic & 1 & 1.0 & B11c + cooldown 30 days & 56 & 45.0 & 44.0 & 0.0 & 44.0 & 12.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 global & 33 & 26.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 + scheduling & 48 & 35.0 & 48.0 & 0.0 & 48.0 & 0.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B0 + cooldown 30 days & 53 & 59.0 & 45.0 & 0.0 & 45.0 & 9.0 & 1.0 \\
+LR & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 50 & 50.0 & 40.0 & 0.0 & 40.0 & 10.0 & 0.0 \\
+LR & generic & 3 & 1.0 & B11c + cooldown 30 days & 56 & 62.0 & 45.0 & 0.0 & 45.0 & 12.0 & 1.0 \\
+LR & generic & 5 & 1.0 & B0 global & 33 & 31.0 & 33.0 & 0.0 & 33.0 & 0.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B0 + scheduling & 48 & 39.0 & 47.0 & 0.0 & 47.0 & 1.0 & 0.0 \\
+LR & generic & 5 & 1.0 & B0 + cooldown 30 days & 53 & 63.0 & 45.0 & 0.0 & 45.0 & 10.0 & 2.0 \\
+LR & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 50 & 50.0 & 40.0 & 0.0 & 40.0 & 11.0 & 1.0 \\
+LR & generic & 5 & 1.0 & B11c + cooldown 30 days & 56 & 64.0 & 42.0 & 0.0 & 42.0 & 14.0 & 0.0 \\
+LR & own & 3 & 0.5 & B0 global & 33 & 14.0 & 33.0 & 10.3 & 36.7 & 0.0 & 3.7 \\
+LR & own & 3 & 0.5 & B0 + scheduling & 48 & 20.0 & 48.0 & 13.7 & 48.0 & 0.0 & 0.0 \\
+LR & own & 3 & 0.5 & B0 + cooldown 30 days & 53 & 43.0 & 48.7 & 20.7 & 56.0 & 3.3 & 6.3 \\
+LR & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 50 & 42.7 & 46.3 & 22.0 & 52.7 & 5.3 & 8.0 \\
+LR & own & 3 & 0.5 & B11c + cooldown 30 days & 56 & 47.0 & 51.3 & 26.3 & 59.3 & 4.0 & 7.3 \\
+LR & own & 3 & 0.8 & B0 global & 33 & 14.0 & 33.0 & 2.7 & 33.7 & 0.0 & 0.7 \\
+LR & own & 3 & 0.8 & B0 + scheduling & 48 & 20.0 & 48.0 & 5.7 & 48.0 & 0.0 & 0.0 \\
+LR & own & 3 & 0.8 & B0 + cooldown 30 days & 53 & 42.3 & 47.3 & 12.7 & 53.7 & 5.3 & 6.0 \\
+LR & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 50 & 44.0 & 43.3 & 7.3 & 46.7 & 7.0 & 3.7 \\
+LR & own & 3 & 0.8 & B11c + cooldown 30 days & 56 & 48.3 & 48.0 & 13.3 & 53.0 & 8.7 & 5.7 \\
+LR & scenario & 3 & 0.5 & B0 global & 33 & 12.0 & 33.0 & 9.3 & 37.0 & 0.0 & 4.0 \\
+LR & scenario & 3 & 0.5 & B0 + scheduling & 48 & 25.3 & 47.0 & 17.0 & 49.7 & 1.0 & 2.7 \\
+LR & scenario & 3 & 0.5 & B0 + cooldown 30 days & 53 & 49.0 & 49.0 & 26.0 & 56.3 & 3.0 & 6.3 \\
+LR & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 50 & 45.7 & 43.7 & 22.7 & 52.0 & 5.0 & 7.0 \\
+LR & scenario & 3 & 0.5 & B11c + cooldown 30 days & 56 & 49.7 & 50.7 & 26.7 & 58.0 & 5.0 & 7.0 \\
+LR & scenario & 3 & 0.8 & B0 global & 33 & 12.0 & 33.0 & 4.7 & 34.7 & 0.0 & 1.7 \\
+LR & scenario & 3 & 0.8 & B0 + scheduling & 48 & 26.0 & 47.0 & 6.0 & 47.3 & 1.0 & 0.3 \\
+LR & scenario & 3 & 0.8 & B0 + cooldown 30 days & 53 & 48.7 & 45.3 & 8.7 & 49.0 & 7.3 & 3.3 \\
+LR & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 50 & 46.0 & 39.7 & 8.7 & 44.0 & 8.0 & 2.0 \\
+LR & scenario & 3 & 0.8 & B11c + cooldown 30 days & 56 & 48.3 & 47.3 & 12.7 & 52.7 & 6.3 & 3.0 \\
+LR & generic & 3 & 0.5 & B0 global & 33 & 26.0 & 33.0 & 17.0 & 35.7 & 0.0 & 2.7 \\
+LR & generic & 3 & 0.5 & B0 + scheduling & 48 & 35.0 & 47.7 & 23.0 & 50.0 & 0.0 & 2.0 \\
+LR & generic & 3 & 0.5 & B0 + cooldown 30 days & 53 & 60.3 & 48.0 & 32.7 & 57.7 & 4.0 & 8.7 \\
+LR & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 50 & 50.0 & 44.0 & 25.3 & 55.3 & 3.7 & 9.0 \\
+LR & generic & 3 & 0.5 & B11c + cooldown 30 days & 56 & 63.3 & 48.7 & 30.3 & 55.3 & 7.3 & 6.7 \\
+LR & generic & 3 & 0.8 & B0 global & 33 & 26.0 & 33.0 & 8.3 & 35.3 & 0.0 & 2.3 \\
+LR & generic & 3 & 0.8 & B0 + scheduling & 48 & 35.0 & 48.0 & 9.3 & 48.7 & 0.0 & 0.7 \\
+LR & generic & 3 & 0.8 & B0 + cooldown 30 days & 53 & 59.0 & 45.3 & 11.3 & 48.3 & 7.0 & 2.3 \\
+LR & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 50 & 50.0 & 40.3 & 10.7 & 43.7 & 8.7 & 2.3 \\
+LR & generic & 3 & 0.8 & B11c + cooldown 30 days & 56 & 61.0 & 44.7 & 14.0 & 50.0 & 9.3 & 3.3 \\
+IF & own & 1 & 1.0 & B0 global & 5 & 5.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + scheduling & 24 & 8.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + cooldown 30 days & 49 & 23.0 & 43.0 & 0.0 & 43.0 & 6.0 & 0.0 \\
+IF & own & 1 & 1.0 & B0 + cooldown 30 days, no override & 49 & 25.0 & 42.0 & 0.0 & 42.0 & 7.0 & 0.0 \\
+IF & own & 1 & 1.0 & B11c + cooldown 30 days & 48 & 22.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & own & 3 & 1.0 & B0 global & 5 & 10.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + scheduling & 24 & 17.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + cooldown 30 days & 49 & 36.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & own & 3 & 1.0 & B0 + cooldown 30 days, no override & 49 & 41.0 & 42.0 & 0.0 & 42.0 & 7.0 & 0.0 \\
+IF & own & 3 & 1.0 & B11c + cooldown 30 days & 48 & 36.0 & 38.0 & 0.0 & 38.0 & 11.0 & 1.0 \\
+IF & own & 5 & 1.0 & B0 global & 5 & 10.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + scheduling & 24 & 17.0 & 23.0 & 0.0 & 23.0 & 1.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + cooldown 30 days & 49 & 40.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & own & 5 & 1.0 & B0 + cooldown 30 days, no override & 49 & 45.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & own & 5 & 1.0 & B11c + cooldown 30 days & 48 & 40.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & scenario & 1 & 1.0 & B0 global & 5 & 4.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + scheduling & 24 & 9.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + cooldown 30 days & 49 & 28.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B0 + cooldown 30 days, no override & 49 & 29.0 & 40.0 & 0.0 & 40.0 & 9.0 & 0.0 \\
+IF & scenario & 1 & 1.0 & B11c + cooldown 30 days & 48 & 25.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & scenario & 3 & 1.0 & B0 global & 5 & 10.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + scheduling & 24 & 20.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + cooldown 30 days & 49 & 41.0 & 39.0 & 0.0 & 39.0 & 10.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B0 + cooldown 30 days, no override & 49 & 42.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & scenario & 3 & 1.0 & B11c + cooldown 30 days & 48 & 39.0 & 39.0 & 0.0 & 39.0 & 10.0 & 1.0 \\
+IF & scenario & 5 & 1.0 & B0 global & 5 & 10.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + scheduling & 24 & 20.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + cooldown 30 days & 49 & 44.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B0 + cooldown 30 days, no override & 49 & 46.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & scenario & 5 & 1.0 & B11c + cooldown 30 days & 48 & 46.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & generic & 1 & 1.0 & B0 global & 5 & 4.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + scheduling & 24 & 8.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + cooldown 30 days & 49 & 16.0 & 44.0 & 0.0 & 44.0 & 5.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B0 + cooldown 30 days, no override & 49 & 21.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & generic & 1 & 1.0 & B11c + cooldown 30 days & 48 & 20.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & generic & 3 & 1.0 & B0 global & 5 & 9.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + scheduling & 24 & 20.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + cooldown 30 days & 49 & 31.0 & 41.0 & 0.0 & 41.0 & 8.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B0 + cooldown 30 days, no override & 49 & 39.0 & 42.0 & 0.0 & 42.0 & 7.0 & 0.0 \\
+IF & generic & 3 & 1.0 & B11c + cooldown 30 days & 48 & 36.0 & 39.0 & 0.0 & 39.0 & 10.0 & 1.0 \\
+IF & generic & 5 & 1.0 & B0 global & 5 & 9.0 & 5.0 & 0.0 & 5.0 & 0.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 + scheduling & 24 & 22.0 & 24.0 & 0.0 & 24.0 & 0.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B0 + cooldown 30 days & 49 & 37.0 & 43.0 & 0.0 & 43.0 & 7.0 & 1.0 \\
+IF & generic & 5 & 1.0 & B0 + cooldown 30 days, no override & 49 & 42.0 & 43.0 & 0.0 & 43.0 & 6.0 & 0.0 \\
+IF & generic & 5 & 1.0 & B11c + cooldown 30 days & 48 & 41.0 & 40.0 & 0.0 & 40.0 & 9.0 & 1.0 \\
+IF & own & 3 & 0.5 & B0 global & 5 & 10.0 & 5.0 & 4.7 & 8.3 & 0.0 & 3.3 \\
+IF & own & 3 & 0.5 & B0 + scheduling & 24 & 17.0 & 24.0 & 10.3 & 27.7 & 0.0 & 3.7 \\
+IF & own & 3 & 0.5 & B0 + cooldown 30 days & 49 & 34.7 & 45.0 & 19.0 & 51.3 & 2.3 & 4.7 \\
+IF & own & 3 & 0.5 & B0 + cooldown 30 days, no override & 49 & 39.7 & 46.7 & 23.0 & 53.0 & 2.3 & 6.3 \\
+IF & own & 3 & 0.5 & B11c + cooldown 30 days & 48 & 38.0 & 42.7 & 21.3 & 48.0 & 9.0 & 9.0 \\
+IF & own & 3 & 0.8 & B0 global & 5 & 10.0 & 5.0 & 2.0 & 6.3 & 0.0 & 1.3 \\
+IF & own & 3 & 0.8 & B0 + scheduling & 24 & 17.0 & 24.0 & 3.7 & 25.3 & 0.0 & 1.3 \\
+IF & own & 3 & 0.8 & B0 + cooldown 30 days & 49 & 37.0 & 42.0 & 7.0 & 44.0 & 6.7 & 1.7 \\
+IF & own & 3 & 0.8 & B0 + cooldown 30 days, no override & 49 & 40.3 & 43.0 & 7.3 & 46.0 & 5.3 & 2.3 \\
+IF & own & 3 & 0.8 & B11c + cooldown 30 days & 48 & 35.0 & 38.7 & 7.0 & 42.3 & 9.3 & 3.7 \\
+IF & scenario & 3 & 0.5 & B0 global & 5 & 10.0 & 5.0 & 5.0 & 8.7 & 0.0 & 3.7 \\
+IF & scenario & 3 & 0.5 & B0 + scheduling & 24 & 20.0 & 24.0 & 13.3 & 30.0 & 0.0 & 6.0 \\
+IF & scenario & 3 & 0.5 & B0 + cooldown 30 days & 49 & 41.7 & 42.7 & 20.3 & 49.3 & 5.0 & 5.3 \\
+IF & scenario & 3 & 0.5 & B0 + cooldown 30 days, no override & 49 & 42.0 & 44.7 & 24.3 & 51.0 & 3.0 & 5.0 \\
+IF & scenario & 3 & 0.5 & B11c + cooldown 30 days & 48 & 38.3 & 40.7 & 19.3 & 46.7 & 8.3 & 7.0 \\
+IF & scenario & 3 & 0.8 & B0 global & 5 & 10.0 & 5.0 & 2.0 & 6.3 & 0.0 & 1.3 \\
+IF & scenario & 3 & 0.8 & B0 + scheduling & 24 & 20.0 & 24.0 & 5.0 & 25.7 & 0.0 & 1.7 \\
+IF & scenario & 3 & 0.8 & B0 + cooldown 30 days & 49 & 40.7 & 41.0 & 7.0 & 43.0 & 8.0 & 2.0 \\
+IF & scenario & 3 & 0.8 & B0 + cooldown 30 days, no override & 49 & 42.0 & 41.3 & 9.7 & 45.7 & 5.3 & 2.0 \\
+IF & scenario & 3 & 0.8 & B11c + cooldown 30 days & 48 & 38.0 & 38.0 & 8.0 & 42.0 & 9.7 & 3.7 \\
+IF & generic & 3 & 0.5 & B0 global & 5 & 9.0 & 5.0 & 4.3 & 8.0 & 0.0 & 3.0 \\
+IF & generic & 3 & 0.5 & B0 + scheduling & 24 & 20.0 & 24.0 & 11.7 & 30.7 & 0.0 & 6.7 \\
+IF & generic & 3 & 0.5 & B0 + cooldown 30 days & 49 & 29.3 & 47.3 & 15.7 & 51.3 & 3.0 & 5.3 \\
+IF & generic & 3 & 0.5 & B0 + cooldown 30 days, no override & 49 & 36.7 & 48.3 & 22.0 & 52.3 & 3.0 & 6.3 \\
+IF & generic & 3 & 0.5 & B11c + cooldown 30 days & 48 & 35.0 & 42.0 & 15.7 & 46.0 & 6.7 & 4.7 \\
+IF & generic & 3 & 0.8 & B0 global & 5 & 9.0 & 5.0 & 2.0 & 6.3 & 0.0 & 1.3 \\
+IF & generic & 3 & 0.8 & B0 + scheduling & 24 & 20.0 & 24.0 & 4.3 & 25.0 & 0.0 & 1.0 \\
+IF & generic & 3 & 0.8 & B0 + cooldown 30 days & 49 & 31.0 & 42.3 & 5.3 & 44.7 & 6.3 & 2.0 \\
+IF & generic & 3 & 0.8 & B0 + cooldown 30 days, no override & 49 & 38.0 & 42.7 & 7.3 & 45.7 & 6.3 & 3.0 \\
+IF & generic & 3 & 0.8 & B11c + cooldown 30 days & 48 & 35.3 & 37.7 & 9.3 & 43.0 & 9.7 & 4.7 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lp{5.2cm}p{4.4cm}cccc}
+\caption{Verdict Errors and Inconclusive Verdicts, All Settings (r4.2, Mean of Two Draws)\label{tab:e-l4-r42}}\\
+\toprule
+Det. & Verdict model & Policy & Detected & $\Delta_{\mathrm{FAR}}$ & $\max F_i$ & Alerted \\
+\midrule
+\endfirsthead
+\toprule
+Det. & Verdict model & Policy & Detected & $\Delta_{\mathrm{FAR}}$ & $\max F_i$ & Alerted \\
+\midrule
+\endhead
+IF & no errors & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & no errors & B0 + scheduling & 15.0 & 0.0211 & 105.0 & 112.0 \\
+IF & no errors & B0 + cooldown 30 days & 25.0 & 0.0172 & 47.0 & 243.0 \\
+IF & no errors & B0 + cooldown 30 days, no override & 26.0 & 0.0129 & 9.0 & 257.0 \\
+IF & no errors & B4c outcome-aware & 7.0 & 0.0020 & 178.0 & 68.0 \\
+IF & no errors & B11c deficit apportionment (outcome-aware) & 7.0 & 0.0001 & 161.0 & 79.0 \\
+IF & no errors & B11c + cooldown 30 days & 25.0 & 0.0001 & 30.0 & 292.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 15.0 & 0.0211 & 105.0 & 112.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 25.0 & 0.0173 & 47.0 & 250.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 26.0 & 0.0129 & 9.0 & 265.5 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 7.0 & 0.0020 & 176.0 & 67.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 7.0 & 0.0001 & 163.0 & 81.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 26.5 & 0.0001 & 28.0 & 300.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 15.0 & 0.0215 & 102.0 & 110.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 25.0 & 0.0171 & 47.0 & 241.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 26.0 & 0.0128 & 9.5 & 254.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 7.0 & 0.0022 & 174.0 & 70.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 6.0 & 0.0003 & 166.0 & 78.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 24.5 & 0.0004 & 30.0 & 294.5 \\
+IF & group-dependent: smallest unit (Other) worse & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + scheduling & 15.5 & 0.0208 & 103.5 & 110.5 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 25.0 & 0.0172 & 47.0 & 243.0 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 26.0 & 0.0131 & 9.0 & 255.0 \\
+IF & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 7.0 & 0.0020 & 167.0 & 72.0 \\
+IF & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 7.5 & 0.0007 & 161.0 & 82.0 \\
+IF & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 24.0 & 0.0006 & 29.0 & 285.5 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 15.0 & 0.0204 & 103.5 & 111.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 25.0 & 0.0175 & 47.0 & 241.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 26.0 & 0.0130 & 10.5 & 255.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 7.0 & 0.0025 & 177.0 & 70.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 5.0 & 0.0005 & 163.5 & 78.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 25.5 & 0.0003 & 30.0 & 297.0 \\
+IF & inconclusive 20\% & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & inconclusive 20\% & B0 + scheduling & 12.5 & 0.0197 & 92.5 & 107.0 \\
+IF & inconclusive 20\% & B0 + cooldown 30 days & 23.5 & 0.0181 & 47.0 & 212.0 \\
+IF & inconclusive 20\% & B0 + cooldown 30 days, no override & 24.0 & 0.0137 & 14.0 & 216.5 \\
+IF & inconclusive 20\% & B4c outcome-aware & 7.0 & 0.0020 & 178.0 & 68.0 \\
+IF & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 7.0 & 0.0001 & 161.0 & 79.0 \\
+IF & inconclusive 20\% & B11c + cooldown 30 days & 23.0 & 0.0001 & 28.0 & 245.0 \\
+IF & inconclusive 50\% & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & inconclusive 50\% & B0 + scheduling & 10.5 & 0.0185 & 81.5 & 94.0 \\
+IF & inconclusive 50\% & B0 + cooldown 30 days & 23.5 & 0.0142 & 47.5 & 187.5 \\
+IF & inconclusive 50\% & B0 + cooldown 30 days, no override & 22.5 & 0.0112 & 22.5 & 192.0 \\
+IF & inconclusive 50\% & B4c outcome-aware & 7.0 & 0.0020 & 178.0 & 68.0 \\
+IF & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 7.0 & 0.0001 & 161.0 & 79.0 \\
+IF & inconclusive 50\% & B11c + cooldown 30 days & 20.0 & 0.0001 & 31.5 & 198.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 global & 9.0 & 0.0449 & 191.0 & 61.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + scheduling & 10.5 & 0.0185 & 90.5 & 94.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 22.0 & 0.0152 & 51.0 & 185.5 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 21.5 & 0.0116 & 21.5 & 191.0 \\
+IF & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 7.0 & 0.0023 & 174.0 & 71.5 \\
+IF & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 7.0 & 0.0003 & 162.5 & 80.0 \\
+IF & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 19.5 & 0.0002 & 34.5 & 192.0 \\
+AE & no errors & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & no errors & B0 + scheduling & 36.0 & 0.0095 & 32.0 & 186.0 \\
+AE & no errors & B0 + cooldown 30 days & 35.0 & 0.0050 & 20.0 & 341.0 \\
+AE & no errors & B0 + cooldown 30 days, no override & 28.0 & 0.0050 & 9.0 & 365.0 \\
+AE & no errors & B4c outcome-aware & 33.0 & 0.0020 & 64.0 & 161.0 \\
+AE & no errors & B11c deficit apportionment (outcome-aware) & 33.0 & 0.0001 & 70.0 & 163.0 \\
+AE & no errors & B11c + cooldown 30 days & 33.0 & 0.0002 & 12.0 & 370.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 36.0 & 0.0095 & 32.0 & 186.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 34.5 & 0.0052 & 20.0 & 349.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 28.0 & 0.0049 & 9.0 & 377.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 33.5 & 0.0020 & 64.0 & 159.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 32.5 & 0.0002 & 70.0 & 164.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 34.5 & 0.0003 & 12.0 & 381.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 35.5 & 0.0093 & 34.0 & 183.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 34.5 & 0.0051 & 20.0 & 340.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 29.0 & 0.0051 & 9.0 & 358.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 32.5 & 0.0021 & 64.0 & 160.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 33.5 & 0.0002 & 68.5 & 164.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 32.0 & 0.0002 & 13.5 & 360.5 \\
+AE & group-dependent: smallest unit (Other) worse & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + scheduling & 35.5 & 0.0095 & 32.0 & 185.5 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 35.0 & 0.0052 & 20.0 & 341.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 28.0 & 0.0054 & 9.5 & 363.0 \\
+AE & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 33.0 & 0.0018 & 63.5 & 160.0 \\
+AE & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 33.0 & 0.0003 & 66.5 & 164.0 \\
+AE & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 36.0 & 0.0006 & 12.5 & 375.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 36.0 & 0.0094 & 33.0 & 185.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 34.5 & 0.0053 & 20.0 & 336.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 27.5 & 0.0051 & 9.5 & 364.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 33.0 & 0.0023 & 63.0 & 159.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 34.5 & 0.0006 & 66.5 & 168.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 34.0 & 0.0004 & 13.0 & 372.0 \\
+AE & inconclusive 20\% & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & inconclusive 20\% & B0 + scheduling & 37.0 & 0.0096 & 38.0 & 181.5 \\
+AE & inconclusive 20\% & B0 + cooldown 30 days & 36.0 & 0.0052 & 19.5 & 290.0 \\
+AE & inconclusive 20\% & B0 + cooldown 30 days, no override & 30.5 & 0.0051 & 13.5 & 302.0 \\
+AE & inconclusive 20\% & B4c outcome-aware & 33.0 & 0.0020 & 64.0 & 161.0 \\
+AE & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 33.0 & 0.0001 & 70.0 & 163.0 \\
+AE & inconclusive 20\% & B11c + cooldown 30 days & 36.0 & 0.0001 & 14.5 & 300.5 \\
+AE & inconclusive 50\% & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & inconclusive 50\% & B0 + scheduling & 36.0 & 0.0106 & 47.5 & 176.5 \\
+AE & inconclusive 50\% & B0 + cooldown 30 days & 35.5 & 0.0062 & 26.5 & 220.5 \\
+AE & inconclusive 50\% & B0 + cooldown 30 days, no override & 31.5 & 0.0063 & 21.5 & 225.5 \\
+AE & inconclusive 50\% & B4c outcome-aware & 33.0 & 0.0020 & 64.0 & 161.0 \\
+AE & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 33.0 & 0.0001 & 70.0 & 163.0 \\
+AE & inconclusive 50\% & B11c + cooldown 30 days & 35.5 & 0.0002 & 20.5 & 240.5 \\
+AE & score-dependent errors + inconclusive 50\% & B0 global & 33.0 & 0.0139 & 65.0 & 145.0 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + scheduling & 35.5 & 0.0105 & 43.5 & 173.5 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 37.5 & 0.0065 & 24.5 & 219.5 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 32.5 & 0.0070 & 24.0 & 224.5 \\
+AE & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 33.5 & 0.0020 & 66.0 & 162.0 \\
+AE & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 32.0 & 0.0002 & 69.0 & 168.0 \\
+AE & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 36.5 & 0.0003 & 23.5 & 233.5 \\
+LR & no errors & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & no errors & B0 + scheduling & 43.0 & 0.0047 & 88.0 & 148.0 \\
+LR & no errors & B0 + cooldown 30 days & 43.0 & 0.0046 & 34.0 & 356.0 \\
+LR & no errors & B0 + cooldown 30 days, no override & 32.0 & 0.0045 & 9.0 & 373.0 \\
+LR & no errors & B4c outcome-aware & 43.0 & 0.0019 & 169.0 & 110.0 \\
+LR & no errors & B11c deficit apportionment (outcome-aware) & 44.0 & 0.0001 & 148.0 & 132.0 \\
+LR & no errors & B11c + cooldown 30 days & 43.0 & 0.0001 & 34.0 & 382.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 43.5 & 0.0048 & 88.0 & 150.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 43.0 & 0.0051 & 34.0 & 361.5 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 30.0 & 0.0044 & 9.0 & 389.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 43.0 & 0.0022 & 169.0 & 111.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 43.0 & 0.0002 & 149.0 & 126.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 42.5 & 0.0002 & 34.0 & 398.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 43.0 & 0.0047 & 89.0 & 147.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 43.0 & 0.0049 & 34.5 & 352.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 32.0 & 0.0046 & 9.0 & 369.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 43.0 & 0.0020 & 168.5 & 112.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 42.5 & 0.0001 & 147.5 & 129.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 43.0 & 0.0004 & 34.0 & 381.5 \\
+LR & group-dependent: smallest unit (Other) worse & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + scheduling & 43.5 & 0.0048 & 88.5 & 148.0 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 43.0 & 0.0051 & 34.0 & 357.0 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 31.5 & 0.0048 & 9.0 & 372.0 \\
+LR & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 43.0 & 0.0019 & 170.0 & 110.5 \\
+LR & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 43.0 & 0.0003 & 149.5 & 131.5 \\
+LR & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 43.5 & 0.0004 & 34.0 & 390.5 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 43.0 & 0.0048 & 89.0 & 149.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 43.0 & 0.0048 & 34.5 & 354.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 31.5 & 0.0045 & 9.0 & 375.5 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 43.0 & 0.0021 & 169.5 & 109.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 42.5 & 0.0003 & 148.0 & 123.5 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 43.0 & 0.0006 & 34.0 & 386.0 \\
+LR & inconclusive 20\% & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & inconclusive 20\% & B0 + scheduling & 43.5 & 0.0044 & 90.0 & 144.5 \\
+LR & inconclusive 20\% & B0 + cooldown 30 days & 42.0 & 0.0048 & 35.0 & 308.5 \\
+LR & inconclusive 20\% & B0 + cooldown 30 days, no override & 34.0 & 0.0057 & 14.0 & 333.5 \\
+LR & inconclusive 20\% & B4c outcome-aware & 43.0 & 0.0019 & 169.0 & 110.0 \\
+LR & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 44.0 & 0.0001 & 148.0 & 132.0 \\
+LR & inconclusive 20\% & B11c + cooldown 30 days & 43.0 & 0.0001 & 35.0 & 345.5 \\
+LR & inconclusive 50\% & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & inconclusive 50\% & B0 + scheduling & 43.5 & 0.0053 & 97.5 & 135.0 \\
+LR & inconclusive 50\% & B0 + cooldown 30 days & 42.0 & 0.0038 & 37.0 & 245.0 \\
+LR & inconclusive 50\% & B0 + cooldown 30 days, no override & 38.0 & 0.0048 & 24.5 & 254.5 \\
+LR & inconclusive 50\% & B4c outcome-aware & 43.0 & 0.0019 & 169.0 & 110.0 \\
+LR & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 44.0 & 0.0001 & 148.0 & 132.0 \\
+LR & inconclusive 50\% & B11c + cooldown 30 days & 41.5 & 0.0001 & 41.5 & 272.5 \\
+LR & score-dependent errors + inconclusive 50\% & B0 global & 42.0 & 0.0086 & 168.0 & 112.0 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + scheduling & 43.5 & 0.0051 & 99.5 & 135.5 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 42.0 & 0.0056 & 38.0 & 256.5 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 38.5 & 0.0058 & 24.5 & 262.0 \\
+LR & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 43.0 & 0.0018 & 170.0 & 109.0 \\
+LR & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 44.0 & 0.0005 & 148.5 & 127.0 \\
+LR & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 43.0 & 0.0004 & 40.0 & 283.0 \\
+GBM & no errors & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & no errors & B0 + scheduling & 50.0 & 0.0052 & 39.0 & 195.0 \\
+GBM & no errors & B0 + cooldown 30 days & 49.0 & 0.0046 & 28.0 & 344.0 \\
+GBM & no errors & B0 + cooldown 30 days, no override & 41.0 & 0.0054 & 8.0 & 393.0 \\
+GBM & no errors & B4c outcome-aware & 49.0 & 0.0020 & 60.0 & 158.0 \\
+GBM & no errors & B11c deficit apportionment (outcome-aware) & 49.0 & 0.0001 & 55.0 & 178.0 \\
+GBM & no errors & B11c + cooldown 30 days & 46.0 & 0.0000 & 26.0 & 391.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 50.0 & 0.0051 & 40.0 & 196.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 49.0 & 0.0052 & 28.0 & 349.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 40.5 & 0.0061 & 8.0 & 411.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 49.0 & 0.0021 & 61.0 & 153.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 46.5 & 0.0003 & 55.0 & 173.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 45.5 & 0.0004 & 26.0 & 392.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 50.0 & 0.0051 & 39.0 & 194.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 49.0 & 0.0047 & 28.0 & 340.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 41.0 & 0.0055 & 9.5 & 386.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 47.5 & 0.0021 & 60.0 & 157.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 48.0 & 0.0002 & 54.5 & 175.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 45.0 & 0.0002 & 26.5 & 390.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + scheduling & 50.0 & 0.0049 & 39.5 & 196.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 49.0 & 0.0048 & 28.5 & 345.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 39.0 & 0.0058 & 9.5 & 397.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 49.0 & 0.0021 & 59.0 & 155.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 48.0 & 0.0005 & 56.0 & 172.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 45.5 & 0.0004 & 25.0 & 390.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 50.0 & 0.0052 & 40.0 & 194.5 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 49.0 & 0.0048 & 28.0 & 345.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 41.0 & 0.0061 & 10.0 & 404.5 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 49.5 & 0.0022 & 60.0 & 153.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 48.0 & 0.0006 & 56.5 & 173.5 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 45.0 & 0.0003 & 26.5 & 392.0 \\
+GBM & inconclusive 20\% & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & inconclusive 20\% & B0 + scheduling & 50.0 & 0.0053 & 42.0 & 188.5 \\
+GBM & inconclusive 20\% & B0 + cooldown 30 days & 50.0 & 0.0042 & 28.5 & 314.5 \\
+GBM & inconclusive 20\% & B0 + cooldown 30 days, no override & 43.0 & 0.0053 & 12.5 & 346.5 \\
+GBM & inconclusive 20\% & B4c outcome-aware & 49.0 & 0.0020 & 60.0 & 158.0 \\
+GBM & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 49.0 & 0.0001 & 55.0 & 178.0 \\
+GBM & inconclusive 20\% & B11c + cooldown 30 days & 46.5 & 0.0001 & 25.5 & 352.0 \\
+GBM & inconclusive 50\% & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & inconclusive 50\% & B0 + scheduling & 50.0 & 0.0063 & 53.0 & 175.0 \\
+GBM & inconclusive 50\% & B0 + cooldown 30 days & 50.5 & 0.0041 & 30.5 & 261.5 \\
+GBM & inconclusive 50\% & B0 + cooldown 30 days, no override & 46.0 & 0.0047 & 21.5 & 285.5 \\
+GBM & inconclusive 50\% & B4c outcome-aware & 49.0 & 0.0020 & 60.0 & 158.0 \\
+GBM & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 49.0 & 0.0001 & 55.0 & 178.0 \\
+GBM & inconclusive 50\% & B11c + cooldown 30 days & 46.0 & 0.0001 & 27.0 & 297.5 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 global & 49.0 & 0.0180 & 110.0 & 148.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + scheduling & 50.0 & 0.0063 & 50.0 & 178.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 49.5 & 0.0033 & 32.5 & 268.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 44.0 & 0.0046 & 25.0 & 309.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 49.0 & 0.0024 & 60.5 & 158.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 48.5 & 0.0005 & 56.0 & 178.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 47.0 & 0.0004 & 33.0 & 313.0 \\
+LSTM & no errors & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & no errors & B0 + scheduling & 34.0 & 0.0091 & 33.0 & 213.0 \\
+LSTM & no errors & B0 + cooldown 30 days & 43.0 & 0.0065 & 21.0 & 388.0 \\
+LSTM & no errors & B0 + cooldown 30 days, no override & 26.0 & 0.0071 & 9.0 & 410.0 \\
+LSTM & no errors & B4c outcome-aware & 34.0 & 0.0020 & 49.0 & 184.0 \\
+LSTM & no errors & B11c deficit apportionment (outcome-aware) & 32.0 & 0.0001 & 49.0 & 192.0 \\
+LSTM & no errors & B11c + cooldown 30 days & 41.0 & 0.0001 & 21.0 & 392.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 34.0 & 0.0091 & 33.0 & 213.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 43.5 & 0.0066 & 21.0 & 391.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 26.0 & 0.0074 & 9.0 & 415.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 33.0 & 0.0020 & 49.0 & 185.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 33.0 & 0.0002 & 50.0 & 193.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 42.0 & 0.0002 & 21.0 & 387.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 34.0 & 0.0092 & 32.5 & 212.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 44.0 & 0.0062 & 21.0 & 380.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 27.0 & 0.0070 & 9.0 & 406.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 32.0 & 0.0021 & 49.0 & 187.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 33.5 & 0.0002 & 49.0 & 190.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 42.5 & 0.0003 & 21.0 & 380.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + scheduling & 34.0 & 0.0092 & 32.0 & 212.5 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 43.5 & 0.0062 & 21.0 & 381.5 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 26.0 & 0.0070 & 10.0 & 407.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 33.0 & 0.0021 & 49.0 & 187.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 33.5 & 0.0008 & 49.0 & 192.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 42.5 & 0.0003 & 21.0 & 379.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 34.0 & 0.0091 & 30.5 & 212.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 44.0 & 0.0063 & 21.0 & 379.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 25.5 & 0.0070 & 10.5 & 406.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 33.0 & 0.0023 & 49.0 & 186.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 34.0 & 0.0005 & 49.0 & 191.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 41.5 & 0.0003 & 21.0 & 388.0 \\
+LSTM & inconclusive 20\% & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & inconclusive 20\% & B0 + scheduling & 34.0 & 0.0094 & 32.0 & 205.0 \\
+LSTM & inconclusive 20\% & B0 + cooldown 30 days & 44.0 & 0.0061 & 22.5 & 338.0 \\
+LSTM & inconclusive 20\% & B0 + cooldown 30 days, no override & 29.5 & 0.0060 & 13.5 & 359.5 \\
+LSTM & inconclusive 20\% & B4c outcome-aware & 34.0 & 0.0020 & 49.0 & 184.0 \\
+LSTM & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 32.0 & 0.0001 & 49.0 & 192.0 \\
+LSTM & inconclusive 20\% & B11c + cooldown 30 days & 41.5 & 0.0001 & 22.5 & 333.0 \\
+LSTM & inconclusive 50\% & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & inconclusive 50\% & B0 + scheduling & 34.5 & 0.0103 & 33.5 & 199.5 \\
+LSTM & inconclusive 50\% & B0 + cooldown 30 days & 38.5 & 0.0069 & 25.5 & 271.5 \\
+LSTM & inconclusive 50\% & B0 + cooldown 30 days, no override & 31.0 & 0.0068 & 20.0 & 284.0 \\
+LSTM & inconclusive 50\% & B4c outcome-aware & 34.0 & 0.0020 & 49.0 & 184.0 \\
+LSTM & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 32.0 & 0.0001 & 49.0 & 192.0 \\
+LSTM & inconclusive 50\% & B11c + cooldown 30 days & 39.0 & 0.0001 & 24.0 & 263.5 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 global & 36.0 & 0.0129 & 58.0 & 190.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + scheduling & 34.0 & 0.0101 & 36.0 & 199.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 37.0 & 0.0064 & 24.0 & 268.5 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 29.5 & 0.0066 & 25.0 & 279.5 \\
+LSTM & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 32.5 & 0.0021 & 49.0 & 186.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 32.0 & 0.0004 & 49.5 & 191.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 40.0 & 0.0002 & 25.0 & 274.0 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lp{5.2cm}p{4.4cm}cccc}
+\caption{Verdict Errors and Inconclusive Verdicts, All Settings (r5.2, Mean of Two Draws)\label{tab:e-l4-r52}}\\
+\toprule
+Det. & Verdict model & Policy & Detected & $\Delta_{\mathrm{FAR}}$ & $\max F_i$ & Alerted \\
+\midrule
+\endfirsthead
+\toprule
+Det. & Verdict model & Policy & Detected & $\Delta_{\mathrm{FAR}}$ & $\max F_i$ & Alerted \\
+\midrule
+\endhead
+IF & no errors & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & no errors & B0 + scheduling & 25.0 & 0.0323 & 92.0 & 252.0 \\
+IF & no errors & B0 + cooldown 30 days & 51.0 & 0.0229 & 52.0 & 459.0 \\
+IF & no errors & B0 + cooldown 30 days, no override & 51.0 & 0.0188 & 9.0 & 472.0 \\
+IF & no errors & B4c outcome-aware & 8.0 & 0.0020 & 145.0 & 149.0 \\
+IF & no errors & B11c deficit apportionment (outcome-aware) & 8.0 & 0.0005 & 142.0 & 151.0 \\
+IF & no errors & B11c + cooldown 30 days & 50.0 & 0.0002 & 42.0 & 548.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 25.0 & 0.0325 & 93.0 & 250.5 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 51.0 & 0.0229 & 52.0 & 471.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 51.0 & 0.0188 & 9.0 & 498.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 7.0 & 0.0019 & 145.5 & 149.5 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 8.0 & 0.0006 & 145.0 & 150.0 \\
+IF & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 47.5 & 0.0003 & 43.0 & 573.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 25.0 & 0.0323 & 90.0 & 251.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 51.0 & 0.0230 & 52.0 & 457.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 50.5 & 0.0189 & 10.5 & 472.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 7.0 & 0.0025 & 145.5 & 146.0 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 9.0 & 0.0008 & 146.0 & 151.5 \\
+IF & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 48.5 & 0.0003 & 41.5 & 543.0 \\
+IF & group-dependent: smallest unit (Other) worse & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + scheduling & 25.0 & 0.0323 & 89.0 & 249.5 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 51.0 & 0.0232 & 52.0 & 457.5 \\
+IF & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 50.5 & 0.0188 & 10.0 & 473.0 \\
+IF & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 7.0 & 0.0029 & 147.0 & 145.5 \\
+IF & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 7.5 & 0.0023 & 147.0 & 152.0 \\
+IF & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 47.5 & 0.0002 & 42.0 & 540.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 25.0 & 0.0320 & 93.0 & 250.5 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 51.5 & 0.0231 & 52.0 & 456.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 50.0 & 0.0189 & 11.0 & 476.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 8.0 & 0.0021 & 146.0 & 145.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 8.0 & 0.0008 & 151.5 & 156.0 \\
+IF & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 49.0 & 0.0005 & 42.5 & 541.5 \\
+IF & inconclusive 20\% & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & inconclusive 20\% & B0 + scheduling & 24.0 & 0.0304 & 83.5 & 239.0 \\
+IF & inconclusive 20\% & B0 + cooldown 30 days & 50.5 & 0.0263 & 53.0 & 418.5 \\
+IF & inconclusive 20\% & B0 + cooldown 30 days, no override & 51.5 & 0.0214 & 14.5 & 421.5 \\
+IF & inconclusive 20\% & B4c outcome-aware & 8.0 & 0.0020 & 145.0 & 149.0 \\
+IF & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 8.0 & 0.0005 & 142.0 & 151.0 \\
+IF & inconclusive 20\% & B11c + cooldown 30 days & 50.5 & 0.0001 & 42.0 & 446.5 \\
+IF & inconclusive 50\% & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & inconclusive 50\% & B0 + scheduling & 17.0 & 0.0327 & 68.5 & 208.5 \\
+IF & inconclusive 50\% & B0 + cooldown 30 days & 42.5 & 0.0284 & 52.0 & 369.5 \\
+IF & inconclusive 50\% & B0 + cooldown 30 days, no override & 44.5 & 0.0251 & 25.0 & 376.0 \\
+IF & inconclusive 50\% & B4c outcome-aware & 8.0 & 0.0020 & 145.0 & 149.0 \\
+IF & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 8.0 & 0.0005 & 142.0 & 151.0 \\
+IF & inconclusive 50\% & B11c + cooldown 30 days & 42.0 & 0.0002 & 43.5 & 359.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 global & 5.0 & 0.0592 & 130.0 & 110.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + scheduling & 17.0 & 0.0334 & 69.5 & 204.5 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 44.5 & 0.0273 & 52.0 & 372.0 \\
+IF & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 46.0 & 0.0268 & 26.0 & 375.5 \\
+IF & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 7.5 & 0.0025 & 145.0 & 147.5 \\
+IF & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 8.5 & 0.0008 & 147.0 & 154.5 \\
+IF & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 41.5 & 0.0008 & 42.5 & 360.5 \\
+AE & no errors & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & no errors & B0 + scheduling & 64.0 & 0.0214 & 42.0 & 335.0 \\
+AE & no errors & B0 + cooldown 30 days & 68.0 & 0.0122 & 19.0 & 599.0 \\
+AE & no errors & B0 + cooldown 30 days, no override & 58.0 & 0.0121 & 9.0 & 654.0 \\
+AE & no errors & B4c outcome-aware & 58.0 & 0.0020 & 87.0 & 303.0 \\
+AE & no errors & B11c deficit apportionment (outcome-aware) & 56.0 & 0.0000 & 90.0 & 317.0 \\
+AE & no errors & B11c + cooldown 30 days & 61.0 & 0.0004 & 19.0 & 616.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 64.0 & 0.0213 & 42.0 & 335.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 68.0 & 0.0120 & 19.0 & 641.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 57.0 & 0.0119 & 9.0 & 702.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 56.5 & 0.0021 & 89.0 & 305.5 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 56.0 & 0.0002 & 89.0 & 320.0 \\
+AE & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 64.5 & 0.0007 & 19.0 & 657.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 64.0 & 0.0214 & 42.5 & 333.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 67.5 & 0.0122 & 20.0 & 586.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 58.0 & 0.0121 & 10.0 & 644.0 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 56.0 & 0.0022 & 92.0 & 306.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 56.5 & 0.0004 & 88.5 & 320.5 \\
+AE & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 62.0 & 0.0006 & 19.5 & 609.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + scheduling & 64.0 & 0.0219 & 42.0 & 335.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 68.0 & 0.0126 & 19.0 & 607.0 \\
+AE & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 57.5 & 0.0120 & 9.5 & 662.5 \\
+AE & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 57.0 & 0.0023 & 90.5 & 305.0 \\
+AE & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 57.0 & 0.0002 & 87.5 & 321.0 \\
+AE & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 62.0 & 0.0009 & 19.0 & 634.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 64.0 & 0.0203 & 42.0 & 335.5 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 67.5 & 0.0122 & 19.0 & 599.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 57.5 & 0.0120 & 10.5 & 662.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 57.0 & 0.0022 & 91.0 & 305.5 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 56.5 & 0.0004 & 88.0 & 318.0 \\
+AE & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 62.5 & 0.0005 & 19.0 & 618.0 \\
+AE & inconclusive 20\% & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & inconclusive 20\% & B0 + scheduling & 64.0 & 0.0208 & 43.5 & 325.0 \\
+AE & inconclusive 20\% & B0 + cooldown 30 days & 63.5 & 0.0126 & 23.5 & 477.5 \\
+AE & inconclusive 20\% & B0 + cooldown 30 days, no override & 57.0 & 0.0145 & 14.5 & 516.5 \\
+AE & inconclusive 20\% & B4c outcome-aware & 58.0 & 0.0020 & 87.0 & 303.0 \\
+AE & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 56.0 & 0.0000 & 90.0 & 317.0 \\
+AE & inconclusive 20\% & B11c + cooldown 30 days & 62.5 & 0.0004 & 20.0 & 510.5 \\
+AE & inconclusive 50\% & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & inconclusive 50\% & B0 + scheduling & 63.5 & 0.0209 & 51.0 & 311.5 \\
+AE & inconclusive 50\% & B0 + cooldown 30 days & 65.0 & 0.0129 & 28.0 & 386.5 \\
+AE & inconclusive 50\% & B0 + cooldown 30 days, no override & 60.5 & 0.0112 & 25.0 & 394.5 \\
+AE & inconclusive 50\% & B4c outcome-aware & 58.0 & 0.0020 & 87.0 & 303.0 \\
+AE & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 56.0 & 0.0000 & 90.0 & 317.0 \\
+AE & inconclusive 50\% & B11c + cooldown 30 days & 63.0 & 0.0003 & 24.5 & 404.5 \\
+AE & score-dependent errors + inconclusive 50\% & B0 global & 61.0 & 0.0219 & 92.0 & 285.0 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + scheduling & 63.0 & 0.0209 & 48.0 & 312.5 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 65.0 & 0.0147 & 27.0 & 390.0 \\
+AE & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 60.0 & 0.0130 & 23.5 & 404.5 \\
+AE & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 57.0 & 0.0024 & 92.5 & 306.5 \\
+AE & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 57.0 & 0.0013 & 88.5 & 320.0 \\
+AE & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 63.0 & 0.0003 & 31.0 & 420.5 \\
+LR & no errors & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & no errors & B0 + scheduling & 51.0 & 0.0121 & 82.0 & 266.0 \\
+LR & no errors & B0 + cooldown 30 days & 54.0 & 0.0109 & 53.0 & 481.0 \\
+LR & no errors & B0 + cooldown 30 days, no override & 51.0 & 0.0104 & 9.0 & 533.0 \\
+LR & no errors & B4c outcome-aware & 37.0 & 0.0020 & 142.0 & 205.0 \\
+LR & no errors & B11c deficit apportionment (outcome-aware) & 38.0 & 0.0004 & 151.0 & 205.0 \\
+LR & no errors & B11c + cooldown 30 days & 58.0 & 0.0005 & 52.0 & 519.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 51.0 & 0.0121 & 82.0 & 265.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 54.5 & 0.0121 & 53.0 & 502.0 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 53.5 & 0.0117 & 9.0 & 577.5 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 37.5 & 0.0020 & 139.0 & 205.5 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 38.5 & 0.0004 & 152.5 & 206.5 \\
+LR & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 59.5 & 0.0002 & 51.0 & 561.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 51.0 & 0.0121 & 82.5 & 266.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 55.5 & 0.0108 & 53.0 & 471.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 50.0 & 0.0104 & 10.0 & 528.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 36.0 & 0.0022 & 140.0 & 205.5 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 37.0 & 0.0004 & 153.0 & 209.0 \\
+LR & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 57.0 & 0.0006 & 50.0 & 519.5 \\
+LR & group-dependent: smallest unit (Other) worse & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + scheduling & 51.5 & 0.0121 & 82.0 & 266.0 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 54.0 & 0.0112 & 53.0 & 483.5 \\
+LR & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 52.0 & 0.0110 & 9.5 & 544.5 \\
+LR & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 36.0 & 0.0021 & 140.0 & 205.5 \\
+LR & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 38.5 & 0.0006 & 152.0 & 207.5 \\
+LR & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 59.0 & 0.0003 & 50.0 & 528.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 51.0 & 0.0122 & 82.5 & 265.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 53.0 & 0.0114 & 53.0 & 483.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 52.5 & 0.0108 & 10.0 & 536.5 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 37.0 & 0.0020 & 139.5 & 207.0 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 37.5 & 0.0005 & 150.5 & 209.5 \\
+LR & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 60.0 & 0.0004 & 51.0 & 530.0 \\
+LR & inconclusive 20\% & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & inconclusive 20\% & B0 + scheduling & 49.5 & 0.0130 & 86.5 & 257.5 \\
+LR & inconclusive 20\% & B0 + cooldown 30 days & 60.0 & 0.0128 & 53.5 & 409.0 \\
+LR & inconclusive 20\% & B0 + cooldown 30 days, no override & 56.0 & 0.0110 & 16.0 & 449.0 \\
+LR & inconclusive 20\% & B4c outcome-aware & 37.0 & 0.0020 & 142.0 & 205.0 \\
+LR & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 38.0 & 0.0004 & 151.0 & 205.0 \\
+LR & inconclusive 20\% & B11c + cooldown 30 days & 57.5 & 0.0004 & 50.5 & 444.0 \\
+LR & inconclusive 50\% & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & inconclusive 50\% & B0 + scheduling & 46.5 & 0.0143 & 99.5 & 245.5 \\
+LR & inconclusive 50\% & B0 + cooldown 30 days & 58.0 & 0.0107 & 53.5 & 352.0 \\
+LR & inconclusive 50\% & B0 + cooldown 30 days, no override & 60.0 & 0.0125 & 26.0 & 366.0 \\
+LR & inconclusive 50\% & B4c outcome-aware & 37.0 & 0.0020 & 142.0 & 205.0 \\
+LR & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 38.0 & 0.0004 & 151.0 & 205.0 \\
+LR & inconclusive 50\% & B11c + cooldown 30 days & 57.5 & 0.0001 & 52.0 & 363.0 \\
+LR & score-dependent errors + inconclusive 50\% & B0 global & 35.0 & 0.0209 & 158.0 & 186.0 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + scheduling & 45.5 & 0.0145 & 96.5 & 239.0 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 62.5 & 0.0108 & 55.0 & 355.0 \\
+LR & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 58.0 & 0.0128 & 26.5 & 375.5 \\
+LR & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 36.5 & 0.0024 & 137.0 & 206.0 \\
+LR & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 37.0 & 0.0005 & 154.0 & 207.5 \\
+LR & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 56.0 & 0.0004 & 53.5 & 367.0 \\
+GBM & no errors & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & no errors & B0 + scheduling & 75.0 & 0.0158 & 77.0 & 306.0 \\
+GBM & no errors & B0 + cooldown 30 days & 75.0 & 0.0119 & 14.0 & 599.0 \\
+GBM & no errors & B0 + cooldown 30 days, no override & 61.0 & 0.0114 & 9.0 & 652.0 \\
+GBM & no errors & B4c outcome-aware & 71.0 & 0.0020 & 74.0 & 296.0 \\
+GBM & no errors & B11c deficit apportionment (outcome-aware) & 71.0 & 0.0005 & 65.0 & 295.0 \\
+GBM & no errors & B11c + cooldown 30 days & 70.0 & 0.0002 & 13.0 & 652.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 76.0 & 0.0160 & 76.5 & 308.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 75.0 & 0.0123 & 14.0 & 618.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 60.0 & 0.0119 & 9.0 & 681.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 71.5 & 0.0022 & 70.5 & 289.0 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 70.0 & 0.0006 & 65.5 & 292.5 \\
+GBM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 69.5 & 0.0003 & 13.0 & 653.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 75.0 & 0.0159 & 76.5 & 305.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 75.0 & 0.0121 & 14.0 & 596.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 61.0 & 0.0115 & 10.0 & 648.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 71.0 & 0.0022 & 71.0 & 289.0 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 70.5 & 0.0007 & 68.5 & 292.5 \\
+GBM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 71.0 & 0.0005 & 13.5 & 642.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + scheduling & 75.0 & 0.0160 & 77.0 & 307.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 75.0 & 0.0121 & 14.0 & 603.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 60.0 & 0.0119 & 9.5 & 667.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 71.5 & 0.0023 & 71.5 & 295.5 \\
+GBM & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 71.0 & 0.0012 & 69.5 & 293.0 \\
+GBM & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 69.5 & 0.0018 & 13.0 & 643.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 75.0 & 0.0161 & 76.0 & 308.5 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 75.0 & 0.0120 & 14.0 & 600.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 60.5 & 0.0117 & 10.0 & 682.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 72.0 & 0.0021 & 68.5 & 285.5 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 70.0 & 0.0006 & 66.5 & 292.0 \\
+GBM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 71.0 & 0.0003 & 13.0 & 648.5 \\
+GBM & inconclusive 20\% & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & inconclusive 20\% & B0 + scheduling & 75.0 & 0.0165 & 74.0 & 300.5 \\
+GBM & inconclusive 20\% & B0 + cooldown 30 days & 75.0 & 0.0119 & 16.5 & 536.0 \\
+GBM & inconclusive 20\% & B0 + cooldown 30 days, no override & 63.5 & 0.0118 & 13.5 & 569.0 \\
+GBM & inconclusive 20\% & B4c outcome-aware & 71.0 & 0.0020 & 74.0 & 296.0 \\
+GBM & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 71.0 & 0.0005 & 65.0 & 295.0 \\
+GBM & inconclusive 20\% & B11c + cooldown 30 days & 71.5 & 0.0003 & 18.0 & 565.5 \\
+GBM & inconclusive 50\% & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & inconclusive 50\% & B0 + scheduling & 75.0 & 0.0179 & 78.0 & 286.0 \\
+GBM & inconclusive 50\% & B0 + cooldown 30 days & 75.5 & 0.0133 & 23.5 & 442.0 \\
+GBM & inconclusive 50\% & B0 + cooldown 30 days, no override & 69.0 & 0.0125 & 22.0 & 461.0 \\
+GBM & inconclusive 50\% & B4c outcome-aware & 71.0 & 0.0020 & 74.0 & 296.0 \\
+GBM & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 71.0 & 0.0005 & 65.0 & 295.0 \\
+GBM & inconclusive 50\% & B11c + cooldown 30 days & 71.0 & 0.0004 & 21.5 & 469.5 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 global & 75.0 & 0.0238 & 77.0 & 254.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + scheduling & 75.0 & 0.0183 & 73.0 & 289.5 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 75.0 & 0.0129 & 24.0 & 450.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 66.0 & 0.0125 & 23.0 & 487.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 71.5 & 0.0023 & 72.0 & 289.5 \\
+GBM & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 70.0 & 0.0006 & 67.5 & 290.0 \\
+GBM & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 71.0 & 0.0002 & 21.5 & 477.0 \\
+LSTM & no errors & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & no errors & B0 + scheduling & 54.0 & 0.0118 & 86.0 & 359.0 \\
+LSTM & no errors & B0 + cooldown 30 days & 69.0 & 0.0079 & 65.0 & 656.0 \\
+LSTM & no errors & B0 + cooldown 30 days, no override & 54.0 & 0.0075 & 9.0 & 719.0 \\
+LSTM & no errors & B4c outcome-aware & 49.0 & 0.0019 & 127.0 & 280.0 \\
+LSTM & no errors & B11c deficit apportionment (outcome-aware) & 46.0 & 0.0004 & 124.0 & 294.0 \\
+LSTM & no errors & B11c + cooldown 30 days & 64.0 & 0.0002 & 65.0 & 692.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + scheduling & 54.0 & 0.0119 & 86.0 & 359.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days & 69.0 & 0.0079 & 65.0 & 681.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B0 + cooldown 30 days, no override & 54.0 & 0.0086 & 9.0 & 751.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B4c outcome-aware & 48.0 & 0.0019 & 129.5 & 275.0 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c deficit apportionment (outcome-aware) & 47.5 & 0.0004 & 125.0 & 295.5 \\
+LSTM & score-dependent misses (0.30 below 0.999, 0.05 above) & B11c + cooldown 30 days & 64.5 & 0.0002 & 65.0 & 717.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + scheduling & 54.0 & 0.0112 & 86.5 & 355.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days & 68.5 & 0.0077 & 65.0 & 648.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B0 + cooldown 30 days, no override & 55.0 & 0.0074 & 10.0 & 711.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B4c outcome-aware & 48.0 & 0.0023 & 124.5 & 274.5 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c deficit apportionment (outcome-aware) & 46.5 & 0.0007 & 126.0 & 294.0 \\
+LSTM & score-dependent false confirmations (0.01 below 0.999, 0.10 above) & B11c + cooldown 30 days & 65.0 & 0.0008 & 65.0 & 680.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + scheduling & 53.5 & 0.0114 & 86.0 & 357.5 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days & 69.0 & 0.0078 & 65.0 & 653.5 \\
+LSTM & group-dependent: smallest unit (Other) worse & B0 + cooldown 30 days, no override & 54.0 & 0.0082 & 9.5 & 721.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B4c outcome-aware & 47.0 & 0.0019 & 124.0 & 272.5 \\
+LSTM & group-dependent: smallest unit (Other) worse & B11c deficit apportionment (outcome-aware) & 46.5 & 0.0006 & 125.5 & 290.0 \\
+LSTM & group-dependent: smallest unit (Other) worse & B11c + cooldown 30 days & 65.0 & 0.0013 & 65.0 & 683.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + scheduling & 53.5 & 0.0113 & 85.5 & 354.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days & 69.0 & 0.0078 & 65.0 & 645.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B0 + cooldown 30 days, no override & 54.0 & 0.0072 & 10.0 & 718.0 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B4c outcome-aware & 48.0 & 0.0019 & 123.5 & 273.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c deficit apportionment (outcome-aware) & 47.5 & 0.0006 & 125.0 & 287.5 \\
+LSTM & group-dependent: largest unit (2 - ResearchAndEngineering) worse & B11c + cooldown 30 days & 63.5 & 0.0004 & 65.0 & 682.5 \\
+LSTM & inconclusive 20\% & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & inconclusive 20\% & B0 + scheduling & 53.0 & 0.0111 & 87.0 & 342.5 \\
+LSTM & inconclusive 20\% & B0 + cooldown 30 days & 67.0 & 0.0080 & 65.5 & 547.0 \\
+LSTM & inconclusive 20\% & B0 + cooldown 30 days, no override & 58.5 & 0.0079 & 14.0 & 586.0 \\
+LSTM & inconclusive 20\% & B4c outcome-aware & 49.0 & 0.0019 & 127.0 & 280.0 \\
+LSTM & inconclusive 20\% & B11c deficit apportionment (outcome-aware) & 46.0 & 0.0004 & 124.0 & 294.0 \\
+LSTM & inconclusive 20\% & B11c + cooldown 30 days & 63.0 & 0.0001 & 65.5 & 573.5 \\
+LSTM & inconclusive 50\% & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & inconclusive 50\% & B0 + scheduling & 52.5 & 0.0112 & 89.0 & 321.0 \\
+LSTM & inconclusive 50\% & B0 + cooldown 30 days & 62.0 & 0.0079 & 66.0 & 443.0 \\
+LSTM & inconclusive 50\% & B0 + cooldown 30 days, no override & 57.0 & 0.0084 & 23.0 & 462.0 \\
+LSTM & inconclusive 50\% & B4c outcome-aware & 49.0 & 0.0019 & 127.0 & 280.0 \\
+LSTM & inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 46.0 & 0.0004 & 124.0 & 294.0 \\
+LSTM & inconclusive 50\% & B11c + cooldown 30 days & 61.0 & 0.0002 & 66.0 & 451.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 global & 47.0 & 0.0114 & 128.0 & 272.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + scheduling & 52.0 & 0.0115 & 90.0 & 325.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days & 63.0 & 0.0089 & 70.0 & 442.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B0 + cooldown 30 days, no override & 57.5 & 0.0077 & 23.5 & 465.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B4c outcome-aware & 48.0 & 0.0021 & 122.0 & 276.0 \\
+LSTM & score-dependent errors + inconclusive 50\% & B11c deficit apportionment (outcome-aware) & 46.0 & 0.0006 & 125.5 & 292.5 \\
+LSTM & score-dependent errors + inconclusive 50\% & B11c + cooldown 30 days & 59.5 & 0.0006 & 66.5 & 450.0 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{llp{4.6cm}ccccccl}
+\caption{Social Cost Components and Break-Even Ratios $c_2/c_1$ Relative to the Global Policy ($b=1\%$)\label{tab:e-l5}}\\
+\toprule
+Rel. & Det. & Policy & Alerted & Repeats & False alerts & $\max F_i$ & Detected & $r^\ast$ & Cheaper when \\
+\midrule
+\endfirsthead
+\toprule
+Rel. & Det. & Policy & Alerted & Repeats & False alerts & $\max F_i$ & Detected & $r^\ast$ & Cheaper when \\
+\midrule
+\endhead
+r4.2 & IF & B0 global & 61 & 1456 & 1517 & 191 & 9 &  & equal \\
+r4.2 & IF & B0 + scheduling & 112 & 1415 & 1527 & 105 & 15 & 1.24 & c2/c1 > 1.24 \\
+r4.2 & IF & B0 + cooldown 7 days & 138 & 1397 & 1535 & 57 & 15 & 1.31 & c2/c1 > 1.31 \\
+r4.2 & IF & B0 + cooldown 30 days & 243 & 1195 & 1438 & 47 & 25 & 0.697 & c2/c1 > 0.697 \\
+r4.2 & IF & B0 + cooldown 30 days, no override & 257 & 1192 & 1449 & 9 & 26 & 0.742 & c2/c1 > 0.742 \\
+r4.2 & IF & B0 + cooldown 30 days, override 0.995 & 208 & 1246 & 1454 & 112 & 24 & 0.7 & c2/c1 > 0.7 \\
+r4.2 & IF & B11c + cooldown 30 days & 292 & 1171 & 1463 & 30 & 25 & 0.811 & c2/c1 > 0.811 \\
+r4.2 & IF & B11c deficit apportionment (outcome-aware) & 79 & 1483 & 1562 & 161 & 7 & -0.667 & never \\
+r4.2 & IF & B4c outcome-aware & 68 & 1491 & 1559 & 178 & 7 & -0.2 & never \\
+r4.2 & AE & B0 global & 145 & 1357 & 1502 & 65 & 33 &  & equal \\
+r4.2 & AE & B0 + scheduling & 186 & 1296 & 1482 & 32 & 36 & 0.672 & c2/c1 > 0.672 \\
+r4.2 & AE & B0 + cooldown 7 days & 190 & 1296 & 1486 & 30 & 34 & 0.738 & c2/c1 > 0.738 \\
+r4.2 & AE & B0 + cooldown 30 days & 341 & 1106 & 1447 & 20 & 35 & 0.781 & c2/c1 > 0.781 \\
+r4.2 & AE & B0 + cooldown 30 days, no override & 365 & 1094 & 1459 & 9 & 28 & 0.837 & c2/c1 > 0.837 \\
+r4.2 & AE & B0 + cooldown 30 days, override 0.995 & 254 & 1187 & 1441 & 30 & 42 & 0.641 & c2/c1 > 0.641 \\
+r4.2 & AE & B11c + cooldown 30 days & 370 & 1082 & 1452 & 12 & 33 & 0.818 & c2/c1 > 0.818 \\
+r4.2 & AE & B11c deficit apportionment (outcome-aware) & 163 & 1355 & 1518 & 70 & 33 & 9 & c2/c1 > 9 \\
+r4.2 & AE & B4c outcome-aware & 161 & 1346 & 1507 & 64 & 33 & 1.45 & c2/c1 > 1.45 \\
+r4.2 & LR & B0 global & 112 & 1253 & 1365 & 168 & 42 &  & equal \\
+r4.2 & LR & B0 + scheduling & 148 & 1132 & 1280 & 88 & 43 & 0.298 & c2/c1 > 0.298 \\
+r4.2 & LR & B0 + cooldown 7 days & 182 & 1109 & 1291 & 47 & 43 & 0.486 & c2/c1 > 0.486 \\
+r4.2 & LR & B0 + cooldown 30 days & 356 & 1019 & 1375 & 34 & 43 & 1.04 & c2/c1 > 1.04 \\
+r4.2 & LR & B0 + cooldown 30 days, no override & 373 & 1009 & 1382 & 9 & 32 & 1.07 & c2/c1 > 1.07 \\
+r4.2 & LR & B0 + cooldown 30 days, override 0.995 & 239 & 1128 & 1367 & 131 & 44 & 1.02 & c2/c1 > 1.02 \\
+r4.2 & LR & B11c + cooldown 30 days & 382 & 1001 & 1383 & 34 & 43 & 1.07 & c2/c1 > 1.07 \\
+r4.2 & LR & B11c deficit apportionment (outcome-aware) & 132 & 1233 & 1365 & 148 & 44 & 1 & c2/c1 > 1 \\
+r4.2 & LR & B4c outcome-aware & 110 & 1244 & 1354 & 169 & 43 & -0.222 & always \\
+r4.2 & GBM & B0 global & 148 & 978 & 1126 & 110 & 49 &  & equal \\
+r4.2 & GBM & B0 + scheduling & 195 & 873 & 1068 & 39 & 50 & 0.448 & c2/c1 > 0.448 \\
+r4.2 & GBM & B0 + cooldown 7 days & 214 & 867 & 1081 & 35 & 51 & 0.595 & c2/c1 > 0.595 \\
+r4.2 & GBM & B0 + cooldown 30 days & 344 & 791 & 1135 & 28 & 49 & 1.05 & c2/c1 > 1.05 \\
+r4.2 & GBM & B0 + cooldown 30 days, no override & 393 & 869 & 1262 & 8 & 41 & 2.25 & c2/c1 > 2.25 \\
+r4.2 & GBM & B0 + cooldown 30 days, override 0.995 & 232 & 878 & 1110 & 90 & 50 & 0.84 & c2/c1 > 0.84 \\
+r4.2 & GBM & B11c + cooldown 30 days & 391 & 783 & 1174 & 26 & 46 & 1.25 & c2/c1 > 1.25 \\
+r4.2 & GBM & B11c deficit apportionment (outcome-aware) & 178 & 909 & 1087 & 55 & 49 & 0.435 & c2/c1 > 0.435 \\
+r4.2 & GBM & B4c outcome-aware & 158 & 944 & 1102 & 60 & 49 & 0.294 & c2/c1 > 0.294 \\
+r4.2 & LSTM & B0 global & 190 & 1289 & 1479 & 58 & 36 &  & equal \\
+r4.2 & LSTM & B0 + scheduling & 213 & 1272 & 1485 & 33 & 34 & 1.35 & c2/c1 > 1.35 \\
+r4.2 & LSTM & B0 + cooldown 7 days & 216 & 1275 & 1491 & 30 & 34 & 1.86 & c2/c1 > 1.86 \\
+r4.2 & LSTM & B0 + cooldown 30 days & 388 & 1072 & 1460 & 21 & 43 & 0.912 & c2/c1 > 0.912 \\
+r4.2 & LSTM & B0 + cooldown 30 days, no override & 410 & 1081 & 1491 & 9 & 26 & 1.06 & c2/c1 > 1.06 \\
+r4.2 & LSTM & B0 + cooldown 30 days, override 0.995 & 336 & 1122 & 1458 & 49 & 45 & 0.874 & c2/c1 > 0.874 \\
+r4.2 & LSTM & B11c + cooldown 30 days & 392 & 1057 & 1449 & 21 & 41 & 0.871 & c2/c1 > 0.871 \\
+r4.2 & LSTM & B11c deficit apportionment (outcome-aware) & 192 & 1307 & 1499 & 49 & 32 & -0.111 & never \\
+r4.2 & LSTM & B4c outcome-aware & 184 & 1311 & 1495 & 49 & 34 & 0.273 & c2/c1 < 0.273 \\
+r5.2 & IF & B0 global & 110 & 3145 & 3255 & 130 & 5 &  & equal \\
+r5.2 & IF & B0 + scheduling & 252 & 2966 & 3218 & 92 & 25 & 0.793 & c2/c1 > 0.793 \\
+r5.2 & IF & B0 + cooldown 7 days & 281 & 2941 & 3222 & 59 & 21 & 0.838 & c2/c1 > 0.838 \\
+r5.2 & IF & B0 + cooldown 30 days & 459 & 2529 & 2988 & 52 & 51 & 0.567 & c2/c1 > 0.567 \\
+r5.2 & IF & B0 + cooldown 30 days, no override & 472 & 2492 & 2964 & 9 & 51 & 0.554 & c2/c1 > 0.554 \\
+r5.2 & IF & B0 + cooldown 30 days, override 0.995 & 399 & 2713 & 3112 & 108 & 41 & 0.669 & c2/c1 > 0.669 \\
+r5.2 & IF & B11c + cooldown 30 days & 548 & 2434 & 2982 & 42 & 50 & 0.616 & c2/c1 > 0.616 \\
+r5.2 & IF & B11c deficit apportionment (outcome-aware) & 151 & 3138 & 3289 & 142 & 8 & 5.86 & c2/c1 > 5.86 \\
+r5.2 & IF & B4c outcome-aware & 149 & 3140 & 3289 & 145 & 8 & 7.8 & c2/c1 > 7.8 \\
+r5.2 & AE & B0 global & 285 & 2811 & 3096 & 92 & 61 &  & equal \\
+r5.2 & AE & B0 + scheduling & 335 & 2685 & 3020 & 42 & 64 & 0.397 & c2/c1 > 0.397 \\
+r5.2 & AE & B0 + cooldown 7 days & 336 & 2682 & 3018 & 36 & 65 & 0.395 & c2/c1 > 0.395 \\
+r5.2 & AE & B0 + cooldown 30 days & 599 & 2288 & 2887 & 19 & 68 & 0.6 & c2/c1 > 0.6 \\
+r5.2 & AE & B0 + cooldown 30 days, no override & 654 & 2228 & 2882 & 9 & 58 & 0.633 & c2/c1 > 0.633 \\
+r5.2 & AE & B0 + cooldown 30 days, override 0.995 & 438 & 2492 & 2930 & 65 & 65 & 0.48 & c2/c1 > 0.48 \\
+r5.2 & AE & B11c + cooldown 30 days & 616 & 2300 & 2916 & 19 & 61 & 0.648 & c2/c1 > 0.648 \\
+r5.2 & AE & B11c deficit apportionment (outcome-aware) & 317 & 2798 & 3115 & 90 & 56 & 2.46 & c2/c1 > 2.46 \\
+r5.2 & AE & B4c outcome-aware & 303 & 2799 & 3102 & 87 & 58 & 1.5 & c2/c1 > 1.5 \\
+r5.2 & LR & B0 global & 186 & 2964 & 3150 & 158 & 35 &  & equal \\
+r5.2 & LR & B0 + scheduling & 266 & 2793 & 3059 & 82 & 51 & 0.468 & c2/c1 > 0.468 \\
+r5.2 & LR & B0 + cooldown 7 days & 288 & 2718 & 3006 & 61 & 53 & 0.415 & c2/c1 > 0.415 \\
+r5.2 & LR & B0 + cooldown 30 days & 481 & 2391 & 2872 & 53 & 54 & 0.515 & c2/c1 > 0.515 \\
+r5.2 & LR & B0 + cooldown 30 days, no override & 533 & 2314 & 2847 & 9 & 51 & 0.534 & c2/c1 > 0.534 \\
+r5.2 & LR & B0 + cooldown 30 days, override 0.995 & 331 & 2719 & 3050 & 129 & 57 & 0.592 & c2/c1 > 0.592 \\
+r5.2 & LR & B11c + cooldown 30 days & 519 & 2377 & 2896 & 52 & 58 & 0.567 & c2/c1 > 0.567 \\
+r5.2 & LR & B11c deficit apportionment (outcome-aware) & 205 & 2936 & 3141 & 151 & 38 & 0.679 & c2/c1 > 0.679 \\
+r5.2 & LR & B4c outcome-aware & 205 & 2944 & 3149 & 142 & 37 & 0.95 & c2/c1 > 0.95 \\
+r5.2 & GBM & B0 global & 254 & 1895 & 2149 & 77 & 75 &  & equal \\
+r5.2 & GBM & B0 + scheduling & 306 & 1984 & 2290 & 77 & 75 & -0.584 & never \\
+r5.2 & GBM & B0 + cooldown 7 days & 344 & 2056 & 2400 & 28 & 75 & -0.559 & never \\
+r5.2 & GBM & B0 + cooldown 30 days & 599 & 1894 & 2493 & 14 & 75 & 345 & c2/c1 > 345 \\
+r5.2 & GBM & B0 + cooldown 30 days, no override & 652 & 2050 & 2702 & 9 & 61 & -2.57 & never \\
+r5.2 & GBM & B0 + cooldown 30 days, override 0.995 & 504 & 1776 & 2280 & 35 & 76 & 2.1 & c2/c1 > 2.1 \\
+r5.2 & GBM & B11c + cooldown 30 days & 652 & 1896 & 2548 & 13 & 70 & -398 & never \\
+r5.2 & GBM & B11c deficit apportionment (outcome-aware) & 295 & 1850 & 2145 & 65 & 71 & 0.911 & c2/c1 > 0.911 \\
+r5.2 & GBM & B4c outcome-aware & 296 & 1878 & 2174 & 74 & 71 & 2.47 & c2/c1 > 2.47 \\
+r5.2 & LSTM & B0 global & 272 & 2931 & 3203 & 128 & 47 &  & equal \\
+r5.2 & LSTM & B0 + scheduling & 359 & 2801 & 3160 & 86 & 54 & 0.669 & c2/c1 > 0.669 \\
+r5.2 & LSTM & B0 + cooldown 7 days & 365 & 2791 & 3156 & 69 & 56 & 0.664 & c2/c1 > 0.664 \\
+r5.2 & LSTM & B0 + cooldown 30 days & 656 & 2311 & 2967 & 65 & 69 & 0.619 & c2/c1 > 0.619 \\
+r5.2 & LSTM & B0 + cooldown 30 days, no override & 719 & 2251 & 2970 & 9 & 54 & 0.657 & c2/c1 > 0.657 \\
+r5.2 & LSTM & B0 + cooldown 30 days, override 0.995 & 489 & 2586 & 3075 & 101 & 65 & 0.629 & c2/c1 > 0.629 \\
+r5.2 & LSTM & B11c + cooldown 30 days & 692 & 2319 & 3011 & 65 & 64 & 0.686 & c2/c1 > 0.686 \\
+r5.2 & LSTM & B11c deficit apportionment (outcome-aware) & 294 & 2922 & 3216 & 124 & 46 & 2.44 & c2/c1 > 2.44 \\
+r5.2 & LSTM & B4c outcome-aware & 280 & 2929 & 3209 & 127 & 49 & 4 & c2/c1 > 4 \\
+\bottomrule
+\end{longtable}

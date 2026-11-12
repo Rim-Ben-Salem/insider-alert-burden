@@ -1,0 +1,13 @@
+release,detector,policy,attack,seeds,insiders,excess,lo,hi,per_seed_min,per_seed_max,positive_insiders,negative_insiders
+r4.2,AE,B11c deficit apportionment (outcome-aware),"online, keeps timing",5,50,1.1600000000000001,-1.1209999999999998,3.4799999999999995,-1.0,2.8000000000000007,19.0,7.0
+r4.2,AE,B4c outcome-aware,"online, keeps timing",5,50,1.1199999999999999,-1.08,4.2,-1.2000000000000002,3.4,13.0,5.0
+r4.2,GBM,B11c deficit apportionment (outcome-aware),"online, keeps timing",5,50,-0.04,-0.64,1.0399999999999998,-0.6000000000000001,1.0,1.0,4.0
+r4.2,GBM,B4c outcome-aware,"online, keeps timing",5,50,-0.11999999999999997,-0.9199999999999999,0.36000000000000004,-0.39999999999999997,0.2,3.0,2.0
+r4.2,LSTM,B11c deficit apportionment (outcome-aware),"online, keeps timing",3,50,0.2000000000000001,-1.3999999999999997,1.6666666666666667,5.551115123125783e-17,0.6000000000000002,4.0,1.0
+r4.2,LSTM,B4c outcome-aware,"online, keeps timing",3,50,0.13333333333333336,-1.1349999999999996,1.4666666666666668,0.0,0.4000000000000001,2.0,2.0
+r5.2,AE,B11c deficit apportionment (outcome-aware),"online, keeps timing",3,76,0.9333333333333336,-1.3333333333333333,3.866666666666666,-0.4000000000000001,2.400000000000001,14.0,8.0
+r5.2,AE,B4c outcome-aware,"online, keeps timing",3,76,0.9333333333333335,-1.8666666666666665,4.466666666666666,-0.2,2.2,15.0,11.0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),"online, keeps timing",3,76,0.0,-0.26666666666666666,0.3333333333333334,-0.2,0.2,1.0,1.0
+r5.2,GBM,B4c outcome-aware,"online, keeps timing",3,76,0.39999999999999997,-0.8000000000000002,1.7333333333333334,0.0,1.2,3.0,2.0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),"online, keeps timing",1,76,1.6,-2.0,5.199999999999999,1.6,1.6,11.0,5.0
+r5.2,LSTM,B4c outcome-aware,"online, keeps timing",1,76,2.0,-0.4,5.0,2.0,2.0,4.0,1.0

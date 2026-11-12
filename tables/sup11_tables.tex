@@ -1,0 +1,314 @@
+\begin{table*}[!t]
+\caption{Burden and Detection Over Retrained Seeds: Insiders Detected / $\max F_i$ / $1000\,\Delta_{\mathrm{FAR}}$, Means Over Seeds ($b=1\%$). Randomized Global: Each Alert Is Replaced, With Probability $\rho$, by an Employee Drawn From the Next Five Ranks\label{tab:s-seeds11}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Det. & Seeds & Global & Cooldown & No override & No backfill & Scheduler & Exact rule & Deficit app. & Random., $\rho=0.2$ & Random., $\rho=0.5$ \\
+\midrule
+\multicolumn{11}{l}{\emph{r4.2}} \\
+IF & 5 & 9.0 / 191 / 44.3 & 25.4 / 45 / 16.7 & 24.8 / 9 / 12.9 & 7.0 / 45 / 6.9 & 15.8 / 105 / 22.1 & 6.4 / 179 / 2.0 & 6.2 / 163 / 0.0 & 9.2 / 178 / 42.3 & 12.2 / 137 / 34.8 \\
+AE & 5 & 28.8 / 65 / 15.0 & 34.6 / 20 / 5.3 & 28.8 / 9 / 4.6 & 23.8 / 19 / 4.5 & 33.0 / 35 / 10.0 & 30.2 / 71 / 1.9 & 29.8 / 77 / 0.1 & 31.2 / 58 / 13.8 & 30.0 / 48 / 12.2 \\
+LR & 1 & 42.0 / 168 / 8.6 & 43.0 / 34 / 4.6 & 32.0 / 9 / 4.5 & 40.0 / 34 / 1.8 & 43.0 / 88 / 4.7 & 43.0 / 169 / 1.9 & 44.0 / 148 / 0.1 & 40.0 / 157 / 7.6 & 41.0 / 117 / 7.2 \\
+GBM & 5 & 47.0 / 104 / 16.1 & 47.4 / 28 / 6.5 & 39.4 / 8 / 7.4 & 45.6 / 28 / 2.7 & 47.6 / 44 / 6.9 & 44.8 / 68 / 2.0 & 44.4 / 65 / 0.1 & 47.4 / 88 / 14.8 & 44.4 / 49 / 11.0 \\
+LSTM & 3 & 35.3 / 56 / 12.8 & 42.7 / 20 / 6.6 & 25.7 / 9 / 7.2 & 32.3 / 20 / 3.2 & 34.0 / 32 / 9.1 & 32.0 / 49 / 2.0 & 31.7 / 49 / 0.1 & 34.7 / 54 / 13.3 & 33.3 / 49 / 12.7 \\
+\multicolumn{11}{l}{\emph{r5.2}} \\
+IF & 3 & 7.3 / 130 / 59.1 & 50.7 / 61 / 23.6 & 50.7 / 9 / 18.8 & 6.3 / 61 / 11.3 & 22.0 / 93 / 31.9 & 9.0 / 142 / 2.0 & 8.3 / 140 / 0.6 & 11.0 / 127 / 56.3 & 17.7 / 113 / 50.9 \\
+AE & 3 & 50.7 / 113 / 17.7 & 67.0 / 34 / 9.0 & 59.3 / 9 / 8.9 & 50.0 / 34 / 4.7 & 61.3 / 47 / 16.4 & 48.3 / 112 / 2.0 & 47.7 / 114 / 0.2 & 50.7 / 110 / 15.6 & 54.7 / 99 / 14.6 \\
+LR & 1 & 35.0 / 158 / 20.9 & 54.0 / 53 / 10.9 & 51.0 / 9 / 10.4 & 35.0 / 53 / 6.0 & 51.0 / 82 / 12.1 & 37.0 / 142 / 2.0 & 38.0 / 151 / 0.4 & 38.0 / 142 / 16.4 & 38.0 / 124 / 15.3 \\
+GBM & 3 & 74.3 / 82 / 23.9 & 70.7 / 13 / 10.9 & 58.3 / 9 / 11.1 & 71.3 / 12 / 5.9 & 74.3 / 76 / 16.1 & 70.7 / 70 / 2.0 & 70.0 / 67 / 0.5 & 74.7 / 72 / 21.9 & 72.0 / 51 / 19.3 \\
+LSTM & 1 & 47.0 / 128 / 11.4 & 69.0 / 65 / 7.9 & 54.0 / 9 / 7.5 & 47.0 / 65 / 4.3 & 54.0 / 86 / 11.8 & 49.0 / 127 / 1.9 & 46.0 / 124 / 0.4 & 46.0 / 119 / 11.9 & 44.0 / 116 / 9.3 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Detectors on Deviations From Each Employee's Own Training Baseline (One Run): Insiders Detected / $\max F_i$ Under Each Policy; Farmers Who Evade the Cooldown (Best Configuration); Excess Loss of the Oracle and of the Primary Online Attacker Against Deficit Apportionment, One Insider at a Time, With 95\% Intervals ($b=1\%$)\label{tab:s-user11}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Det. & Global & Cooldown & No override & Parity & Farming (cooldown) & Timing oracle & Online \\
+\midrule
+\multicolumn{8}{l}{\emph{r4.2}} \\
+IF & 23 / 101 & 27 / 12 & 26 / 9 & 25 / 73 & 4 of 22 & 25 [17, 33] & 3.6 [-1, 9] \\
+AE & 32 / 134 & 27 / 123 & 20 / 8 & 30 / 125 & 2 of 25 & 27 [20, 34] & 0.6 [-6, 7] \\
+GBM & 49 / 85 & 50 / 17 & 29 / 8 & 47 / 85 & 2 of 44 & 14 [8, 20] & -1.0 [-4, 2] \\
+\multicolumn{8}{l}{\emph{r5.2}} \\
+IF & 44 / 162 & 51 / 24 & 50 / 9 & 45 / 157 & 10 of 50 & 32 [23, 41] & -1.8 [-8, 4] \\
+AE & 46 / 133 & 65 / 122 & 57 / 9 & 43 / 131 & 12 of 63 & 34 [25, 44] & -2.2 [-8, 3] \\
+GBM & 76 / 99 & 76 / 25 & 57 / 9 & 74 / 99 & 0 of 73 & 8 [3, 14] & 0.0 [0, 0] \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table}[!t]
+\caption{Permutation Tests of Group Disparity Under the Global Policy (First Seed, 2000 Permutations): Observed $p$-Values for the Range of Group False-Alert Rates and for Their Size-Weighted Variance, and Power at the 5\% Level When the False Alerts of the Smallest or the Largest Functional Unit Are Raised by Their Own Rate (Poisson Additions, 50 Injections, 200 Permutations Each). Power Is Not Defined Relative to a Null Disparity: Where the Observed $p$ Is Already Below $0.05$, Power Is High at Any Effect\label{tab:s-power}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+& & \multicolumn{2}{c}{Observed $p$} & \multicolumn{2}{c}{Smallest unit $\times2$} & \multicolumn{2}{c}{Largest unit $\times2$} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Rel. & Det. & Range & Weighted & Range & Weighted & Range & Weighted \\
+\midrule
+r4.2 & IF & 0.020 & 0.0015 & 0.98 & 1.00 & 0.98 & 1.00 \\
+r4.2 & AE & 0.132 & 0.0870 & 0.00 & 0.08 & 0.26 & 1.00 \\
+r4.2 & LR & 0.887 & 0.9290 & 0.00 & 0.00 & 0.00 & 0.00 \\
+r4.2 & GBM & 0.046 & 0.0495 & 1.00 & 1.00 & 0.32 & 1.00 \\
+r4.2 & LSTM & 0.098 & 0.0625 & 0.02 & 0.68 & 0.90 & 1.00 \\
+r5.2 & IF & 0.065 & 0.0005 & 0.04 & 1.00 & 0.12 & 1.00 \\
+r5.2 & AE & 0.186 & 0.0040 & 0.80 & 1.00 & 0.00 & 1.00 \\
+r5.2 & LR & 0.349 & 0.0830 & 0.00 & 0.02 & 0.00 & 0.00 \\
+r5.2 & GBM & 0.120 & 0.0050 & 0.00 & 1.00 & 0.00 & 1.00 \\
+r5.2 & LSTM & 0.446 & 0.8526 & 0.00 & 0.00 & 0.00 & 0.08 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[!t]
+\caption{Cooldown Sensitivity: Insiders Detected and Employees Alerted (Summed Over the Ten Detector--Release Settings), Mean $\max F_i$, Mean Median Days From an Insider's First Malicious Day to Their First Alert, and Share of Detected Insiders Who Evade by Farming (Generic Profile, Three Probes, Always Cleared; $b=1\%$ Only); Means Over Up to Three Seeds per Detector\label{tab:s-sweep}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+Policy & $b$ & Detected & $\max F_i$ & Alerted & Delay (d) & Farming (\%) \\
+\midrule
+Global & 1\% & 373 & 119 & 1741 & 0.7 & 1.0 \\
+Global & 2\% & 436 & 149 & 2421 & 0.8 & -- \\
+Cooldown 30 d, override 0.99 & 1\% & 420 & 110 & 2505 & 2.3 & 2.7 \\
+Cooldown 30 d, override 0.99 & 2\% & 556 & 114 & 6766 & 1.4 & -- \\
+Cooldown 30 d, override 0.995 & 1\% & 500 & 87 & 3372 & 4.2 & 7.6 \\
+Cooldown 30 d, override 0.995 & 2\% & 540 & 88 & 8437 & 1.4 & -- \\
+Cooldown 30 d, override 0.999 & 1\% & 503 & 37 & 4359 & 2.7 & 10.8 \\
+Cooldown 30 d, override 0.999 & 2\% & 499 & 38 & 9521 & 2.2 & -- \\
+Cooldown 30 d, override 0.9995 & 1\% & 468 & 25 & 4509 & 4.8 & 13.3 \\
+Cooldown 30 d, override 0.9995 & 2\% & 456 & 25 & 9644 & 3.4 & -- \\
+Cooldown 30 d, override none & 1\% & 424 & 9 & 4710 & 6.0 & 22.2 \\
+Cooldown 30 d, override none & 2\% & 396 & 9 & 9835 & 4.8 & -- \\
+Cooldown 3 d, override 0.999 & 1\% & 407 & 62 & 2118 & 2.4 & 5.8 \\
+Cooldown 7 d, override 0.999 & 1\% & 433 & 47 & 2537 & 1.9 & 7.9 \\
+Cooldown 14 d, override 0.999 & 1\% & 469 & 40 & 3077 & 3.4 & 10.9 \\
+Cooldown 60 d, override 0.999 & 1\% & 457 & 37 & 7373 & 1.4 & 15.6 \\
+Repeat cap: 1 per 30 days, override 0.999 & 1\% & 506 & 37 & 4638 & 2.6 & 11.9 \\
+Repeat cap: 3 per 30 days, override 0.999 & 1\% & 446 & 42 & 2539 & 2.1 & 5.7 \\
+\midrule
+\multicolumn{7}{l}{Insiders detected at $b=2\%$, global / cooldown (override $0.999$) / cooldown (override $0.995$)} \\
+\multicolumn{2}{l}{r4.2 IF} & \multicolumn{5}{l}{12.7 / 28.0 / 29.7} \\
+\multicolumn{2}{l}{r4.2 AE} & \multicolumn{5}{l}{35.7 / 33.7 / 40.7} \\
+\multicolumn{2}{l}{r4.2 LR} & \multicolumn{5}{l}{45.0 / 41.0 / 44.0} \\
+\multicolumn{2}{l}{r4.2 GBM} & \multicolumn{5}{l}{47.7 / 45.0 / 47.3} \\
+\multicolumn{2}{l}{r4.2 LSTM} & \multicolumn{5}{l}{37.3 / 44.7 / 47.0} \\
+\multicolumn{2}{l}{r5.2 IF} & \multicolumn{5}{l}{13.0 / 53.7 / 55.0} \\
+\multicolumn{2}{l}{r5.2 AE} & \multicolumn{5}{l}{62.0 / 62.7 / 69.0} \\
+\multicolumn{2}{l}{r5.2 LR} & \multicolumn{5}{l}{51.0 / 58.0 / 64.0} \\
+\multicolumn{2}{l}{r5.2 GBM} & \multicolumn{5}{l}{75.3 / 65.7 / 72.3} \\
+\multicolumn{2}{l}{r5.2 LSTM} & \multicolumn{5}{l}{56.0 / 67.0 / 71.0} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[!t]
+\caption{Discount Farming by Configuration: Share of Insiders Detected Without Farming Who Evade With It (\%), Pooled Over IF, AE, LR and GBM and Their Seeds (Revision 10); Last Rows: Every Detector Including the LSTM (Revision 11)\label{tab:s-farm-config}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Variant & Own, 3 & Generic, 3 & Generic, 1 & Own, 3, 14 d earlier \\
+\midrule
+cooldown 30 d, override 0.999 & 9.0 & 11.7 & 11.0 & 7.4 \\
+no override & 21.1 & 24.2 & 22.8 & 16.9 \\
+no backfill & 5.2 & 7.3 & 5.8 & 4.3 \\
+defense: re-check 10\% of suppressed alerts & 10.6 & 12.9 & 9.1 & 10.8 \\
+defense: farming-signature monitor (score $\ge$ 0.99 within 7 days of a clearance) & 3.4 & 5.8 & 3.9 & 8.4 \\
+defense: 3-day cooldown after clearing a score $\ge$ 0.99 & 8.4 & 10.9 & 8.0 & 6.1 \\
+global (no cooldown) & 0.1 & 0.2 & 0.0 & 0.4 \\
+insider-level verdicts & 9.1 & 11.2 & 10.2 & 7.1 \\
+verdicts 7 days late & 1.5 & 3.2 & 1.5 & 9.0 \\
+verdicts 14 days late & 0.8 & 1.5 & 0.8 & 8.4 \\
+no override, verdicts 7 days late & 2.0 & 3.9 & 1.9 & 21.0 \\
+\midrule
+\multicolumn{5}{l}{Cooldown (override $0.999$), by detector, always cleared (all seeds, revision 11): own / generic} \\
+IF & \multicolumn{4}{l}{11.0 / 13.8} \\
+AE & \multicolumn{4}{l}{11.5 / 14.9} \\
+LR & \multicolumn{4}{l}{10.9 / 14.1} \\
+GBM & \multicolumn{4}{l}{8.6 / 9.2} \\
+LSTM & \multicolumn{4}{l}{1.1 / 3.3} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table*}[!t]
+\caption{Farming When Each Probe Alert Is Cleared With Probability $p$ and a Confirmed Probe Exposes the Insider: Farmers Caught Without and With Farming, Net Gain of the Attacker, Farmers Who Evade and Farmers Exposed by a Probe, Summed Over the Ten Detector--Release Settings (Seed Means, Up to Three Seeds; Three Draws for $p<1$)\label{tab:s-clearance}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Variant & Profile & $p$ & Caught without & Caught with & Net gain & Evaded & Exposed \\
+\midrule
+global & own & 1.00 & 353 & 349 & 3 (0.9\%) & 3 & 0 \\
+global & own & 0.75 & 353 & 356 & -3 (-0.8\%) & 3 & 75 \\
+global & own & 0.50 & 353 & 363 & -10 (-2.9\%) & 3 & 128 \\
+global & own & 0.25 & 353 & 368 & -16 (-4.4\%) & 3 & 165 \\
+global & generic & 1.00 & 353 & 349 & 4 (1.0\%) & 4 & 0 \\
+global & generic & 0.75 & 353 & 360 & -8 (-2.2\%) & 4 & 96 \\
+global & generic & 0.50 & 353 & 364 & -11 (-3.2\%) & 4 & 158 \\
+global & generic & 0.25 & 353 & 372 & -20 (-5.6\%) & 4 & 197 \\
+cooldown 30 d, override 0.999 & own & 1.00 & 472 & 437 & 35 (7.5\%) & 40 & 0 \\
+cooldown 30 d, override 0.999 & own & 0.75 & 472 & 458 & 14 (3.0\%) & 30 & 88 \\
+cooldown 30 d, override 0.999 & own & 0.50 & 472 & 479 & -7 (-1.6\%) & 19 & 172 \\
+cooldown 30 d, override 0.999 & own & 0.25 & 472 & 501 & -29 (-6.2\%) & 12 & 242 \\
+cooldown 30 d, override 0.999 & generic & 1.00 & 472 & 424 & 48 (10.2\%) & 51 & 0 \\
+cooldown 30 d, override 0.999 & generic & 0.75 & 472 & 452 & 20 (4.2\%) & 36 & 113 \\
+cooldown 30 d, override 0.999 & generic & 0.50 & 472 & 485 & -13 (-2.8\%) & 22 & 205 \\
+cooldown 30 d, override 0.999 & generic & 0.25 & 472 & 506 & -34 (-7.1\%) & 13 & 279 \\
+cooldown 30 d, no override & own & 1.00 & 393 & 321 & 72 (18.3\%) & 77 & 0 \\
+cooldown 30 d, no override & own & 0.75 & 393 & 361 & 31 (8.0\%) & 60 & 74 \\
+cooldown 30 d, no override & own & 0.50 & 393 & 408 & -15 (-3.8\%) & 41 & 150 \\
+cooldown 30 d, no override & own & 0.25 & 393 & 452 & -59 (-15.0\%) & 22 & 220 \\
+cooldown 30 d, no override & generic & 1.00 & 393 & 308 & 85 (21.6\%) & 87 & 0 \\
+cooldown 30 d, no override & generic & 0.75 & 393 & 354 & 39 (9.9\%) & 66 & 82 \\
+cooldown 30 d, no override & generic & 0.50 & 393 & 408 & -16 (-4.0\%) & 42 & 159 \\
+cooldown 30 d, no override & generic & 0.25 & 393 & 457 & -65 (-16.5\%) & 21 & 243 \\
+repeat cap: 1 per 30 days, override 0.999 & own & 1.00 & 475 & 435 & 39 (8.3\%) & 42 & 0 \\
+repeat cap: 1 per 30 days, override 0.999 & own & 0.75 & 475 & 456 & 19 (4.0\%) & 34 & 91 \\
+repeat cap: 1 per 30 days, override 0.999 & own & 0.50 & 475 & 477 & -2 (-0.4\%) & 25 & 177 \\
+repeat cap: 1 per 30 days, override 0.999 & own & 0.25 & 475 & 500 & -25 (-5.4\%) & 13 & 246 \\
+repeat cap: 1 per 30 days, override 0.999 & generic & 1.00 & 475 & 419 & 55 (11.7\%) & 57 & 0 \\
+repeat cap: 1 per 30 days, override 0.999 & generic & 0.75 & 475 & 449 & 26 (5.4\%) & 40 & 117 \\
+repeat cap: 1 per 30 days, override 0.999 & generic & 0.50 & 475 & 478 & -3 (-0.7\%) & 25 & 202 \\
+repeat cap: 1 per 30 days, override 0.999 & generic & 0.25 & 475 & 504 & -29 (-6.2\%) & 15 & 281 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Timing Attacks One Insider at a Time, Every Parity Rule: Excess Loss Over the Global Policy, Mean and Range Over the Six Detector--Release Settings (GBM, LSTM, AE), and the Number of Settings Whose 95\% Interval, Resampling Seeds and Insiders, Excludes Zero. Relocating Each Insider to Its Own Original Start Changed Global Detection for 6.9\% of Insiders ($b=1\%$)\label{tab:s-timing-uni}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccc}
+\toprule
+Rule & Attacker & Mean & Range & Sig. \\
+\midrule
+B4 label-free & oracle: maximizes excess loss & 16.2 & [8.7, 26.0] & 6 of 6 \\
+B4 label-free & oracle: evades the parity rule if possible & 16.2 & [8.7, 26.0] & 6 of 6 \\
+B4 label-free & knows allocation: largest cut & 2.5 & [-4.3, 7.0] & 1 of 6 \\
+B4 label-free & hindsight deficit & 2.3 & [-0.9, 8.0] & 1 of 6 \\
+B4 label-free & online deficit, q=0.9 & 0.0 & [-1.7, 3.0] & 0 of 6 \\
+B4 label-free & random & -0.1 & [-1.4, 1.7] & 0 of 6 \\
+\midrule
+B4c outcome-aware & oracle: maximizes excess loss & 16.9 & [9.0, 27.7] & 6 of 6 \\
+B4c outcome-aware & oracle: evades the parity rule if possible & 16.9 & [9.0, 27.7] & 6 of 6 \\
+B4c outcome-aware & knows allocation: largest cut & 1.3 & [-5.3, 7.0] & 0 of 6 \\
+B4c outcome-aware & hindsight deficit & 2.3 & [-0.8, 5.4] & 2 of 6 \\
+B4c outcome-aware & online deficit, q=0.9 & -0.1 & [-2.0, 3.4] & 0 of 6 \\
+B4c outcome-aware & random & 0.1 & [-2.4, 3.1] & 1 of 6 \\
+B4c outcome-aware & online, keeps timing if no trigger & 0.7 & [-0.1, 2.0] & 0 of 6 \\
+\midrule
+B4c outcome-aware, 7-day verdict delay & oracle: maximizes excess loss & 16.0 & [8.0, 25.7] & 6 of 6 \\
+B4c outcome-aware, 7-day verdict delay & oracle: evades the parity rule if possible & 16.0 & [8.0, 25.7] & 6 of 6 \\
+B4c outcome-aware, 7-day verdict delay & knows allocation: largest cut & 1.8 & [-5.0, 4.3] & 0 of 6 \\
+B4c outcome-aware, 7-day verdict delay & hindsight deficit & 1.4 & [-3.1, 3.8] & 0 of 6 \\
+B4c outcome-aware, 7-day verdict delay & online deficit, q=0.9 & 0.0 & [-2.5, 2.2] & 0 of 6 \\
+B4c outcome-aware, 7-day verdict delay & random & 0.1 & [-3.2, 2.1] & 0 of 6 \\
+\midrule
+B11c deficit apportionment (outcome-aware) & oracle: maximizes excess loss & 20.6 & [8.7, 31.2] & 6 of 6 \\
+B11c deficit apportionment (outcome-aware) & oracle: evades the parity rule if possible & 20.6 & [8.7, 31.2] & 6 of 6 \\
+B11c deficit apportionment (outcome-aware) & knows allocation: largest cut & 1.6 & [-6.7, 6.0] & 0 of 6 \\
+B11c deficit apportionment (outcome-aware) & hindsight deficit & 0.6 & [-2.9, 4.0] & 0 of 6 \\
+B11c deficit apportionment (outcome-aware) & online deficit, q=0.9 & -0.3 & [-3.3, 3.2] & 0 of 6 \\
+B11c deficit apportionment (outcome-aware) & random & -0.6 & [-3.8, 0.8] & 0 of 6 \\
+B11c deficit apportionment (outcome-aware) & online, keeps timing if no trigger & 0.6 & [-0.0, 1.6] & 0 of 6 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Baselines Over Seeds: Insiders Detected / $\max F_i$ / Total False Alerts. ``Removed'': a Confirmed Insider Is Not Alerted Again; Cap $n$/30 d: No Alert on an Employee Alerted $n$ Times in the Last 30 Days, Whatever the Verdict, Unless $s\ge0.999$ ($b=1\%$)\label{tab:s-baselines11}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+Det. & Global & Global, removed & Cooldown & Cooldown, removed & Cap 1/30 d & Cap 3/30 d & Deficit app. & Deficit, removed \\
+\midrule
+\multicolumn{9}{l}{\emph{r4.2}} \\
+IF & 9.0 / 191 / 1521 & 9.0 / 192 / 1526 & 25.4 / 45 / 1441 & 26.2 / 45 / 1509 & 26.0 / 45 / 1502 & 16.4 / 46 / 1530 & 6.2 / 163 / 1567 & 6.2 / 162 / 1572 \\
+AE & 28.8 / 65 / 1519 & 29.0 / 65 / 1539 & 34.6 / 20 / 1445 & 35.0 / 20 / 1509 & 34.4 / 20 / 1498 & 32.2 / 26 / 1511 & 29.8 / 77 / 1531 & 29.4 / 78 / 1547 \\
+LR & 42.0 / 168 / 1365 & 42.0 / 171 / 1465 & 43.0 / 34 / 1375 & 43.0 / 34 / 1488 & 43.0 / 34 / 1479 & 44.0 / 40 / 1374 & 44.0 / 148 / 1365 & 43.0 / 154 / 1475 \\
+GBM & 47.0 / 104 / 1154 & 47.8 / 119 / 1454 & 47.4 / 28 / 1163 & 46.8 / 28 / 1485 & 47.2 / 29 / 1250 & 48.4 / 33 / 1199 & 44.4 / 65 / 1121 & 46.2 / 75 / 1421 \\
+LSTM & 35.3 / 56 / 1481 & 35.3 / 57 / 1516 & 42.7 / 20 / 1459 & 43.0 / 20 / 1515 & 43.3 / 20 / 1490 & 34.0 / 27 / 1496 & 31.7 / 49 / 1500 & 34.3 / 52 / 1528 \\
+\multicolumn{9}{l}{\emph{r5.2}} \\
+IF & 7.3 / 130 / 3260 & 7.3 / 130 / 3284 & 50.7 / 61 / 2991 & 51.0 / 61 / 3154 & 50.7 / 61 / 3144 & 27.7 / 62 / 3212 & 8.3 / 140 / 3287 & 8.0 / 142 / 3302 \\
+AE & 50.7 / 113 / 3174 & 51.3 / 114 / 3236 & 67.0 / 34 / 2887 & 67.0 / 34 / 3152 & 66.7 / 34 / 3138 & 60.3 / 40 / 3125 & 47.7 / 114 / 3185 & 47.0 / 114 / 3240 \\
+LR & 35.0 / 158 / 3150 & 36.0 / 158 / 3208 & 54.0 / 53 / 2872 & 56.0 / 53 / 3138 & 55.0 / 53 / 3138 & 56.0 / 55 / 3080 & 38.0 / 151 / 3141 & 38.0 / 149 / 3210 \\
+GBM & 74.3 / 82 / 2124 & 74.7 / 96 / 2823 & 70.7 / 13 / 2520 & 69.0 / 13 / 3082 & 70.7 / 13 / 2642 & 75.0 / 26 / 2566 & 70.0 / 67 / 2126 & 69.7 / 81 / 2821 \\
+LSTM & 47.0 / 128 / 3203 & 47.0 / 129 / 3250 & 69.0 / 65 / 2967 & 70.0 / 65 / 3152 & 70.0 / 65 / 3132 & 54.0 / 66 / 3165 & 46.0 / 124 / 3216 & 47.0 / 126 / 3247 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Cooldown (30 Days) When Verdicts Arrive Late: Insiders Detected / $\max F_i$ / Benign Employees Alerted, Means Over Seeds. The Cooldown Starts When the Verdict Arrives, and Alerts Whose Verdicts Are Pending Do Not Postpone an Arrived Clearance ($b=1\%$)\label{tab:s-delay}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Det. & Global & Immediate & 7 d late & 14 d late & No override, 7 d late \\
+\midrule
+\multicolumn{6}{l}{\emph{r4.2}} \\
+IF & 9.0 / 191 / 60 & 25.4 / 45 / 243 & 22.2 / 47 / 178 & 15.8 / 51 / 152 & 20.0 / 35 / 182 \\
+AE & 28.8 / 65 / 150 & 34.6 / 20 / 333 & 37.2 / 25 / 223 & 36.4 / 31 / 204 & 36.4 / 25 / 222 \\
+LR & 42.0 / 168 / 112 & 43.0 / 34 / 356 & 44.0 / 39 / 262 & 43.0 / 43 / 219 & 39.0 / 36 / 262 \\
+GBM & 47.0 / 104 / 150 & 47.4 / 28 / 331 & 47.6 / 30 / 274 & 47.0 / 37 / 248 & 44.8 / 25 / 290 \\
+LSTM & 35.3 / 56 / 189 & 42.7 / 20 / 381 & 39.3 / 26 / 291 & 39.0 / 32 / 258 & 35.7 / 27 / 296 \\
+\multicolumn{6}{l}{\emph{r5.2}} \\
+IF & 7.3 / 130 / 114 & 50.7 / 61 / 452 & 40.7 / 63 / 359 & 26.7 / 65 / 309 & 40.0 / 32 / 362 \\
+AE & 50.7 / 113 / 264 & 67.0 / 34 / 531 & 66.0 / 38 / 379 & 64.7 / 41 / 356 & 66.0 / 29 / 379 \\
+LR & 35.0 / 158 / 186 & 54.0 / 53 / 481 & 62.0 / 56 / 351 & 60.0 / 60 / 332 & 62.0 / 36 / 358 \\
+GBM & 74.3 / 82 / 249 & 70.7 / 13 / 615 & 75.3 / 26 / 483 & 75.7 / 36 / 424 & 74.0 / 26 / 497 \\
+LSTM & 47.0 / 128 / 272 & 69.0 / 65 / 656 & 64.0 / 66 / 466 & 61.0 / 66 / 428 & 61.0 / 30 / 474 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
+
+\begin{table}[!t]
+\caption{Permutation Tests of Group Disparity Without the Most-Flagged Benign Employees: $p$-Values of the Range / Size-Weighted Statistic (First Seed, 2000 Permutations, $b=1\%$)\label{tab:s-perm-removed}}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+Rel. & Det. & All & 5 removed & 10 removed & 20 removed \\
+\midrule
+r4.2 & IF & 0.020 / 0.0015 & 0.643 / 0.5637 & 0.926 / 0.9210 & 0.532 / 0.1919 \\
+r4.2 & AE & 0.135 / 0.0785 & 0.614 / 0.6807 & 0.487 / 0.3153 & 0.674 / 0.2369 \\
+r4.2 & LR & 0.894 / 0.9330 & 0.300 / 0.3468 & 0.969 / 0.9955 & 0.690 / 0.6842 \\
+r4.2 & GBM & 0.046 / 0.0550 & 0.343 / 0.5402 & 0.133 / 0.1404 & 0.903 / 0.7566 \\
+r4.2 & LSTM & 0.109 / 0.0780 & 0.247 / 0.1659 & 0.069 / 0.0405 & 0.639 / 0.1659 \\
+r5.2 & IF & 0.065 / 0.0005 & 0.075 / 0.0010 & 0.073 / 0.0005 & 0.600 / 0.3718 \\
+r5.2 & AE & 0.163 / 0.0040 & 0.130 / 0.0020 & 0.085 / 0.0025 & 0.063 / 0.0015 \\
+r5.2 & LR & 0.362 / 0.0850 & 0.750 / 0.3658 & 0.544 / 0.2284 & 0.324 / 0.0990 \\
+r5.2 & GBM & 0.119 / 0.0045 & 0.204 / 0.0040 & 0.235 / 0.0095 & 0.339 / 0.0595 \\
+r5.2 & LSTM & 0.438 / 0.8456 & 0.322 / 0.7351 & 0.259 / 0.3838 & 0.508 / 0.5422 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,145 @@
+release,detector,policy,user,start,P1_pred,G1_pred,P1_full,G1_full,others_P_changed
+r5.2,AE,B4 label-free,GMB0400,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,DQM0809,0,1.0,1.0,1,1,2
+r5.2,AE,B4 label-free,SNK1280,19,0.0,1.0,0,1,0
+r5.2,AE,B4 label-free,ACM1770,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,MCP0611,0,0.0,0.0,0,0,0
+r5.2,AE,B4 label-free,TMC0934,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,HXP0976,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,AYG1697,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,KDC0996,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,OFS0030,6,0.0,1.0,0,1,0
+r5.2,AE,B4 label-free,AMC1883,0,1.0,1.0,1,1,0
+r5.2,AE,B4 label-free,OSS1463,0,0.0,0.0,0,0,0
+r5.2,AE,B4c outcome-aware,NKN1405,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,OSS1463,0,0.0,0.0,0,0,0
+r5.2,AE,B4c outcome-aware,TMT0851,127,0.0,1.0,0,1,0
+r5.2,AE,B4c outcome-aware,ZKP0542,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,ELT1370,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,WHB1247,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,ALW0764,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,HSN0675,4,0.0,1.0,0,1,0
+r5.2,AE,B4c outcome-aware,CPD1525,0,1.0,1.0,1,1,2
+r5.2,AE,B4c outcome-aware,WWW0701,0,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,CGF1056,8,1.0,1.0,1,1,0
+r5.2,AE,B4c outcome-aware,ISW0738,0,1.0,1.0,1,1,1
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",GMB0400,0,1.0,1.0,1,1,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",HIS1394,0,1.0,1.0,1,1,3
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",HSN0675,34,0.0,1.0,0,1,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",RRS0056,0,1.0,1.0,1,1,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",DKG0161,0,1.0,1.0,1,1,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",NZL1395,0,1.0,1.0,1,1,2
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",ACM1770,0,1.0,1.0,1,1,1
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",OFS0030,17,0.0,1.0,0,1,1
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",ELT1370,0,1.0,1.0,1,1,1
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",CIF1430,0,0.0,0.0,0,0,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",NAH1366,1,0.0,0.0,0,0,0
+r5.2,AE,"B4c outcome-aware, 7-day verdict delay",MIB0203,0,1.0,1.0,1,1,1
+r5.2,AE,B11c deficit apportionment (outcome-aware),REF1924,0,1.0,1.0,1,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),HMS1658,0,0.0,0.0,0,0,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),HXP0976,8,0.0,1.0,0,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),CWW1120,3,0.0,1.0,0,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),BYO1846,23,0.0,1.0,0,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),NKM1738,0,1.0,1.0,1,1,2
+r5.2,AE,B11c deficit apportionment (outcome-aware),SNK1280,7,0.0,1.0,0,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),WWW0701,0,1.0,1.0,1,1,1
+r5.2,AE,B11c deficit apportionment (outcome-aware),LAH0463,6,0.0,1.0,0,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),AMC1883,0,1.0,1.0,1,1,2
+r5.2,AE,B11c deficit apportionment (outcome-aware),AYG1697,0,1.0,1.0,1,1,0
+r5.2,AE,B11c deficit apportionment (outcome-aware),BDP0096,0,1.0,1.0,1,1,3
+r5.2,GBM,B4 label-free,HSN0675,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,GWG0497,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,VAH1292,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,ETW0002,0,0.0,1.0,0,1,0
+r5.2,GBM,B4 label-free,NZL1395,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,OKM1092,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,BYO1846,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,ISW0738,38,0.0,1.0,0,1,0
+r5.2,GBM,B4 label-free,CWW1120,0,0.0,1.0,0,1,0
+r5.2,GBM,B4 label-free,HIS1394,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,WCW1013,0,1.0,1.0,1,1,0
+r5.2,GBM,B4 label-free,HMS1658,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,NZL1395,0,1.0,1.0,1,1,1
+r5.2,GBM,B4c outcome-aware,WHB1247,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,SNK1280,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,DIM0330,0,1.0,1.0,1,1,1
+r5.2,GBM,B4c outcome-aware,ZEH0685,4,0.0,1.0,0,1,0
+r5.2,GBM,B4c outcome-aware,CGF1056,0,1.0,1.0,1,1,1
+r5.2,GBM,B4c outcome-aware,AMC1883,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,OSS1463,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,CHP1711,0,1.0,1.0,1,1,1
+r5.2,GBM,B4c outcome-aware,ELT1370,0,1.0,1.0,1,1,0
+r5.2,GBM,B4c outcome-aware,WSK1857,0,1.0,1.0,1,1,1
+r5.2,GBM,B4c outcome-aware,ASH0298,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",KCM0466,1,0.0,1.0,0,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",ACA1126,0,0.0,1.0,0,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",HXP0976,0,1.0,1.0,1,1,1
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",NIV1608,0,1.0,1.0,1,1,1
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",IRH1224,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",BYO1846,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",MIB0203,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",NKM1738,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",TMC0934,0,1.0,1.0,1,1,0
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",OSS1463,0,1.0,1.0,1,1,1
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",ASH0458,0,1.0,1.0,1,1,2
+r5.2,GBM,"B4c outcome-aware, 7-day verdict delay",GWG0497,0,1.0,1.0,1,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),KDC0996,0,1.0,1.0,1,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),FZG0389,0,1.0,1.0,1,1,1
+r5.2,GBM,B11c deficit apportionment (outcome-aware),GCD0194,0,1.0,1.0,1,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),ACA1126,0,0.0,1.0,0,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),WOS1834,0,1.0,1.0,1,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),ALW0764,0,1.0,1.0,1,1,1
+r5.2,GBM,B11c deficit apportionment (outcome-aware),RCG0584,0,1.0,1.0,1,1,1
+r5.2,GBM,B11c deficit apportionment (outcome-aware),OFS0030,0,1.0,1.0,1,1,2
+r5.2,GBM,B11c deficit apportionment (outcome-aware),TMC0934,0,1.0,1.0,1,1,0
+r5.2,GBM,B11c deficit apportionment (outcome-aware),ASH0458,0,1.0,1.0,1,1,1
+r5.2,GBM,B11c deficit apportionment (outcome-aware),HSN0675,0,1.0,1.0,1,1,1
+r5.2,GBM,B11c deficit apportionment (outcome-aware),LVF1626,0,1.0,1.0,1,1,1
+r5.2,LSTM,B4 label-free,DKG0161,162,0.0,1.0,0,1,0
+r5.2,LSTM,B4 label-free,HIS1394,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,GKW0043,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,JAL0811,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,WOS1834,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,ELM1123,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,HBP1076,18,0.0,1.0,0,1,0
+r5.2,LSTM,B4 label-free,KDC0996,6,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,HXP0976,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4 label-free,RCG0584,3,1.0,1.0,1,1,0
+r5.2,LSTM,B4 label-free,ETW0002,0,0.0,1.0,0,1,0
+r5.2,LSTM,B4 label-free,ACM1770,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4c outcome-aware,REF1924,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4c outcome-aware,ELM1123,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4c outcome-aware,ASH0458,3,0.0,1.0,0,1,0
+r5.2,LSTM,B4c outcome-aware,ASH0298,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4c outcome-aware,WWW0701,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4c outcome-aware,JIG1593,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4c outcome-aware,ICB1354,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4c outcome-aware,CGF1056,0,0.0,0.0,0,0,0
+r5.2,LSTM,B4c outcome-aware,JMM0613,6,0.0,1.0,0,1,0
+r5.2,LSTM,B4c outcome-aware,NZL1395,12,0.0,1.0,0,1,0
+r5.2,LSTM,B4c outcome-aware,MIB0203,0,1.0,1.0,1,1,0
+r5.2,LSTM,B4c outcome-aware,JCC0016,3,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",RCG0584,36,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",NZL1395,12,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",HIS1394,0,1.0,1.0,1,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",AYG1697,0,1.0,1.0,1,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",RRS0056,0,0.0,0.0,0,0,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",AMC1883,0,0.0,0.0,0,0,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",NKN1405,3,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",JMM0613,6,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",BYO1846,0,0.0,0.0,0,0,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",IRH1224,24,0.0,1.0,0,1,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",SNK1280,0,0.0,0.0,0,0,0
+r5.2,LSTM,"B4c outcome-aware, 7-day verdict delay",HMS1658,0,0.0,0.0,0,0,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),ISW0738,0,1.0,1.0,1,1,2
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),ALW0764,0,1.0,1.0,1,1,2
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),HBP1076,12,0.0,1.0,0,1,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),WWW0701,0,1.0,1.0,1,1,2
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),WOS1834,0,1.0,1.0,1,1,1
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),SNK1280,0,0.0,0.0,0,0,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),WCW1013,0,0.0,0.0,0,0,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),NKM1738,0,0.0,1.0,0,1,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),HSN0675,0,0.0,0.0,0,0,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),GMB0400,9,0.0,0.0,0,0,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),JNR1592,30,0.0,1.0,0,1,0
+r5.2,LSTM,B11c deficit apportionment (outcome-aware),CHP1711,0,0.0,0.0,0,0,0

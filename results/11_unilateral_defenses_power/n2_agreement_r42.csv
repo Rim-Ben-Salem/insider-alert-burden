@@ -1,0 +1,53 @@
+release,detector,seed,policy,agree_parity,agree_global
+r4.2,AE,0,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,AE,0,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,AE,0,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,AE,0,B11c deficit apportionment (outcome-aware),0.9999872209372165,0.9999872209372165
+r4.2,AE,1,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,AE,1,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,AE,1,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,AE,1,B11c deficit apportionment (outcome-aware),0.9999872209372165,0.9999872209372165
+r4.2,AE,2,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,AE,2,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,AE,2,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,AE,2,B11c deficit apportionment (outcome-aware),0.999974441874433,0.9999872209372165
+r4.2,AE,3,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,AE,3,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,AE,3,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,AE,3,B11c deficit apportionment (outcome-aware),0.999974441874433,0.9999872209372165
+r4.2,AE,4,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,AE,4,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,AE,4,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,AE,4,B11c deficit apportionment (outcome-aware),0.9999872209372165,0.9999872209372165
+r4.2,GBM,0,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,GBM,0,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,GBM,0,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,GBM,0,B11c deficit apportionment (outcome-aware),0.9999488837488658,0.9999872209372165
+r4.2,GBM,1,B4 label-free,0.9994888374886586,0.9996933024931951
+r4.2,GBM,1,B4c outcome-aware,0.9995655118653598,0.9996933024931951
+r4.2,GBM,1,"B4c outcome-aware, 7-day verdict delay",0.9995782909281433,0.9996933024931951
+r4.2,GBM,1,B11c deficit apportionment (outcome-aware),0.9993738259236068,0.9996933024931951
+r4.2,GBM,2,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,GBM,2,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,GBM,2,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,GBM,2,B11c deficit apportionment (outcome-aware),0.999974441874433,0.9999872209372165
+r4.2,GBM,3,B4 label-free,0.9999105465605153,0.9999361046860823
+r4.2,GBM,3,B4c outcome-aware,0.999974441874433,0.9999361046860823
+r4.2,GBM,3,"B4c outcome-aware, 7-day verdict delay",0.9999361046860823,0.9999361046860823
+r4.2,GBM,3,B11c deficit apportionment (outcome-aware),0.9998722093721647,0.9999361046860823
+r4.2,GBM,4,B4 label-free,0.9999872209372165,0.9999872209372165
+r4.2,GBM,4,B4c outcome-aware,0.9999872209372165,0.9999872209372165
+r4.2,GBM,4,"B4c outcome-aware, 7-day verdict delay",0.9999872209372165,0.9999872209372165
+r4.2,GBM,4,B11c deficit apportionment (outcome-aware),0.9999616628116494,0.9999872209372165
+r4.2,LSTM,0,B4 label-free,1.0,1.0
+r4.2,LSTM,0,B4c outcome-aware,1.0,1.0
+r4.2,LSTM,0,"B4c outcome-aware, 7-day verdict delay",1.0,1.0
+r4.2,LSTM,0,B11c deficit apportionment (outcome-aware),1.0,1.0
+r4.2,LSTM,1,B4 label-free,1.0,1.0
+r4.2,LSTM,1,B4c outcome-aware,1.0,1.0
+r4.2,LSTM,1,"B4c outcome-aware, 7-day verdict delay",1.0,1.0
+r4.2,LSTM,1,B11c deficit apportionment (outcome-aware),1.0,1.0
+r4.2,LSTM,2,B4 label-free,1.0,1.0
+r4.2,LSTM,2,B4c outcome-aware,1.0,1.0
+r4.2,LSTM,2,"B4c outcome-aware, 7-day verdict delay",1.0,1.0
+r4.2,LSTM,2,B11c deficit apportionment (outcome-aware),1.0,1.0

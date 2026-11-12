@@ -1,0 +1,361 @@
+detector,policy,attack,draw,insiders,none_P,none_G,attacked_P,attacked_G,excess_loss,excess_lo,excess_hi,delta_FAR,release
+GBM,B4 label-free,knows allocation,0,76,72,75,63,73,7.0,1.0,13.0,0.003442841844541713,r5.2
+GBM,B4 label-free,knows allocation,1,76,72,75,62,74,9.0,2.0,16.0,0.0035343554800734076,r5.2
+GBM,B4 label-free,knows allocation,2,76,72,75,62,73,8.0,2.0,15.0,0.003412397759661372,r5.2
+GBM,B4 label-free,knows allocation,3,76,72,75,62,73,8.0,2.0,15.0,0.003481891097426944,r5.2
+GBM,B4 label-free,knows allocation,4,76,72,75,62,74,9.0,3.0,16.0,0.003473346389718944,r5.2
+GBM,B4 label-free,observes colleagues,0,76,72,75,63,75,9.0,2.0,16.0,0.003397145487072756,r5.2
+GBM,B4 label-free,observes colleagues,1,76,72,75,63,75,9.0,3.0,16.0,0.003397145487072756,r5.2
+GBM,B4 label-free,observes colleagues,2,76,72,75,63,75,9.0,2.0,16.0,0.003397145487072756,r5.2
+GBM,B4 label-free,observes colleagues,3,76,72,75,63,75,9.0,3.0,16.0,0.003397145487072756,r5.2
+GBM,B4 label-free,observes colleagues,4,76,72,75,63,75,9.0,3.0,16.0,0.003397145487072756,r5.2
+GBM,B4 label-free,reads reports,0,76,72,75,66,70,1.0,-4.0,6.0,0.003534415940370298,r5.2
+GBM,B4 label-free,reads reports,1,76,72,75,65,71,3.0,-2.0,8.0,0.003625929575901992,r5.2
+GBM,B4 label-free,reads reports,2,76,72,75,68,73,2.0,-3.0,7.0,0.0035649204855475293,r5.2
+GBM,B4 label-free,reads reports,3,76,72,75,66,71,2.0,-2.0,6.0,0.003610677303313376,r5.2
+GBM,B4 label-free,reads reports,4,76,72,75,67,72,2.0,-2.0,6.0,0.003656434121079223,r5.2
+GBM,B4 label-free,estimates deficit,0,76,72,75,65,72,4.0,-0.0,9.0,0.0034276500322499874,r5.2
+GBM,B4 label-free,estimates deficit,1,76,72,75,59,71,9.0,3.0,16.0,0.003534415940370298,r5.2
+GBM,B4 label-free,estimates deficit,2,76,72,75,60,68,5.0,-1.0,12.0,0.003397145487072756,r5.2
+GBM,B4 label-free,estimates deficit,3,76,72,75,60,70,7.0,2.0,13.0,0.0034276500322499874,r5.2
+GBM,B4 label-free,estimates deficit,4,76,72,75,61,68,4.0,-2.0,11.0,0.003351388669306909,r5.2
+GBM,B4 label-free,random,0,76,72,75,68,72,1.0,-3.0,5.0,0.004312281842389698,r5.2
+GBM,B4 label-free,random,1,76,72,75,71,73,-1.0,-6.0,3.0,0.004205515934269388,r5.2
+GBM,B4 label-free,random,2,76,72,75,70,75,2.0,-2.0,6.0,0.004312281842389698,r5.2
+GBM,B4 label-free,random,3,76,72,75,74,76,-1.0,-4.0,2.0,0.004251272752035236,r5.2
+GBM,B4 label-free,random,4,76,72,75,71,76,2.0,-2.0,6.0,0.004418987290213118,r5.2
+GBM,B4 label-free,random,5,76,72,75,71,73,-1.0,-5.0,2.0,0.00434278638756693,r5.2
+GBM,B4 label-free,random,6,76,72,75,71,75,1.0,-2.0,5.0,0.004312281842389698,r5.2
+GBM,B4 label-free,random,7,76,72,75,72,76,1.0,-3.0,5.0,0.004434239562801734,r5.2
+GBM,B4 label-free,random,8,76,72,75,69,75,3.0,-2.0,8.0,0.00412925457132631,r5.2
+GBM,B4 label-free,random,9,76,72,75,72,76,1.0,-2.0,4.0,0.004281777297212467,r5.2
+GBM,B4c outcome-aware,knows allocation,0,76,71,75,61,69,4.0,-1.0,9.0,0.0019884415280078368,r5.2
+GBM,B4c outcome-aware,knows allocation,1,76,71,75,64,71,3.0,-2.0,8.0,0.0019884415280078368,r5.2
+GBM,B4c outcome-aware,knows allocation,2,76,71,75,62,71,5.0,-1.0,11.0,0.001980656836289559,r5.2
+GBM,B4c outcome-aware,knows allocation,3,76,71,75,66,70,0.0,-5.0,6.0,0.0019884415280078368,r5.2
+GBM,B4c outcome-aware,knows allocation,4,76,71,75,65,71,2.0,-3.0,7.0,0.001980656836289559,r5.2
+GBM,B4c outcome-aware,observes colleagues,0,76,71,75,64,75,7.0,2.0,13.0,0.0019874901954640197,r5.2
+GBM,B4c outcome-aware,observes colleagues,1,76,71,75,63,75,8.0,2.0,14.0,0.0019795440517721913,r5.2
+GBM,B4c outcome-aware,observes colleagues,2,76,71,75,64,75,7.0,2.0,13.0,0.0019874901954640197,r5.2
+GBM,B4c outcome-aware,observes colleagues,3,76,71,75,64,75,7.0,2.0,13.0,0.0019874901954640197,r5.2
+GBM,B4c outcome-aware,observes colleagues,4,76,71,75,64,75,7.0,2.0,13.0,0.0019874901954640197,r5.2
+GBM,B4c outcome-aware,reads reports,0,76,71,75,68,71,-1.0,-5.0,2.0,0.0019955919980302363,r5.2
+GBM,B4c outcome-aware,reads reports,1,76,71,75,67,71,0.0,-4.0,4.0,0.0019878073063119587,r5.2
+GBM,B4c outcome-aware,reads reports,2,76,71,75,68,73,1.0,-3.0,5.0,0.0019881244171598977,r5.2
+GBM,B4c outcome-aware,reads reports,3,76,71,75,68,71,-1.0,-5.0,2.0,0.0019794978442127607,r5.2
+GBM,B4c outcome-aware,reads reports,4,76,71,75,68,71,-1.0,-5.0,2.0,0.0019955328462932537,r5.2
+GBM,B4c outcome-aware,estimates deficit,0,76,71,75,63,68,1.0,-4.0,6.0,0.001980022614593681,r5.2
+GBM,B4c outcome-aware,estimates deficit,1,76,71,75,64,70,2.0,-3.0,8.0,0.0019874901954640197,r5.2
+GBM,B4c outcome-aware,estimates deficit,2,76,71,75,63,69,2.0,-3.0,7.0,0.001971894811698168,r5.2
+GBM,B4c outcome-aware,estimates deficit,3,76,71,75,64,70,2.0,-3.0,8.0,0.0019795440517721913,r5.2
+GBM,B4c outcome-aware,estimates deficit,4,76,71,75,65,73,4.0,1.0,8.0,0.0019833917755889188,r5.2
+GBM,B4c outcome-aware,random,0,76,71,75,69,72,-1.0,-5.0,2.0,0.0019719872268170293,r5.2
+GBM,B4c outcome-aware,random,1,76,71,75,68,73,1.0,-2.0,5.0,0.0019888844797708053,r5.2
+GBM,B4c outcome-aware,random,2,76,71,75,70,75,1.0,-2.0,5.0,0.0019871730846160807,r5.2
+GBM,B4c outcome-aware,random,3,76,71,75,73,76,-1.0,-3.0,-0.0,0.0019871730846160807,r5.2
+GBM,B4c outcome-aware,random,4,76,71,75,73,76,-1.0,-5.0,2.0,0.0019796364668910526,r5.2
+GBM,B4c outcome-aware,random,5,76,71,75,70,73,-1.0,-3.0,-0.0,0.0019719208120274646,r5.2
+GBM,B4c outcome-aware,random,6,76,71,75,70,75,1.0,-0.0,3.0,0.0019888844797708053,r5.2
+GBM,B4c outcome-aware,random,7,76,71,75,70,76,2.0,-0.0,5.0,0.0019888844797708053,r5.2
+GBM,B4c outcome-aware,random,8,76,71,75,71,75,0.0,-4.0,4.0,0.001979705503745742,r5.2
+GBM,B4c outcome-aware,random,9,76,71,75,68,76,4.0,1.0,8.0,0.002004070928159741,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation,0,76,72,75,53,66,10.0,4.0,17.0,0.001989392860551652,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation,1,76,72,75,56,66,7.0,-0.0,14.0,0.0019811906683239724,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation,2,76,72,75,56,67,8.0,2.0,15.0,0.001989392860551652,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation,3,76,72,75,54,66,9.0,3.0,15.0,0.0019847481539606486,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",knows allocation,4,76,72,75,56,65,6.0,1.0,12.0,0.0019816081688333745,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,0,76,72,75,66,74,5.0,-1.0,11.0,0.0019832993604700574,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,1,76,72,75,66,74,5.0,-1.0,11.0,0.0019832993604700574,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,2,76,72,75,66,74,5.0,-1.0,11.0,0.0019832993604700574,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,3,76,72,75,66,74,5.0,-1.0,11.0,0.0019832993604700574,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,4,76,72,75,66,74,5.0,-1.0,11.0,0.0019832993604700574,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",reads reports,0,76,72,75,66,71,2.0,-3.0,7.0,0.0019870546691679227,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",reads reports,1,76,72,75,66,72,3.0,-1.0,8.0,0.0019881244171598977,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",reads reports,2,76,72,75,66,73,4.0,-0.0,9.0,0.0019870546691679227,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",reads reports,3,76,72,75,68,72,1.0,-3.0,5.0,0.001988978531076285,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",reads reports,4,76,72,75,63,72,6.0,1.0,12.0,0.0019870546691679227,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,0,76,72,75,64,74,7.0,3.0,12.0,0.001980656836289559,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,1,76,72,75,64,73,6.0,1.0,11.0,0.0019878073063119587,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,2,76,72,75,63,74,8.0,3.0,14.0,0.0019959091088781753,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,3,76,72,75,61,72,8.0,2.0,14.0,0.0019813292910022626,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,4,76,72,75,64,74,7.0,2.975000000000364,12.0,0.001965404563700944,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,0,76,72,75,68,72,1.0,-3.0,5.0,0.0019888844797708053,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,1,76,72,75,70,73,0.0,-3.0,3.0,0.0019949577763343582,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,2,76,72,75,68,75,4.0,-1.0,9.0,0.0019871730846160807,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,3,76,72,75,72,76,1.0,-0.0,3.0,0.0019871730846160807,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,4,76,72,75,71,76,2.0,-0.0,5.0,0.001979470120191071,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,5,76,72,75,70,73,0.0,-3.0,3.0,0.001979590259331622,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,6,76,72,75,70,75,2.0,-0.0,5.0,0.0019868559737681417,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,7,76,72,75,70,76,3.0,-0.0,7.0,0.0021517628338323493,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,8,76,72,75,69,75,3.0,-3.0,9.0,0.0019874901954640197,r5.2
+GBM,"B4c outcome-aware, 7-day verdict delay",random,9,76,72,75,70,76,3.0,-0.0,7.0,0.002004070928159741,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,0,76,71,75,69,74,1.0,-3.0,5.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,1,76,71,75,68,74,2.0,-2.0,6.0,0.0005129465280305483,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,2,76,71,75,70,74,0.0,-5.0,5.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,3,76,71,75,69,74,1.0,-3.0,6.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),knows allocation,4,76,71,75,68,74,2.0,-2.0,6.0,0.0005129465280305483,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,0,76,71,75,56,67,7.0,-1.0,16.0,0.000194298155185681,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,1,76,71,75,56,67,7.0,-1.0,16.0,0.000194298155185681,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,2,76,71,75,56,67,7.0,-1.0,15.0,0.000194298155185681,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,3,76,71,75,56,67,7.0,-1.0,16.0,0.000194298155185681,r5.2
+GBM,B11c deficit apportionment (outcome-aware),observes colleagues,4,76,71,75,56,67,7.0,-1.0,16.0,0.000194298155185681,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,0,76,71,75,67,71,0.0,-5.0,5.0,0.0002483481853142108,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,1,76,71,75,64,72,4.0,-1.0,10.0,0.0002483481853142108,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,2,76,71,75,68,73,1.0,-4.0,6.0,0.0002483481853142108,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,3,76,71,75,66,72,2.0,-4.0,8.0,0.00027924628491554637,r5.2
+GBM,B11c deficit apportionment (outcome-aware),reads reports,4,76,71,75,68,72,0.0,-5.0,6.0,0.0002361624672357239,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,0,76,71,75,60,69,5.0,-1.0,12.0,0.0002788527304914412,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,1,76,71,75,58,66,4.0,-1.0,10.0,0.00025457015906730357,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,2,76,71,75,62,72,6.0,1.0,12.0,0.000263600457902826,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,3,76,71,75,60,68,4.0,-2.0,10.0,0.0003583184891697098,r5.2
+GBM,B11c deficit apportionment (outcome-aware),estimates deficit,4,76,71,75,62,73,7.0,1.0,14.0,0.0003583184891697098,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,0,76,71,75,69,72,-1.0,-6.0,3.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,1,76,71,75,68,73,1.0,-3.0,5.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,2,76,71,75,68,75,3.0,-2.0,8.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,3,76,71,75,71,76,1.0,-2.0,5.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,4,76,71,75,72,76,0.0,-4.0,4.0,0.0005107807547589764,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,5,76,71,75,70,73,-1.0,-5.0,3.0,0.0005964698825132505,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,6,76,71,75,71,75,0.0,-3.0,3.0,0.0005964698825132505,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,7,76,71,75,71,76,1.0,-3.0,5.0,0.0005964698825132505,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,8,76,71,75,69,75,2.0,-2.0,6.0,0.0004313754563775984,r5.2
+GBM,B11c deficit apportionment (outcome-aware),random,9,76,71,75,68,76,4.0,-0.0,9.0,0.0005107807547589764,r5.2
+LSTM,B4 label-free,knows allocation,0,76,48,47,37,42,6.0,-1.0,13.0,0.0018245805900421515,r5.2
+LSTM,B4 label-free,knows allocation,1,76,48,47,36,41,6.0,-1.0,14.0,0.0018245805900421515,r5.2
+LSTM,B4 label-free,knows allocation,2,76,48,47,39,42,4.0,-3.0,11.0,0.0018245805900421515,r5.2
+LSTM,B4 label-free,knows allocation,3,76,48,47,38,44,7.0,-0.0,14.0,0.0020256664537059363,r5.2
+LSTM,B4 label-free,knows allocation,4,76,48,47,39,43,5.0,-1.0,12.0,0.0020256664537059363,r5.2
+LSTM,B4 label-free,observes colleagues,0,76,48,47,35,44,10.0,5.0,16.0,0.0016234947263783668,r5.2
+LSTM,B4 label-free,observes colleagues,1,76,48,47,35,44,10.0,5.0,16.0,0.0016234947263783668,r5.2
+LSTM,B4 label-free,observes colleagues,2,76,48,47,35,44,10.0,5.0,16.0,0.0016234947263783668,r5.2
+LSTM,B4 label-free,observes colleagues,3,76,48,47,35,44,10.0,5.0,16.0,0.0016234947263783668,r5.2
+LSTM,B4 label-free,observes colleagues,4,76,48,47,35,44,10.0,5.0,16.0,0.0016234947263783668,r5.2
+LSTM,B4 label-free,reads reports,0,76,48,47,37,40,4.0,-0.0,9.0,0.001720741922527403,r5.2
+LSTM,B4 label-free,reads reports,1,76,48,47,37,41,5.0,1.0,10.0,0.0019286154946692897,r5.2
+LSTM,B4 label-free,reads reports,2,76,48,47,39,39,1.0,-3.0,5.0,0.001720741922527403,r5.2
+LSTM,B4 label-free,reads reports,3,76,48,47,41,41,1.0,-2.0,5.0,0.001720741922527403,r5.2
+LSTM,B4 label-free,reads reports,4,76,48,47,40,41,2.0,-2.0,6.0,0.001720741922527403,r5.2
+LSTM,B4 label-free,estimates deficit,0,76,48,47,39,47,9.0,3.0,15.0,0.001672118324452885,r5.2
+LSTM,B4 label-free,estimates deficit,1,76,48,47,33,45,13.0,5.0,21.000000000000004,0.0019286154946692897,r5.2
+LSTM,B4 label-free,estimates deficit,2,76,48,47,38,44,7.0,2.0,12.0,0.001672118324452885,r5.2
+LSTM,B4 label-free,estimates deficit,3,76,48,47,36,45,10.0,4.0,16.0,0.001672118324452885,r5.2
+LSTM,B4 label-free,estimates deficit,4,76,48,47,39,45,7.0,2.0,12.0,0.001672118324452885,r5.2
+LSTM,B4 label-free,random,0,76,48,47,42,45,4.0,-0.0,9.0,0.0018732041881166697,r5.2
+LSTM,B4 label-free,random,1,76,48,47,44,43,0.0,-5.0,5.0,0.003135930080933661,r5.2
+LSTM,B4 label-free,random,2,76,48,47,42,41,0.0,-3.0,3.0,0.0019286154946692897,r5.2
+LSTM,B4 label-free,random,3,76,48,47,43,44,2.0,-2.0,6.0,0.0020810777602585564,r5.2
+LSTM,B4 label-free,random,4,76,48,47,43,45,3.0,-0.0,7.0,0.0020810777602585564,r5.2
+LSTM,B4 label-free,random,5,76,48,47,42,43,2.0,-2.0,6.0,0.001720741922527403,r5.2
+LSTM,B4 label-free,random,6,76,48,47,44,44,1.0,-4.0,6.0,0.001672118324452885,r5.2
+LSTM,B4 label-free,random,7,76,48,47,43,45,3.0,-2.0,8.0,0.0018732041881166697,r5.2
+LSTM,B4 label-free,random,8,76,48,47,45,42,-2.0,-8.0,3.0,0.0019286154946692897,r5.2
+LSTM,B4 label-free,random,9,76,48,47,44,47,4.0,-1.0,9.0,0.0019286154946692897,r5.2
+LSTM,B4c outcome-aware,knows allocation,0,76,49,47,38,43,7.0,-0.0,14.0,0.0019758538701775165,r5.2
+LSTM,B4c outcome-aware,knows allocation,1,76,49,47,36,43,9.0,2.0,16.02499999999999,0.0020141431070730253,r5.2
+LSTM,B4c outcome-aware,knows allocation,2,76,49,47,37,44,9.0,3.0,16.0,0.0019758538701775165,r5.2
+LSTM,B4c outcome-aware,knows allocation,3,76,49,47,38,42,6.0,-1.0,13.0,0.0019375646332820077,r5.2
+LSTM,B4c outcome-aware,knows allocation,4,76,49,47,37,41,6.0,-0.0,12.0,0.0019375646332820077,r5.2
+LSTM,B4c outcome-aware,observes colleagues,0,76,49,47,37,44,9.0,4.0,16.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,observes colleagues,1,76,49,47,37,44,9.0,4.0,16.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,observes colleagues,2,76,49,47,37,44,9.0,3.0,16.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,observes colleagues,3,76,49,47,37,44,9.0,3.0,16.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,observes colleagues,4,76,49,47,37,44,9.0,4.0,16.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,reads reports,0,76,49,47,39,40,3.0,-1.0,8.0,0.0018025929392768616,r5.2
+LSTM,B4c outcome-aware,reads reports,1,76,49,47,39,40,3.0,-2.0,8.0,0.0017930660448539065,r5.2
+LSTM,B4c outcome-aware,reads reports,2,76,49,47,36,39,5.0,1.0,10.0,0.0019375646332820077,r5.2
+LSTM,B4c outcome-aware,reads reports,3,76,49,47,39,39,2.0,-3.0,7.0,0.0017930660448539065,r5.2
+LSTM,B4c outcome-aware,reads reports,4,76,49,47,39,41,4.0,-1.0,9.0,0.0018025929392768616,r5.2
+LSTM,B4c outcome-aware,estimates deficit,0,76,49,47,36,45,11.0,4.0,19.0,0.0019375646332820077,r5.2
+LSTM,B4c outcome-aware,estimates deficit,1,76,49,47,33,45,14.0,7.0,22.0,0.0018226969225954813,r5.2
+LSTM,B4c outcome-aware,estimates deficit,2,76,49,47,42,45,5.0,1.0,10.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,estimates deficit,3,76,49,47,32,42,12.0,5.0,20.0,0.0018025929392768616,r5.2
+LSTM,B4c outcome-aware,estimates deficit,4,76,49,47,42,44,4.0,1.0,8.0,0.0019286154946692897,r5.2
+LSTM,B4c outcome-aware,random,0,76,49,47,42,45,5.0,1.0,10.0,0.0019375646332820077,r5.2
+LSTM,B4c outcome-aware,random,1,76,49,47,43,43,2.0,-4.0,8.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,random,2,76,49,47,41,41,2.0,-3.0,7.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,random,3,76,49,47,42,44,4.0,1.0,8.0,0.0017461184488044637,r5.2
+LSTM,B4c outcome-aware,random,4,76,49,47,44,45,3.0,-2.0,8.0,0.0017461184488044637,r5.2
+LSTM,B4c outcome-aware,random,5,76,49,47,42,43,3.0,-2.0,8.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,random,6,76,49,47,41,44,5.0,1.0,10.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,random,7,76,49,47,42,45,5.0,-0.0,11.0,0.0017461184488044637,r5.2
+LSTM,B4c outcome-aware,random,8,76,49,47,44,42,0.0,-6.0,5.0,0.0018255488933036183,r5.2
+LSTM,B4c outcome-aware,random,9,76,49,47,41,47,8.0,2.0,14.0,0.0017844076856999725,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation,0,76,48,47,38,43,6.0,-0.0,13.0,0.0019286154946692897,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation,1,76,48,47,39,43,5.0,-0.0,10.0,0.0017930660448539065,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation,2,76,48,47,41,43,3.0,-3.0,9.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation,3,76,48,47,41,43,3.0,-3.0,9.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",knows allocation,4,76,48,47,38,43,6.0,-0.0,12.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,0,76,48,47,39,45,7.0,3.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,1,76,48,47,39,45,7.0,2.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,2,76,48,47,39,45,7.0,2.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,3,76,48,47,39,45,7.0,2.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",observes colleagues,4,76,48,47,39,45,7.0,3.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",reads reports,0,76,48,47,41,42,2.0,-3.0,7.0,0.0019286154946692897,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",reads reports,1,76,48,47,39,41,3.0,-1.0,8.0,0.0019286154946692897,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",reads reports,2,76,48,47,40,41,2.0,-2.0,6.0,0.0017930660448539065,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",reads reports,3,76,48,47,39,40,2.0,-2.0,6.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",reads reports,4,76,48,47,40,43,4.0,-1.0,9.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,0,76,48,47,34,44,11.0,4.0,19.0,0.0019758538701775165,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,1,76,48,47,34,44,11.0,4.0,18.0,0.0019758538701775165,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,2,76,48,47,38,42,5.0,-2.0,13.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,3,76,48,47,30,42,13.0,6.975000000000364,20.024999999999988,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",estimates deficit,4,76,48,47,38,43,6.0,1.0,12.0,0.0020141431070730253,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,0,76,48,47,43,45,3.0,-0.0,7.0,0.0018216467281227736,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,1,76,48,47,43,43,1.0,-4.0,6.0,0.0018255488933036183,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,2,76,48,47,40,41,2.0,-2.0,6.0,0.0018255488933036183,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,3,76,48,47,41,44,4.0,1.0,8.0,0.0017844076856999725,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,4,76,48,47,43,45,3.0,-1.0,8.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,5,76,48,47,42,43,2.0,-3.0,7.0,0.0018255488933036183,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,6,76,48,47,42,44,3.0,-2.0,8.0,0.0018255488933036183,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,7,76,48,47,46,45,0.0,-5.0,5.0,0.0019375646332820077,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,8,76,48,47,43,42,0.0,-5.0,5.0,0.0019286154946692897,r5.2
+LSTM,"B4c outcome-aware, 7-day verdict delay",random,9,76,48,47,42,47,6.0,1.0,12.0,0.0017844076856999725,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,0,76,46,47,38,46,7.0,-0.0,14.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,1,76,46,47,39,46,6.0,-2.0,15.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,2,76,46,47,36,48,11.0,3.0,19.0,0.000790938209037988,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,3,76,46,47,37,46,8.0,-0.0,16.0,0.00038571863052942745,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),knows allocation,4,76,46,47,35,47,11.0,4.0,19.0,0.000790938209037988,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,0,76,46,47,31,40,8.0,1.0,16.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,1,76,46,47,31,40,8.0,-0.0,16.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,2,76,46,47,31,40,8.0,-0.0,16.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,3,76,46,47,31,40,8.0,-0.0,16.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),observes colleagues,4,76,46,47,31,40,8.0,-0.0,16.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,0,76,46,47,39,40,0.0,-7.0,7.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,1,76,46,47,37,42,4.0,-2.0,10.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,2,76,46,47,38,42,3.0,-4.0,10.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,3,76,46,47,42,41,-2.0,-8.0,4.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),reads reports,4,76,46,47,41,40,-2.0,-9.0,5.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,0,76,46,47,34,39,4.0,-3.0,11.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,1,76,46,47,40,44,3.0,-6.0,11.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,2,76,46,47,36,42,5.0,-2.0,12.0,0.0006953158872256178,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,3,76,46,47,36,43,6.0,-2.0,14.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),estimates deficit,4,76,46,47,36,42,5.0,-3.0,13.0,0.000790938209037988,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,0,76,46,47,45,45,-1.0,-9.0,6.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,1,76,46,47,44,43,-2.0,-11.0,6.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,2,76,46,47,44,41,-4.0,-11.0,3.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,3,76,46,47,41,44,2.0,-6.0,9.024999999999991,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,4,76,46,47,41,45,3.0,-5.0,12.0,0.0003849522329652886,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,5,76,46,47,39,43,3.0,-5.0,10.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,6,76,46,47,40,44,3.0,-3.0,10.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,7,76,46,47,42,45,2.0,-5.0,10.0,0.00041637637722638336,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,8,76,46,47,38,42,3.0,-4.0,11.0,0.00035953643344948695,r5.2
+LSTM,B11c deficit apportionment (outcome-aware),random,9,76,46,47,39,47,7.0,-1.0,16.0,0.00041637637722638336,r5.2
+AE,B4 label-free,knows allocation,0,76,58,61,55,61,3.0,-4.0,10.0,0.002342800554075805,r5.2
+AE,B4 label-free,knows allocation,1,76,58,61,53,61,5.0,-1.0,12.0,0.0023122960088985747,r5.2
+AE,B4 label-free,knows allocation,2,76,58,61,55,63,5.0,-1.0,11.0,0.0023733050992530372,r5.2
+AE,B4 label-free,knows allocation,3,76,58,61,53,64,8.0,2.0,15.0,0.002362106730485144,r5.2
+AE,B4 label-free,knows allocation,4,76,58,61,54,60,3.0,-4.0,10.0,0.002392611275662376,r5.2
+AE,B4 label-free,observes colleagues,0,76,58,61,56,61,2.0,-5.0,9.0,0.002556332370316425,r5.2
+AE,B4 label-free,observes colleagues,1,76,58,61,56,61,2.0,-5.0,9.0,0.002556332370316425,r5.2
+AE,B4 label-free,observes colleagues,2,76,58,61,56,61,2.0,-5.0,9.0,0.002556332370316425,r5.2
+AE,B4 label-free,observes colleagues,3,76,58,61,56,61,2.0,-5.0,9.0,0.002556332370316425,r5.2
+AE,B4 label-free,observes colleagues,4,76,58,61,56,61,2.0,-5.0,9.0,0.002556332370316425,r5.2
+AE,B4 label-free,reads reports,0,76,58,61,57,62,2.0,-3.0,8.0,0.002480071007373347,r5.2
+AE,B4 label-free,reads reports,1,76,58,61,57,61,1.0,-5.0,8.0,0.002464818734784732,r5.2
+AE,B4 label-free,reads reports,2,76,58,61,57,62,2.0,-4.0,8.0,0.0025410800977278096,r5.2
+AE,B4 label-free,reads reports,3,76,58,61,56,60,1.0,-5.0,7.0,0.002510575552550579,r5.2
+AE,B4 label-free,reads reports,4,76,58,61,60,62,-1.0,-8.0,6.0,0.002602089188082272,r5.2
+AE,B4 label-free,estimates deficit,0,76,58,61,47,57,7.0,-0.0,14.0,0.0022786948975196675,r5.2
+AE,B4 label-free,estimates deficit,1,76,58,61,52,58,3.0,-5.0,11.0,0.0023163499127192982,r5.2
+AE,B4 label-free,estimates deficit,2,76,58,61,47,58,8.0,2.0,15.0,0.002240088549776219,r5.2
+AE,B4 label-free,estimates deficit,3,76,58,61,46,57,8.0,2.0,15.0,0.0022786948975196675,r5.2
+AE,B4 label-free,estimates deficit,4,76,58,61,47,60,10.0,3.0,17.0,0.0022248362771876036,r5.2
+AE,B4 label-free,random,0,76,58,61,60,61,-2.0,-8.0,4.0,0.002649663209636806,r5.2
+AE,B4 label-free,random,1,76,58,61,60,62,-1.0,-6.0,4.0,0.0025258278251391944,r5.2
+AE,B4 label-free,random,2,76,58,61,60,62,-1.0,-7.0,5.0,0.0023752432236355033,r5.2
+AE,B4 label-free,random,3,76,58,61,59,58,-4.0,-10.0,2.0,0.0026192191247564646,r5.2
+AE,B4 label-free,random,4,76,58,61,58,61,0.0,-5.0,6.0,0.002464818734784732,r5.2
+AE,B4 label-free,random,5,76,58,61,57,61,1.0,-4.0,6.0,0.002354004927918929,r5.2
+AE,B4 label-free,random,6,76,58,61,62,61,-4.0,-10.0,1.0,0.0024038096444302694,r5.2
+AE,B4 label-free,random,7,76,58,61,57,62,2.0,-3.0,7.0,0.0025715846429050417,r5.2
+AE,B4 label-free,random,8,76,58,61,57,62,2.0,-3.0,7.0,0.002460770836039239,r5.2
+AE,B4 label-free,random,9,76,58,61,58,60,-1.0,-7.0,5.0,0.002556332370316425,r5.2
+AE,B4c outcome-aware,knows allocation,0,76,58,61,62,62,-3.0,-8.0,2.0,0.001986681942400396,r5.2
+AE,B4c outcome-aware,knows allocation,1,76,58,61,61,63,-1.0,-5.0,3.0,0.0019822827941625865,r5.2
+AE,B4c outcome-aware,knows allocation,2,76,58,61,57,59,-1.0,-6.0,4.0,0.001982375209281448,r5.2
+AE,B4c outcome-aware,knows allocation,3,76,58,61,59,62,0.0,-5.0,5.0,0.001986681942400396,r5.2
+AE,B4c outcome-aware,knows allocation,4,76,58,61,59,60,-2.0,-7.0,3.0,0.0019823290017220163,r5.2
+AE,B4c outcome-aware,observes colleagues,0,76,58,61,56,60,1.0,-4.0,6.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,observes colleagues,1,76,58,61,56,60,1.0,-4.0,6.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,observes colleagues,2,76,58,61,56,60,1.0,-4.0,6.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,observes colleagues,3,76,58,61,56,60,1.0,-4.0,6.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,observes colleagues,4,76,58,61,56,60,1.0,-4.0,6.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,reads reports,0,76,58,61,59,62,0.0,-5.0,5.0,0.0019947837449666127,r5.2
+AE,B4c outcome-aware,reads reports,1,76,58,61,60,63,0.0,-6.0,6.0,0.0019951008558145526,r5.2
+AE,B4c outcome-aware,reads reports,2,76,58,61,58,64,3.0,-2.0,8.0,0.001982236586603155,r5.2
+AE,B4c outcome-aware,reads reports,3,76,58,61,59,61,-1.0,-8.0,6.0,0.001987316164096274,r5.2
+AE,B4c outcome-aware,reads reports,4,76,58,61,58,63,2.0,-3.0,8.0,0.0019947837449666127,r5.2
+AE,B4c outcome-aware,estimates deficit,0,76,58,61,56,58,-1.0,-7.0,5.0,0.0019792143615300576,r5.2
+AE,B4c outcome-aware,estimates deficit,1,76,58,61,54,61,4.0,-4.0,12.0,0.0019944666341186745,r5.2
+AE,B4c outcome-aware,estimates deficit,2,76,58,61,55,57,-1.0,-7.0,5.0,0.0019792143615300576,r5.2
+AE,B4c outcome-aware,estimates deficit,3,76,58,61,50,55,2.0,-5.0,9.0,0.0019944666341186745,r5.2
+AE,B4c outcome-aware,estimates deficit,4,76,58,61,55,60,2.0,-3.0,8.0,0.0019822827941625865,r5.2
+AE,B4c outcome-aware,random,0,76,58,61,58,61,0.0,-4.0,4.0,0.001986681942400396,r5.2
+AE,B4c outcome-aware,random,1,76,58,61,60,62,-1.0,-5.0,3.0,0.0019944666341186745,r5.2
+AE,B4c outcome-aware,random,2,76,58,61,60,62,-1.0,-6.0,4.0,0.0019944666341186745,r5.2
+AE,B4c outcome-aware,random,3,76,58,61,54,58,1.0,-5.0,7.0,0.0019795314723779975,r5.2
+AE,B4c outcome-aware,random,4,76,58,61,55,61,3.0,-4.0,10.0,0.0019944666341186745,r5.2
+AE,B4c outcome-aware,random,5,76,58,61,59,61,-1.0,-6.0,4.0,0.0019804513473730846,r5.2
+AE,B4c outcome-aware,random,6,76,58,61,62,61,-4.0,-8.0,-1.0,0.001986999053248336,r5.2
+AE,B4c outcome-aware,random,7,76,58,61,61,62,-2.0,-8.0,3.0,0.001986681942400396,r5.2
+AE,B4c outcome-aware,random,8,76,58,61,55,62,4.0,-2.0,10.0,0.0019823290017220163,r5.2
+AE,B4c outcome-aware,random,9,76,58,61,59,60,-2.0,-7.0,3.0,0.0019941495232707347,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",knows allocation,0,76,58,61,59,58,-4.0,-10.0,2.0,0.001986999053248336,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",knows allocation,1,76,58,61,55,63,5.0,-1.0,11.0,0.001987316164096274,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",knows allocation,2,76,58,61,58,62,1.0,-5.0,7.0,0.0019918096885855434,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",knows allocation,3,76,58,61,58,60,-1.0,-8.0,6.0,0.001986681942400396,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",knows allocation,4,76,58,61,57,60,0.0,-6.0,6.0,0.0020204365794138403,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",observes colleagues,0,76,58,61,50,59,6.0,-0.0,12.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",observes colleagues,1,76,58,61,50,59,6.0,-0.0,12.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",observes colleagues,2,76,58,61,50,59,6.0,-0.0,12.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",observes colleagues,3,76,58,61,50,59,6.0,-0.0,12.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",observes colleagues,4,76,58,61,50,59,6.0,-0.0,12.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",reads reports,0,76,58,61,58,62,1.0,-4.0,6.0,0.001982236586603155,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",reads reports,1,76,58,61,58,63,2.0,-4.0,8.024999999999991,0.001982236586603155,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",reads reports,2,76,58,61,58,64,3.0,-3.0,9.0,0.001991763481026112,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",reads reports,3,76,58,61,58,61,0.0,-7.0,7.0,0.0019947837449666127,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",reads reports,4,76,58,61,61,63,-1.0,-7.0,5.0,0.001987316164096274,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",estimates deficit,0,76,58,61,51,55,1.0,-5.0,7.0,0.0019944666341186745,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",estimates deficit,1,76,58,61,52,58,3.0,-4.0,10.0,0.001987316164096274,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",estimates deficit,2,76,58,61,55,58,0.0,-6.0,6.0,0.001987961964768815,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",estimates deficit,3,76,58,61,46,54,5.0,-2.024999999999636,13.0,0.0019954179666624907,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",estimates deficit,4,76,58,61,55,58,0.0,-6.0,6.0,0.001987961964768815,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,0,76,58,61,59,61,-1.0,-5.0,3.0,0.001986681942400396,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,1,76,58,61,61,62,-2.0,-7.0,3.0,0.001986681942400396,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,2,76,58,61,60,62,-1.0,-7.0,5.0,0.001986999053248336,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,3,76,58,61,55,58,0.0,-7.0,7.0,0.0019804513473730846,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,4,76,58,61,56,61,2.0,-4.0,8.0,0.0019941495232707347,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,5,76,58,61,57,61,1.0,-4.0,6.0,0.0019788972506821195,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,6,76,58,61,63,61,-5.0,-10.0,-0.0,0.0019795314723779975,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,7,76,58,61,61,62,-2.0,-8.0,4.0,0.0020357812671213168,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,8,76,58,61,56,62,3.0,-3.0,9.0,0.0019944666341186745,r5.2
+AE,"B4c outcome-aware, 7-day verdict delay",random,9,76,58,61,61,60,-4.0,-9.0,1.0,0.0019944666341186745,r5.2
+AE,B11c deficit apportionment (outcome-aware),knows allocation,0,76,56,61,58,62,-1.0,-5.0,3.0,4.469515788828142e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),knows allocation,1,76,56,61,59,61,-3.0,-8.0,2.0,4.263529387808079e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),knows allocation,2,76,56,61,56,60,-1.0,-6.0,4.0,4.727814748926862e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),knows allocation,3,76,56,61,57,61,-1.0,-6.0,3.0,4.263529387808079e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),knows allocation,4,76,56,61,57,60,-2.0,-7.0,3.0,4.263529387808079e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),observes colleagues,0,76,56,61,55,61,1.0,-4.0,6.0,8.301869890006003e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),observes colleagues,1,76,56,61,55,61,1.0,-4.0,6.0,8.301869890006003e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),observes colleagues,2,76,56,61,55,61,1.0,-4.0,6.0,8.301869890006003e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),observes colleagues,3,76,56,61,55,61,1.0,-4.0,6.0,8.301869890006003e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),observes colleagues,4,76,56,61,55,61,1.0,-4.0,6.0,8.301869890006003e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),reads reports,0,76,56,61,60,63,-2.0,-8.0,3.0,8.384156261306668e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),reads reports,1,76,56,61,60,64,-1.0,-7.0,5.0,6.776642631144483e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),reads reports,2,76,56,61,63,65,-3.0,-8.0,2.0,7.561618733032023e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),reads reports,3,76,56,61,57,60,-2.0,-7.0,3.0,7.561618733032023e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),reads reports,4,76,56,61,61,62,-4.0,-9.0,1.0,6.776642631144483e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),estimates deficit,0,76,56,61,53,58,0.0,-6.0,6.0,5.680504191222374e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),estimates deficit,1,76,56,61,56,61,0.0,-7.0,7.0,4.727814748926862e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),estimates deficit,2,76,56,61,54,60,1.0,-4.0,6.0,8.298439478379022e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),estimates deficit,3,76,56,61,54,64,5.0,-1.0,11.0,4.469515788828142e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),estimates deficit,4,76,56,61,60,63,-2.0,-8.0,3.0,4.263529387808079e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,0,76,56,61,60,61,-4.0,-9.0,1.0,0.00024372115754186553,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,1,76,56,61,60,62,-3.0,-8.0,2.0,0.00019347268513068318,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,2,76,56,61,59,62,-2.0,-8.0,4.0,9.827097148867696e-05,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,3,76,56,61,55,58,-2.0,-8.0,4.0,0.00019347268513068318,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,4,76,56,61,58,61,-2.0,-8.0,3.0,0.00019347268513068318,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,5,76,56,61,56,61,0.0,-5.0,6.0,0.00024372115754186553,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,6,76,56,61,64,61,-8.0,-14.0,-3.0,0.00019347268513068318,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,7,76,56,61,62,62,-5.0,-11.0,1.0,0.00024372115754186553,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,8,76,56,61,55,62,2.0,-4.0,8.0,0.00019347268513068318,r5.2
+AE,B11c deficit apportionment (outcome-aware),random,9,76,56,61,59,60,-4.0,-9.0,-0.0,0.00019347268513068318,r5.2

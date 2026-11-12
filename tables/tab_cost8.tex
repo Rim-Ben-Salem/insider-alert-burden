@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\caption{Social Cost of False Alerts, $C=\sum_i[c_1\ind(F_i>0)+c_2(F_i-1)_+]$ Over Benign Employees: Values of $c_2/c_1$ for Which Each Mechanism Costs Less Than the Global Policy. In Parentheses, Employees Alerted and Repeat Alerts Under the Global Policy ($b=1\%$)\label{tab:cost}}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Det. (global) & Scheduler & Cooldown & No override & Parity & Parity + cooldown \\
+\midrule
+\multicolumn{6}{l}{\emph{r4.2}} \\
+IF (61, 1456) & $>1.24$ & $>0.70$ & $>0.74$ & never & $>0.81$ \\
+AE (145, 1357) & $>0.67$ & $>0.78$ & $>0.84$ & $>9.00$ & $>0.82$ \\
+LR (112, 1253) & $>0.30$ & $>1.04$ & $>1.07$ & $>1.00$ & $>1.07$ \\
+GBM (148, 978) & $>0.45$ & $>1.05$ & $>2.25$ & $>0.43$ & $>1.25$ \\
+LSTM (190, 1289) & $>1.35$ & $>0.91$ & $>1.06$ & never & $>0.87$ \\
+\multicolumn{6}{l}{\emph{r5.2}} \\
+IF (110, 3145) & $>0.79$ & $>0.57$ & $>0.55$ & $>5.86$ & $>0.62$ \\
+AE (285, 2811) & $>0.40$ & $>0.60$ & $>0.63$ & $>2.46$ & $>0.65$ \\
+LR (186, 2964) & $>0.47$ & $>0.51$ & $>0.53$ & $>0.68$ & $>0.57$ \\
+GBM (254, 1895) & never & $>345$ & never & $>0.91$ & never \\
+LSTM (272, 2931) & $>0.67$ & $>0.62$ & $>0.66$ & $>2.44$ & $>0.69$ \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,1171 @@
+group,n,benign,alerts,false_alerts,true_alerts,confirmed,wrongly_confirmed,detector,where,rate,seed,policy
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,all groups,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,all groups,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,all groups,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,all groups,0.0,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,all groups,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,all groups,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,421,168,168,0,GBM,all groups,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,396,284,112,112,0,GBM,all groups,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,all groups,0.0,0,B4c outcome-aware
+Other,5695,5648,70,47,23,23,0,GBM,all groups,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,24,7,GBM,all groups,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,179,22,GBM,all groups,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,121,16,GBM,all groups,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,118,22,GBM,all groups,0.05,0,B4 label-free
+Other,5695,5648,63,57,6,8,2,GBM,all groups,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,141,125,16,23,7,GBM,all groups,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,582,416,166,192,26,GBM,all groups,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,402,286,116,129,13,GBM,all groups,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,419,327,92,111,19,GBM,all groups,0.05,0,B4c outcome-aware
+Other,5695,5648,66,47,19,20,1,GBM,all groups,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,22,5,GBM,all groups,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,180,23,GBM,all groups,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,122,17,GBM,all groups,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,113,17,GBM,all groups,0.05,1,B4 label-free
+Other,5695,5648,63,57,6,9,3,GBM,all groups,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,131,118,13,16,3,GBM,all groups,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,599,433,166,189,23,GBM,all groups,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,403,288,115,132,17,GBM,all groups,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,407,313,94,108,14,GBM,all groups,0.05,1,B4c outcome-aware
+Other,5695,5648,70,48,22,25,3,GBM,all groups,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,23,6,GBM,all groups,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,174,17,GBM,all groups,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,115,10,GBM,all groups,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,113,17,GBM,all groups,0.05,2,B4 label-free
+Other,5695,5648,63,57,6,9,3,GBM,all groups,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,20,4,GBM,all groups,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,587,421,166,181,15,GBM,all groups,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,406,292,114,129,15,GBM,all groups,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,411,319,92,103,11,GBM,all groups,0.05,2,B4c outcome-aware
+Other,5695,5648,68,46,22,22,0,GBM,all groups,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,33,16,GBM,all groups,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,199,42,GBM,all groups,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,130,25,GBM,all groups,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,141,45,GBM,all groups,0.1,0,B4 label-free
+Other,5695,5648,63,57,6,15,9,GBM,all groups,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,139,122,17,27,10,GBM,all groups,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,586,419,167,223,56,GBM,all groups,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,406,294,112,143,31,GBM,all groups,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,407,316,91,120,29,GBM,all groups,0.1,0,B4c outcome-aware
+Other,5695,5648,72,52,20,29,9,GBM,all groups,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,28,11,GBM,all groups,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,195,38,GBM,all groups,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,134,29,GBM,all groups,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,135,39,GBM,all groups,0.1,1,B4 label-free
+Other,5695,5648,63,57,6,11,5,GBM,all groups,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,136,121,15,25,10,GBM,all groups,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,590,424,166,207,41,GBM,all groups,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,404,291,113,144,31,GBM,all groups,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,411,320,91,126,35,GBM,all groups,0.1,1,B4c outcome-aware
+Other,5695,5648,69,52,17,26,9,GBM,all groups,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,27,10,GBM,all groups,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,188,31,GBM,all groups,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,126,21,GBM,all groups,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,129,33,GBM,all groups,0.1,2,B4 label-free
+Other,5695,5648,63,57,6,12,6,GBM,all groups,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,139,125,14,26,12,GBM,all groups,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,581,415,166,196,30,GBM,all groups,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,409,297,112,142,30,GBM,all groups,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,418,327,91,127,36,GBM,all groups,0.1,2,B4c outcome-aware
+Other,5695,5648,63,47,16,19,3,GBM,all groups,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,47,30,GBM,all groups,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,237,80,GBM,all groups,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,159,54,GBM,all groups,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,170,74,GBM,all groups,0.2,0,B4 label-free
+Other,5695,5648,63,57,6,21,15,GBM,all groups,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,142,124,18,43,25,GBM,all groups,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,581,413,168,251,83,GBM,all groups,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,400,288,112,168,56,GBM,all groups,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,412,320,92,169,77,GBM,all groups,0.2,0,B4c outcome-aware
+Other,5695,5648,75,58,17,36,19,GBM,all groups,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,47,30,GBM,all groups,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,231,74,GBM,all groups,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,161,56,GBM,all groups,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,174,78,GBM,all groups,0.2,1,B4 label-free
+Other,5695,5648,63,57,6,14,8,GBM,all groups,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,146,129,17,46,29,GBM,all groups,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,583,417,166,239,73,GBM,all groups,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,404,290,114,164,50,GBM,all groups,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,416,325,91,162,71,GBM,all groups,0.2,1,B4c outcome-aware
+Other,5695,5648,61,43,18,22,4,GBM,all groups,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,46,29,GBM,all groups,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,235,78,GBM,all groups,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,156,51,GBM,all groups,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,181,85,GBM,all groups,0.2,2,B4 label-free
+Other,5695,5648,63,57,6,19,13,GBM,all groups,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,142,126,16,42,26,GBM,all groups,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,590,424,166,257,91,GBM,all groups,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,415,301,114,178,64,GBM,all groups,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,403,310,93,153,60,GBM,all groups,0.2,2,B4c outcome-aware
+Other,5695,5648,60,45,15,21,6,GBM,all groups,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,62,45,GBM,all groups,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,271,114,GBM,all groups,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,180,75,GBM,all groups,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,199,103,GBM,all groups,0.3,0,B4 label-free
+Other,5695,5648,63,57,6,25,19,GBM,all groups,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,155,139,16,63,47,GBM,all groups,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,578,411,167,297,130,GBM,all groups,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,424,309,115,209,94,GBM,all groups,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,392,306,86,173,87,GBM,all groups,0.3,0,B4c outcome-aware
+Other,5695,5648,61,46,15,25,10,GBM,all groups,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,55,38,GBM,all groups,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,285,128,GBM,all groups,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,193,88,GBM,all groups,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,209,113,GBM,all groups,0.3,1,B4 label-free
+Other,5695,5648,63,57,6,19,13,GBM,all groups,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,140,125,15,46,31,GBM,all groups,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,584,418,166,297,131,GBM,all groups,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,412,297,115,192,77,GBM,all groups,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,408,319,89,183,94,GBM,all groups,0.3,1,B4c outcome-aware
+Other,5695,5648,66,52,14,30,16,GBM,all groups,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,60,43,GBM,all groups,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,278,121,GBM,all groups,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,181,76,GBM,all groups,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,221,125,GBM,all groups,0.3,2,B4 label-free
+Other,5695,5648,63,57,6,25,19,GBM,all groups,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,155,137,18,62,44,GBM,all groups,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,575,407,168,284,116,GBM,all groups,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,408,295,113,189,76,GBM,all groups,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,400,308,92,178,86,GBM,all groups,0.3,2,B4c outcome-aware
+Other,5695,5648,72,58,14,36,22,GBM,all groups,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.0,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,smallest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,smallest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,421,168,168,0,GBM,smallest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,396,284,112,112,0,GBM,smallest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,smallest group,0.0,0,B4c outcome-aware
+Other,5695,5648,70,47,23,23,0,GBM,smallest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.05,0,B4 label-free
+Other,5695,5648,63,57,6,8,2,GBM,smallest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,smallest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,588,419,169,169,0,GBM,smallest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,396,284,112,112,0,GBM,smallest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,smallest group,0.05,0,B4c outcome-aware
+Other,5695,5648,71,48,23,24,1,GBM,smallest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.05,1,B4 label-free
+Other,5695,5648,63,57,6,9,3,GBM,smallest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,137,122,15,15,0,GBM,smallest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,586,418,168,168,0,GBM,smallest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,397,284,113,113,0,GBM,smallest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,418,322,96,96,0,GBM,smallest group,0.05,1,B4c outcome-aware
+Other,5695,5648,72,50,22,25,3,GBM,smallest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.05,2,B4 label-free
+Other,5695,5648,63,57,6,9,3,GBM,smallest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,smallest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,421,168,168,0,GBM,smallest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,394,282,112,112,0,GBM,smallest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,smallest group,0.05,2,B4c outcome-aware
+Other,5695,5648,72,49,23,25,2,GBM,smallest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.1,0,B4 label-free
+Other,5695,5648,63,57,6,15,9,GBM,smallest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,137,121,16,16,0,GBM,smallest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,583,415,168,168,0,GBM,smallest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,397,285,112,112,0,GBM,smallest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,413,318,95,95,0,GBM,smallest group,0.1,0,B4c outcome-aware
+Other,5695,5648,80,57,23,33,10,GBM,smallest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.1,1,B4 label-free
+Other,5695,5648,63,57,6,11,5,GBM,smallest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,136,121,15,15,0,GBM,smallest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,583,415,168,168,0,GBM,smallest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,398,285,113,113,0,GBM,smallest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,415,318,97,97,0,GBM,smallest group,0.1,1,B4c outcome-aware
+Other,5695,5648,78,56,22,31,9,GBM,smallest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.1,2,B4 label-free
+Other,5695,5648,63,57,6,12,6,GBM,smallest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,136,121,15,15,0,GBM,smallest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,584,415,169,169,0,GBM,smallest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,398,285,113,113,0,GBM,smallest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,414,318,96,96,0,GBM,smallest group,0.1,2,B4c outcome-aware
+Other,5695,5648,78,54,24,31,7,GBM,smallest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.2,0,B4 label-free
+Other,5695,5648,63,57,6,21,15,GBM,smallest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,136,120,16,16,0,GBM,smallest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,583,416,167,167,0,GBM,smallest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,396,283,113,113,0,GBM,smallest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,410,315,95,95,0,GBM,smallest group,0.2,0,B4c outcome-aware
+Other,5695,5648,85,61,24,39,15,GBM,smallest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.2,1,B4 label-free
+Other,5695,5648,63,57,6,14,8,GBM,smallest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,136,121,15,15,0,GBM,smallest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,576,408,168,168,0,GBM,smallest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,397,285,112,112,0,GBM,smallest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,414,318,96,96,0,GBM,smallest group,0.2,1,B4c outcome-aware
+Other,5695,5648,87,65,22,40,18,GBM,smallest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.2,2,B4 label-free
+Other,5695,5648,63,57,6,19,13,GBM,smallest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,136,122,14,14,0,GBM,smallest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,580,412,168,168,0,GBM,smallest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,395,284,111,111,0,GBM,smallest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,smallest group,0.2,2,B4c outcome-aware
+Other,5695,5648,82,58,24,35,11,GBM,smallest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.3,0,B4 label-free
+Other,5695,5648,63,57,6,25,19,GBM,smallest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,134,119,15,15,0,GBM,smallest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,586,419,167,167,0,GBM,smallest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,394,281,113,113,0,GBM,smallest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,403,312,91,91,0,GBM,smallest group,0.3,0,B4c outcome-aware
+Other,5695,5648,93,70,23,47,24,GBM,smallest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.3,1,B4 label-free
+Other,5695,5648,63,57,6,19,13,GBM,smallest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,134,120,14,14,0,GBM,smallest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,584,417,167,167,0,GBM,smallest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,394,281,113,113,0,GBM,smallest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,408,315,93,93,0,GBM,smallest group,0.3,1,B4c outcome-aware
+Other,5695,5648,90,68,22,44,22,GBM,smallest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,smallest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,smallest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,smallest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,smallest group,0.3,2,B4 label-free
+Other,5695,5648,63,57,6,25,19,GBM,smallest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,135,121,14,14,0,GBM,smallest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,582,413,169,169,0,GBM,smallest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,394,283,111,111,0,GBM,smallest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,412,318,94,94,0,GBM,smallest group,0.3,2,B4c outcome-aware
+Other,5695,5648,87,63,24,40,16,GBM,smallest group,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,157,0,GBM,largest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.0,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,largest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,421,168,168,0,GBM,largest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,396,284,112,112,0,GBM,largest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,largest group,0.0,0,B4c outcome-aware
+Other,5695,5648,70,47,23,23,0,GBM,largest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,179,22,GBM,largest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.05,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,138,121,17,17,0,GBM,largest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,605,436,169,199,30,GBM,largest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,395,281,114,114,0,GBM,largest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,411,318,93,93,0,GBM,largest group,0.05,0,B4c outcome-aware
+Other,5695,5648,61,47,14,14,0,GBM,largest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,180,23,GBM,largest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.05,1,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,137,122,15,15,0,GBM,largest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,591,423,168,183,15,GBM,largest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,397,284,113,113,0,GBM,largest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,415,322,93,93,0,GBM,largest group,0.05,1,B4c outcome-aware
+Other,5695,5648,70,47,23,23,0,GBM,largest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,174,17,GBM,largest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.05,2,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,138,122,16,16,0,GBM,largest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,590,423,167,183,16,GBM,largest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,395,284,111,111,0,GBM,largest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,417,322,95,95,0,GBM,largest group,0.05,2,B4c outcome-aware
+Other,5695,5648,70,47,23,23,0,GBM,largest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,199,42,GBM,largest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.1,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,137,121,16,16,0,GBM,largest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,603,434,169,210,41,GBM,largest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,393,282,111,111,0,GBM,largest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,412,318,94,94,0,GBM,largest group,0.1,0,B4c outcome-aware
+Other,5695,5648,65,47,18,18,0,GBM,largest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,195,38,GBM,largest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.1,1,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,137,121,16,16,0,GBM,largest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,596,428,168,216,48,GBM,largest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,398,283,115,115,0,GBM,largest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,410,318,92,92,0,GBM,largest group,0.1,1,B4c outcome-aware
+Other,5695,5648,69,47,22,22,0,GBM,largest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,188,31,GBM,largest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.1,2,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,137,122,15,15,0,GBM,largest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,590,422,168,205,37,GBM,largest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,397,284,113,113,0,GBM,largest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,416,323,93,93,0,GBM,largest group,0.1,2,B4c outcome-aware
+Other,5695,5648,70,48,22,22,0,GBM,largest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,237,80,GBM,largest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.2,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,137,121,16,16,0,GBM,largest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,600,432,168,265,97,GBM,largest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,394,283,111,111,0,GBM,largest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,413,318,95,95,0,GBM,largest group,0.2,0,B4c outcome-aware
+Other,5695,5648,66,47,19,19,0,GBM,largest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,231,74,GBM,largest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.2,1,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,135,119,16,16,0,GBM,largest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,610,442,168,249,81,GBM,largest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,393,279,114,114,0,GBM,largest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,403,311,92,92,0,GBM,largest group,0.2,1,B4c outcome-aware
+Other,5695,5648,69,46,23,23,0,GBM,largest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,235,78,GBM,largest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.2,2,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,137,121,16,16,0,GBM,largest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,596,428,168,241,73,GBM,largest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,398,283,115,115,0,GBM,largest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,410,318,92,92,0,GBM,largest group,0.2,2,B4c outcome-aware
+Other,5695,5648,69,47,22,22,0,GBM,largest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,271,114,GBM,largest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.3,0,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,132,116,16,16,0,GBM,largest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,638,467,171,322,151,GBM,largest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,383,272,111,111,0,GBM,largest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,393,301,92,92,0,GBM,largest group,0.3,0,B4c outcome-aware
+Other,5695,5648,64,45,19,19,0,GBM,largest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,285,128,GBM,largest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.3,1,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,130,116,14,14,0,GBM,largest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,635,466,169,321,152,GBM,largest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,384,273,111,111,0,GBM,largest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,395,303,92,92,0,GBM,largest group,0.3,1,B4c outcome-aware
+Other,5695,5648,66,45,21,21,0,GBM,largest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,160,143,17,17,0,GBM,largest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,560,403,157,278,121,GBM,largest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,372,267,105,105,0,GBM,largest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,455,359,96,96,0,GBM,largest group,0.3,2,B4 label-free
+Other,5695,5648,63,57,6,6,0,GBM,largest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,129,116,13,13,0,GBM,largest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,642,475,167,327,160,GBM,largest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,383,273,110,110,0,GBM,largest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,394,302,92,92,0,GBM,largest group,0.3,2,B4c outcome-aware
+Other,5695,5648,62,45,17,17,0,GBM,largest group,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,all groups,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,all groups,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,all groups,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,all groups,0.0,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,all groups,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,all groups,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,561,542,19,19,0,LSTM,all groups,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,all groups,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,529,518,11,11,0,LSTM,all groups,0.0,0,B4c outcome-aware
+Other,5695,5648,58,57,1,1,0,LSTM,all groups,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,18,11,LSTM,all groups,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,52,34,LSTM,all groups,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,27,11,LSTM,all groups,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,38,27,LSTM,all groups,0.05,0,B4 label-free
+Other,5695,5648,59,59,0,2,2,LSTM,all groups,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,165,155,10,22,12,LSTM,all groups,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,553,536,17,38,21,LSTM,all groups,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,297,281,16,28,12,LSTM,all groups,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,538,527,11,47,36,LSTM,all groups,0.05,0,B4c outcome-aware
+Other,5695,5648,57,57,0,3,3,LSTM,all groups,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,9,2,LSTM,all groups,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,51,33,LSTM,all groups,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,33,17,LSTM,all groups,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,34,23,LSTM,all groups,0.05,1,B4 label-free
+Other,5695,5648,59,59,0,4,4,LSTM,all groups,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,165,154,11,22,11,LSTM,all groups,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,560,541,19,44,25,LSTM,all groups,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,298,282,16,29,13,LSTM,all groups,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,531,520,11,40,29,LSTM,all groups,0.05,1,B4c outcome-aware
+Other,5695,5648,56,55,1,2,1,LSTM,all groups,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,11,4,LSTM,all groups,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,43,25,LSTM,all groups,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,27,11,LSTM,all groups,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,30,19,LSTM,all groups,0.05,2,B4 label-free
+Other,5695,5648,59,59,0,8,8,LSTM,all groups,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,160,149,11,16,5,LSTM,all groups,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,565,546,19,45,26,LSTM,all groups,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,308,292,16,37,21,LSTM,all groups,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,521,510,11,26,15,LSTM,all groups,0.05,2,B4c outcome-aware
+Other,5695,5648,56,56,0,1,1,LSTM,all groups,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,24,17,LSTM,all groups,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,84,66,LSTM,all groups,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,44,28,LSTM,all groups,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,59,48,LSTM,all groups,0.1,0,B4 label-free
+Other,5695,5648,59,59,0,2,2,LSTM,all groups,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,166,154,12,31,19,LSTM,all groups,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,562,544,18,76,58,LSTM,all groups,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,298,282,16,48,32,LSTM,all groups,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,527,516,11,63,52,LSTM,all groups,0.1,0,B4c outcome-aware
+Other,5695,5648,57,57,0,6,6,LSTM,all groups,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,15,8,LSTM,all groups,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,77,59,LSTM,all groups,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,44,28,LSTM,all groups,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,59,48,LSTM,all groups,0.1,1,B4 label-free
+Other,5695,5648,59,59,0,9,9,LSTM,all groups,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,162,150,12,26,14,LSTM,all groups,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,562,542,20,70,50,LSTM,all groups,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,288,272,16,35,19,LSTM,all groups,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,540,528,12,70,58,LSTM,all groups,0.1,1,B4c outcome-aware
+Other,5695,5648,58,58,0,6,6,LSTM,all groups,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,17,10,LSTM,all groups,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,74,56,LSTM,all groups,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,39,23,LSTM,all groups,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,48,37,LSTM,all groups,0.1,2,B4 label-free
+Other,5695,5648,59,59,0,11,11,LSTM,all groups,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,163,154,9,25,16,LSTM,all groups,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,556,537,19,61,42,LSTM,all groups,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,297,281,16,40,24,LSTM,all groups,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,533,522,11,58,47,LSTM,all groups,0.1,2,B4c outcome-aware
+Other,5695,5648,61,60,1,9,8,LSTM,all groups,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,37,30,LSTM,all groups,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,135,117,LSTM,all groups,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,71,55,LSTM,all groups,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,118,107,LSTM,all groups,0.2,0,B4 label-free
+Other,5695,5648,59,59,0,8,8,LSTM,all groups,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,161,151,10,39,29,LSTM,all groups,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,570,552,18,138,120,LSTM,all groups,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,287,271,16,68,52,LSTM,all groups,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,537,528,9,121,112,LSTM,all groups,0.2,0,B4c outcome-aware
+Other,5695,5648,55,54,1,9,8,LSTM,all groups,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,30,23,LSTM,all groups,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,141,123,LSTM,all groups,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,70,54,LSTM,all groups,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,98,87,LSTM,all groups,0.2,1,B4 label-free
+Other,5695,5648,59,59,0,14,14,LSTM,all groups,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,169,159,10,45,35,LSTM,all groups,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,567,547,20,121,101,LSTM,all groups,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,291,275,16,66,50,LSTM,all groups,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,527,515,12,99,87,LSTM,all groups,0.2,1,B4c outcome-aware
+Other,5695,5648,56,56,0,11,11,LSTM,all groups,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,33,26,LSTM,all groups,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,137,119,LSTM,all groups,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,73,57,LSTM,all groups,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,112,101,LSTM,all groups,0.2,2,B4 label-free
+Other,5695,5648,59,59,0,16,16,LSTM,all groups,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,169,159,10,50,40,LSTM,all groups,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,581,562,19,154,135,LSTM,all groups,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,285,269,16,72,56,LSTM,all groups,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,519,508,11,107,96,LSTM,all groups,0.2,2,B4c outcome-aware
+Other,5695,5648,56,56,0,11,11,LSTM,all groups,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,49,42,LSTM,all groups,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,184,166,LSTM,all groups,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,90,74,LSTM,all groups,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,164,153,LSTM,all groups,0.3,0,B4 label-free
+Other,5695,5648,59,59,0,15,15,LSTM,all groups,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,155,146,9,48,39,LSTM,all groups,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,575,556,19,196,177,LSTM,all groups,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,302,286,16,118,102,LSTM,all groups,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,521,511,10,158,148,LSTM,all groups,0.3,0,B4c outcome-aware
+Other,5695,5648,57,55,2,17,15,LSTM,all groups,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,50,43,LSTM,all groups,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,191,173,LSTM,all groups,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,103,87,LSTM,all groups,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,156,145,LSTM,all groups,0.3,1,B4 label-free
+Other,5695,5648,59,59,0,18,18,LSTM,all groups,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,178,167,11,71,60,LSTM,all groups,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,565,547,18,181,163,LSTM,all groups,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,279,263,16,94,78,LSTM,all groups,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,529,519,10,164,154,LSTM,all groups,0.3,1,B4c outcome-aware
+Other,5695,5648,59,59,0,18,18,LSTM,all groups,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,44,37,LSTM,all groups,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,193,175,LSTM,all groups,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,107,91,LSTM,all groups,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,172,161,LSTM,all groups,0.3,2,B4 label-free
+Other,5695,5648,59,59,0,20,20,LSTM,all groups,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,166,156,10,60,50,LSTM,all groups,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,578,558,20,197,177,LSTM,all groups,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,274,258,16,89,73,LSTM,all groups,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,541,530,11,177,166,LSTM,all groups,0.3,2,B4c outcome-aware
+Other,5695,5648,51,49,2,10,8,LSTM,all groups,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.0,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,smallest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,561,542,19,19,0,LSTM,smallest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,529,518,11,11,0,LSTM,smallest group,0.0,0,B4c outcome-aware
+Other,5695,5648,58,57,1,1,0,LSTM,smallest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.05,0,B4 label-free
+Other,5695,5648,59,59,0,2,2,LSTM,smallest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,559,540,19,19,0,LSTM,smallest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,527,516,11,11,0,LSTM,smallest group,0.05,0,B4c outcome-aware
+Other,5695,5648,62,61,1,5,4,LSTM,smallest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.05,1,B4 label-free
+Other,5695,5648,59,59,0,4,4,LSTM,smallest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,558,540,18,18,0,LSTM,smallest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,527,516,11,11,0,LSTM,smallest group,0.05,1,B4c outcome-aware
+Other,5695,5648,63,62,1,6,5,LSTM,smallest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.05,2,B4 label-free
+Other,5695,5648,59,59,0,8,8,LSTM,smallest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,560,541,19,19,0,LSTM,smallest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,528,517,11,11,0,LSTM,smallest group,0.05,2,B4c outcome-aware
+Other,5695,5648,60,60,0,3,3,LSTM,smallest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.1,0,B4 label-free
+Other,5695,5648,59,59,0,2,2,LSTM,smallest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,160,149,11,11,0,LSTM,smallest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,558,540,18,18,0,LSTM,smallest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,300,284,16,16,0,LSTM,smallest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,526,515,11,11,0,LSTM,smallest group,0.1,0,B4c outcome-aware
+Other,5695,5648,66,65,1,12,11,LSTM,smallest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.1,1,B4 label-free
+Other,5695,5648,59,59,0,9,9,LSTM,smallest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,558,540,18,18,0,LSTM,smallest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,527,516,11,11,0,LSTM,smallest group,0.1,1,B4c outcome-aware
+Other,5695,5648,63,62,1,6,5,LSTM,smallest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.1,2,B4 label-free
+Other,5695,5648,59,59,0,11,11,LSTM,smallest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,smallest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,559,540,19,19,0,LSTM,smallest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,smallest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,528,517,11,11,0,LSTM,smallest group,0.1,2,B4c outcome-aware
+Other,5695,5648,61,61,0,4,4,LSTM,smallest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.2,0,B4 label-free
+Other,5695,5648,59,59,0,8,8,LSTM,smallest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,160,149,11,11,0,LSTM,smallest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,558,540,18,18,0,LSTM,smallest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,300,284,16,16,0,LSTM,smallest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,526,515,11,11,0,LSTM,smallest group,0.2,0,B4c outcome-aware
+Other,5695,5648,66,65,1,14,13,LSTM,smallest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.2,1,B4 label-free
+Other,5695,5648,59,59,0,14,14,LSTM,smallest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,160,149,11,11,0,LSTM,smallest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,558,539,19,19,0,LSTM,smallest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,299,283,16,16,0,LSTM,smallest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,525,514,11,11,0,LSTM,smallest group,0.2,1,B4c outcome-aware
+Other,5695,5648,68,68,0,11,11,LSTM,smallest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.2,2,B4 label-free
+Other,5695,5648,59,59,0,16,16,LSTM,smallest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,160,149,11,11,0,LSTM,smallest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,557,538,19,19,0,LSTM,smallest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,299,283,16,16,0,LSTM,smallest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,525,514,11,11,0,LSTM,smallest group,0.2,2,B4c outcome-aware
+Other,5695,5648,69,69,0,13,13,LSTM,smallest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.3,0,B4 label-free
+Other,5695,5648,59,59,0,15,15,LSTM,smallest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,159,149,10,10,0,LSTM,smallest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,557,538,19,19,0,LSTM,smallest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,299,283,16,16,0,LSTM,smallest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,525,514,11,11,0,LSTM,smallest group,0.3,0,B4c outcome-aware
+Other,5695,5648,70,70,0,15,15,LSTM,smallest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.3,1,B4 label-free
+Other,5695,5648,59,59,0,18,18,LSTM,smallest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,158,148,10,10,0,LSTM,smallest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,554,535,19,19,0,LSTM,smallest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,297,281,16,16,0,LSTM,smallest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,523,512,11,11,0,LSTM,smallest group,0.3,1,B4c outcome-aware
+Other,5695,5648,78,78,0,28,28,LSTM,smallest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,smallest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,smallest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,smallest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,smallest group,0.3,2,B4 label-free
+Other,5695,5648,59,59,0,20,20,LSTM,smallest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,158,147,11,11,0,LSTM,smallest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,553,534,19,19,0,LSTM,smallest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,296,280,16,16,0,LSTM,smallest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,520,509,11,11,0,LSTM,smallest group,0.3,2,B4c outcome-aware
+Other,5695,5648,83,82,1,31,30,LSTM,smallest group,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,18,0,LSTM,largest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.0,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,161,150,11,11,0,LSTM,largest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,561,542,19,19,0,LSTM,largest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,301,285,16,16,0,LSTM,largest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,529,518,11,11,0,LSTM,largest group,0.0,0,B4c outcome-aware
+Other,5695,5648,58,57,1,1,0,LSTM,largest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,52,34,LSTM,largest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.05,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,157,148,9,9,0,LSTM,largest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,575,556,19,38,19,LSTM,largest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,523,512,11,11,0,LSTM,largest group,0.05,0,B4c outcome-aware
+Other,5695,5648,57,57,0,0,0,LSTM,largest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,51,33,LSTM,largest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.05,1,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,158,148,10,10,0,LSTM,largest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,576,558,18,43,25,LSTM,largest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,297,281,16,16,0,LSTM,largest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,523,512,11,11,0,LSTM,largest group,0.05,1,B4c outcome-aware
+Other,5695,5648,56,56,0,0,0,LSTM,largest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,43,25,LSTM,largest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.05,2,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,159,147,12,12,0,LSTM,largest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,582,562,20,51,31,LSTM,largest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,294,278,16,16,0,LSTM,largest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,519,508,11,11,0,LSTM,largest group,0.05,2,B4c outcome-aware
+Other,5695,5648,56,56,0,0,0,LSTM,largest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,84,66,LSTM,largest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.1,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,156,145,11,11,0,LSTM,largest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,597,577,20,75,55,LSTM,largest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,290,274,16,16,0,LSTM,largest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,511,500,11,11,0,LSTM,largest group,0.1,0,B4c outcome-aware
+Other,5695,5648,56,55,1,1,0,LSTM,largest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,77,59,LSTM,largest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.1,1,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,156,145,11,11,0,LSTM,largest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,596,576,20,72,52,LSTM,largest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,290,274,16,16,0,LSTM,largest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,513,502,11,11,0,LSTM,largest group,0.1,1,B4c outcome-aware
+Other,5695,5648,55,55,0,0,0,LSTM,largest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,74,56,LSTM,largest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.1,2,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,157,145,12,12,0,LSTM,largest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,595,577,18,75,57,LSTM,largest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,290,274,16,16,0,LSTM,largest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,512,501,11,11,0,LSTM,largest group,0.1,2,B4c outcome-aware
+Other,5695,5648,56,55,1,1,0,LSTM,largest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,135,117,LSTM,largest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.2,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,148,139,9,9,0,LSTM,largest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,641,621,20,146,126,LSTM,largest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,276,260,16,16,0,LSTM,largest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,492,481,11,11,0,LSTM,largest group,0.2,0,B4c outcome-aware
+Other,5695,5648,53,53,0,0,0,LSTM,largest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,141,123,LSTM,largest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.2,1,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,148,139,9,9,0,LSTM,largest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,637,618,19,139,120,LSTM,largest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,277,261,16,16,0,LSTM,largest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,493,482,11,11,0,LSTM,largest group,0.2,1,B4c outcome-aware
+Other,5695,5648,55,53,2,2,0,LSTM,largest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,137,119,LSTM,largest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.2,2,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,149,139,10,10,0,LSTM,largest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,639,620,19,152,133,LSTM,largest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,276,260,16,16,0,LSTM,largest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,492,481,11,11,0,LSTM,largest group,0.2,2,B4c outcome-aware
+Other,5695,5648,54,53,1,1,0,LSTM,largest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,184,166,LSTM,largest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.3,0,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,147,137,10,10,0,LSTM,largest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,655,636,19,205,186,LSTM,largest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,271,255,16,16,0,LSTM,largest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,485,474,11,11,0,LSTM,largest group,0.3,0,B4c outcome-aware
+Other,5695,5648,52,52,0,0,0,LSTM,largest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,191,173,LSTM,largest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.3,1,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,145,136,9,9,0,LSTM,largest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,661,641,20,193,173,LSTM,largest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,269,253,16,16,0,LSTM,largest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,481,470,11,11,0,LSTM,largest group,0.3,1,B4c outcome-aware
+Other,5695,5648,54,52,2,2,0,LSTM,largest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,155,148,7,7,0,LSTM,largest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,562,544,18,193,175,LSTM,largest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,298,282,16,16,0,LSTM,largest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,536,525,11,11,0,LSTM,largest group,0.3,2,B4 label-free
+Other,5695,5648,59,59,0,0,0,LSTM,largest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,145,136,9,9,0,LSTM,largest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,664,645,19,225,206,LSTM,largest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,269,253,16,16,0,LSTM,largest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,480,470,10,10,0,LSTM,largest group,0.3,2,B4c outcome-aware
+Other,5695,5648,52,52,0,0,0,LSTM,largest group,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,all groups,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,all groups,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,all groups,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,all groups,0.0,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,all groups,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,167,164,3,3,0,IF,all groups,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,all groups,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,320,319,1,1,0,IF,all groups,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,470,467,3,3,0,IF,all groups,0.0,0,B4c outcome-aware
+Other,5695,5648,60,60,0,0,0,IF,all groups,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,12,9,IF,all groups,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,33,32,IF,all groups,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,13,12,IF,all groups,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,34,31,IF,all groups,0.05,0,B4 label-free
+Other,5695,5648,62,62,0,2,2,IF,all groups,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,169,166,3,13,10,IF,all groups,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,595,594,1,32,31,IF,all groups,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,316,315,1,15,14,IF,all groups,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,473,470,3,34,31,IF,all groups,0.05,0,B4c outcome-aware
+Other,5695,5648,57,57,0,3,3,IF,all groups,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,8,5,IF,all groups,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,29,28,IF,all groups,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,14,13,IF,all groups,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,32,29,IF,all groups,0.05,1,B4 label-free
+Other,5695,5648,62,62,0,5,5,IF,all groups,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,170,167,3,13,10,IF,all groups,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,594,593,1,28,27,IF,all groups,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,316,315,1,12,11,IF,all groups,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,475,472,3,31,28,IF,all groups,0.05,1,B4c outcome-aware
+Other,5695,5648,55,55,0,1,1,IF,all groups,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,10,7,IF,all groups,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,32,31,IF,all groups,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,15,14,IF,all groups,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,22,19,IF,all groups,0.05,2,B4 label-free
+Other,5695,5648,62,62,0,1,1,IF,all groups,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,169,166,3,12,9,IF,all groups,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,591,590,1,23,22,IF,all groups,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,323,322,1,17,16,IF,all groups,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,25,22,IF,all groups,0.05,2,B4c outcome-aware
+Other,5695,5648,59,59,0,2,2,IF,all groups,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,18,15,IF,all groups,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,62,61,IF,all groups,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,28,27,IF,all groups,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,60,57,IF,all groups,0.1,0,B4 label-free
+Other,5695,5648,62,62,0,5,5,IF,all groups,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,174,171,3,25,22,IF,all groups,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,593,592,1,56,55,IF,all groups,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,326,325,1,42,41,IF,all groups,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,464,461,3,47,44,IF,all groups,0.1,0,B4c outcome-aware
+Other,5695,5648,53,53,0,4,4,IF,all groups,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,15,12,IF,all groups,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,60,59,IF,all groups,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,27,26,IF,all groups,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,51,48,IF,all groups,0.1,1,B4 label-free
+Other,5695,5648,62,62,0,9,9,IF,all groups,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,16,13,IF,all groups,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,605,604,1,60,59,IF,all groups,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,323,322,1,33,32,IF,all groups,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,464,461,3,43,40,IF,all groups,0.1,1,B4c outcome-aware
+Other,5695,5648,52,52,0,3,3,IF,all groups,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,21,18,IF,all groups,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,57,56,IF,all groups,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,27,26,IF,all groups,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,38,35,IF,all groups,0.1,2,B4 label-free
+Other,5695,5648,62,62,0,7,7,IF,all groups,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,170,167,3,19,16,IF,all groups,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,609,608,1,64,63,IF,all groups,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,322,321,1,33,32,IF,all groups,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,458,455,3,34,31,IF,all groups,0.1,2,B4c outcome-aware
+Other,5695,5648,51,51,0,2,2,IF,all groups,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,25,22,IF,all groups,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,123,122,IF,all groups,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,61,60,IF,all groups,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,113,110,IF,all groups,0.2,0,B4 label-free
+Other,5695,5648,62,62,0,12,12,IF,all groups,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,172,169,3,39,36,IF,all groups,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,606,605,1,123,122,IF,all groups,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,331,330,1,81,80,IF,all groups,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,448,445,3,84,81,IF,all groups,0.2,0,B4c outcome-aware
+Other,5695,5648,53,53,0,11,11,IF,all groups,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,30,27,IF,all groups,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,120,119,IF,all groups,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,58,57,IF,all groups,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,89,86,IF,all groups,0.2,1,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,all groups,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,171,168,3,35,32,IF,all groups,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,619,618,1,128,127,IF,all groups,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,313,312,1,57,56,IF,all groups,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,450,447,3,77,74,IF,all groups,0.2,1,B4c outcome-aware
+Other,5695,5648,57,57,0,14,14,IF,all groups,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,39,36,IF,all groups,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,135,134,IF,all groups,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,59,58,IF,all groups,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,90,87,IF,all groups,0.2,2,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,all groups,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,177,174,3,44,41,IF,all groups,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,608,607,1,131,130,IF,all groups,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,309,308,1,62,61,IF,all groups,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,458,455,3,98,95,IF,all groups,0.2,2,B4c outcome-aware
+Other,5695,5648,58,58,0,16,16,IF,all groups,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,39,36,IF,all groups,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,171,170,IF,all groups,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,93,92,IF,all groups,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,154,151,IF,all groups,0.3,0,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,all groups,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,172,169,3,53,50,IF,all groups,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,630,629,1,206,205,IF,all groups,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,317,316,1,104,103,IF,all groups,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,437,434,3,123,120,IF,all groups,0.3,0,B4c outcome-aware
+Other,5695,5648,54,54,0,18,18,IF,all groups,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,42,39,IF,all groups,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,181,180,IF,all groups,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,94,93,IF,all groups,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,142,139,IF,all groups,0.3,1,B4 label-free
+Other,5695,5648,62,62,0,24,24,IF,all groups,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,167,164,3,47,44,IF,all groups,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,606,605,1,175,174,IF,all groups,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,320,319,1,101,100,IF,all groups,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,453,450,3,138,135,IF,all groups,0.3,1,B4c outcome-aware
+Other,5695,5648,64,64,0,27,27,IF,all groups,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,51,48,IF,all groups,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,197,196,IF,all groups,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,100,99,IF,all groups,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,141,138,IF,all groups,0.3,2,B4 label-free
+Other,5695,5648,62,62,0,19,19,IF,all groups,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,179,176,3,60,57,IF,all groups,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,615,614,1,185,184,IF,all groups,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,316,315,1,100,99,IF,all groups,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,445,442,3,132,129,IF,all groups,0.3,2,B4c outcome-aware
+Other,5695,5648,55,55,0,18,18,IF,all groups,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.0,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,smallest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,167,164,3,3,0,IF,smallest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,320,319,1,1,0,IF,smallest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,470,467,3,3,0,IF,smallest group,0.0,0,B4c outcome-aware
+Other,5695,5648,60,60,0,0,0,IF,smallest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.05,0,B4 label-free
+Other,5695,5648,62,62,0,2,2,IF,smallest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.05,0,B4c outcome-aware
+Other,5695,5648,63,63,0,2,2,IF,smallest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.05,1,B4 label-free
+Other,5695,5648,62,62,0,5,5,IF,smallest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.05,1,B4c outcome-aware
+Other,5695,5648,63,63,0,2,2,IF,smallest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.05,2,B4 label-free
+Other,5695,5648,62,62,0,1,1,IF,smallest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.05,2,B4c outcome-aware
+Other,5695,5648,63,63,0,2,2,IF,smallest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.1,0,B4 label-free
+Other,5695,5648,62,62,0,5,5,IF,smallest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.1,0,B4c outcome-aware
+Other,5695,5648,63,63,0,3,3,IF,smallest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.1,1,B4 label-free
+Other,5695,5648,62,62,0,9,9,IF,smallest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.1,1,B4c outcome-aware
+Other,5695,5648,63,63,0,5,5,IF,smallest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.1,2,B4 label-free
+Other,5695,5648,62,62,0,7,7,IF,smallest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,592,591,1,1,0,IF,smallest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,321,320,1,1,0,IF,smallest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.1,2,B4c outcome-aware
+Other,5695,5648,63,63,0,7,7,IF,smallest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.2,0,B4 label-free
+Other,5695,5648,62,62,0,12,12,IF,smallest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,588,1,1,0,IF,smallest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,318,317,1,1,0,IF,smallest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.2,0,B4c outcome-aware
+Other,5695,5648,70,70,0,17,17,IF,smallest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.2,1,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,smallest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,591,590,1,1,0,IF,smallest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,320,319,1,1,0,IF,smallest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,468,465,3,3,0,IF,smallest group,0.2,1,B4c outcome-aware
+Other,5695,5648,65,65,0,12,12,IF,smallest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.2,2,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,smallest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,165,162,3,3,0,IF,smallest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,587,586,1,1,0,IF,smallest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,318,317,1,1,0,IF,smallest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,465,462,3,3,0,IF,smallest group,0.2,2,B4c outcome-aware
+Other,5695,5648,75,75,0,22,22,IF,smallest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.3,0,B4 label-free
+Other,5695,5648,62,62,0,16,16,IF,smallest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,166,163,3,3,0,IF,smallest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,589,588,1,1,0,IF,smallest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,318,317,1,1,0,IF,smallest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.3,0,B4c outcome-aware
+Other,5695,5648,70,70,0,17,17,IF,smallest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.3,1,B4 label-free
+Other,5695,5648,62,62,0,24,24,IF,smallest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,165,162,3,3,0,IF,smallest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,588,587,1,1,0,IF,smallest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,318,317,1,1,0,IF,smallest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,465,462,3,3,0,IF,smallest group,0.3,1,B4c outcome-aware
+Other,5695,5648,74,74,0,21,21,IF,smallest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,smallest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,smallest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,smallest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,smallest group,0.3,2,B4 label-free
+Other,5695,5648,62,62,0,19,19,IF,smallest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,165,162,3,3,0,IF,smallest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,587,586,1,1,0,IF,smallest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,317,316,1,1,0,IF,smallest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,465,462,3,3,0,IF,smallest group,0.3,2,B4c outcome-aware
+Other,5695,5648,76,76,0,23,23,IF,smallest group,0.3,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.0,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,largest group,0.0,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.0,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.0,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.0,0,B4 label-free
+1 - Adminstration,14467,14442,167,164,3,3,0,IF,largest group,0.0,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,593,592,1,1,0,IF,largest group,0.0,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,320,319,1,1,0,IF,largest group,0.0,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,470,467,3,3,0,IF,largest group,0.0,0,B4c outcome-aware
+Other,5695,5648,60,60,0,0,0,IF,largest group,0.0,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.05,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,33,32,IF,largest group,0.05,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.05,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.05,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.05,0,B4 label-free
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.05,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,616,615,1,34,33,IF,largest group,0.05,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,315,314,1,1,0,IF,largest group,0.05,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,461,458,3,3,0,IF,largest group,0.05,0,B4c outcome-aware
+Other,5695,5648,54,54,0,0,0,IF,largest group,0.05,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.05,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,29,28,IF,largest group,0.05,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.05,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.05,1,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.05,1,B4 label-free
+1 - Adminstration,14467,14442,165,162,3,3,0,IF,largest group,0.05,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,611,610,1,27,26,IF,largest group,0.05,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,316,315,1,1,0,IF,largest group,0.05,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,463,460,3,3,0,IF,largest group,0.05,1,B4c outcome-aware
+Other,5695,5648,55,55,0,0,0,IF,largest group,0.05,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.05,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,32,31,IF,largest group,0.05,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.05,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.05,2,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.05,2,B4 label-free
+1 - Adminstration,14467,14442,165,162,3,3,0,IF,largest group,0.05,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,612,611,1,28,27,IF,largest group,0.05,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,316,315,1,1,0,IF,largest group,0.05,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,463,460,3,3,0,IF,largest group,0.05,2,B4c outcome-aware
+Other,5695,5648,54,54,0,0,0,IF,largest group,0.05,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.1,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,62,61,IF,largest group,0.1,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.1,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.1,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.1,0,B4 label-free
+1 - Adminstration,14467,14442,160,157,3,3,0,IF,largest group,0.1,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,643,642,1,76,75,IF,largest group,0.1,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,307,306,1,1,0,IF,largest group,0.1,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,446,443,3,3,0,IF,largest group,0.1,0,B4c outcome-aware
+Other,5695,5648,54,54,0,0,0,IF,largest group,0.1,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.1,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,60,59,IF,largest group,0.1,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.1,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.1,1,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.1,1,B4 label-free
+1 - Adminstration,14467,14442,161,158,3,3,0,IF,largest group,0.1,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,638,637,1,67,66,IF,largest group,0.1,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,309,308,1,1,0,IF,largest group,0.1,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,450,447,3,3,0,IF,largest group,0.1,1,B4c outcome-aware
+Other,5695,5648,52,52,0,0,0,IF,largest group,0.1,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.1,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,57,56,IF,largest group,0.1,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.1,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.1,2,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.1,2,B4 label-free
+1 - Adminstration,14467,14442,163,160,3,3,0,IF,largest group,0.1,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,628,627,1,53,52,IF,largest group,0.1,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,311,310,1,1,0,IF,largest group,0.1,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,456,453,3,3,0,IF,largest group,0.1,2,B4c outcome-aware
+Other,5695,5648,52,52,0,0,0,IF,largest group,0.1,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.2,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,123,122,IF,largest group,0.2,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.2,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.2,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.2,0,B4 label-free
+1 - Adminstration,14467,14442,154,151,3,3,0,IF,largest group,0.2,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,690,689,1,147,146,IF,largest group,0.2,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,291,290,1,1,0,IF,largest group,0.2,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,425,422,3,3,0,IF,largest group,0.2,0,B4c outcome-aware
+Other,5695,5648,50,50,0,0,0,IF,largest group,0.2,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.2,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,120,119,IF,largest group,0.2,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.2,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.2,1,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.2,1,B4 label-free
+1 - Adminstration,14467,14442,155,152,3,3,0,IF,largest group,0.2,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,682,681,1,133,132,IF,largest group,0.2,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,294,293,1,1,0,IF,largest group,0.2,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,430,427,3,3,0,IF,largest group,0.2,1,B4c outcome-aware
+Other,5695,5648,49,49,0,0,0,IF,largest group,0.2,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.2,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,135,134,IF,largest group,0.2,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.2,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.2,2,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.2,2,B4 label-free
+1 - Adminstration,14467,14442,154,151,3,3,0,IF,largest group,0.2,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,688,687,1,146,145,IF,largest group,0.2,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,293,292,1,1,0,IF,largest group,0.2,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,426,423,3,3,0,IF,largest group,0.2,2,B4c outcome-aware
+Other,5695,5648,49,49,0,0,0,IF,largest group,0.2,2,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.3,0,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,171,170,IF,largest group,0.3,0,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.3,0,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.3,0,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.3,0,B4 label-free
+1 - Adminstration,14467,14442,148,146,2,2,0,IF,largest group,0.3,0,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,725,724,1,218,217,IF,largest group,0.3,0,B4c outcome-aware
+3 - Manufacturing,34029,33889,282,281,1,1,0,IF,largest group,0.3,0,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,408,405,3,3,0,IF,largest group,0.3,0,B4c outcome-aware
+Other,5695,5648,47,47,0,0,0,IF,largest group,0.3,0,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.3,1,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,181,180,IF,largest group,0.3,1,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.3,1,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.3,1,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.3,1,B4 label-free
+1 - Adminstration,14467,14442,149,146,3,3,0,IF,largest group,0.3,1,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,724,723,1,219,218,IF,largest group,0.3,1,B4c outcome-aware
+3 - Manufacturing,34029,33889,282,281,1,1,0,IF,largest group,0.3,1,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,408,405,3,3,0,IF,largest group,0.3,1,B4c outcome-aware
+Other,5695,5648,47,47,0,0,0,IF,largest group,0.3,1,B4c outcome-aware
+1 - Adminstration,14467,14442,164,161,3,3,0,IF,largest group,0.3,2,B4 label-free
+2 - ResearchAndEngineering,52360,52141,593,592,1,197,196,IF,largest group,0.3,2,B4 label-free
+3 - Manufacturing,34029,33889,324,323,1,1,0,IF,largest group,0.3,2,B4 label-free
+5 - SalesAndMarketing,49955,49790,467,464,3,3,0,IF,largest group,0.3,2,B4 label-free
+Other,5695,5648,62,62,0,0,0,IF,largest group,0.3,2,B4 label-free
+1 - Adminstration,14467,14442,148,146,2,2,0,IF,largest group,0.3,2,B4c outcome-aware
+2 - ResearchAndEngineering,52360,52141,725,724,1,231,230,IF,largest group,0.3,2,B4c outcome-aware
+3 - Manufacturing,34029,33889,282,281,1,1,0,IF,largest group,0.3,2,B4c outcome-aware
+5 - SalesAndMarketing,49955,49790,408,405,3,3,0,IF,largest group,0.3,2,B4c outcome-aware
+Other,5695,5648,47,47,0,0,0,IF,largest group,0.3,2,B4c outcome-aware

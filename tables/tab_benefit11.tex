@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\caption{Benefit of History-Dependent Rules: Insiders Detected / Alerts on the Most-Flagged Benign Employee ($\max F_i$), Means Over the Retrained Seeds. Cooldown: 30 Days After Clearance; Repeat Cap: No Alert After an Alert in the Last 30 Days, Whatever the Verdict; Both With Override $0.999$. Parity: Outcome-Aware Deficit Apportionment ($b=1\%$)\label{tab:benefit}}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Det. & Global & Cooldown & Repeat cap & Parity \\
+\midrule
+\multicolumn{5}{l}{\emph{r4.2}} \\
+IF & 9.0 / 191 & 25.4 / 45 & 26.0 / 45 & 6.2 / 163 \\
+AE & 28.8 / 65 & 34.6 / 20 & 34.4 / 20 & 29.8 / 77 \\
+LR & 42.0 / 168 & 43.0 / 34 & 43.0 / 34 & 44.0 / 148 \\
+GBM & 47.0 / 104 & 47.4 / 28 & 47.2 / 29 & 44.4 / 65 \\
+LSTM & 35.3 / 56 & 42.7 / 20 & 43.3 / 20 & 31.7 / 49 \\
+\multicolumn{5}{l}{\emph{r5.2}} \\
+IF & 7.3 / 130 & 50.7 / 61 & 50.7 / 61 & 8.3 / 140 \\
+AE & 50.7 / 113 & 67.0 / 34 & 66.7 / 34 & 47.7 / 114 \\
+LR & 35.0 / 158 & 54.0 / 53 & 55.0 / 53 & 38.0 / 151 \\
+GBM & 74.3 / 82 & 70.7 / 13 & 70.7 / 13 & 70.0 / 67 \\
+LSTM & 47.0 / 128 & 69.0 / 65 & 70.0 / 65 & 46.0 / 124 \\
+\bottomrule
+\end{tabular}}
+\end{table}

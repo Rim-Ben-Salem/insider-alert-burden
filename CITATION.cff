@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite the paper and this archive."
+title: "FAIR-IRS: code, notebooks and results for 'Who Gets Suspected, and Who Gets Away? Burden and Evasion in History-Dependent Insider-Risk Alerting'"
+authors:
+  - family-names: "Ben Salem"
+    given-names: "Rim"
+    affiliation: "Université Laval"
+version: "1.0.0"
+date-released: "2026-11-11"
+license: MIT
+doi: "10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/GITHUB-USER/fair-irs"
+keywords: [insider threat, alert burden, fairness, adversarial evaluation, CERT]

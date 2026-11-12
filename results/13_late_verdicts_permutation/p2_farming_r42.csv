@@ -1,0 +1,457 @@
+release,detector,seed,variant,knowledge,n_probe,gap,farmers,detected_no_farming,evaded,gained,probes_alerted,insiders_detected_variant,max_F_variant,alerted_employees_variant
+r4.2,IF,0,"cooldown 30 d, override 0.999",own,3,0,45,21,0,0,15,25,47,243
+r4.2,IF,0,"cooldown 30 d, override 0.999",generic,3,0,45,21,3,0,22,25,47,243
+r4.2,IF,0,"cooldown 30 d, override 0.999",generic,1,0,45,21,3,0,13,25,47,243
+r4.2,IF,0,"cooldown 30 d, override 0.999",own,3,14,37,18,0,0,10,25,47,243
+r4.2,IF,0,verdicts 7 days late,own,3,0,45,20,0,0,19,24,48,177
+r4.2,IF,0,verdicts 7 days late,generic,3,0,45,20,2,0,35,24,48,177
+r4.2,IF,0,verdicts 7 days late,generic,1,0,45,20,1,0,10,24,48,177
+r4.2,IF,0,verdicts 7 days late,own,3,14,37,17,4,1,13,24,48,177
+r4.2,IF,0,verdicts 14 days late,own,3,0,45,14,0,0,13,16,52,149
+r4.2,IF,0,verdicts 14 days late,generic,3,0,45,14,0,0,32,16,52,149
+r4.2,IF,0,verdicts 14 days late,generic,1,0,45,14,0,0,12,16,52,149
+r4.2,IF,0,verdicts 14 days late,own,3,14,37,11,2,0,9,16,52,149
+r4.2,IF,0,"no override, verdicts 7 days late",own,3,0,45,17,0,0,16,21,35,185
+r4.2,IF,0,"no override, verdicts 7 days late",generic,3,0,45,17,1,0,35,21,35,185
+r4.2,IF,0,"no override, verdicts 7 days late",generic,1,0,45,17,0,0,8,21,35,185
+r4.2,IF,0,"no override, verdicts 7 days late",own,3,14,37,14,3,1,9,21,35,185
+r4.2,IF,0,global (no cooldown),own,3,0,45,8,0,0,16,9,191,61
+r4.2,IF,0,global (no cooldown),generic,3,0,45,8,0,0,13,9,191,61
+r4.2,IF,0,global (no cooldown),generic,1,0,45,8,0,0,5,9,191,61
+r4.2,IF,0,global (no cooldown),own,3,14,37,5,0,0,8,9,191,61
+r4.2,IF,0,insider-level verdicts,own,3,0,45,21,1,0,16,25,47,236
+r4.2,IF,0,insider-level verdicts,generic,3,0,45,21,3,0,21,25,47,236
+r4.2,IF,0,insider-level verdicts,generic,1,0,45,21,3,0,12,25,47,236
+r4.2,IF,0,insider-level verdicts,own,3,14,37,18,0,0,10,25,47,236
+r4.2,IF,1,"cooldown 30 d, override 0.999",own,3,0,45,21,2,0,15,25,45,244
+r4.2,IF,1,"cooldown 30 d, override 0.999",generic,3,0,45,21,3,0,19,25,45,244
+r4.2,IF,1,"cooldown 30 d, override 0.999",generic,1,0,45,21,2,0,10,25,45,244
+r4.2,IF,1,"cooldown 30 d, override 0.999",own,3,14,37,18,1,0,9,25,45,244
+r4.2,IF,1,verdicts 7 days late,own,3,0,45,19,0,1,20,22,46,179
+r4.2,IF,1,verdicts 7 days late,generic,3,0,45,19,4,0,37,22,46,179
+r4.2,IF,1,verdicts 7 days late,generic,1,0,45,19,2,0,16,22,46,179
+r4.2,IF,1,verdicts 7 days late,own,3,14,37,16,3,1,15,22,46,179
+r4.2,IF,1,verdicts 14 days late,own,3,0,45,15,0,0,18,17,50,156
+r4.2,IF,1,verdicts 14 days late,generic,3,0,45,15,0,0,40,17,50,156
+r4.2,IF,1,verdicts 14 days late,generic,1,0,45,15,0,0,14,17,50,156
+r4.2,IF,1,verdicts 14 days late,own,3,14,37,12,2,0,13,17,50,156
+r4.2,IF,1,"no override, verdicts 7 days late",own,3,0,45,15,0,0,14,18,35,180
+r4.2,IF,1,"no override, verdicts 7 days late",generic,3,0,45,15,3,0,36,18,35,180
+r4.2,IF,1,"no override, verdicts 7 days late",generic,1,0,45,15,2,0,13,18,35,180
+r4.2,IF,1,"no override, verdicts 7 days late",own,3,14,37,12,3,1,10,18,35,180
+r4.2,IF,1,global (no cooldown),own,3,0,45,9,0,0,14,10,190,62
+r4.2,IF,1,global (no cooldown),generic,3,0,45,9,0,0,17,10,190,62
+r4.2,IF,1,global (no cooldown),generic,1,0,45,9,0,0,5,10,190,62
+r4.2,IF,1,global (no cooldown),own,3,14,37,6,0,0,9,10,190,62
+r4.2,IF,1,insider-level verdicts,own,3,0,45,21,2,0,15,25,45,234
+r4.2,IF,1,insider-level verdicts,generic,3,0,45,21,3,0,19,25,45,234
+r4.2,IF,1,insider-level verdicts,generic,1,0,45,21,2,0,10,25,45,234
+r4.2,IF,1,insider-level verdicts,own,3,14,37,18,1,0,9,25,45,234
+r4.2,IF,2,"cooldown 30 d, override 0.999",own,3,0,45,21,2,0,15,25,42,240
+r4.2,IF,2,"cooldown 30 d, override 0.999",generic,3,0,45,21,4,1,21,25,42,240
+r4.2,IF,2,"cooldown 30 d, override 0.999",generic,1,0,45,21,3,1,10,25,42,240
+r4.2,IF,2,"cooldown 30 d, override 0.999",own,3,14,37,18,0,0,4,25,42,240
+r4.2,IF,2,verdicts 7 days late,own,3,0,45,17,0,0,14,19,44,177
+r4.2,IF,2,verdicts 7 days late,generic,3,0,45,17,2,0,24,19,44,177
+r4.2,IF,2,verdicts 7 days late,generic,1,0,45,17,1,0,8,19,44,177
+r4.2,IF,2,verdicts 7 days late,own,3,14,37,14,1,0,5,19,44,177
+r4.2,IF,2,verdicts 14 days late,own,3,0,45,14,0,0,14,16,49,159
+r4.2,IF,2,verdicts 14 days late,generic,3,0,45,14,0,0,28,16,49,159
+r4.2,IF,2,verdicts 14 days late,generic,1,0,45,14,0,0,9,16,49,159
+r4.2,IF,2,verdicts 14 days late,own,3,14,37,11,2,0,7,16,49,159
+r4.2,IF,2,"no override, verdicts 7 days late",own,3,0,45,17,0,0,15,19,34,181
+r4.2,IF,2,"no override, verdicts 7 days late",generic,3,0,45,17,2,0,25,19,34,181
+r4.2,IF,2,"no override, verdicts 7 days late",generic,1,0,45,17,0,0,8,19,34,181
+r4.2,IF,2,"no override, verdicts 7 days late",own,3,14,37,14,3,0,8,19,34,181
+r4.2,IF,2,global (no cooldown),own,3,0,45,7,0,0,13,8,191,61
+r4.2,IF,2,global (no cooldown),generic,3,0,45,7,0,0,12,8,191,61
+r4.2,IF,2,global (no cooldown),generic,1,0,45,7,0,0,5,8,191,61
+r4.2,IF,2,global (no cooldown),own,3,14,37,4,0,0,8,8,191,61
+r4.2,IF,2,insider-level verdicts,own,3,0,45,22,2,0,15,26,42,230
+r4.2,IF,2,insider-level verdicts,generic,3,0,45,22,3,0,22,26,42,230
+r4.2,IF,2,insider-level verdicts,generic,1,0,45,22,3,0,9,26,42,230
+r4.2,IF,2,insider-level verdicts,own,3,14,37,19,0,0,2,26,42,230
+r4.2,IF,3,"cooldown 30 d, override 0.999",own,3,0,45,22,1,0,17,26,46,238
+r4.2,IF,3,"cooldown 30 d, override 0.999",generic,3,0,45,22,4,0,23,26,46,238
+r4.2,IF,3,"cooldown 30 d, override 0.999",generic,1,0,45,22,2,0,12,26,46,238
+r4.2,IF,3,"cooldown 30 d, override 0.999",own,3,14,37,18,1,0,10,26,46,238
+r4.2,IF,3,verdicts 7 days late,own,3,0,45,20,0,0,20,23,50,180
+r4.2,IF,3,verdicts 7 days late,generic,3,0,45,20,1,0,30,23,50,180
+r4.2,IF,3,verdicts 7 days late,generic,1,0,45,20,0,0,9,23,50,180
+r4.2,IF,3,verdicts 7 days late,own,3,14,37,17,4,0,14,23,50,180
+r4.2,IF,3,verdicts 14 days late,own,3,0,45,13,0,0,16,15,54,152
+r4.2,IF,3,verdicts 14 days late,generic,3,0,45,13,0,0,28,15,54,152
+r4.2,IF,3,verdicts 14 days late,generic,1,0,45,13,0,0,9,15,54,152
+r4.2,IF,3,verdicts 14 days late,own,3,14,37,10,2,0,12,15,54,152
+r4.2,IF,3,"no override, verdicts 7 days late",own,3,0,45,17,0,0,16,20,34,181
+r4.2,IF,3,"no override, verdicts 7 days late",generic,3,0,45,17,1,0,30,20,34,181
+r4.2,IF,3,"no override, verdicts 7 days late",generic,1,0,45,17,0,0,8,20,34,181
+r4.2,IF,3,"no override, verdicts 7 days late",own,3,14,37,14,3,1,7,20,34,181
+r4.2,IF,3,global (no cooldown),own,3,0,45,9,0,0,16,10,198,57
+r4.2,IF,3,global (no cooldown),generic,3,0,45,9,0,0,13,10,198,57
+r4.2,IF,3,global (no cooldown),generic,1,0,45,9,0,0,6,10,198,57
+r4.2,IF,3,global (no cooldown),own,3,14,37,6,0,0,8,10,198,57
+r4.2,IF,3,insider-level verdicts,own,3,0,45,23,2,0,17,27,46,232
+r4.2,IF,3,insider-level verdicts,generic,3,0,45,23,5,0,22,27,46,232
+r4.2,IF,3,insider-level verdicts,generic,1,0,45,23,3,0,12,27,46,232
+r4.2,IF,3,insider-level verdicts,own,3,14,37,19,1,0,11,27,46,232
+r4.2,IF,4,"cooldown 30 d, override 0.999",own,3,0,45,22,1,0,16,26,45,250
+r4.2,IF,4,"cooldown 30 d, override 0.999",generic,3,0,45,22,5,0,23,26,45,250
+r4.2,IF,4,"cooldown 30 d, override 0.999",generic,1,0,45,22,3,0,11,26,45,250
+r4.2,IF,4,"cooldown 30 d, override 0.999",own,3,14,37,18,1,0,11,26,45,250
+r4.2,IF,4,verdicts 7 days late,own,3,0,45,19,0,0,18,23,48,176
+r4.2,IF,4,verdicts 7 days late,generic,3,0,45,19,3,1,34,23,48,176
+r4.2,IF,4,verdicts 7 days late,generic,1,0,45,19,2,1,9,23,48,176
+r4.2,IF,4,verdicts 7 days late,own,3,14,37,16,3,1,11,23,48,176
+r4.2,IF,4,verdicts 14 days late,own,3,0,45,13,0,0,15,15,52,145
+r4.2,IF,4,verdicts 14 days late,generic,3,0,45,13,0,0,33,15,52,145
+r4.2,IF,4,verdicts 14 days late,generic,1,0,45,13,0,1,10,15,52,145
+r4.2,IF,4,verdicts 14 days late,own,3,14,37,10,1,0,7,15,52,145
+r4.2,IF,4,"no override, verdicts 7 days late",own,3,0,45,18,0,0,16,22,35,184
+r4.2,IF,4,"no override, verdicts 7 days late",generic,3,0,45,18,2,0,36,22,35,184
+r4.2,IF,4,"no override, verdicts 7 days late",generic,1,0,45,18,1,0,11,22,35,184
+r4.2,IF,4,"no override, verdicts 7 days late",own,3,14,37,15,2,0,8,22,35,184
+r4.2,IF,4,global (no cooldown),own,3,0,45,7,0,0,14,8,184,60
+r4.2,IF,4,global (no cooldown),generic,3,0,45,7,0,0,13,8,184,60
+r4.2,IF,4,global (no cooldown),generic,1,0,45,7,0,0,5,8,184,60
+r4.2,IF,4,global (no cooldown),own,3,14,37,4,0,0,8,8,184,60
+r4.2,IF,4,insider-level verdicts,own,3,0,45,22,1,0,16,26,45,241
+r4.2,IF,4,insider-level verdicts,generic,3,0,45,22,4,0,23,26,45,241
+r4.2,IF,4,insider-level verdicts,generic,1,0,45,22,3,0,11,26,45,241
+r4.2,IF,4,insider-level verdicts,own,3,14,37,18,1,0,8,26,45,241
+r4.2,AE,0,"cooldown 30 d, override 0.999",own,3,0,45,32,4,0,20,35,20,341
+r4.2,AE,0,"cooldown 30 d, override 0.999",generic,3,0,45,32,3,1,14,35,20,341
+r4.2,AE,0,"cooldown 30 d, override 0.999",generic,1,0,45,32,3,0,7,35,20,341
+r4.2,AE,0,"cooldown 30 d, override 0.999",own,3,14,37,26,3,0,15,35,20,341
+r4.2,AE,0,verdicts 7 days late,own,3,0,45,34,0,0,24,37,24,238
+r4.2,AE,0,verdicts 7 days late,generic,3,0,45,34,0,0,15,37,24,238
+r4.2,AE,0,verdicts 7 days late,generic,1,0,45,34,0,0,4,37,24,238
+r4.2,AE,0,verdicts 7 days late,own,3,14,37,28,4,1,16,37,24,238
+r4.2,AE,0,verdicts 14 days late,own,3,0,45,38,0,0,18,40,32,208
+r4.2,AE,0,verdicts 14 days late,generic,3,0,45,38,0,0,14,40,32,208
+r4.2,AE,0,verdicts 14 days late,generic,1,0,45,38,0,0,4,40,32,208
+r4.2,AE,0,verdicts 14 days late,own,3,14,37,32,4,0,9,40,32,208
+r4.2,AE,0,"no override, verdicts 7 days late",own,3,0,45,35,0,0,24,38,27,240
+r4.2,AE,0,"no override, verdicts 7 days late",generic,3,0,45,35,1,0,17,38,27,240
+r4.2,AE,0,"no override, verdicts 7 days late",generic,1,0,45,35,0,0,4,38,27,240
+r4.2,AE,0,"no override, verdicts 7 days late",own,3,14,37,29,6,1,14,38,27,240
+r4.2,AE,0,global (no cooldown),own,3,0,45,32,0,0,13,33,65,145
+r4.2,AE,0,global (no cooldown),generic,3,0,45,32,0,0,8,33,65,145
+r4.2,AE,0,global (no cooldown),generic,1,0,45,32,0,0,3,33,65,145
+r4.2,AE,0,global (no cooldown),own,3,14,37,26,0,0,7,33,65,145
+r4.2,AE,0,insider-level verdicts,own,3,0,45,32,3,0,20,35,20,325
+r4.2,AE,0,insider-level verdicts,generic,3,0,45,32,3,1,16,35,20,325
+r4.2,AE,0,insider-level verdicts,generic,1,0,45,32,3,0,7,35,20,325
+r4.2,AE,0,insider-level verdicts,own,3,14,37,26,3,0,14,35,20,325
+r4.2,AE,1,"cooldown 30 d, override 0.999",own,3,0,45,29,1,0,13,32,19,278
+r4.2,AE,1,"cooldown 30 d, override 0.999",generic,3,0,45,29,2,0,14,32,19,278
+r4.2,AE,1,"cooldown 30 d, override 0.999",generic,1,0,45,29,2,0,5,32,19,278
+r4.2,AE,1,"cooldown 30 d, override 0.999",own,3,14,37,22,2,0,12,32,19,278
+r4.2,AE,1,verdicts 7 days late,own,3,0,45,34,0,0,20,38,25,190
+r4.2,AE,1,verdicts 7 days late,generic,3,0,45,34,0,0,18,38,25,190
+r4.2,AE,1,verdicts 7 days late,generic,1,0,45,34,0,0,4,38,25,190
+r4.2,AE,1,verdicts 7 days late,own,3,14,37,29,1,0,5,38,25,190
+r4.2,AE,1,verdicts 14 days late,own,3,0,45,28,0,1,11,30,34,185
+r4.2,AE,1,verdicts 14 days late,generic,3,0,45,28,1,1,12,30,34,185
+r4.2,AE,1,verdicts 14 days late,generic,1,0,45,28,0,0,4,30,34,185
+r4.2,AE,1,verdicts 14 days late,own,3,14,37,23,1,0,5,30,34,185
+r4.2,AE,1,"no override, verdicts 7 days late",own,3,0,45,34,1,1,19,38,27,190
+r4.2,AE,1,"no override, verdicts 7 days late",generic,3,0,45,34,0,0,13,38,27,190
+r4.2,AE,1,"no override, verdicts 7 days late",generic,1,0,45,34,0,0,3,38,27,190
+r4.2,AE,1,"no override, verdicts 7 days late",own,3,14,37,29,2,1,4,38,27,190
+r4.2,AE,1,global (no cooldown),own,3,0,45,19,0,0,9,19,52,144
+r4.2,AE,1,global (no cooldown),generic,3,0,45,19,0,0,7,19,52,144
+r4.2,AE,1,global (no cooldown),generic,1,0,45,19,0,0,2,19,52,144
+r4.2,AE,1,global (no cooldown),own,3,14,37,14,0,0,4,19,52,144
+r4.2,AE,1,insider-level verdicts,own,3,0,45,29,2,0,15,33,19,243
+r4.2,AE,1,insider-level verdicts,generic,3,0,45,29,1,0,15,33,19,243
+r4.2,AE,1,insider-level verdicts,generic,1,0,45,29,0,0,4,33,19,243
+r4.2,AE,1,insider-level verdicts,own,3,14,37,22,2,0,12,33,19,243
+r4.2,AE,2,"cooldown 30 d, override 0.999",own,3,0,45,33,1,0,17,37,23,336
+r4.2,AE,2,"cooldown 30 d, override 0.999",generic,3,0,45,33,1,0,16,37,23,336
+r4.2,AE,2,"cooldown 30 d, override 0.999",generic,1,0,45,33,1,0,7,37,23,336
+r4.2,AE,2,"cooldown 30 d, override 0.999",own,3,14,37,26,0,0,7,37,23,336
+r4.2,AE,2,verdicts 7 days late,own,3,0,45,35,0,0,10,38,23,223
+r4.2,AE,2,verdicts 7 days late,generic,3,0,45,35,0,0,12,38,23,223
+r4.2,AE,2,verdicts 7 days late,generic,1,0,45,35,0,0,4,38,23,223
+r4.2,AE,2,verdicts 7 days late,own,3,14,37,29,0,0,5,38,23,223
+r4.2,AE,2,verdicts 14 days late,own,3,0,45,34,0,2,9,36,26,205
+r4.2,AE,2,verdicts 14 days late,generic,3,0,45,34,0,2,9,36,26,205
+r4.2,AE,2,verdicts 14 days late,generic,1,0,45,34,0,0,1,36,26,205
+r4.2,AE,2,verdicts 14 days late,own,3,14,37,28,1,0,3,36,26,205
+r4.2,AE,2,"no override, verdicts 7 days late",own,3,0,45,33,0,1,14,37,24,220
+r4.2,AE,2,"no override, verdicts 7 days late",generic,3,0,45,33,0,1,12,37,24,220
+r4.2,AE,2,"no override, verdicts 7 days late",generic,1,0,45,33,0,0,3,37,24,220
+r4.2,AE,2,"no override, verdicts 7 days late",own,3,14,37,27,1,0,5,37,24,220
+r4.2,AE,2,global (no cooldown),own,3,0,45,26,0,0,8,26,61,151
+r4.2,AE,2,global (no cooldown),generic,3,0,45,26,0,0,5,26,61,151
+r4.2,AE,2,global (no cooldown),generic,1,0,45,26,0,0,0,26,61,151
+r4.2,AE,2,global (no cooldown),own,3,14,37,20,0,0,5,26,61,151
+r4.2,AE,2,insider-level verdicts,own,3,0,45,34,1,0,18,38,23,314
+r4.2,AE,2,insider-level verdicts,generic,3,0,45,34,1,0,17,38,23,314
+r4.2,AE,2,insider-level verdicts,generic,1,0,45,34,1,0,7,38,23,314
+r4.2,AE,2,insider-level verdicts,own,3,14,37,27,0,0,7,38,23,314
+r4.2,AE,3,"cooldown 30 d, override 0.999",own,3,0,45,30,3,0,17,33,15,363
+r4.2,AE,3,"cooldown 30 d, override 0.999",generic,3,0,45,30,4,0,19,33,15,363
+r4.2,AE,3,"cooldown 30 d, override 0.999",generic,1,0,45,30,5,0,12,33,15,363
+r4.2,AE,3,"cooldown 30 d, override 0.999",own,3,14,37,25,4,0,18,33,15,363
+r4.2,AE,3,verdicts 7 days late,own,3,0,45,33,1,0,27,35,23,239
+r4.2,AE,3,verdicts 7 days late,generic,3,0,45,33,1,0,22,35,23,239
+r4.2,AE,3,verdicts 7 days late,generic,1,0,45,33,0,0,5,35,23,239
+r4.2,AE,3,verdicts 7 days late,own,3,14,37,27,2,0,12,35,23,239
+r4.2,AE,3,verdicts 14 days late,own,3,0,45,36,0,1,24,37,29,216
+r4.2,AE,3,verdicts 14 days late,generic,3,0,45,36,2,1,30,37,29,216
+r4.2,AE,3,verdicts 14 days late,generic,1,0,45,36,2,0,7,37,29,216
+r4.2,AE,3,verdicts 14 days late,own,3,14,37,30,2,0,10,37,29,216
+r4.2,AE,3,"no override, verdicts 7 days late",own,3,0,45,33,0,0,26,35,24,240
+r4.2,AE,3,"no override, verdicts 7 days late",generic,3,0,45,33,0,0,21,35,24,240
+r4.2,AE,3,"no override, verdicts 7 days late",generic,1,0,45,33,1,0,5,35,24,240
+r4.2,AE,3,"no override, verdicts 7 days late",own,3,14,37,27,3,0,10,35,24,240
+r4.2,AE,3,global (no cooldown),own,3,0,45,32,0,0,17,32,77,159
+r4.2,AE,3,global (no cooldown),generic,3,0,45,32,0,0,13,32,77,159
+r4.2,AE,3,global (no cooldown),generic,1,0,45,32,0,0,3,32,77,159
+r4.2,AE,3,global (no cooldown),own,3,14,37,26,0,0,9,32,77,159
+r4.2,AE,3,insider-level verdicts,own,3,0,45,31,3,0,18,34,15,343
+r4.2,AE,3,insider-level verdicts,generic,3,0,45,31,3,0,18,34,15,343
+r4.2,AE,3,insider-level verdicts,generic,1,0,45,31,4,0,11,34,15,343
+r4.2,AE,3,insider-level verdicts,own,3,14,37,26,3,0,16,34,15,343
+r4.2,AE,4,"cooldown 30 d, override 0.999",own,3,0,45,33,0,1,16,36,24,345
+r4.2,AE,4,"cooldown 30 d, override 0.999",generic,3,0,45,33,0,0,12,36,24,345
+r4.2,AE,4,"cooldown 30 d, override 0.999",generic,1,0,45,33,0,0,3,36,24,345
+r4.2,AE,4,"cooldown 30 d, override 0.999",own,3,14,37,26,0,1,11,36,24,345
+r4.2,AE,4,verdicts 7 days late,own,3,0,45,36,1,0,16,38,29,224
+r4.2,AE,4,verdicts 7 days late,generic,3,0,45,36,0,0,14,38,29,224
+r4.2,AE,4,verdicts 7 days late,generic,1,0,45,36,0,0,4,38,29,224
+r4.2,AE,4,verdicts 7 days late,own,3,14,37,30,1,0,5,38,29,224
+r4.2,AE,4,verdicts 14 days late,own,3,0,45,38,0,0,14,39,36,204
+r4.2,AE,4,verdicts 14 days late,generic,3,0,45,38,0,0,12,39,36,204
+r4.2,AE,4,verdicts 14 days late,generic,1,0,45,38,0,0,4,39,36,204
+r4.2,AE,4,verdicts 14 days late,own,3,14,37,32,0,0,5,39,36,204
+r4.2,AE,4,"no override, verdicts 7 days late",own,3,0,45,32,0,0,13,34,24,222
+r4.2,AE,4,"no override, verdicts 7 days late",generic,3,0,45,32,0,0,13,34,24,222
+r4.2,AE,4,"no override, verdicts 7 days late",generic,1,0,45,32,0,0,4,34,24,222
+r4.2,AE,4,"no override, verdicts 7 days late",own,3,14,37,26,1,0,3,34,24,222
+r4.2,AE,4,global (no cooldown),own,3,0,45,34,0,0,13,34,68,149
+r4.2,AE,4,global (no cooldown),generic,3,0,45,34,0,0,11,34,68,149
+r4.2,AE,4,global (no cooldown),generic,1,0,45,34,0,0,3,34,68,149
+r4.2,AE,4,global (no cooldown),own,3,14,37,28,0,0,7,34,68,149
+r4.2,AE,4,insider-level verdicts,own,3,0,45,35,0,0,16,39,24,320
+r4.2,AE,4,insider-level verdicts,generic,3,0,45,35,0,0,12,39,24,320
+r4.2,AE,4,insider-level verdicts,generic,1,0,45,35,0,0,4,39,24,320
+r4.2,AE,4,insider-level verdicts,own,3,14,37,28,0,0,10,39,24,320
+r4.2,LR,0,"cooldown 30 d, override 0.999",own,3,0,45,39,2,1,21,43,34,356
+r4.2,LR,0,"cooldown 30 d, override 0.999",generic,3,0,45,39,4,0,39,43,34,356
+r4.2,LR,0,"cooldown 30 d, override 0.999",generic,1,0,45,39,5,0,19,43,34,356
+r4.2,LR,0,"cooldown 30 d, override 0.999",own,3,14,37,32,0,0,18,43,34,356
+r4.2,LR,0,verdicts 7 days late,own,3,0,45,40,1,0,49,44,39,262
+r4.2,LR,0,verdicts 7 days late,generic,3,0,45,40,1,0,78,44,39,262
+r4.2,LR,0,verdicts 7 days late,generic,1,0,45,40,2,0,23,44,39,262
+r4.2,LR,0,verdicts 7 days late,own,3,14,37,33,0,0,42,44,39,262
+r4.2,LR,0,verdicts 14 days late,own,3,0,45,39,0,1,43,43,43,219
+r4.2,LR,0,verdicts 14 days late,generic,3,0,45,39,1,1,78,43,43,219
+r4.2,LR,0,verdicts 14 days late,generic,1,0,45,39,0,0,25,43,43,219
+r4.2,LR,0,verdicts 14 days late,own,3,14,37,32,0,0,31,43,43,219
+r4.2,LR,0,"no override, verdicts 7 days late",own,3,0,45,35,0,0,46,39,36,262
+r4.2,LR,0,"no override, verdicts 7 days late",generic,3,0,45,35,1,0,65,39,36,262
+r4.2,LR,0,"no override, verdicts 7 days late",generic,1,0,45,35,1,0,22,39,36,262
+r4.2,LR,0,"no override, verdicts 7 days late",own,3,14,37,28,11,0,44,39,36,262
+r4.2,LR,0,global (no cooldown),own,3,0,45,39,1,0,25,42,168,112
+r4.2,LR,0,global (no cooldown),generic,3,0,45,39,1,0,76,42,168,112
+r4.2,LR,0,global (no cooldown),generic,1,0,45,39,0,0,25,42,168,112
+r4.2,LR,0,global (no cooldown),own,3,14,37,32,0,0,15,42,168,112
+r4.2,LR,0,insider-level verdicts,own,3,0,45,39,2,1,22,43,34,312
+r4.2,LR,0,insider-level verdicts,generic,3,0,45,39,5,0,40,43,34,312
+r4.2,LR,0,insider-level verdicts,generic,1,0,45,39,4,0,19,43,34,312
+r4.2,LR,0,insider-level verdicts,own,3,14,37,32,0,1,19,43,34,312
+r4.2,GBM,0,"cooldown 30 d, override 0.999",own,3,0,45,43,0,0,55,49,28,344
+r4.2,GBM,0,"cooldown 30 d, override 0.999",generic,3,0,45,43,1,1,58,49,28,344
+r4.2,GBM,0,"cooldown 30 d, override 0.999",generic,1,0,45,43,1,0,23,49,28,344
+r4.2,GBM,0,"cooldown 30 d, override 0.999",own,3,14,37,35,0,0,46,49,28,344
+r4.2,GBM,0,verdicts 7 days late,own,3,0,45,43,0,0,65,49,28,298
+r4.2,GBM,0,verdicts 7 days late,generic,3,0,45,43,1,1,64,49,28,298
+r4.2,GBM,0,verdicts 7 days late,generic,1,0,45,43,1,0,24,49,28,298
+r4.2,GBM,0,verdicts 7 days late,own,3,14,37,35,0,0,55,49,28,298
+r4.2,GBM,0,verdicts 14 days late,own,3,0,45,44,0,0,68,50,39,266
+r4.2,GBM,0,verdicts 14 days late,generic,3,0,45,44,1,0,62,50,39,266
+r4.2,GBM,0,verdicts 14 days late,generic,1,0,45,44,1,0,22,50,39,266
+r4.2,GBM,0,verdicts 14 days late,own,3,14,37,36,0,0,56,50,39,266
+r4.2,GBM,0,"no override, verdicts 7 days late",own,3,0,45,41,2,0,51,47,25,305
+r4.2,GBM,0,"no override, verdicts 7 days late",generic,3,0,45,41,3,1,58,47,25,305
+r4.2,GBM,0,"no override, verdicts 7 days late",generic,1,0,45,41,3,0,20,47,25,305
+r4.2,GBM,0,"no override, verdicts 7 days late",own,3,14,37,33,11,0,41,47,25,305
+r4.2,GBM,0,global (no cooldown),own,3,0,45,43,0,0,67,49,110,148
+r4.2,GBM,0,global (no cooldown),generic,3,0,45,43,1,0,55,49,110,148
+r4.2,GBM,0,global (no cooldown),generic,1,0,45,43,0,0,20,49,110,148
+r4.2,GBM,0,global (no cooldown),own,3,14,37,36,1,0,55,49,110,148
+r4.2,GBM,0,insider-level verdicts,own,3,0,45,43,0,0,56,49,28,330
+r4.2,GBM,0,insider-level verdicts,generic,3,0,45,43,1,1,56,49,28,330
+r4.2,GBM,0,insider-level verdicts,generic,1,0,45,43,1,0,22,49,28,330
+r4.2,GBM,0,insider-level verdicts,own,3,14,37,35,0,0,45,49,28,330
+r4.2,GBM,1,"cooldown 30 d, override 0.999",own,3,0,45,36,7,0,49,42,19,297
+r4.2,GBM,1,"cooldown 30 d, override 0.999",generic,3,0,45,36,6,0,55,42,19,297
+r4.2,GBM,1,"cooldown 30 d, override 0.999",generic,1,0,45,36,4,0,25,42,19,297
+r4.2,GBM,1,"cooldown 30 d, override 0.999",own,3,14,37,29,5,0,40,42,19,297
+r4.2,GBM,1,verdicts 7 days late,own,3,0,45,38,0,0,58,44,22,244
+r4.2,GBM,1,verdicts 7 days late,generic,3,0,45,38,0,0,70,44,22,244
+r4.2,GBM,1,verdicts 7 days late,generic,1,0,45,38,0,0,25,44,22,244
+r4.2,GBM,1,verdicts 7 days late,own,3,14,37,31,4,0,57,44,22,244
+r4.2,GBM,1,verdicts 14 days late,own,3,0,45,34,0,1,62,40,34,221
+r4.2,GBM,1,verdicts 14 days late,generic,3,0,45,34,0,2,78,40,34,221
+r4.2,GBM,1,verdicts 14 days late,generic,1,0,45,34,0,1,25,40,34,221
+r4.2,GBM,1,verdicts 14 days late,own,3,14,37,27,4,0,57,40,34,221
+r4.2,GBM,1,"no override, verdicts 7 days late",own,3,0,45,38,1,0,51,44,24,247
+r4.2,GBM,1,"no override, verdicts 7 days late",generic,3,0,45,38,2,0,61,44,24,247
+r4.2,GBM,1,"no override, verdicts 7 days late",generic,1,0,45,38,2,0,22,44,24,247
+r4.2,GBM,1,"no override, verdicts 7 days late",own,3,14,37,30,11,0,45,44,24,247
+r4.2,GBM,1,global (no cooldown),own,3,0,45,34,0,0,60,40,97,151
+r4.2,GBM,1,global (no cooldown),generic,3,0,45,34,0,0,69,40,97,151
+r4.2,GBM,1,global (no cooldown),generic,1,0,45,34,0,0,24,40,97,151
+r4.2,GBM,1,global (no cooldown),own,3,14,37,27,0,0,54,40,97,151
+r4.2,GBM,1,insider-level verdicts,own,3,0,45,38,7,0,48,44,19,276
+r4.2,GBM,1,insider-level verdicts,generic,3,0,45,38,7,0,54,44,19,276
+r4.2,GBM,1,insider-level verdicts,generic,1,0,45,38,6,0,25,44,19,276
+r4.2,GBM,1,insider-level verdicts,own,3,14,37,30,4,0,38,44,19,276
+r4.2,GBM,2,"cooldown 30 d, override 0.999",own,3,0,45,43,1,0,54,49,38,336
+r4.2,GBM,2,"cooldown 30 d, override 0.999",generic,3,0,45,43,1,0,56,49,38,336
+r4.2,GBM,2,"cooldown 30 d, override 0.999",generic,1,0,45,43,1,0,23,49,38,336
+r4.2,GBM,2,"cooldown 30 d, override 0.999",own,3,14,37,35,2,0,46,49,38,336
+r4.2,GBM,2,verdicts 7 days late,own,3,0,45,42,0,0,69,48,38,266
+r4.2,GBM,2,verdicts 7 days late,generic,3,0,45,42,1,1,76,48,38,266
+r4.2,GBM,2,verdicts 7 days late,generic,1,0,45,42,1,0,25,48,38,266
+r4.2,GBM,2,verdicts 7 days late,own,3,14,37,34,1,0,63,48,38,266
+r4.2,GBM,2,verdicts 14 days late,own,3,0,45,43,0,0,72,49,39,237
+r4.2,GBM,2,verdicts 14 days late,generic,3,0,45,43,2,0,74,49,39,237
+r4.2,GBM,2,verdicts 14 days late,generic,1,0,45,43,1,0,26,49,39,237
+r4.2,GBM,2,verdicts 14 days late,own,3,14,37,35,1,0,62,49,39,237
+r4.2,GBM,2,"no override, verdicts 7 days late",own,3,0,45,39,0,1,53,45,24,300
+r4.2,GBM,2,"no override, verdicts 7 days late",generic,3,0,45,39,2,2,67,45,24,300
+r4.2,GBM,2,"no override, verdicts 7 days late",generic,1,0,45,39,2,1,21,45,24,300
+r4.2,GBM,2,"no override, verdicts 7 days late",own,3,14,37,31,10,0,49,45,24,300
+r4.2,GBM,2,global (no cooldown),own,3,0,45,43,0,0,64,49,106,140
+r4.2,GBM,2,global (no cooldown),generic,3,0,45,43,0,0,79,49,106,140
+r4.2,GBM,2,global (no cooldown),generic,1,0,45,43,0,0,25,49,106,140
+r4.2,GBM,2,global (no cooldown),own,3,14,37,35,0,0,53,49,106,140
+r4.2,GBM,2,insider-level verdicts,own,3,0,45,43,1,0,54,49,38,305
+r4.2,GBM,2,insider-level verdicts,generic,3,0,45,43,1,0,56,49,38,305
+r4.2,GBM,2,insider-level verdicts,generic,1,0,45,43,1,0,23,49,38,305
+r4.2,GBM,2,insider-level verdicts,own,3,14,37,35,1,0,47,49,38,305
+r4.2,GBM,3,"cooldown 30 d, override 0.999",own,3,0,45,42,1,0,50,48,23,342
+r4.2,GBM,3,"cooldown 30 d, override 0.999",generic,3,0,45,42,1,0,52,48,23,342
+r4.2,GBM,3,"cooldown 30 d, override 0.999",generic,1,0,45,42,1,0,22,48,23,342
+r4.2,GBM,3,"cooldown 30 d, override 0.999",own,3,14,37,34,1,0,45,48,23,342
+r4.2,GBM,3,verdicts 7 days late,own,3,0,45,42,1,0,72,48,25,284
+r4.2,GBM,3,verdicts 7 days late,generic,3,0,45,42,0,1,72,48,25,284
+r4.2,GBM,3,verdicts 7 days late,generic,1,0,45,42,0,0,23,48,25,284
+r4.2,GBM,3,verdicts 7 days late,own,3,14,37,34,1,0,60,48,25,284
+r4.2,GBM,3,verdicts 14 days late,own,3,0,45,41,0,0,68,47,38,262
+r4.2,GBM,3,verdicts 14 days late,generic,3,0,45,41,0,1,73,47,38,262
+r4.2,GBM,3,verdicts 14 days late,generic,1,0,45,41,0,0,25,47,38,262
+r4.2,GBM,3,verdicts 14 days late,own,3,14,37,33,1,0,61,47,38,262
+r4.2,GBM,3,"no override, verdicts 7 days late",own,3,0,45,39,0,0,55,45,25,301
+r4.2,GBM,3,"no override, verdicts 7 days late",generic,3,0,45,39,0,1,56,45,25,301
+r4.2,GBM,3,"no override, verdicts 7 days late",generic,1,0,45,39,0,0,18,45,25,301
+r4.2,GBM,3,"no override, verdicts 7 days late",own,3,14,37,31,10,0,45,45,25,301
+r4.2,GBM,3,global (no cooldown),own,3,0,45,42,0,0,60,48,116,163
+r4.2,GBM,3,global (no cooldown),generic,3,0,45,42,0,0,60,48,116,163
+r4.2,GBM,3,global (no cooldown),generic,1,0,45,42,0,0,19,48,116,163
+r4.2,GBM,3,global (no cooldown),own,3,14,37,34,2,0,49,48,116,163
+r4.2,GBM,3,insider-level verdicts,own,3,0,45,42,1,0,50,48,23,325
+r4.2,GBM,3,insider-level verdicts,generic,3,0,45,42,1,0,52,48,23,325
+r4.2,GBM,3,insider-level verdicts,generic,1,0,45,42,1,0,21,48,23,325
+r4.2,GBM,3,insider-level verdicts,own,3,14,37,34,1,0,44,48,23,325
+r4.2,GBM,4,"cooldown 30 d, override 0.999",own,3,0,45,43,0,0,56,49,34,337
+r4.2,GBM,4,"cooldown 30 d, override 0.999",generic,3,0,45,43,1,1,56,49,34,337
+r4.2,GBM,4,"cooldown 30 d, override 0.999",generic,1,0,45,43,1,0,24,49,34,337
+r4.2,GBM,4,"cooldown 30 d, override 0.999",own,3,14,37,35,0,0,48,49,34,337
+r4.2,GBM,4,verdicts 7 days late,own,3,0,45,43,0,0,71,49,35,280
+r4.2,GBM,4,verdicts 7 days late,generic,3,0,45,43,1,1,71,49,35,280
+r4.2,GBM,4,verdicts 7 days late,generic,1,0,45,43,1,0,25,49,35,280
+r4.2,GBM,4,verdicts 7 days late,own,3,14,37,35,0,0,65,49,35,280
+r4.2,GBM,4,verdicts 14 days late,own,3,0,45,43,0,0,76,49,36,254
+r4.2,GBM,4,verdicts 14 days late,generic,3,0,45,43,1,1,73,49,36,254
+r4.2,GBM,4,verdicts 14 days late,generic,1,0,45,43,1,0,26,49,36,254
+r4.2,GBM,4,verdicts 14 days late,own,3,14,37,35,0,1,68,49,36,254
+r4.2,GBM,4,"no override, verdicts 7 days late",own,3,0,45,37,0,0,51,43,25,297
+r4.2,GBM,4,"no override, verdicts 7 days late",generic,3,0,45,37,1,2,57,43,25,297
+r4.2,GBM,4,"no override, verdicts 7 days late",generic,1,0,45,37,1,1,20,43,25,297
+r4.2,GBM,4,"no override, verdicts 7 days late",own,3,14,37,29,10,0,54,43,25,297
+r4.2,GBM,4,global (no cooldown),own,3,0,45,43,0,0,71,49,90,146
+r4.2,GBM,4,global (no cooldown),generic,3,0,45,43,0,0,79,49,90,146
+r4.2,GBM,4,global (no cooldown),generic,1,0,45,43,0,0,30,49,90,146
+r4.2,GBM,4,global (no cooldown),own,3,14,37,36,0,0,57,49,90,146
+r4.2,GBM,4,insider-level verdicts,own,3,0,45,43,0,0,57,49,34,316
+r4.2,GBM,4,insider-level verdicts,generic,3,0,45,43,1,1,57,49,34,316
+r4.2,GBM,4,insider-level verdicts,generic,1,0,45,43,1,0,24,49,34,316
+r4.2,GBM,4,insider-level verdicts,own,3,14,37,35,0,0,48,49,34,316
+r4.2,LSTM,0,"cooldown 30 d, override 0.999",own,3,0,45,39,0,0,13,43,21,388
+r4.2,LSTM,0,"cooldown 30 d, override 0.999",generic,3,0,45,39,1,1,16,43,21,388
+r4.2,LSTM,0,"cooldown 30 d, override 0.999",generic,1,0,45,39,2,1,6,43,21,388
+r4.2,LSTM,0,"cooldown 30 d, override 0.999",own,3,14,37,33,0,0,1,43,21,388
+r4.2,LSTM,0,verdicts 7 days late,own,3,0,45,37,1,0,11,40,27,294
+r4.2,LSTM,0,verdicts 7 days late,generic,3,0,45,37,1,0,13,40,27,294
+r4.2,LSTM,0,verdicts 7 days late,generic,1,0,45,37,1,0,3,40,27,294
+r4.2,LSTM,0,verdicts 7 days late,own,3,14,37,31,0,0,1,40,27,294
+r4.2,LSTM,0,verdicts 14 days late,own,3,0,45,37,1,0,16,39,30,259
+r4.2,LSTM,0,verdicts 14 days late,generic,3,0,45,37,2,0,17,39,30,259
+r4.2,LSTM,0,verdicts 14 days late,generic,1,0,45,37,2,0,4,39,30,259
+r4.2,LSTM,0,verdicts 14 days late,own,3,14,37,31,0,0,4,39,30,259
+r4.2,LSTM,0,"no override, verdicts 7 days late",own,3,0,45,33,1,0,12,36,27,295
+r4.2,LSTM,0,"no override, verdicts 7 days late",generic,3,0,45,33,2,0,13,36,27,295
+r4.2,LSTM,0,"no override, verdicts 7 days late",generic,1,0,45,33,2,0,3,36,27,295
+r4.2,LSTM,0,"no override, verdicts 7 days late",own,3,14,37,27,0,0,1,36,27,295
+r4.2,LSTM,0,global (no cooldown),own,3,0,45,35,1,0,16,36,58,190
+r4.2,LSTM,0,global (no cooldown),generic,3,0,45,35,1,0,15,36,58,190
+r4.2,LSTM,0,global (no cooldown),generic,1,0,45,35,1,0,5,36,58,190
+r4.2,LSTM,0,global (no cooldown),own,3,14,37,29,0,0,4,36,58,190
+r4.2,LSTM,0,insider-level verdicts,own,3,0,45,40,0,0,12,44,21,381
+r4.2,LSTM,0,insider-level verdicts,generic,3,0,45,40,1,0,16,44,21,381
+r4.2,LSTM,0,insider-level verdicts,generic,1,0,45,40,2,0,7,44,21,381
+r4.2,LSTM,0,insider-level verdicts,own,3,14,37,34,0,0,1,44,21,381
+r4.2,LSTM,1,"cooldown 30 d, override 0.999",own,3,0,45,39,0,0,14,43,19,378
+r4.2,LSTM,1,"cooldown 30 d, override 0.999",generic,3,0,45,39,1,0,17,43,19,378
+r4.2,LSTM,1,"cooldown 30 d, override 0.999",generic,1,0,45,39,1,0,5,43,19,378
+r4.2,LSTM,1,"cooldown 30 d, override 0.999",own,3,14,37,33,0,1,2,43,19,378
+r4.2,LSTM,1,verdicts 7 days late,own,3,0,45,37,0,0,13,40,24,284
+r4.2,LSTM,1,verdicts 7 days late,generic,3,0,45,37,0,0,14,40,24,284
+r4.2,LSTM,1,verdicts 7 days late,generic,1,0,45,37,0,0,3,40,24,284
+r4.2,LSTM,1,verdicts 7 days late,own,3,14,37,31,0,0,1,40,24,284
+r4.2,LSTM,1,verdicts 14 days late,own,3,0,45,37,1,0,16,39,35,253
+r4.2,LSTM,1,verdicts 14 days late,generic,3,0,45,37,1,0,16,39,35,253
+r4.2,LSTM,1,verdicts 14 days late,generic,1,0,45,37,0,0,4,39,35,253
+r4.2,LSTM,1,verdicts 14 days late,own,3,14,37,31,0,0,2,39,35,253
+r4.2,LSTM,1,"no override, verdicts 7 days late",own,3,0,45,33,0,0,13,36,27,294
+r4.2,LSTM,1,"no override, verdicts 7 days late",generic,3,0,45,33,0,0,14,36,27,294
+r4.2,LSTM,1,"no override, verdicts 7 days late",generic,1,0,45,33,0,0,3,36,27,294
+r4.2,LSTM,1,"no override, verdicts 7 days late",own,3,14,37,27,0,0,1,36,27,294
+r4.2,LSTM,1,global (no cooldown),own,3,0,45,34,0,0,17,35,55,189
+r4.2,LSTM,1,global (no cooldown),generic,3,0,45,34,0,0,16,35,55,189
+r4.2,LSTM,1,global (no cooldown),generic,1,0,45,34,0,0,6,35,55,189
+r4.2,LSTM,1,global (no cooldown),own,3,14,37,28,0,0,3,35,55,189
+r4.2,LSTM,1,insider-level verdicts,own,3,0,45,39,0,0,14,43,19,370
+r4.2,LSTM,1,insider-level verdicts,generic,3,0,45,39,0,0,17,43,19,370
+r4.2,LSTM,1,insider-level verdicts,generic,1,0,45,39,1,0,5,43,19,370
+r4.2,LSTM,1,insider-level verdicts,own,3,14,37,33,0,1,1,43,19,370
+r4.2,LSTM,2,"cooldown 30 d, override 0.999",own,3,0,45,38,0,1,14,42,21,377
+r4.2,LSTM,2,"cooldown 30 d, override 0.999",generic,3,0,45,38,1,1,16,42,21,377
+r4.2,LSTM,2,"cooldown 30 d, override 0.999",generic,1,0,45,38,1,1,4,42,21,377
+r4.2,LSTM,2,"cooldown 30 d, override 0.999",own,3,14,37,32,0,1,2,42,21,377
+r4.2,LSTM,2,verdicts 7 days late,own,3,0,45,36,0,0,14,38,28,294
+r4.2,LSTM,2,verdicts 7 days late,generic,3,0,45,36,0,0,14,38,28,294
+r4.2,LSTM,2,verdicts 7 days late,generic,1,0,45,36,0,0,3,38,28,294
+r4.2,LSTM,2,verdicts 7 days late,own,3,14,37,30,0,0,1,38,28,294
+r4.2,LSTM,2,verdicts 14 days late,own,3,0,45,37,0,0,16,39,30,262
+r4.2,LSTM,2,verdicts 14 days late,generic,3,0,45,37,0,0,16,39,30,262
+r4.2,LSTM,2,verdicts 14 days late,generic,1,0,45,37,0,0,5,39,30,262
+r4.2,LSTM,2,verdicts 14 days late,own,3,14,37,31,0,0,1,39,30,262
+r4.2,LSTM,2,"no override, verdicts 7 days late",own,3,0,45,32,0,0,14,35,28,298
+r4.2,LSTM,2,"no override, verdicts 7 days late",generic,3,0,45,32,0,1,14,35,28,298
+r4.2,LSTM,2,"no override, verdicts 7 days late",generic,1,0,45,32,0,0,3,35,28,298
+r4.2,LSTM,2,"no override, verdicts 7 days late",own,3,14,37,26,0,0,1,35,28,298
+r4.2,LSTM,2,global (no cooldown),own,3,0,45,34,0,0,17,35,55,189
+r4.2,LSTM,2,global (no cooldown),generic,3,0,45,34,0,0,13,35,55,189
+r4.2,LSTM,2,global (no cooldown),generic,1,0,45,34,0,0,5,35,55,189
+r4.2,LSTM,2,global (no cooldown),own,3,14,37,28,0,0,4,35,55,189
+r4.2,LSTM,2,insider-level verdicts,own,3,0,45,39,0,0,14,43,21,378
+r4.2,LSTM,2,insider-level verdicts,generic,3,0,45,39,1,0,16,43,21,378
+r4.2,LSTM,2,insider-level verdicts,generic,1,0,45,39,1,0,4,43,21,378
+r4.2,LSTM,2,insider-level verdicts,own,3,14,37,33,0,1,2,43,21,378

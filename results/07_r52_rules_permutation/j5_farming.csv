@@ -1,0 +1,33 @@
+detector,alpha,policy,schedule,farmers,detected_no_farming,detected_farming,lost,gained,benign_alerts_on_farmers
+GBM,0.5,B0 global,False,45,43,43,0,0,104
+GBM,0.5,B0 global,True,45,44,44,0,0,136
+GBM,0.5,B4 label-free,False,45,44,44,0,0,137
+GBM,0.5,B4 label-free,True,45,44,43,1,0,157
+GBM,0.5,B4c exact rule,False,45,43,42,1,0,131
+GBM,0.5,B4c exact rule,True,45,44,44,0,0,152
+GBM,0.5,B11c deficit apportionment (outcome-aware),False,45,43,43,0,0,154
+GBM,0.5,B11c deficit apportionment (outcome-aware),True,45,43,42,1,0,161
+GBM,1.0,B0 global,False,45,43,42,1,0,154
+GBM,1.0,B0 global,True,45,44,44,1,1,180
+GBM,1.0,B4 label-free,False,45,44,41,3,0,176
+GBM,1.0,B4 label-free,True,45,44,43,1,0,201
+GBM,1.0,B4c exact rule,False,45,43,40,3,0,172
+GBM,1.0,B4c exact rule,True,45,44,43,1,0,189
+GBM,1.0,B11c deficit apportionment (outcome-aware),False,45,43,42,1,0,189
+GBM,1.0,B11c deficit apportionment (outcome-aware),True,45,43,43,0,0,189
+IF,0.5,B0 global,False,45,8,8,0,0,82
+IF,0.5,B0 global,True,45,14,14,0,0,65
+IF,0.5,B4 label-free,False,45,7,7,0,0,43
+IF,0.5,B4 label-free,True,45,14,11,3,0,43
+IF,0.5,B4c exact rule,False,45,7,7,0,0,43
+IF,0.5,B4c exact rule,True,45,13,12,1,0,44
+IF,0.5,B11c deficit apportionment (outcome-aware),False,45,7,7,0,0,40
+IF,0.5,B11c deficit apportionment (outcome-aware),True,45,11,11,0,0,47
+IF,1.0,B0 global,False,45,8,8,0,0,87
+IF,1.0,B0 global,True,45,14,13,1,0,69
+IF,1.0,B4 label-free,False,45,7,7,0,0,48
+IF,1.0,B4 label-free,True,45,14,11,3,0,49
+IF,1.0,B4c exact rule,False,45,7,7,0,0,47
+IF,1.0,B4c exact rule,True,45,13,10,3,0,49
+IF,1.0,B11c deficit apportionment (outcome-aware),False,45,7,7,0,0,43
+IF,1.0,B11c deficit apportionment (outcome-aware),True,45,11,11,0,0,51

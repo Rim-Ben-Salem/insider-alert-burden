@@ -1,0 +1,18 @@
+\begin{table}[!t]
+\caption{Discount Farming With Rescored, Role-Capped and Consistent Probes: Insiders Who Evade Because They Farmed, Out of Those Detected Without Farming (Maximum Over Own or Generic Profile and One or Three Probes, Every Probe Alert Cleared); After the Semicolon, When Probes Must Be No More Unusual Than the Median Innocent User-Day the Detector Alerts ($b=1\%$; 45 Farming Insiders in r4.2, 73 in r5.2)\label{tab:farm}}
+\centering
+\setlength{\tabcolsep}{2pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{GBM} & \multicolumn{2}{c}{AE} & \multicolumn{2}{c}{LR} & \multicolumn{2}{c}{IF} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Mechanism & r4.2 & r5.2 & r4.2 & r5.2 & r4.2 & r5.2 & r4.2 & r5.2 \\
+\midrule
+None (global top-$k$) & 1/43; 0 & 0/72; 0 & 0/32; 0 & 0/59; 0 & 1/39; 0 & 0/33; 0 & 0/8; 0 & 0/5; 0 \\
+Similarity scheduler & 1/44; 0 & 1/72; 0 & 1/35; 1 & 0/62; 0 & 0/39; 0 & 0/48; 0 & 0/14; 0 & 0/24; 0 \\
+Cooldown 30 d, override $0.999$ & 1/43; 0 & 6/72; 5 & 4/32; 4 & 11/66; 9 & 5/39; 1 & 10/53; 4 & 3/21; 0 & 8/49; 3 \\
+Cooldown 30 d, no override & 18/35; 2 & 15/58; 7 & 4/24; 2 & 15/56; 10 & 12/28; 4 & 10/50; 2 & 4/21; 1 & 8/49; 3 \\
+\bottomrule
+\end{tabular}}
+\end{table}

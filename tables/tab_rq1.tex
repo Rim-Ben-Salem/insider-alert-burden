@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\caption{Alert Burden Under Global Top-$k$ Alerting ($b=1\%$, Functional Units). $p$: Permutation Test of $\Delta_{\mathrm{FAR}}$ With Group Labels Shuffled Across Employees, Without and With the Ten Most-Flagged Benign Employees Removed\label{tab:rq1}}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+Det. & Detected & Gini($F$) & Top-1\% & $\max F_i$ & $\Delta_{\mathrm{FAR}}$ & $p$ & $p$, top 10 out & Exp. bias \\
+\midrule
+\multicolumn{9}{l}{\emph{r4.2} (51 test insiders)} \\
+IF & 9 & 0.980 & 0.66 & 191 & 0.0449 & 0.012 & 0.622 & 0.48 \\
+AE & 33 & 0.937 & 0.30 & 65 & 0.0139 & 0.100 & 0.323 & 0.38 \\
+LR & 42 & 0.971 & 0.65 & 168 & 0.0086 & 0.863 & 0.992 & -0.12 \\
+GBM & 49 & 0.948 & 0.45 & 110 & 0.0180 & 0.048 & 0.167 & 0.03 \\
+LSTM & 36 & 0.909 & 0.23 & 58 & 0.0129 & 0.063 & 0.037 & 0.45 \\
+\multicolumn{9}{l}{\emph{r5.2} (76 test insiders)} \\
+IF & 5 & 0.978 & 0.55 & 130 & 0.0592 & 0.079 & 0.081 & 0.42 \\
+AE & 61 & 0.937 & 0.31 & 92 & 0.0219 & 0.186 & 0.169 & 0.31 \\
+LR & 35 & 0.969 & 0.52 & 158 & 0.0209 & 0.350 & 0.503 & 0.41 \\
+GBM & 75 & 0.946 & 0.35 & 77 & 0.0238 & 0.113 & 0.211 & 0.28 \\
+LSTM & 47 & 0.944 & 0.32 & 128 & 0.0114 & 0.765 & 0.484 & 0.35 \\
+\bottomrule
+\end{tabular}}
+\end{table}

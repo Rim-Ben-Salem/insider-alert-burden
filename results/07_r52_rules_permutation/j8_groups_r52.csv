@@ -1,0 +1,6 @@
+grouping,groups,smallest,largest,median,sizes
+g_functional_unit,7,6,701,151.0,Other:6;4 - Finance:28;6 - PurchasingAndContracts:36;1 - Adminstration:151;3 - Manufacturing:377;5 - SalesAndMarketing:602;2 - ResearchAndEngineering:701
+g_department,9,29,341,216.0,NA:29;6 - Security:111;Other:145;2 - Research:179;3 - SoftwareManagement:216;4 - Engineering:290;2 - Sales:292;3 - FieldService:298;3 - Assembly:341
+g_role,25,18,298,41.0,SoftwareEngineer:18;SoftwareQualityEngineer:25;Director:26;ComputerScientist:26;ComputerProgrammer:29;SoftwareDeveloper:29;SecurityGuard:30;HardwareEngineer:31;WebDeveloper:32;SystemsEngineer:33;StockroomClerk:38;TechnicalWriter:38;TestEngineer:41;MechanicalEngineer:44;Physicist:45;Manager:52;Mathematician:53;Scientist:66;ITAdmin:71;AdministrativeAssistant:77;ElectricalEngineer:84;Other:156;Salesman:276;ProductionLineWorker:283;Technician:298
+g_afterhours,2,736,1165,950.5,day:736;after-hours:1165
+g_exposure,3,629,643,629.0,high:629;low:629;mid:643
