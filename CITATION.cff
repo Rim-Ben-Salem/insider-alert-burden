@@ -6,8 +6,8 @@ authors:
     given-names: "Rim"
     affiliation: "Université Laval"
 version: "1.0.0"
-date-released: "2026-11-11"
+date-released: "2026-11-12"
 license: MIT
-doi: "https://doi.org/10.5281/zenodo.24169646"
-repository-code: "github.com/Rim-Ben-Salem/insider-alert-burden"
+doi: "10.5281/zenodo.24169646"
+repository-code: "https://github.com/Rim-Ben-Salem/insider-alert-burden"
 keywords: [insider threat, alert burden, fairness, adversarial evaluation, CERT]
